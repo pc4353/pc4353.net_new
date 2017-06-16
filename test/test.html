@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>テスト市の資格が取れるパソコン教室｜パソコン市民講座 イオンタウンユーカリが丘教室</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="shortcut icon" href="/favicon.ico">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script> 
+<script src="js/map.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="https://use.typekit.net/zec0ewo.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<script>
+ $(function() {
+  $(window).on('scroll', function() {
+    if ($(this).scrollTop() > 0) {
+      $('.header').addClass('fixed');
+    } else {
+      $('.header').removeClass('fixed');
+    }
+  });
+});
+</script>
+
+<script type="text/javascript" src="/js/jquery.bxslider.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.slider').bxSlider({
+		controls: false,
+		auto: true,
+		pause:	8000,
+		speed: 500,
+		mode: 'fade',
+		pager: true,
+		buildPager: function(slideIndex){
+      switch (slideIndex){
+        case 0:
+          return '<img src="/images/img-main_thumb01.png" width="150" />';
+        case 1:
+          return '<img src="/images/img-main_thumb02.png" width="150" />';
+        case 2:
+          return '<img src="/images/img-main_thumb03.png" width="150" />';
+        case 3:
+          return '<img src="/images/img-main_thumb04.png" width="150" />';
+      }
+    }
+	});
+});
+</script>
+
+</head>
+
+<body onload="dispgmap();">
+<header class="header">
+<div id="hd_wrap" class="clearfix tk-kozuka-gothic-pr6n">
+<div id="hd_lft">
+<h1>パソコン教室で資格取得！初心者からでもスキルアップできるパソコン市民講座</h1>
+<div id="hd_logo"><img src="../images/img-hd_logo.png" width="211" height="34" alt="テスト市の資格が取れるパソコン教室｜パソコン市民講座 イオンタウンユーカリが丘教室"></div>
+<div id="hd_room">イオンタウンユーカリが丘教室</div>
+</div>
+<div id="hd_rgt">
+<ul class="link">
+<li><a href="/test/qa.php">よくある質問</a></li>
+</ul>
+<div id="hd_tel">012-345-6789</div>
+<div id="hd_reception">受付時間/<br>平日 10:00～17:00</div>
+</div>
+</div>
+
+<nav>
+<div id="nav_wrap" class="clearfix tk-kozuka-gothic-pr6n">
+<ul class="main_nav clearfix">
+<li><a href="/test/about.php">教室情報</a></li>
+<li><a href="/test/course.php">講座紹介</a></li>
+<li><a href="/test/voice.php">受講生の声</a></li>
+<li class="last"><a href="/test/apply.php">お申込み方法</a></li>
+</ul>
+<ul class="inq_btn clearfix">
+<li class="fl_left"><a href="/test/contact.php"><img src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約"></a></li>
+<li class="fl_right"><a href="/test/contact.php"><img src="../images/btn-inq_shiryo.png" width="102" height="33" alt="資料請求"></a></li>
+</ul>
+</div>
+</nav>
+</header>
+
+<main>
+<div id="main_contents" class="clearfix">
+<div class="main_vi">
+<ul class="slider">
+	<li><a href="/test/certify.php"><img src="/images/img-main01.png" width="985" height="300" alt="エクセル・ワード・パワーポイントを仕事で活かす！ビジネス実践講座" class="alpha" /></a></li>
+	<li><a href="/test/mos.php"><img src="/images/img-main02.png" width="985" height="300" alt="就職・転職を有利に！資格は実力の証！MOS資格取得コース" class="alpha" /></a></li>
+	<li><a href="/test/win10.php"><img src="/images/img-main03.png" width="985" height="300" alt="windows10講座 最新のOSを使いこなそう！" class="alpha" /></a></li>
+	<li><a href="/test/win10.php"><img src="/images/img-main04.png" width="985" height="300" alt="windows10講座 最新のOSを使いこなそう！" class="alpha" /></a></li>
+</ul>
+</div>
+
+<div class="main_lft">
+<section>
+	<div class="course_list">
+		<h2 class="tk-kozuka-gothic-pr6n"><span>自分に合った資格・講座を探す</span></h2>
+		<div class="inner clearfix">
+		<ul>
+		<li><a href="">
+		<dl>
+			<dt>資格を取って<br>就職＆転職を有利に♪</dt>
+			<dd><img src="../images/bnr-course_mos.png" width="200" height="114" alt="MOS資格対策講座"></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt>仕事に活かせる！<br>実践力を身につける</dt>
+			<dd><img src="../images/bnr-course_certify.png" width="200" height="114" alt="ビジネス実践講座"></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt>お問合せ急増中！！<br>かんたんWindows10講座</dt>
+			<dd><img src="../images/bnr-course_win10.png" width="200" height="114" alt="Windows10講座"></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt>パソコンで、趣味の世界が<br>どんどん広がる♪</dt>
+			<dd><img src="../images/bnr-course_pc.png" width="200" height="114" alt="パソコン趣味講座"></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt>初心者でも安心<br>楽しめるタブレット</dt>
+			<dd><img src="../images/bnr-course_ipad.png" width="200" height="114" alt="iPad講座"></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt>初心者にも優しい<br>50代から始めるスマホ</dt>
+			<dd><img src="../images/bnr-course_iphone.png" width="200" height="114" alt="iPhone講座"></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt>プログラミングに必須！<br>タイピングをマスターしよう</dt>
+			<dd><img src="../images/bnr-course_junior.png" width="200" height="114" alt="小中学生コース"></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt>お金も時間もないけど<br>資格を取得したい</dt>
+			<dd><img src="../images/bnr-course_bo.png" width="200" height="114" alt="ビジネスオンライン"></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt>すべての小中高生に<br>プログラミング教育を</dt>
+			<dd><img src="../images/bnr-course_sps.png" width="200" height="114" alt="スタープログラミングスクール"></dd>
+			</dl>
+			</a></li>
+		</ul>
+		</div>
+	</div>
+	</section>
+
+<section>
+	<div class="osusume_list">
+		<h2 class="tk-kozuka-gothic-pr6n"><span>パソコン市民講座のココがおすすめ！</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<ul>
+		<li><a href="">
+		<dl>
+			<dt><img src="../images/img-osusume01.png" width="125" height="90" alt="個別学習"></dt>
+			<dd><p>自分のペースで<br>学べる</p>
+				<div class="detail">詳しくはコチラ</div></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt><img src="../images/img-osusume02.png" width="125" height="90" alt="自宅学習"></dt>
+			<dd><p>無料映像配信で<br>自宅でも復習！</p>
+				<div class="detail">詳しくはコチラ</div></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt><img src="../images/img-osusume03.png" width="125" height="90" alt="時間を選べる"></dt>
+			<dd><p>受講する曜日と時間を<br>自由に選べる</p>
+				<div class="detail">詳しくはコチラ</div></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt><img src="../images/img-osusume04.png" width="125" height="90" alt="指導実績"></dt>
+			<dd><p>全国150教室 15年間で<br>54万人の指導実績！</p>
+				<div class="detail">詳しくはコチラ</div></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt><img src="../images/img-osusume05.png" width="125" height="90" alt="月謝制"></dt>
+			<dd><p>月謝制だから続けやすい<br>（1時間1500円）</p>
+				<div class="detail">詳しくはコチラ</div></dd>
+			</dl>
+			</a></li>
+		<li><a href="">
+		<dl>
+			<dt><img src="../images/img-osusume06.png" width="125" height="90" alt="電話サポート"></dt>
+			<dd><p>ご自宅でのトラブルも<br>無料で安心</p>
+				<div class="detail">詳しくはコチラ</div></dd>
+			</dl>
+			</a></li>
+		</ul>
+		</div>
+		</div>
+	</div>
+	</section>
+
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span>イオンタウンユーカリが丘教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt>写真</dt>
+			<dd><p class="tk-kozuka-gothic-pr6n">イオンタウンユーカリが丘教室</p>
+				<div class="inst_info"><a href="">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">資格を取って就職＆転職を有利に♪</dt>
+			<dd><p>パソコン市民講座　イオンタウンユーカリが丘教室 のホームページへようこそ！</p>
+			<p>■当教室は、初心者のためのパソコン教室です。<br>
+			・パソコンをお持ちでない、購入されたばかりなど、これからパソコンをはじめたい初心者の方<br>
+			・ワード、エクセル、パワーポイントの使いこなし、パソコン検定の資格取得など、仕事にパソコンを活かしたい方<br>
+			・インターネット、メール、ブログなど、趣味の世界や交流の輪を広げたい方<br>
+			もし、この中のどれか1つでも当てはまるものがあれば、まずは無料体験をおすすめします。<br>
+				無料体験は随時行なっています。ご連絡なしの来校も大歓迎ですよ！！</p>
+			<p>■「シニア特別クラス」開講で、ご年配の方も安心のパソコン教室です。<br>
+			パソコン市民講座は、初心者の方だけでなく60歳以上のシニアの方も多く通われているアットホームなパソコン教室です。<br>
+			特に、ご年配の方でもしっかり着実にパソコンスキルを身に付けていただける「シニア特別クラス」の開講など、授業についていけるかな？と不安のある方でも、安心して受講していただけます。<br>
+			パソコンを学びたいという同じ目的の方々ばかりです。<br>
+				当教室で、仲間作りもかねてパソコンを通じた新しい世界を拡げてみませんか？</p>
+			<p>■インストラクターの先生も大募集！<br>
+			当教室では、パソコンインストラクターの先生も大募集しています。<br>
+				「教える」という喜びとやりがいあふれる仕事をしてみませんか？</p>
+			<p>まずは、お気軽にお問い合わせください。<br>
+				インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+
+<section>
+	<div class="voice_list">
+		<h2 class="tk-kozuka-gothic-pr6n"><span>受講生の声</span></h2>
+		<div class="inner">
+		<ul class="clearfix">
+			<li class="li-top">
+			<a href="/test/voice.php#voice1">
+			<h3 class="bubble"><div>パソコンの世界が広がりました！</div></h3>
+			<dl>
+				<dt><img class="alpha" src="/test/images/60150710817.jpg" width="148" alt="大石 康さん(60代)" /></dt>
+				<dd><p>パソコン検定3級は合格しましたが、デジカメで撮った写真をパソコンで編集・加工するのが楽しくなり、フォトブック・カレンダー・うちわ・キーホルダーの作成イベントに参加して楽しんでいます。<br />エクセル・ワード以外にもパソコンの世界が広がりました。<br /><br /><span class="option">インストラクターより</span><br />仕事をしながらパソコン検定の資格を取得された頑張り屋さんです。写真はプロ並みでイベントにはいつも参加され、パソコンを幅広く楽しまれていますね。爽やかな笑顔に教室中が包まれ、インストラクターも受講生さんも心が和みます。</p>
+				<div class="more">続きを見る</div></dd>
+			</dl>
+			</a>
+			</li>
+			<li class="li-top">
+			<a href="/test/voice.php#voice2">
+			<h3 class="bubble"><div>パソコンを楽しんでいます</div></h3>
+			<dl>
+				<dt><img class="alpha" src="/test/images/60150710143.jpg" width="148" alt="中村 史朗さん（66）" /></dt>
+				<dd><p>60才になり定年を向かえて時間が出きたのでパソコン市民講座に入りました。覚えが悪く上達しないのですが自分のペースで勉強できるので今でも続けています。<br /><br /><span class="option">インストラクターより</span><br />中村さんは長く教室に通ってきていただいて、いつも熱心に受講されていらっしゃいます。勉強したことを忘れないようにご自宅でも復習をかかさずされている様子でパソコンが楽しみの一つになっていらっしゃるとか。茶目っ気たっぷりのかわいい笑顔にインストラクターも癒されています。</p>
+				<div class="more">続きを見る</div></dd>
+			</dl>
+			</a>
+			</li>
+			<li class="li-top">
+			<a href="/test/voice.php#voice3">
+			<h3 class="bubble"><div>パソコンが怖くなくなりました</div></h3>
+			<dl>
+				<dt><img class="alpha" src="/test/images/60150710723.jpg" width="148" alt="桜井 里加さん（30代）" /></dt>
+				<dd><p>初めはパソコンの電源のボタンを押すのも怖かったのですが、最近はパソコンに触るのが怖くなくなりました。自宅でもプレミア倶楽部を家族一緒に楽しんでいます。これからは苦手なエクセルにも挑戦していきます。<br /><br /><span class="option">インストラクターより</span><br />桜井さんはパソコン検定合格という目標を持って授業に臨んでいらっしゃるので、いつも授業に集中して真剣に取り組んでいらっしゃいます。不安な点を残さず、必ず理解してから進むことにより、確実に身につき自信に繋がっています。だから、パソコンが怖くなくなったのでしょう。いつもさわやかな風のように教室にいらっしゃって、教室の空気を一新してくれます。</p>
+				<div class="more">続きを見る</div></dd>
+			</dl>
+			</a>
+			</li>
+			<li class="li-top">
+			<a href="/test/voice.php#voice4">
+			<h3 class="bubble"><div>毎日、パソコンに触れて充実した日々を送っています</div></h3>
+			<dl>
+				<dt><img class="alpha" src="/test/images/60150710713.jpg" width="148" alt="渥美 まりさん（50代）" /></dt>
+				<dd><p>今まで自己流でパソコンを使っていて、好きなテニスのサイトを見たり、友人とメールをしたり、グーグルアースで世界を覘いたり、スカイプで海外の友人とテレビ電話をしたりしていました。でもワードやエクセルはこの教室に入って教えてもらい、パソコンがすごく楽しくなってきました。インストラクターの方達も、すごく気さくに教えて下さるので何回も手をあげて、すごく助かっています。まだまだパソコンの1/1000も使っていないと思います。毎日、パソコンに触れて充実した日々を送っています。海外にもよく行くので本当～に便利です。<br /><br /><span class="option">インストラクターより</span><br />渥美さんは、浜松可美教室で一番元気で輝いていらっしゃいます。パソコンに対する向上心も高く、応用力もあり、いつも自信に満ち溢れています。まだまだ1/1000も使っていないと謙遜していらっしゃいますが、パソコンの楽しさ、便利さを十分に熟知し、使いこなしている姿には脱帽です。</p>
+				<div class="more">続きを見る</div></dd>
+			</dl>
+			</a>
+			</li>
+		</ul>
+		<p class="voice_all"><a href="/test/voice.php">受講生の声をもっと見る</a></p>
+	</div>
+	</div>
+	</section>
+	</div>
+
+<div class="main_rgt">
+<section>
+	<ul class="inq_btn">
+		<li class="inq_taiken"><a href="/test/contact.php"><img src="../images/btn-inq_taiken_l.png" width="249" height="92" alt="無料体験予約"></a></li>
+		<li class="inq_shiryo"><a href="/test/contact.php"><img src="../images/btn-inq_shiryo_l.png" width="240" height="48" alt="資料請求"></a></li>
+	</ul>
+	</section>
+
+<section>
+	<ul class="map">
+	<li>
+	<dl>
+		<dt class="tk-kozuka-gothic-pr6n"><h2>教室情報</h2></dt>
+		<dd>
+			<div id="gmap" style="margin-bottom: 5px;width:232px; height:100px;"></div>
+			<p class="link_gmap"><a href="/test/about.php">開講時間・アクセス</a></p> 
+		</dd>
+	</dl>
+	</li>
+	</ul>
+	</section>
+
+<section>
+	<ul class="pass">
+	<li>
+	<dl>
+		<dt class="tk-kozuka-gothic-pr6n"><h2>合格者の声</h2></dt>
+		<dd>
+			<div class="pass_hd"><img src="../images/img-pass.png" width="215" alt="" /></div>
+			<p>会社の看板、ディスプレイを作ったら、社長に評価をいただきました。また、社内行事の資料や、旅行のしおり作成も社員に好評！統計表や、業務に必要な管理表も、エクセルを大活用し業務に役立っています。まだまだ知らないエクセル関数があるので、今のパワーポイント技能認定試験が終わったら、エクセル技能認定試験をトライしようと考えています。元来、飽きっぽくてすぐに挫折する私ですが、パソコン市民講座だけは例外です。教室の先生もとてもアットホームで良い方なので楽しく続けられています</p>
+			<div class="more"><a href="">続きを見る</a></div>
+		</dd>
+	</dl>
+	</li>
+	</ul>
+	</section>
+
+<section>
+	<ul class="one_point">
+	<li>
+	<dl>
+		<dt class="tk-kozuka-gothic-pr6n"><h2>タメになる！おすすめ<br />ワンポイントレッスン動画</h2></dt>
+		<dd>
+			<div class="mov"><iframe width="218" height="122" src="https://www.youtube.com/embed/UQX0MpVgc7k" frameborder="0" allowfullscreen></iframe></div>
+			<p class="mov_ttl">「セルの書式を置換しよう」</p>
+			<p class="date">2016/11/11 更新</p>
+			<div class="more"><a href="">過去のワンポイントレッスン</a></div>
+		</dd>
+	</dl>
+	</li>
+	</ul>
+	</section>
+
+<section>
+	<ul class="premiere">
+	<li>
+	<dl>
+		<dt class="tk-kozuka-gothic-pr6n"><h2>プレミア倶楽部</h2></dt>
+		<dd>
+			<div><img src="../images/img-premiere.png" width="215" alt="" /></div>
+			<p>市民講座だけのお得いっぱいな会員システム</p>
+			<div class="more"><a href="">詳しくはコチラ</a></div>
+		</dd>
+	</dl>
+	</li>
+	</ul>
+	</section>
+
+<section>
+	<dl class="blog">
+		<dt class="tk-kozuka-gothic-pr6n"><h2>教室ブログ</h2></dt>
+		<dd>
+			<div><img src="../images/img-premiere.png" width="215" alt="" /></div>
+			<p>市民講座だけのお得いっぱいな会員システム</p>
+		</dd>
+	</dl>
+	</section>
+	</div>
+
+</div>
+</main>
+
+<footer>
+<div id="ft_wrap" class="clearfix">
+<div id="ft_lft">
+<dl class="ft_course">
+<dt>コース一覧</dt>
+<dd>講座案内</dd>
+<dd>ビジネス実践講座</dd>
+<dd>MOS資格対策講座</dd>
+<dd>Windows10講座</dd>
+<dd>パソコン趣味講座</dd>
+<dd>iPad講座</dd>
+<dd>iPhone講座</dd>
+</dl>
+<dl class="ft_about">
+<dt>教室概要</dt>
+<dd>インストラクター紹介</dd>
+<dd>受講生の声</dd>
+<dd>ワンポイント動画</dd>
+<dd>プレミア倶楽部</dd>
+<dd>よくあるご質問</dd>
+<dd>お申込み方法</dd>
+<dd>キャンペーン</dd>
+</dl>
+<dl class="ft_room_search">
+<dt>教室検索</dt>
+<dd>関東</dd>
+<dd>東海</dd>
+<dd>関西</dd>
+<dd>中国・四国・九州</dd>
+</dl>
+<dl class="ft_relation">
+<dt>関連サイト</dt>
+<dd>SPS</dd>
+<dd>チアリー</dd>
+<dd>NSG</dd>
+</dl>
+</div>
+<div id="ft_rgt" class="tk-kozuka-gothic-pr6n">
+<div id="ft_logo"><img src="../images/img-ft_logo.png" width="168" height="85" alt="テスト市の資格が取れるパソコン教室｜パソコン市民講座 イオンタウンユーカリが丘教室"></div>
+<div id="ft_room">イオンタウンユーカリが丘教室</div>
+<ul class="inq_btn clearfix">
+<li class="fl_left"><a href="/test/contact.php"><img src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約"></a></li>
+<li class="fl_right"><a href="/test/contact.php"><img src="../images/btn-inq_shiryo.png" width="102" height="33" alt="資料請求"></a></li>
+</ul>
+<div id="ft_tel_box">
+<div id="ft_tel">012-345-6789</div>
+<div id="ft_reception">受付時間 / 平日 10:00～17:00</div>
+</div>
+</div>
+</div>
+<div id="ft_btm">
+<div id="ft_btm_wrap" class="clearfix">
+<ul id="ft_link">
+<li><a href="/test/about.php">会社概要</a></li>
+<li><a href="/test/about.php">採用情報</a></li>
+<li><a href="/test/about.php">プライバシーポリシー</a></li>
+<li><a href="/test/about.php">サイトマップ</a></li>
+</ul>
+<address>COPYRIGHT&copy;2016 Cheery, All Rights Reserved.</address>
+</div>
+</div>
+</footer>
+</body>
+</html>

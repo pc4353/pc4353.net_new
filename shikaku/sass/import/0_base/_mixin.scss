@@ -1,0 +1,80 @@
+//============================================
+// サイト幅でセンタリング
+//============================================
+@mixin center{
+	width: $w;
+	margin: 0 auto;
+}
+
+//============================================
+// aタグ hover時のみ下線をつける
+//============================================
+@mixin link_noline{
+	text-decoration: none;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+//============================================
+// テキスト置換
+//============================================
+@mixin hide_text {
+	display: block;
+	white-space: nowrap;
+	text-indent: 100%;
+	overflow: hidden;
+}
+
+//============================================
+// jQueryAutoHeight.jsにて揃えられたmin-heightをリセット
+// PCサイトでは高さを揃えるが、スマホサイトでは高さ自由にする場合など。
+//==============================================*/
+@mixin reset_height {
+	min-height: initial !important;
+	min-height: auto !important;
+}
+
+//============================================
+// YUI Fonts CSSによるフォントサイズ指定
+// fs12 = font-size:12px に相当します
+//============================================
+@mixin fs10	{ font-size: 77%;}
+@mixin fs11	{ font-size: 85%;}
+@mixin fs12	{ font-size: 93%;}
+@mixin fs13	{ font-size: 100%;}
+@mixin fs14	{ font-size: 108%;}
+@mixin fs15	{ font-size: 116%;}
+@mixin fs16	{ font-size: 123.1%;}
+@mixin fs17	{ font-size: 131%;}
+@mixin fs18	{ font-size: 138.5%;}
+@mixin fs19	{ font-size: 146.5%;}
+@mixin fs20	{ font-size: 153.9%;}
+@mixin fs21	{ font-size: 161.6%;}
+@mixin fs22	{ font-size: 167%;}
+@mixin fs23	{ font-size: 174%;}
+@mixin fs24	{ font-size: 182%;}
+@mixin fs25	{ font-size: 189%;}
+@mixin fs26	{ font-size: 197%;}
+@mixin fs27	{ font-size: 204%;}
+@mixin fs28	{ font-size: 210%;}
+@mixin fs29	{ font-size: 217%;}
+@mixin fs30	{ font-size: 224%;}
+@mixin fs31	{ font-size: 231%;}
+@mixin fs32	{ font-size: 238%;}
+@mixin fs33	{ font-size: 245%;}
+@mixin fs34	{ font-size: 252%;}
+@mixin fs35	{ font-size: 259%;}
+
+
+//============================================
+// clearfix
+//============================================
+@mixin clearfix {
+	*zoom: 1;
+	&:after{
+		display: block;
+		content: "";
+		clear: both;
+	}
+}

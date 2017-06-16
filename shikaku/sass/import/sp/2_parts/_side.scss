@@ -1,0 +1,56 @@
+/*========================================
+サイド
+=========================================*/
+
+/* リンク
+-----------------------------------------*/
+.c-side-list{
+	li{
+
+		list-style-type: none;
+		background-image: url("/wp-content/themes/yp/img/icon_06.png");
+		background-position: 6px 17px;
+		background-repeat: no-repeat;
+		padding: 16px 0 20px 30px;
+		border-bottom: 3px dotted #F69586;
+		color:#6F6759;
+		font-weight: bold;
+	}
+
+	a{
+
+		text-decoration: none;
+	}
+
+}
+
+.c-side-list--color2{
+	li{
+		background-image: url("/wp-content/themes/yp/img/icon_03.png");
+		border-bottom: 3px dotted #A6D1F6;
+	}
+}
+.c-side-list--color3{
+	li{
+		background-image: url("/wp-content/themes/yp/img/icon_07.png");
+		border-bottom: 3px dotted #F0C9EC;
+	}
+}
+.c-side-list--color4{
+	li{
+		background-image: url("/wp-content/themes/yp/img/icon_05.png");
+		border-bottom: 3px dotted #FBC26D;
+	}
+}
+.c-side-list--color5{
+	li{
+		background-image: url("/wp-content/themes/yp/img/icon_04.png");
+		border-bottom: 3px dotted #FFD556;
+	}
+}
+.c-side-list--color6{
+	li{
+		background-image: url("/wp-content/themes/yp/img/icon_09.png");
+		border-bottom: 3px dotted #FBB0BF;
+	}
+}

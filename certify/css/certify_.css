@@ -1,0 +1,434 @@
+@charset "UTF-8";
+
+/* MOS Styles
+-----------------------------------------------------------------------------  */
+
+div#kv_mos {
+	position: relative;
+	margin-left:10px;
+	/*background: url(/mos/img/kv_mos.jpg) 0 0 no-repeat;*/
+}
+#sub #about_cf h2{
+	color:#fff;
+	background:#559c7e;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px;
+	margin:0 0 15px;
+	height:auto;
+	text-align:center;
+}
+#about_cf .lead{
+	margin:0 0 30px;
+}
+#sub #about_cf h3{
+	background:none;
+	height:auto;
+	padding:0;
+	margin:0 10px;
+	font-size:20px;
+}
+#about_cf .lead dd{
+	color:#005a27;
+	font-size:14px;
+	margin:0 30px 10px;
+}
+#about_cf .lead dd .price_list{
+	width:100%;
+}
+#about_cf .lead dd .price_list dd{
+	float:left;
+	width:24%;
+	margin:0;
+	text-align:center;
+	border-left:1px solid #005a27;
+	border-top:2px solid #005a27;
+	border-bottom:2px solid #005a27;
+	border-right:1px solid #005a27;
+}
+#about_cf .lead dd .price_list dd li.li_01{
+	color:#fff;
+	background:#559c7e;
+	padding:10px 0;
+	font-size:16px;
+	font-weight:bold;
+}
+#about_cf .lead dd .price_list dd li.li_02{
+	color:#005a27;
+	padding:10px 0;
+	font-size:14px;
+	font-weight:bold;
+}
+#about_cf .lead .small{
+	font-size:12px;
+}
+#about_cf .case{
+	margin-bottom:30px;
+}
+#about_cf .case dt{
+	color:#fba706;
+	font-size:20px;
+	margin:0 10px;
+}
+#about_cf .case dd{
+	color:#005a27;
+	font-size:14px;
+	margin:0 30px 10px;
+}
+
+#sub #data01 h2,
+#sub #data02 h2,
+#sub #data03 h2{
+	background:none;
+	margin:0 5px;
+	padding:0;
+	height:auto;
+}
+#data .menu{
+	color:#fff;
+	background:#559c7e;
+	font-size:20px;
+	padding:10px;
+	margin-bottom:40px;
+}
+#data .menu li{
+	float:left;
+}
+#data .menu li a{
+	color:#fff;
+	padding:10px 20px;
+}
+#data .menu li a:hover{
+	opacity:0.5;
+}
+
+#data .data_cnt{
+	margin-bottom:70px;
+}
+
+#data .check_point{
+	background:url(/images/certify/checkpoint.gif) 25px 10px no-repeat;
+	min-height:135px;
+}
+#data .check_point_org{
+	background:url(/images/certify/checkpoint-01.gif) 25px 10px no-repeat;
+	min-height:135px;
+}
+#data .check_point dt,
+#data .check_point_org dt{
+	padding-top:15px;
+	margin-left:160px;
+}
+#data .check_point dd,
+#data .check_point_org dd{
+	padding-top:15px;
+	margin-left:160px;
+}
+#data .bg_bk{
+	background:#000;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding:10px;
+	margin-bottom:15px;
+}
+
+#data .qa_left{
+	float:left;
+	width:320px;
+	margin:20px 0 0 15px;
+}
+#data .qa_right{
+	float:left;
+	width:500px;
+	margin:20px 0 0 15px;
+}
+#data .qa_right .comment{
+	margin:15px 0 0;
+}
+#data .qa_right .comment li{
+	list-style:disc;
+	font-weight:bold;
+	line-height:1.8;
+}
+#data .qa_right .comment dt{
+	float:left;
+}
+#data .qa_right .comment dd{
+	float:left;
+	margin:0 0 0 25px;
+}
+#data .qa_right .comment dd.comment_rgt{
+	width:320px;
+}
+#data .qa_right .txt{
+	border:2px solid #217fbd;
+	margin:15px 0 0;
+	padding:8px 30px;
+	width:400px;
+}
+
+#data .question{
+	text-align:center;
+	margin:30px 0 20px;
+}
+#data .answer_lft{
+	float:left;
+	width:460px;
+	margin:0 0 20px 20px;
+}
+#data .answer_lft p{
+	font-size:10px;
+	text-align:right;
+}
+#data .answer_rgt{
+	float:left;
+	width:340px;
+	margin-top:60px;
+	font-size:16px;
+	position:relative;
+}
+#data .answer_rgt dd{
+	border:2px solid #217fbd;
+	padding:8px 10px;
+}
+#data .answer_rgt dd li{
+	line-height:1.8;
+}
+#data .answer_rgt .pc-skill{
+	position:absolute;
+	top:50px;
+	left:-130px;
+	background:url(/images/certify/pc-skil.png) left top no-repeat;
+	width:497px;
+	height:98px;
+}
+#data .answer_rgt .pc-skill span{
+	display:none;
+}
+
+#data .data02_question{
+	position:relative;
+	min-height:200px;
+}
+#data .data02_question2{
+	position:relative;
+	min-height:250px;
+}
+#data .data02_question dt,
+#data .data02_question2 dt{
+	margin:20px 0 0 20px;
+}
+#data .data02_question dd{
+	position:absolute;
+	left:400px;
+	top:70px;
+}
+#data .data02_question2 dd{
+	position:absolute;
+	left:440px;
+	top:100px;
+}
+
+#data h2.skill{
+	margin:20px 0;
+}
+
+#data .data03_question{
+	text-align:center;
+	margin:10px 0 20px;
+}
+#data .data03_answer_lft{
+	float:left;
+	width:430px;
+	margin:0 0 20px 20px;
+}
+#data .data03_answer_rgt{
+	float:left;
+	width:340px;
+	position:relative;
+}
+#data .data03_answer_rgt .rank1 span,
+#data .data03_answer_rgt .rank2 span{
+	display:none;
+}
+#data .data03_answer_rgt .rank1{
+	position:absolute;
+	top:60px;
+	left:-70px;
+	background:url(/images/certify/rank-1.png) left top no-repeat;
+	width:440px;
+	height:70px;
+}
+#data .data03_answer_rgt .rank2{
+	position:absolute;
+	top:90px;
+	left:-132px;
+	background:url(/images/certify/rank-2.png) left top no-repeat;
+	width:502px;
+	height:96px;
+}
+
+#data .hosoku{
+	font-size:10px;
+	position:absolute;
+	top:300px;
+}
+#data .hosoku .bl{
+	font-size:12px;
+	background:url(/images/certify/blue.gif) left 5px no-repeat;
+	padding-left:18px;
+	line-height:1.8;
+}
+#data .hosoku .gry{
+	font-size:12px;
+	background:url(/images/certify/gray.gif) left 5px no-repeat;
+	padding-left:18px;
+	line-height:1.8;
+}
+
+#data .bg_bl{
+	background:#267fb7;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding:10px;
+	margin-bottom:30px;
+}
+#data .matome p{
+	width:700px;
+	background:#e9861e;
+	color:#fff;
+	font-size:24px;
+	text-align:left;
+	padding:10px;
+	margin:0 auto 30px;
+}
+
+p#btn_kv a {
+	display: block;
+	position: absolute;
+	left: 579px;
+	top: 340px;
+	width: 270px;
+	height: 40px;
+	text-indent: -9999px;
+	background: url(/mos/img/btn_kv.gif) 0 0 no-repeat;
+}
+p#btn_kv a:hover {
+	background-position: 0 -40px;
+}
+
+.section_mos {
+	margin: 0;
+	padding: 25px 0 25px 15px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",Arial, sans-serif;
+}
+.section_mos h2,
+.section_mos h3,
+.section_mos h4 {
+	height: auto !important;
+	margin: 0 0 20px 0 !important;
+	padding: 0 !important;
+	background-image: none !important;
+}
+.section_mos h3 img {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.section_mos p {
+	line-height: 2;
+	margin: 0 0 10px 0 !important;
+	padding: 0 !important;
+	color: #FFF;
+}
+.bg_cyan {
+	background-color: #007CB3;
+}
+#bg_cyan_img {
+	height: 175px;
+	background: url(/mos/img/pict_01.gif) right bottom no-repeat #007CB3;
+}
+.bg_orange {
+	background-color: #FF8000;
+}
+#bg_orange_img {
+	height: 275px;
+	background: url(/mos/img/pict_02.gif) right bottom no-repeat #FF8000;
+}
+.bg_pink {
+	background-color: #FC6689;
+}
+#bg_pink_img {
+	height: 335px;
+	background: url(/mos/img/pict_03.gif) 639px 82px no-repeat #FC6689;
+}
+.bg_white {
+	padding: 10px 0 0 0 !important;
+	background-color: #EEEEEE;
+}
+.bg_white h3 {
+	height: auto !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-image: none !important;
+}
+.bg_white p {
+	margin: 15px;
+	line-height: 2;
+	color: #666;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",Arial, sans-serif;
+}
+#bg_white_img {
+	background: url(/mos/img/img_01.jpg) right bottom no-repeat #EEEEEE;
+}
+#bg_white_img p {
+	color: #666;
+}
+#word_class {
+	width: 430px;
+	height: 260px;
+	float: left;
+	background-color: #0059B3;
+}
+#excel_class {
+	width: 430px;
+	height: 260px;
+	float: right;
+	background-color: #459500;
+}
+#word_class h4,
+#excel_class h4 {
+	margin: 15px;
+}
+#word_class ul,
+#excel_class ul {
+	margin-left: 120px;
+	list-style-type: disc;
+}
+#word_class ul li,
+#excel_class ul li {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",Arial, sans-serif;
+	color: #FFF;
+	font-size: 12px;
+}
+
+p#btn_mos {
+}
+p#btn_mos a {
+	display: block;
+	margin: 20px 0 5px 280px !important;
+	width: 320px;
+	height: 40px;
+	text-indent: -9999px;
+	background: url(/mos/img/btn_kv.gif) 0 0 no-repeat;
+}
+p#btn_mos a:hover {
+	background-position: 0 -40px;
+}
+
+.border_b {
+	border-bottom: 10px solid #00003B;
+}

@@ -1,0 +1,658 @@
+@charset "UTF-8";
+/*
+Theme Name: パソコン市民講座
+*/
+/*******************************************************************
+初期設定
+********************************************************************/
+/*=======================================
+normalize v3.0.3
+=========================================*/
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+body { margin: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+audio:not([controls]) { display: none; height: 0; }
+
+[hidden], template { display: none; }
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+h1 { font-size: 2em; margin: .67em 0; }
+
+mark { background: #ff0; color: #000; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 1em 40px; }
+
+hr { box-sizing: content-box; height: 0; }
+
+pre { overflow: auto; }
+
+code, kbd, pre, samp { font-family: monospace,monospace; font-size: 1em; }
+
+button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+input { line-height: normal; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+input[type="search"] { -webkit-appearance: textfield; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+fieldset { border: 1px solid silver; margin: 0 2px; padding: .35em .625em .75em; }
+
+legend { border: 0; padding: 0; }
+
+textarea { overflow: auto; }
+
+optgroup { font-weight: bold; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+td, th { padding: 0; }
+
+/* 追加
+-----------------------------------------*/
+body { -webkit-text-size-adjust: 100%; font-size: 13px; }
+
+h1, h2, h3, h4, h5, h6, div, p, ul, ol, dl, dt, dd, form { font-size: 1em; padding: 0; line-height: 1.6; text-align: left; display: block; margin: 0px; }
+
+table { line-height: 1.6; font-size: 1em; margin: 0; empty-cells: show; }
+
+img { border: none; vertical-align: bottom; }
+
+div:before, div:after, ul:before, ul:after, dl:before, dl:after { content: ""; display: table; }
+
+div:after, ul:after, dl:after { clear: both; }
+
+div, ul, dl { zoom: 1; }
+
+ul li { list-style: none; }
+
+img { max-width: 100%; height: auto; }
+
+/*=======================================
+文字色・リンク
+=========================================*/
+body { color: #333; }
+
+a:link, a:visited { text-decoration: underline; color: #333; }
+
+a:hover { opacity: 0.6; -webkit-transition: 0.7s; -moz-transition: 0.7s; -o-transition: 0.7s; -ms-transition: 0.7s; transition: 0.7s; }
+
+a:active { text-decoration: none; color: #333; }
+
+.pc-only { display: none !important; }
+
+/*******************************************************************
+ヘッダー
+********************************************************************/
+/*========================================
+ヘッダー
+=========================================*/
+/*　ロゴ部分
+-----------------------------------------*/
+.c-header__block1 { width: 100%; margin: 10px auto; }
+.c-header__block1 h1 { padding: 0 3%; width:50px; }
+.c-header__block1 h2 { font-size: 140%; color: #19434A; line-height: 130%; padding: 2% 3%; }
+.c-header__block1 h2 span.small { font-size: 90%; }
+.c-header__block1 h2 span.italic { font-size: 115%; font-style: italic; }
+.c-header__block1 h3 { font-size: 192%; color: #2C91A3; line-height: 100%; text-align: center; }
+.c-header__block2 { background: #5BBAC8; padding-top: 40px; }
+.c-header__block2__box1 { width: 95%; margin: 0 auto; }
+.c-header__block2__box1 h4 { text-align: center; }
+.c-header__block2__box1 p { text-align: center; }
+.c-header__block2__box1 p img { max-width: 80%; height: auto; }
+.c-header__block2__box1__in { width: 100%; margin: 0 0 20px 0; }
+.c-header__block2__box1__in h4 { text-align: center; }
+.c-header__block2__box1__in h4 img { max-width: 80%; height: auto; }
+.c-header__block2__box1__in h5 { text-align: center; margin: 15px 0; }
+.c-header__block2__box1__in h5 img { max-width: 90%; height: auto; }
+.c-header__block2__box1__in h6 { width: 238px; min-height: 215px; font-size: 170%; font-weight: normal; color: #FFF; text-align: center; background: url("img/head_img05.png") center top no-repeat; display: block; padding-top: 2%; margin: 0 auto; }
+.c-header__block3 { width: 95%; min-height: 140px; margin: 20px auto 5px; position: relative; }
+.c-header__block3 p.skill { width: 100%; font-size: 100%; color: #19434A; text-align: center; background: url("img/head_bg02.png") center bottom no-repeat; background-size: 67% 67%; position: absolute; top: 4%; right: -14%; padding: 0 3%; }
+.c-header__block3 p.check { width: 20%; min-height: 135px; background: url("img/head_img06.png") left center no-repeat; background-size: 100%; display: inline-block; position: absolute; top: -30%; left: 0px; text-indent: -10000%; z-index: 9999; }
+.c-header__block3 h4 { width: 100%; height: 94px; text-align: center; display: inline-block; position: absolute; top: 0px; left: 0px; cursor: pointer; }
+.c-header__block3 h4 a { display: block; }
+.c-header__block3 h4 img { padding-top: 12%; }
+.c-header__block4 { background: #EC6C86; }
+.c-header__block4__box1 { width: 100%; margin: 0 auto; }
+.c-header__block4__box1 li { width: 50%; max-width: 239px; height: 76px; text-align: center; display: inline-block; float: left; padding-top: 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-header__block4__box1 li.sp1 { background: url("img/head_bg04_sp1.png") left bottom no-repeat; }
+.c-header__block4__box1 li.sp2 { background: url("img/head_bg04_sp2.png") left bottom no-repeat; }
+.c-header__block4__box1 li.sp3 { background: url("img/head_bg04_sp3.png") left bottom no-repeat; }
+.c-header__block4__box1 li.sp4 { background: url("img/head_bg04_sp4.png") left bottom no-repeat; }
+.c-header__block4__box1 li a { font-size: 18px; line-height: 100%; color: #FFF; text-decoration: none; background: url("img/arrow_01.png") center bottom no-repeat; padding-bottom: 20px; }
+
+/*　コンタクトページヘッダー
+-----------------------------------------*/
+.c-cheader__block1 { width: 100%; margin: 10px auto; }
+.c-cheader__block1 h1 { padding: 0 3%; }
+.c-cheader__block1 h2 { font-size: 140%; color: #19434A; line-height: 130%; padding: 2% 3%; }
+.c-cheader__block1 h2 span.small { font-size: 90%; }
+.c-cheader__block1 h2 span.italic { font-size: 115%; font-style: italic; }
+
+/*******************************************************************
+フッター
+********************************************************************/
+/*========================================
+フッター
+=========================================*/
+/* インデックス
+-----------------------------------------*/
+.c-index-footer { background: url("img/block_bg24.png") 0 0; padding: 60px 0 0 0; }
+.c-index-footer__box { width: 90%; min-height: 180px; background: url("img/block_img28_sp.png") center 30% no-repeat; background-size: contain; position: relative; bottom: 10%; margin: 0 auto; padding: 0 0 25px 0; }
+.c-index-footer__box h6 { font-size: 11px; font-weight: normal; color: #FFF; position: absolute; bottom: -3px; right: 0; padding-bottom: 5px; }
+.c-index-footer__box h6 a { color: #fff; }
+
+/* コンタクト
+-----------------------------------------*/
+.l-contact-footer { background: #69C0CD; }
+.l-contact-footer h6 { font-size: 11px; font-weight: normal; color: #FFF; line-height: 100%; text-align: center; padding: 6px 0 8px; }
+.l-contact-footer h6 a { color: #fff; }
+
+/*******************************************************************
+レイアウト
+********************************************************************/
+/*========================================
+レイアウト
+=========================================*/
+html { width: 100%; }
+
+body { width: 100%; background: #FFF; color: #333; font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif; }
+
+/* 枠
+-----------------------------------------*/
+#container { width: 100%; overflow: hidden; }
+
+/* エラーメッセージ
+-----------------------------------------*/
+.error { color: #F00; }
+
+/*******************************************************************
+パーツ
+********************************************************************/
+/*========================================
+サイド
+=========================================*/
+/* リンク
+-----------------------------------------*/
+.c-side-list li { list-style-type: none; background-image: url("/wp-content/themes/yp/img/icon_06.png"); background-position: 6px 17px; background-repeat: no-repeat; padding: 16px 0 20px 30px; border-bottom: 3px dotted #F69586; color: #6F6759; font-weight: bold; }
+.c-side-list a { text-decoration: none; }
+
+.c-side-list--color2 li { background-image: url("/wp-content/themes/yp/img/icon_03.png"); border-bottom: 3px dotted #A6D1F6; }
+
+.c-side-list--color3 li { background-image: url("/wp-content/themes/yp/img/icon_07.png"); border-bottom: 3px dotted #F0C9EC; }
+
+.c-side-list--color4 li { background-image: url("/wp-content/themes/yp/img/icon_05.png"); border-bottom: 3px dotted #FBC26D; }
+
+.c-side-list--color5 li { background-image: url("/wp-content/themes/yp/img/icon_04.png"); border-bottom: 3px dotted #FFD556; }
+
+.c-side-list--color6 li { background-image: url("/wp-content/themes/yp/img/icon_09.png"); border-bottom: 3px dotted #FBB0BF; }
+
+/*========================================
+線
+=========================================*/
+/*
+-----------------------------------------*/
+/*========================================
+スライド
+=========================================*/
+/* 1
+-----------------------------------------*/
+.c-slide1 { position: relative; }
+.c-slide1 .bx-controls-direction a { display: block; width: 15px; height: 30px; top: 40%; margin: -15px 0 0 0; position: absolute; display: block; white-space: nowrap; text-indent: 100%; overflow: hidden; }
+.c-slide1 .bx-pager { text-align: center; }
+.c-slide1 .bx-pager-item { display: inline-block; }
+.c-slide1 .bx-pager-item a { display: block; height: 9px; width: 9px; text-indent: -9999px; background: #CACACA; border-radius: 10px; margin: 8px 5px 0px 5px; }
+.c-slide1 .bx-pager-item a.active { background: #E60013; }
+.c-slide1 .bx-prev { left: 3px; background: url("../img/common/icon_15.png") 0 0 no-repeat; -webkit-background-size: contain; -o-background-size: contain; background-size: contain; }
+.c-slide1 .bx-next { right: 3px; background: url("../img/common/icon_16.png") 0 0 no-repeat; -webkit-background-size: contain; -o-background-size: contain; background-size: contain; }
+
+/*========================================
+ボタン
+=========================================*/
+/*
+-----------------------------------------*/
+/*========================================
+リスト
+=========================================*/
+/*
+-----------------------------------------*/
+/*========================================
+SNS関係
+=========================================*/
+/* 1
+-----------------------------------------*/
+/*========================================
+ナビ
+=========================================*/
+/* パンくず
+-----------------------------------------*/
+.c-path { width: 95%; padding: 3% 0 0 0; margin: 0 auto; text-align: right; }
+.c-path a { line-height: 100%; font-size: 12px; text-decoration: none; }
+.c-path a:hover { text-decoration: underline; }
+.c-path a:after { content: "-"; color: #666; display: inline-block; margin: 0 0px 0 8px; }
+
+/* スマホ ページタイトル
+-----------------------------------------*/
+.c-ptitle1 { width: 95%; margin: 10px auto 25px; background: url("img/tit_bg01_sp.png") top center no-repeat; }
+.c-ptitle1 h2 { padding: 32px 0; text-align: center; }
+.c-ptitle1 h2 img { max-width: 35%; height: auto; }
+
+.c-ptitle2 { width: 95%; margin: 10px auto 25px; background: url("img/tit_bg02_sp.png") top center no-repeat; }
+.c-ptitle2 h2 { padding: 32px 0 31px; text-align: center; }
+.c-ptitle2 h2 img { max-width: 68%; height: auto; }
+
+.c-ptitle3 { width: 95%; margin: 10px auto 25px; background: url("img/tit_bg03_sp.png") top center no-repeat; }
+.c-ptitle3 h2 { padding: 29px 0 32px; text-align: center; }
+.c-ptitle3 h2 img { max-width: 22%; height: auto; }
+
+.c-ptitle4 { width: 95%; margin: 10px auto 25px; background: url("img/tit_bg04_sp.png") top center no-repeat; }
+.c-ptitle4 h2 { padding: 32px 0 30px; text-align: center; }
+.c-ptitle4 h2 img { max-width: 29%; height: auto; }
+
+.c-ptitle5 { width: 95%; margin: 10px auto 25px; background: url("img/tit_bg05_sp.png") top center no-repeat; }
+.c-ptitle5 h2 { padding: 32px 0 30px; text-align: center; }
+.c-ptitle5 h2 img { max-width: 38%; height: auto; }
+
+.c-ptitle6 { width: 95%; margin: 10px auto 25px; background: url("img/tit_bg06_sp.png") top center no-repeat; }
+.c-ptitle6 h2 { padding: 32px 0 32px; text-align: center; }
+.c-ptitle6 h2 img { max-width: 65%; height: auto; }
+
+/* ページナビ
+-----------------------------------------*/
+.c-pet-block .wp-pagenavi, .c-info-block .wp-pagenavi, .c-trimming-block .wp-pagenavi { padding: 30px 0 30px 0; text-align: center; clear: both; font-size: 130%; }
+.c-pet-block .wp-pagenavi span.current, .c-info-block .wp-pagenavi span.current, .c-trimming-block .wp-pagenavi span.current { padding: 0 10px; border-right: 1px solid #333; border-left: 1px solid #333; margin-left: -1px; }
+.c-pet-block .wp-pagenavi a.page, .c-info-block .wp-pagenavi a.page, .c-trimming-block .wp-pagenavi a.page { padding: 0 10px; border-right: 1px solid #333; }
+.c-pet-block .wp-pagenavi a.previouspostslink, .c-info-block .wp-pagenavi a.previouspostslink, .c-trimming-block .wp-pagenavi a.previouspostslink { text-decoration: none; border-right: 1px solid #333; padding-right: 10px; }
+.c-pet-block .wp-pagenavi a.nextpostslink, .c-info-block .wp-pagenavi a.nextpostslink, .c-trimming-block .wp-pagenavi a.nextpostslink { text-decoration: none; margin-left: 15px; }
+
+.c-pet-block .wp-pagenavi { margin-bottom: 60px; }
+
+/* 記事詳細ページナビ
+-----------------------------------------*/
+.c-singlepost-navi p { text-align: center; }
+.c-singlepost-navi p a { font-size: 110% !important; color: #665E50; font-size: 12px; font-weight: bold; text-decoration: none; }
+.c-singlepost-navi p:first-child { padding-bottom: 15px; }
+
+/*========================================
+
+=========================================*/
+/*
+-----------------------------------------*/
+/*========================================
+タイトル
+=========================================*/
+/*
+-----------------------------------------*/
+/*========================================
+テーブル
+=========================================*/
+/* 1
+-----------------------------------------*/
+/*========================================
+アコーディオン
+=========================================*/
+/*
+-----------------------------------------*/
+/*========================================
+
+=========================================*/
+/*
+-----------------------------------------*/
+/*******************************************************************
+ページ個別
+********************************************************************/
+/*========================================
+インデックス
+=========================================*/
+/* ブロック 1
+-----------------------------------------*/
+.c-index-block1 { width: 100%; padding-top: 70%; background: url("img/block_bg02.png") 0 bottom no-repeat; background-size: 100% 92%; position: relative; }
+.c-index-block1__box1 { width: 95%; position: absolute; bottom: 0; left: 50%; margin-left: -47%; }
+.c-index-block1__box1 p { text-align: center; }
+.c-index-block1__box1 p img { max-width: 100%; height: auto; }
+
+/* ブロック 2
+-----------------------------------------*/
+.c-index-block2 { width: 100%; min-height: 120px; background: url("img/arrow_02.png") center bottom no-repeat; position: relative; z-index: 9999; }
+.c-index-block2__box1 { min-height: 100px; background: #EEE909; }
+.c-index-block2__box1 h3 { font-size: 230%; color: #19434A; line-height: 100%; text-align: center; padding: 5% 0; background: url("img/block_bg03.png") center center no-repeat; background-size: 75%; }
+.c-index-block2__box1 h3 span { font-size: 60%; font-weight: normal; }
+
+/* 5つの安心
+-----------------------------------------*/
+.c-index-block3 { margin-top: -26px; background: url("img/block_bg04.jpg") 0 0; }
+.c-index-block3__box1 { min-height: 210px; margin-top: 70px; background: url("img/block_bg05_sp.png") 0 0 repeat-x; background-size: contain; }
+.c-index-block3__box1 table { width: 100%; }
+.c-index-block3__box1 table td { display: block; text-align: center; }
+.c-index-block3__box1 table td.first { font-size: 200%; font-weight: bold; color: #59B8C5; padding: 25px 0 0 0; }
+.c-index-block3__box1 table td.first span { color: #EB6C85; display: inline-block; padding-left: 10px; }
+.c-index-block3__box1 table td.first img { max-width: 11%; height: auto; position: relative; bottom: 0; left: 10px; padding-top: 2%; }
+.c-index-block3__box1 table td.second { font-size: 100%; color: #59B8C5; line-height: 130%; padding: 20px 0 25px 0; }
+.c-index-block3__box1 table td.second strong { font-size: 105%; margin-right: -5px; }
+.c-index-block3__box1 table td.second strong span { font-size: 75%; }
+.c-index-block3__box2, .c-index-block3__box3, .c-index-block3__box4, .c-index-block3__box5, .c-index-block3__box6 { width: 90%; border: 5px solid #E1F2F4; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-index-block3__box2 h3, .c-index-block3__box3 h3, .c-index-block3__box4 h3, .c-index-block3__box5 h3, .c-index-block3__box6 h3 { font-size: 155%; color: #19434A; padding: 5%; }
+.c-index-block3__box2 h3 img, .c-index-block3__box3 h3 img, .c-index-block3__box4 h3 img, .c-index-block3__box5 h3 img, .c-index-block3__box6 h3 img { max-width: 25%; height: auto; position: relative; bottom: -5px; margin-bottom: 10px; }
+.c-index-block3__box2 h4, .c-index-block3__box3 h4, .c-index-block3__box4 h4, .c-index-block3__box5 h4, .c-index-block3__box6 h4 { width: 100%; font-size: 140%; color: #FFF; line-height: 120%; padding: 5% 4.5% 7% 8%; background: url("img/block_bg06_sp.png") 0 center no-repeat; background-size: 100% 87%; position: relative; left: -5%; -webkit-box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-index-block3__box2 { background: #FFF; margin: 30px auto 20px; }
+.c-index-block3__box2 p { width: 95%; font-size: 110%; text-align: center; margin: 15px auto 0; position: relative; }
+.c-index-block3__box2 h5 { width: 95%; font-size: 140%; line-height: 100%; color: #19434A; text-align: center; padding: 15px 0; margin: 30px auto 0; background: url("img/block_bg08.png") center center no-repeat; }
+.c-index-block3__box2 h5 span { font-style: italic; font-size: 120%; }
+.c-index-block3__box2 .movie_area { margin-bottom: 10px; position: relative; }
+.c-index-block3__box2 .movie_area__body { width: 73%; height: 82%; position: absolute; top: 10%; left: 13.5%; background: #000; text-align: center; }
+.c-index-block3__box2 .movie_area__body iframe { width: 100%; height: 100%; }
+.c-index-block3__box3 { background: #FFF; margin: 0 auto 20px; }
+.c-index-block3__box3 h5 { width: 95%; font-size: 105%; line-height: 100%; text-align: center; margin: 30px auto 50px; }
+.c-index-block3__box3 h5 span { font-size: 160%; display: inline-block; margin-top: 10%; padding-bottom: 5px; background: url("img/line_01.png") 0 bottom no-repeat; }
+.c-index-block3__box3 p { width: 95%; font-size: 105%; text-align: center; margin: 30px auto 00; }
+.c-index-block3__box4 { background: #FFF; margin: 0 auto 20px; }
+.c-index-block3__box4 h4 { font-size: 140%; line-height: 120%; padding-top: 2.5%; }
+.c-index-block3__box4 p { width: 95%; font-size: 105%; margin: 15px auto 0; text-align: center; }
+.c-index-block3__box4 h5 { text-align: center; margin: 20px 0 30px; }
+.c-index-block3__box4 h5 img { max-width: 80%; height: auto; }
+.c-index-block3__box5 { background: #FFF; margin: 0 auto 20px; position: relative; }
+.c-index-block3__box5 h4 { padding-top: 5%; }
+.c-index-block3__box5 p { width: 95%; font-size: 105%; margin: 15px auto 0; }
+.c-index-block3__box6 { background: #FFF; margin: 0 auto 30px; position: relative; }
+.c-index-block3__box6 h4 { font-size: 140%; padding-top: 6%; }
+.c-index-block3__box6 h5 { width: 80%; font-size: 150%; color: #19434A; line-height: 100%; text-align: center; padding: 0 0 0 5px; margin: 40px auto 25px; background: url("img/line_01.png") 0 bottom no-repeat; }
+.c-index-block3__box6 h5 span { font-size: 80%; display: inline-block; padding-left: 10px; }
+.c-index-block3__box6 p { width: 80%; margin: 0 auto 0; }
+.c-index-block3__box6 p strong { font-size: 130%; color: #19434A; }
+.c-index-block3__box6 p img { max-width: 80%; height: auto; padding-top: 20px; }
+
+/* スキル診断チェック
+-----------------------------------------*/
+.c-index-block4, .c-index-block9 { width: 95%; min-height: 170px; margin: 0 auto; position: relative; }
+.c-index-block4 p.skill, .c-index-block9 p.skill { width: 100%; font-size: 100%; color: #19434A; text-align: center; background: url("img/head_bg02.png") center bottom no-repeat; background-size: 67% 67%; position: absolute; top: 8%; left: -10%; }
+.c-index-block4 p.check, .c-index-block9 p.check { width: 20%; min-height: 135px; background: url("img/block_img09.png") right center no-repeat; background-size: 100%; display: inline-block; position: absolute; top: -3%; right: 0px; text-indent: -10000%; z-index: 9999; overflow: hidden; }
+.c-index-block4 h4, .c-index-block9 h4 { width: 100%; height: 94px; text-align: center; display: inline-block; position: absolute; top: 0px; left: 0px; cursor: pointer; }
+.c-index-block4 h4 a, .c-index-block9 h4 a { display: block; }
+.c-index-block4 h4 img, .c-index-block9 h4 img { padding-top: 17%; padding-bottom: 5%; }
+
+/* 受講コース
+-----------------------------------------*/
+.c-index-block5__head { background: #69C0CD; }
+.c-index-block5__head h2 { font-size: 220%; font-weight: normal; color: #FFF; line-height: 100%; text-align: center; padding: 25px 0; }
+.c-index-block5__wrap { background: #C5E6EB; margin-bottom: 40px; }
+.c-index-block5__wrap__in { width: 100%; margin: 0 auto 40px; }
+.c-index-block5__wrap p { width: 95%; font-size: 105%; color: #19434A; line-height: 170%; text-align: center; margin: 20px auto; clear: both; }
+.c-index-block5__wrap p span { font-size: 110%; font-weight: bold; background: url("img/line_01.png") 0 bottom repeat-x; display: inline; padding-left: 5px; }
+.c-index-block5__wrap__box1, .c-index-block5__wrap__box2 { width: 95%; background: #FFF; padding: 20px 15px; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-index-block5__wrap__box1 h4, .c-index-block5__wrap__box2 h4 { line-height: 100%; text-align: center; }
+.c-index-block5__wrap__box1 h5, .c-index-block5__wrap__box2 h5 { font-size: 20px; color: #52B3C5; line-height: 100%; text-align: center; background: url("img/block_bg13.png") left center repeat-x; padding: 20px 0; margin-bottom: 20px; }
+.c-index-block5__wrap__box1 h5 span, .c-index-block5__wrap__box2 h5 span { font-size: 12px; }
+.c-index-block5__wrap__box1 h6, .c-index-block5__wrap__box2 h6 { text-align: center; }
+.c-index-block5__wrap__box1 p, .c-index-block5__wrap__box2 p { text-align: left; }
+.c-index-block5__wrap__box1 p.type, .c-index-block5__wrap__box2 p.type { font-size: 125%; font-weight: bold; line-height: 150%; text-align: center; padding-bottom: 15px; margin-bottom: 15px; }
+.c-index-block5__wrap__box1 li, .c-index-block5__wrap__box2 li { font-size: 15px; color: #FFF; line-height: 100%; text-align: center; padding: 15px 2%; border-radius: 3px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-index-block5__wrap__box1 li:nth-child(2), .c-index-block5__wrap__box2 li:nth-child(2) { margin: 7px 0; }
+.c-index-block5__wrap__box1 { margin-bottom: 20px; }
+.c-index-block5__wrap__box1 p.type { color: #006EAC; background: url("img/arrow_03.png") center bottom no-repeat; }
+.c-index-block5__wrap__box1 li { background: #006EAC; }
+.c-index-block5__wrap__box2 { padding-top: 10px; }
+.c-index-block5__wrap__box2 h4 { padding-bottom: 7px; }
+.c-index-block5__wrap__box2 p.type { color: #ED8A05; background: url("img/arrow_04.png") center bottom no-repeat; }
+.c-index-block5__wrap__box2 li { background: #ED8A05; }
+
+/* 受験生の声
+-----------------------------------------*/
+.c-index-block6 { background: url("img/block_bg14.png") center bottom no-repeat; background-size: contain; padding-bottom: 100px; }
+.c-index-block6__head { min-height: 80px; background: url("img/block_bg05.png") 0 center repeat-x; background-size: contain; }
+.c-index-block6__head h3 { font-size: 255%; color: #59B8C5; text-align: center; margin-top: -6%; }
+.c-index-block6__head h3 img { position: relative; top: 5px; max-width: 35%; height: auto; }
+.c-index-block6__wrap { width: 95%; margin: 30px auto 0; }
+.c-index-block6__box { width: 100%; margin-bottom: 15%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-index-block6__box p.img { width: 30%; display: inline-block; float: left; }
+.c-index-block6__box p.img img { max-width: 100%; height: auto; }
+.c-index-block6__box div { width: 65%; display: inline-block; float: left; margin-left: 4.5%; }
+.c-index-block6__box h4 { font-size: 130%; line-height: 120%; margin: 7% 0 0 0; }
+.c-index-block6__box h4.male { color: #52B2C5; }
+.c-index-block6__box h4.female { color: #F43F83; }
+.c-index-block6__box h5 { font-size: 15px; color: #19434A; margin: 5% 0 0 3%; }
+.c-index-block6__box h5 span { font-size: 13px; }
+.c-index-block6__box p.txt { clear: both; padding-top: 15px; }
+/*.c-index-block6__box2 { width: 95%; background: url("img/block_bg15_sp.png") center top no-repeat; background-size: 100% 100%; margin: 0 auto 70px; position: relative; padding: 20% 0; overflow: hidden; }*/
+.c-index-block6__box2 { display: none;}
+.c-index-block6__box2__in ul { text-align: center; }
+.c-index-block6__box2__in li { display: inline-block; position: relative; }
+.c-index-block6__box2__in li img { max-width: 83%; height: auto; }
+.c-index-block6__box2__in li.first:before { content: ''; width: 42%; min-height: 125px; background: url("img/block_img19_sp.png") left top no-repeat; background-size: 80%; position: absolute; top: 55%; left: 0; }
+.c-index-block6__box2__in li.first:after { content: ''; width: 42%; min-height: 138px; background: url("img/block_img20_sp.png") left top no-repeat; background-size: 70%; position: absolute; bottom: 46%; left: 66%; z-index: 9999; }
+.c-index-block6__box2__in li.second:before { content: ''; width: 42%; min-height: 140px; background: url("img/block_img21_sp.png") left top no-repeat; background-size: 85%; position: absolute; top: -17%; left: 63%; }
+.c-index-block6__box2__in li.second:after { content: ''; width: 42%; min-height: 130px; background: url("img/block_img22_sp.png") left top no-repeat; background-size: 80%; position: absolute; bottom: -10%; left: 56%; }
+
+/* ブロック 7
+-----------------------------------------*/
+.c-index-block7 { width: 95%; min-height: 150px; margin: 20px auto 5px; position: relative; }
+.c-index-block7 p.skill { width: 100%; font-size: 100%; color: #19434A; text-align: center; background: url("img/head_bg02.png") center bottom no-repeat; background-size: 67% 67%; position: absolute; top: 6%; right: -13%; padding: 0 3%; }
+.c-index-block7 p.check { width: 20%; min-height: 135px; background: url("img/head_img06.png") left center no-repeat; background-size: 100%; display: inline-block; position: absolute; top: -25%; left: 0px; text-indent: -10000%; z-index: 9999; overflow: hidden; }
+.c-index-block7 h4 { width: 100%; height: 94px; text-align: center; display: inline-block; position: absolute; top: 6%; left: 0px; }
+.c-index-block7 h4 a { display: inline-block; }
+.c-index-block7 h4 img { padding-top: 12%; }
+
+/* 教室見学・無料体験の流れ
+-----------------------------------------*/
+.c-index-block8__head { background: url("img/block_bg16.png") left center repeat-x; }
+.c-index-block8__head h3 { font-size: 200%; color: #FFF; line-height: 100%; text-align: center; padding: 25px 0; }
+.c-index-block8__head h3 span { font-size: 85%; font-weight: normal; }
+.c-index-block8__wrap { background: url("img/block_bg17.png") 0 0; padding: 25px 0 50%; position: relative; }
+.c-index-block8__wrap:after { content: ''; width: 100%; min-height: 265px; background: url("img/block_bg19.png") center bottom no-repeat; background-size: 90%; display: inline-block; position: absolute; bottom: 0; }
+.c-index-block8__box1, .c-index-block8__box2, .c-index-block8__box3, .c-index-block8__box4 { width: 90%; background: #FFF; border: 2px solid #FCBCD5; margin: 0 auto 16px; position: relative; z-index: 500; }
+.c-index-block8__box1:after, .c-index-block8__box2:after, .c-index-block8__box3:after, .c-index-block8__box4:after { content: ''; width: 32px; height: 16px; background: url("img/block_bg18.png") 0 0 no-repeat; display: inline-block; position: absolute; bottom: -16px; left: 15px; }
+.c-index-block8__box1 h4, .c-index-block8__box2 h4, .c-index-block8__box3 h4, .c-index-block8__box4 h4 { font-size: 147%; color: #E84666; line-height: 100%; background: url("img/line_01.png") left bottom repeat-x; display: inline-block; padding: 0 5px 3px; position: absolute; top: 12%; left: 30%; }
+.c-index-block8__box1 p, .c-index-block8__box2 p, .c-index-block8__box3 p, .c-index-block8__box4 p { width: 90%; font-size: 15px; position: absolute; top: 38%; left: 5%; }
+.c-index-block8__box1 { height: 190px; }
+.c-index-block8__box1:before { content: ""; width: 90px; min-height: 50px; background: url("img/block_bg20.png") 0 0 no-repeat; background-size: 100%; display: inline-block; position: absolute; top: 10px; left: -5px; }
+.c-index-block8__box2 { min-height: 320px; }
+.c-index-block8__box2:before { content: ""; width: 90px; min-height: 50px; background: url("img/block_bg21.png") 0 0 no-repeat; background-size: 100%; display: inline-block; position: absolute; top: 10px; left: -5px; }
+.c-index-block8__box2 h4 { top: 7%; }
+.c-index-block8__box2 p { top: 23%; }
+.c-index-block8__box2 span { width: 150px; height: 150px; background: url("img/block_img25.png") 0 0 no-repeat; display: block; position: absolute; bottom: 5%; right: 30px; }
+.c-index-block8__box3 { height: 360px; }
+.c-index-block8__box3:before { content: ""; width: 90px; min-height: 50px; background: url("img/block_bg22.png") 0 0 no-repeat; background-size: 100%; display: inline-block; position: absolute; top: 10px; left: -5px; }
+.c-index-block8__box3 h4 { top: 7%; }
+.c-index-block8__box3 p { top: 23%; }
+.c-index-block8__box3 span { width: 150px; height: 150px; background: url("img/block_img26.png") 0 0 no-repeat; display: block; position: absolute; bottom: 5%; right: 30px; }
+.c-index-block8__box4 { height: 360px; }
+.c-index-block8__box4:before { content: ""; width: 90px; min-height: 50px; background: url("img/block_bg23.png") 0 0 no-repeat; background-size: 100%; display: inline-block; position: absolute; top: 10px; left: -5px; }
+.c-index-block8__box4 h4 { top: 7%; }
+.c-index-block8__box4 p { top: 23%; }
+.c-index-block8__box4 span { width: 150px; height: 150px; background: url("img/block_img27.png") 0 0 no-repeat; display: block; position: absolute; bottom: 5%; right: 30px; }
+
+/*========================================
+コンタクトフォーム
+=========================================*/
+.l-contact { background: url("img/block_bg04.jpg") 0 0; }
+
+/* コンタクトフロー
+-----------------------------------------*/
+.c-contact-flow { width: 95%; margin: 10% auto 0; }
+
+/*
+-----------------------------------------*/
+.c-contact-block1 h2 { font-size: 150%; color: #59B8C5; line-height: 100%; text-align: center; background: url("img/contact_img01.png") left center repeat-x; background-size: 100% 100%; padding: 30px 0 40px; position: relative; z-index: 100; }
+.c-contact-block1__head { background: #69C0CD; margin-top: -10px; }
+.c-contact-block1__head h3 { font-size: 105%; color: #FFF; text-align: center; padding: 15px 0 0 0; }
+.c-contact-block1__head h4 { line-height: 100%; text-align: center; padding: 15px 0 10px; }
+.c-contact-block1__head h4 img { max-width: 75%; height: auto; }
+
+.c-contact-block2 { width: 95%; background: #FFF; border: 5px solid #E1F2F4; margin: 35px auto 50px; padding: 35px 5% 50px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-contact-block2 h3 { font-size: 145%; color: #19434A; line-height: 100%; margin-bottom: 25px; }
+.c-contact-block2 table { width: 100%; }
+.c-contact-block2 table tr { border-top: 1px solid #69C0CD; border-bottom: 1px solid #69C0CD; }
+.c-contact-block2 table th { background: #E9F7F8; font-size: 15px; color: #266672; line-height: 100%; padding: 25px 0 25px 15px; vertical-align: middle; position: relative; display: block; }
+.c-contact-block2 table th span { font-size: 11px; color: #FFF; line-height: 100%; }
+.c-contact-block2 table th span.l { background: #005BAC; border-radius: 5px; padding: 5px 10px; margin: 0 0 0 20px; display: inline-block; }
+.c-contact-block2 table th span.l a { color: #FFF; text-decoration: none; }
+.c-contact-block2 table th span.h { font-size: 11px; color: #FFF; background: #FF2626; border-radius: 5px; padding: 5px 10px; margin-right: 20px; position: absolute; right: 0px; }
+.c-contact-block2 table td { padding: 3% 5%; display: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-contact-block2 table td input { margin: 2% 0; }
+.c-contact-block2 table td input#tel, .c-contact-block2 table td input#mail { width: 100%; border: 1px solid #CCC; }
+.c-contact-block2 table td input#f_name, .c-contact-block2 table td input#l_name, .c-contact-block2 table td input#f_furi, .c-contact-block2 table td input#l_furi { border: 1px solid #CCC; }
+.c-contact-block2 table td input#d_check { margin: 5px 0; }
+.c-contact-block2 table td select { margin: 2% 0; }
+.c-contact-block2 table td textarea#message { width: 100%; height: 200px; border: 1px solid #CCC; margin: 20px 0; }
+.c-contact-block2 table td span { color: #F00; }
+.c-contact-block2 table td.phone { font-size: 170%; font-weight: bold; }
+.c-contact-block2 p { font-size: 120%; font-weight: bold; color: #FF0000; text-align: center; margin: 20px 0 25px 0; }
+
+.c-contact-block3 { width: 95%; background: #FFF; border: 5px solid #E1F2F4; margin: 0 auto 70px; padding: 35px 20px 40px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-contact-block3 h3 { font-size: 20px; color: #19434A; line-height: 100%; }
+.c-contact-block3__box { margin-top: 30px; }
+.c-contact-block3__box h4 { font-size: 15px; line-height: 100%; margin-bottom: 15px; }
+
+/* 送信ボタン
+-----------------------------------------*/
+.c-contact_btn01 { text-align: center; }
+.c-contact_btn01 input.content09_submit { max-width: 100%; height: auto; }
+
+/* 確認ページ
+-----------------------------------------*/
+.c-contact-block2 { width: 95%; background: #FFF; border: 5px solid #E1F2F4; margin: 35px auto 50px; padding: 35px 5% 50px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-contact-block2 h3 { font-size: 20px; color: #19434A; line-height: 100%; margin-bottom: 25px; }
+.c-contact-block2 table { width: 100%; }
+.c-contact-block2 table tr { border-top: 1px solid #69C0CD; border-bottom: 1px solid #69C0CD; }
+.c-contact-block2 table th { background: #E9F7F8; border-bottom: 1px solid #69C0CD; font-size: 15px; color: #266672; line-height: 100%; padding: 25px 0 25px 15px; text-align: left; vertical-align: middle; position: relative; }
+.c-contact-block2 table th span { font-size: 11px; color: #FFF; line-height: 100%; }
+.c-contact-block2 table th span.l { background: #005BAC; border-radius: 5px; padding: 5px 10px; margin: 0 0 0 20px; display: inline-block; }
+.c-contact-block2 table th span.l a { color: #FFF; text-decoration: none; }
+.c-contact-block2 table th span.h { font-size: 11px; color: #FFF; background: #FF2626; border-radius: 5px; padding: 5px 10px; margin-right: 20px; position: absolute; right: 0px; }
+.c-contact-block2 table td { padding: 3% 5%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-contact-block2 table td input#tel, .c-contact-block2 table td input#mail { width: 100%; border: 1px solid #CCC; }
+.c-contact-block2 table td input#f_name, .c-contact-block2 table td input#l_name, .c-contact-block2 table td input#f_furi, .c-contact-block2 table td input#l_furi { border: 1px solid #CCC; }
+.c-contact-block2 table td textarea#message { width: 100%; height: 200px; border: 1px solid #CCC; margin: 20px 0; }
+.c-contact-block2 table td.c_message { padding: 15px; }
+.c-contact-block2 p { font-size: 120%; font-weight: bold; color: #FF0000; text-align: center; margin: 20px 0 25px 0; }
+
+/* 送信完了ページ
+-----------------------------------------*/
+.c-contact-block4 { width: 95%; background: #FFF; border: 5px solid #E1F2F4; padding: 50px 0; margin: 50px auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.c-contact-block4 h3 { font-size: 140%; color: #59B8C5; line-height: 100%; text-align: center; }
+.c-contact-block4 p { width: 95%; font-size: 105%; text-align: center; margin: 40px auto; }
+.c-contact-block4 p span { font-size: 20px; font-weight: bold; color: #59B8C5; }
+.c-contact-block4__btn { text-align: center; }
+.c-contact-block4__btn img { max-width: 70%; height: auto; }
+
+/*******************************************************************
+調整用
+********************************************************************/
+/*=======================================
+余白
+=========================================*/
+.u-mt0 { margin-top: 0px !important; }
+
+.u-mt5 { margin-top: 5px !important; }
+
+.u-mt10 { margin-top: 10px !important; }
+
+.u-mt15 { margin-top: 15px !important; }
+
+.u-mt20 { margin-top: 20px !important; }
+
+.u-mt25 { margin-top: 25px !important; }
+
+.u-mt30 { margin-top: 30px !important; }
+
+.u-mt35 { margin-top: 35px !important; }
+
+.u-mt40 { margin-top: 40px !important; }
+
+.u-mt45 { margin-top: 45px !important; }
+
+.u-mt50 { margin-top: 50px !important; }
+
+.u-mt55 { margin-top: 55px !important; }
+
+.u-mb0 { margin-bottom: 0px !important; }
+
+.u-mb5 { margin-bottom: 5px !important; }
+
+.u-mb10 { margin-bottom: 10px !important; }
+
+.u-mb15 { margin-bottom: 15px !important; }
+
+.u-mb20 { margin-bottom: 20px !important; }
+
+.u-mb25 { margin-bottom: 25px !important; }
+
+.u-mb30 { margin-bottom: 30px !important; }
+
+.u-mb35 { margin-bottom: 35px !important; }
+
+.u-mb40 { margin-bottom: 40px !important; }
+
+.u-mb45 { margin-bottom: 45px !important; }
+
+.u-mb50 { margin-bottom: 50px !important; }
+
+.u-mb55 { margin-bottom: 55px !important; }
+
+/*=======================================
+テキスト色
+=========================================*/
+.u-textcolor1 { color: #D80000 !important; }
+
+.u-textcolor2 { color: #EE5402 !important; }
+
+/*=======================================
+リスト
+=========================================*/
+.u-disc { margin-left: 1.5em; }
+.u-disc li { list-style-type: disc; }
+
+/*=======================================
+アンカー位置調整
+=========================================*/
+.u-anchor { margin-top: -48px; padding-top: 48px; }
+
+/*=======================================
+準備中メッセージ
+=========================================*/
+.u-pre { text-align: center; padding: 80px 0; }
+
+/*=======================================
+制作時用 browser-sync
+=========================================*/
+#__bs_notify__ { opacity: 0.3 !important; font-size: 5px !important; line-height: 100% !important; padding: 0 5px 0 5px !important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }

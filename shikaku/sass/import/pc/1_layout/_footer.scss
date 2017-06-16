@@ -1,0 +1,48 @@
+/*========================================
+フッター
+=========================================*/
+
+/* インデックス
+-----------------------------------------*/
+.c-index-footer{
+	width: 100%;
+	background: #1D2087;
+
+	&__wrap{width: 1000px; margin: 40px auto;
+		h5{ display: inline-block; float: left; }
+	}
+
+	&__box1{
+		margin: 20px 0 0 20px;
+		float: left;
+		p{ font-size: 37px; font-weight: bold; line-height: 100%; color: #FFF; margin-bottom: 25px; }
+	}
+
+	&__box{
+		border-top: 2px solid #FFF;
+		h6{
+			width: 960px;
+			font-size: 11px;
+			font-weight: normal;
+			color: #FFF;
+			margin: 0 auto;
+			padding: 3px 0;
+			text-align: right;
+		}
+	}
+}
+
+
+/* コンタクト
+-----------------------------------------*/
+.l-contact-footer{
+	background: #1D2087;
+	h6{
+		font-size: 11px;
+		font-weight: normal;
+		color: #FFF;
+		line-height: 100%;
+		text-align: center;
+		padding: 6px 0 8px;
+	}
+}

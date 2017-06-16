@@ -1,0 +1,83 @@
+/*========================================
+ナビ
+=========================================*/
+
+/* パンくず
+-----------------------------------------*/
+.c-path{
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px 0 11px 0;
+	text-align: right;
+	a{
+		line-height: 100%;
+		font-size: 12px;
+		@include link_noline;
+		&:after{
+			content:"-";
+			color: #666;
+			display: inline-block;
+			margin: 0 0px 0 8px;
+		}
+	}
+}
+
+
+/* ページナビ
+-----------------------------------------*/
+.c-pet-block, .c-info-block,
+.c-trimming-block{
+	.wp-pagenavi{
+		padding: 40px 0 0 0;
+		text-align: center;
+		clear: both;
+		span.current{
+			padding: 0 5px;
+			border-right: 1px solid #333;
+			border-left: 1px solid #333;
+			margin-left: -1px;
+		}
+		a.page{
+			padding: 0 5px;
+			border-right: 1px solid #333;
+		}
+		a.previouspostslink{
+			text-decoration: none;
+			border-right: 1px solid #333;
+			padding-right: 10px;
+			&:hover{ border-bottom: #333; }
+		}
+		a.nextpostslink{
+			text-decoration: none;
+			margin-left: 10px;
+			&:hover{ border-bottom: #333; }
+		}
+	}
+}
+.c-pet-block{
+	.wp-pagenavi{
+		margin-bottom: 60px;
+	}
+}
+
+
+
+/* 記事詳細ページナビ
+-----------------------------------------*/
+.c-singlepost-navi{
+	p{
+		text-align: center;
+		a{
+			color: #665E50;
+			font-size: 12px;
+			font-weight: bold;
+			text-decoration: none;
+			&:hover{
+				border-bottom: 1px solid #665E50;
+			}
+		}
+		&:first-child{
+			padding-bottom: 5px;
+		}
+	}
+}

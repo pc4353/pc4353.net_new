@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keyword" content="" />
+
+	<title>チアリー</title>
+
+	<style>
+	@import url("style.css") print;
+	@import url("style.css") all and (min-width: 641px);
+	@import url("style-sp.css") all and (max-width: 640px);
+	</style>
+
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	<script type="text/javascript" src="js/selectivizr-min.js"></script>
+	<script type="text/javascript" src="js/respond.js"></script>
+	<![endif]-->
+
+
+	<!--[if lt IE 9]><!-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!--<![endif]-->
+
+	<!--[if gte IE 9]><!-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<!--<![endif]-->
+
+	<!-- js 初期 -->
+	<script type="text/javascript" src="/js/selectivizr103.js"></script>
+	<script type="text/javascript" src="/js/respond.js"></script>
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.simplyscroll.js"></script>
+	<script type="text/javascript" src="/js/jQueryAutoHeight.js"></script>
+	<script type="text/javascript" src="/js/form.js"></script>
+	<script type="text/javascript" src="/js/jquery.ah-placeholder.js"></script>
+
+	<script>
+	$(function(){
+
+		// 滑らかにスクロール
+		$('a[href^="#"]').click(function(){
+			$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top}, '500', 'swing');
+			return false;
+		});
+
+	});
+	</script>
+
+	<script type="text/javascript">
+	$(function(){
+
+		$('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 800);
+		        return false;
+		      }
+		    }
+		});
+
+	});
+	</script>
+
+	<!-- 高さ揃え -->
+	<script type="text/javascript">
+	jQuery(function($){
+
+		$('h4.block_ah0').autoHeight({});
+	   	$('p.block_ah1').autoHeight({column:'2', height:'height'});
+	   	$('p.block_ah2').autoHeight({column:'2', height:'height'});
+
+	})
+	</script>
+
+
+</head>
+<body>
+
+
+<div id="container">
+
+	<div class="l-header">
+		<div class="c-header__block1">
+			<h1><a href="http://dns1.prontonet.ne.jp/hp/nagamatsu/cheery_lp2/"><img src="img/logo.png" width="555" height="81" alt="ビジネスオンライン" /></a></h1>
+		</div><!-- c-header__block1 -->
+
+		<div class="c-header__block2">
+			<h2><img src="img/head_img01.png" width="724" height="155" alt="これまでなかった自宅＋教室で学べる 新パソコンスクール誕生！" /></h2>
+		</div><!-- /.c-header__block2 -->
+	</div><!-- /.l-header -->
+
+	<div class="l-contact">
+
+		<div class="c-contact-block1">
+			<h2>教室見学・無料体験予約フォーム</h2>
+		</div><!-- /.c-contact-block1 -->
+
+
+		<div class="c-contact-block2">
+
+		<script type="text/javascript">
+			function Mcheck(){
+
+				var i;
+
+				// 希望教室
+				if (document.form1.都道府県.value=="") {
+					window.alert("都道府県を入力してください。");
+					return false
+				}
+
+				if (document.form1.教室名.value=="") {
+					window.alert("教室名を入力してください。");
+					return false
+				}
+
+
+				// 希望日時
+				if (document.form1.年.value=="") {
+					window.alert("希望日時「年」を入力してください。");
+					return false
+				}
+
+				if (document.form1.月.value=="") {
+					window.alert("希望日時「月」を入力してください。");
+					return false
+				}
+
+				if (document.form1.日.value=="") {
+					window.alert("希望日時「日」を入力してください。");
+					return false
+				}
+
+				if (document.form1.時間帯.value=="") {
+					window.alert("希望日時「時間帯」を入力してください。");
+					return false
+				}
+
+				// 氏名
+				if (document.form1.姓.value=="") {
+					window.alert("お名前を入力してください。");
+					return false
+				}
+
+				if (document.form1.名.value=="") {
+					window.alert("お名前を入力してください。");
+					return false
+				}
+
+				// 電話番号
+				if (document.form1.電話番号.value=="") {
+					window.alert("電話番号を入力してください。");
+					return false
+				}
+
+			}
+			</script>
+
+			<h3>お客様情報の入力確認</h3>
+
+			<table>
+
+				<tr>
+					<th><label for="school">希望教室</label></th>
+					<td>都道府県：福島県<br class="sp-only">教室名：会津若松ひのき町教室</td>
+				</tr>
+
+				<tr>
+					<th>希望日時</th>
+					<td>2016年 3月 10日　時間帯：13時台</td>
+				</tr>
+
+				<tr>
+					<th><label for="name">氏名</label></th>
+					<td>山田　太郎</td>
+				</tr>
+
+				<tr>
+					<th><label for="furi">ふりがな</label></th>
+					<td>やまだ　たろう</td>
+				</tr>
+
+				<tr>
+					<th><label for="age">年代</label></th>
+					<td>20代</td>
+				</tr>
+
+				<tr>
+					<th><label for="tel">電話番号（携帯可）</label></th>
+					<td>09000000000</td>
+				</tr>
+
+				<tr>
+					<th><label for="mail">メールアドレス</label></th>
+					<td>aaa@aaa.aaa</td>
+				</tr>
+
+				<tr>
+					<th><label for="message">その他ご要望</label></th>
+					<td class="c_message">確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト確認テスト</td>
+				</tr>
+
+			</table>
+
+			<p>無料体験をお申込みの方にはご予約確定の旨、教室から折返しご連絡をさせていただきます。</p>
+
+			<div class="c-contact_btn01">
+				<input type="image" src="img/contact_btn02.png" width="450" height="100" class="content09_submit" />
+			</div><!-- /.c-contact_btn01 -->
+
+
+		</div><!-- /.c-contact-block2 -->
+
+	</div><!-- /.l-contact -->
+
+
+	<div class="l-contact-footer">
+		<h6>Copyright (C) 2016 ○○○○○○○. All Rights Reserved.</h6>
+	</div><!-- /.l-contact-footer -->
+
+</div><!-- /#container -->
+
+
+</body>
+</html>

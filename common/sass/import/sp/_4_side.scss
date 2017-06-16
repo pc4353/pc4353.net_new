@@ -1,0 +1,33 @@
+/*=======================================
+サイドバー
+=========================================*/
+.p-side {
+	
+	float: right;
+	width: 250px;
+	
+	h3 {
+		border-bottom: 1px solid $color;
+		padding-bottom: 14px;
+		padding-top: 4px;
+	}
+
+}
+
+.p-side1 {
+
+	margin-bottom: 40px;
+	
+	li {
+		border-bottom: 1px dotted #ccc;
+		&:last-child {border-bottom: 0;}
+		a {
+			display: block;
+			padding: 8px 0 8px 15px;
+			background: url(img/common/icon1.png) no-repeat left center;
+			@include fs15;
+			text-decoration: none;
+		}
+	}
+
+}

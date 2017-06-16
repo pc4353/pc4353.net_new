@@ -1,0 +1,75 @@
+/*=======================================
+余白
+=========================================*/
+.u-mt0{ margin-top: 0px !important;}
+.u-mt5{ margin-top: 5px !important;}
+.u-mt10{ margin-top: 10px !important;}
+.u-mt15{ margin-top: 15px !important;}
+.u-mt20{ margin-top: 20px !important;}
+.u-mt25{ margin-top: 25px !important;}
+.u-mt30{ margin-top: 30px !important;}
+.u-mt35{ margin-top: 35px !important;}
+.u-mt40{ margin-top: 40px !important;}
+.u-mt45{ margin-top: 45px !important;}
+.u-mt50{ margin-top: 50px !important;}
+.u-mt55{ margin-top: 55px !important;}
+
+.u-mb0{ margin-bottom: 0px !important;}
+.u-mb5{ margin-bottom: 5px !important;}
+.u-mb10{ margin-bottom: 10px !important;}
+.u-mb15{ margin-bottom: 15px !important;}
+.u-mb20{ margin-bottom: 20px !important;}
+.u-mb25{ margin-bottom: 25px !important;}
+.u-mb30{ margin-bottom: 30px !important;}
+.u-mb35{ margin-bottom: 35px !important;}
+.u-mb40{ margin-bottom: 40px !important;}
+.u-mb45{ margin-bottom: 45px !important;}
+.u-mb50{ margin-bottom: 50px !important;}
+.u-mb55{ margin-bottom: 55px !important;}
+
+/*=======================================
+テキスト色
+=========================================*/
+.u-textcolor1{ color: #D80000 !important;}
+.u-textcolor2{ color: #EE5402 !important;}
+
+
+/*=======================================
+リスト
+=========================================*/
+.u-disc{
+	margin-left: 1.5em;
+	li{
+		list-style-type: disc;
+	}
+}
+
+/*=======================================
+アンカー位置調整
+=========================================*/
+.u-anchor{
+	margin-top: -48px;
+	padding-top: 48px;
+}
+
+/*=======================================
+準備中メッセージ
+=========================================*/
+.u-pre{
+	text-align: center;
+	padding: 80px 0;
+}
+
+
+/*=======================================
+制作時用 browser-sync
+=========================================*/
+#__bs_notify__{
+	opacity: 0.3 !important;
+	font-size: 5px !important;
+	line-height: 100% !important;
+	padding: 0 5px 0 5px !important;
+	-webkit-border-radius: 0 !important;
+	        border-radius: 0 !important;
+
+}

@@ -1,0 +1,167 @@
+/* ===================================================================
+CSS information
+ file name  :  default.css
+ style info :  リセット及びbody初期設定 (このスタイルシートは基本的に変更しない)
+=================================================================== */
+/* change min-width to suit your needs */
+#wrapper{
+	width:320px;
+	margin-left:auto;
+	margin-right:auto;
+}
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 13px;
+	color: #161616;
+	vertical-align: baseline;
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+nav ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration:none;
+	color: #161616;
+	cursor:pointer;
+	outline:none;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: normal;
+	font-weight: bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout:fixed;
+}
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+input[type="submit"]{
+	cursor:pointer;
+	border:none;
+	}
+textarea{
+	resize:vertical;
+	overflow:hidden;
+	}
+input, select {
+	vertical-align: middle;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+li {
+	list-style:none;
+}
+.ie6_error, .noScript {
+	background:#F66;
+	padding: 30px;
+	text-align:center;
+	font-size:150%;
+	color:#333;
+}
+.last-child {
+	margin:0 !important;
+}
+/*utility*/
+
+.flt {
+	float: left;
+}
+.flr {
+	float: right;
+}
+.txt_l, td.txt_l, .txt_l td {
+	text-align: left;
+}
+.txt_r, td.txt_r, .txt_r td {
+	text-align: right;
+}
+.txt_c, td.txt_c, .txt_c td {
+	text-align: center;
+}
+.valign_t, td.valign_t, .valign_t td {
+	vertical-align: top;
+}
+.valign_m, td.valign_m, .valign_m td {
+	vertical-align: middle;
+}
+.valign_b, td.valign_b, .valign_b td {
+	vertical-align: bottom;
+}
+.clear {
+	clear: both;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: block;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
+address{
+	font-style:normal;
+	}

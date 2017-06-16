@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+html5doctor.com Reset Stylesheet
+v1.4.1
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-align:left;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+	display:block;
+}
+
+nav ul,
+section ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+a:hover {
+	opacity:0.5;
+}
+
+/* clearfix */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+
+
+/* header */
+header{border-top:21px solid #2662a3;}
+.header_wrap{margin:-21px auto 0; width:920px;}
+h1 {color:#fff; font-size:12px; font-weight:normal; padding-top:5px; height:16px; margin-bottom:15px; line-height:1;}
+.hd_left{float:left;}
+.hd_right{float:right;}
+#logo{float:left; margin-right:15px;}
+#room_name{float:left; padding-top:20px;}
+#inq_tel{background: url(../images/otonapc/ico-tel.jpg) no-repeat left 15px; padding-left:40px; margin-top:15px; line-height:1;}
+#inq_tel dt{font-size:16px; margin-bottom:2px; line-height:1;}
+#inq_tel dd{font-size:36px; line-height:1;}
+
+/* nav */
+nav{height:50px; background:#2662a3; margin:15px 0 12px;}
+nav ul{margin:0 auto; width:920px;}
+nav li{float:left;}
+.btn_nav{margin:10px 2px 0;}
+.btn_nav_inq{margin:5px 0 0;}
+
+/* main */
+main{margin-bottom:40px;}
+main #main_contents{margin:0 auto; width:920px;}
+
+main .info_cate{background:#f5f7d0; padding:12px 26px;}
+main .info_cate dt{float:left; margin-right:30px;}
+main .info_cate dd{float:left; font-size:18px; line-height:1.8;}
+
+main #top_img{margin-bottom:20px;}
+
+main .info{margin:20px 0;}
+main .info dt{font-size:16px; font-weight:bold; text-align:center; color:#666; margin-bottom:20px;}
+main .info dd{float:left; width:200px; margin:0 14px; line-height:1.3;}
+
+main .info_course_wrap{
+	background:#FED64E;
+	border-radius: 20px;        /* CSS3草案 */
+    -webkit-border-radius: 20px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 20px;   /* Firefox用 */
+	padding:36px;
+}
+main .info_course{margin:0 0 20px;}
+main .info_course dt{width:154px; float:left; margin:0 30px 0 0;}
+main .info_course dd{width:400px; float:left; line-height:1.3;}
+main .info_course dd.img_course{width:181px; margin-left:30px;}
+main .info_course dd h3{font-size:18px; margin-bottom:10px;}
+main .info_course dd h3.pc{color:#0088C1;}
+main .info_course dd h3.ipad{color:#EA5E60;}
+main .info_course dd h3.program{color:#1B914C;}
+main .info_course dd p{font-size:14px;}
+main .free_trial{width:700px;}
+main .free_trial dd{background:#fff; margin-left:33px;}
+
+main .info_course_img{margin-bottom:20px;}
+
+main .btn_course_area{height:73px;margin-bottom:40px;}
+main .btn_course_area li{float:left; margin:0 1px;}
+
+main .info_other{height:149px; margin-bottom:20px;}
+main .info_other li{float:left; margin:0 2px;}
+main .event_img{margin-bottom:20px;}
+
+main .btn_inq{width:920px; margin-bottom:40px;}
+main .btn_inq a{margin:0 auto; display:block; width:504px;}
+
+/* footer */
+footer{border-top:2px solid #ccc; padding:15px 0; text-align:center; font-size:12px;}
+.footer_wrap{margin:0 auto; width:920px;}
+
+/* toiawase */
+#contents_wrap{border-top:10px solid #2662a3; margin-top:15px;}
+#contents{margin:0 auto;}

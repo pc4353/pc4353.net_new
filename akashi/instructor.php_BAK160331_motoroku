@@ -1,0 +1,82 @@
+<?php
+require_once("config.php");
+require_once("../lib/config.php");
+include_once("../lib/header.php");
+?>
+					<h1><img src="/images/inst_03.png" width="632" height="45" alt="インストラクターのご紹介" /></h1>
+					<p><img src="/images/inst_05.png" width="632" height="93" alt="「できない」悩みが「楽しくできる！」喜びの笑顔に変わる。私たちが熱い想いといっぱいの笑顔で、必ずできるようにフォローします！" /></p>
+					<p class="mB30"><img src="/<?=$room[$id][dir]?>/images/inst_06.jpg" alt="インストラクターの写真" /></p>
+					<h2 class="mB20"><img src="/images/inst_08.png" width="632" height="45" alt="インストラクターからのメッセージ" /></h2>
+					
+					<div class="inst_detail">
+				   <div class="i-voice clearfix mB20"> 
+                        <div class="section-lv2 moz2 clearfix"> 
+                            <div class="box-a"> 
+                                <img class="mB10" src="/<?=$room[$id][dir]?>/images/inst_01.jpg" width="214" height="221" alt="インストラクター写真" /> 
+                                <h2>谷口 先生</h2>
+                            </div><!-- /.box-a --> 
+                            <div class="box-b">
+                                <dl> 
+                                    <dt>○○日本一</dt> 
+                                    <dd>パソコン大好きなインスト日本一</dd> 
+                                </dl> 
+                                <dl> 
+                                    <dt>ひとこと</dt> 
+                                    <dd>パソコンのことなら何でも聞いてください。<br />真心込めた指導を致します！</dd>
+                                </dl> 
+                                <p><span class="option2">受講生から見た谷口先生</span><br />谷口先生はパソコンが大好きな先生だと思います。受講以外でも、パソコンの「なぜ？」を質問すると、具体的に分かり易く教えてくださるので「なるほど！」とスッキリします。<br />ハキハキとしていて、いつもこちらの話を嬉しそうに聞いて下さるので、元気と活力をいただいています。</p> 
+                            </div><!-- /.box-b --> 
+                        </div><!-- /.section-lv2 --> 
+                        <div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div> 
+                    </div><!-- /.i-voice --> 				
+
+				   <div class="i-voice clearfix mB20"> 
+                        <div class="section-lv2 moz2 clearfix"> 
+                            <div class="box-a"> 
+                                <img class="mB10" src="/<?=$room[$id][dir]?>/images/inst_02.jpg" width="214" height="221" alt="インストラクター写真" /> 
+                                <h2>本多 先生</h2>
+                            </div><!-- /.box-a --> 
+                            <div class="box-b">
+                                <dl> 
+                                    <dt>○○日本一</dt> 
+                                    <dd>親身なインスト日本一</dd> 
+                                </dl> 
+                                <dl> 
+                                    <dt>ひとこと</dt> 
+                                    <dd>パソコンが苦手な方、パソコンを触るのが怖い方、<br />「出来た☆」という達成感を一緒に味わいましょう！<br />楽しく、そしてしっかりサポート致します！</dd> 
+                                </dl> 
+                                <p><span class="option2">受講生から見た本多先生</span><br />お洒落な優しい先生で、文書を作るときにデザインの相談をすると、とても素敵なアドバイスをくださいます。パソコン以外のことでも、私たちの変化によく気が付いて、気さくに声をかけてくれるので、教室に通うのが楽しみです。</p> 
+                            </div><!-- /.box-b --> 
+                        </div><!-- /.section-lv2 --> 
+                        <div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div> 
+                    </div><!-- /.i-voice --> 				
+				   
+				   <div class="i-voice clearfix mB20"> 
+                        <div class="section-lv2 moz2 clearfix"> 
+                            <div class="box-a"> 
+                                <img class="mB10" src="/<?=$room[$id][dir]?>/images/inst_04.jpg" width="214" height="221" alt="インストラクター写真" /> 
+                                <h2>大西 先生</h2>
+                            </div><!-- /.box-a --> 
+                            <div class="box-b">
+                                <dl> 
+                                    <dt>○○日本一</dt> 
+                                    <dd>MOSで頼れるインスト日本一</dd> 
+                                </dl> 
+                                <dl> 
+                                    <dt>ひとこと</dt> 
+                                    <dd>ワード2000エクセル2000時代からMOS資格を取得しています。たくさんの問題を解いてきた経験を皆さんの勉強や資格取得にガッチリ役立てます！</dd> 
+                                </dl> 
+                                <p><span class="option2">受講生から見た大西先生</span><br />MOSの勉強でつまずくことがあっても、大西先生に相談すると、とても親切に教えてくださいます。<br />いつもにこやかで、丁寧に教えて下さるので、こちらも安心して相談することができます。<br />問題が解けた時は、自分のことのように喜んでくださるので、自然とやる気がアップします！</p> 
+                            </div><!-- /.box-b --> 
+                        </div><!-- /.section-lv2 --> 
+                        <div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div> 
+                    </div><!-- /.i-voice --> 				
+				   
+				   
+                   </div><!-- /.inst_detail --> 				
+				
+				</div><!-- /.block -->
+				</div><!-- /#kasou -->
+<?php
+include_once("../lib/footer.php");
+?>

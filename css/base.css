@@ -1,0 +1,471 @@
+@charset "utf-8";
+/*
+ * This Stylesheet was based on Yahoo! UI Library's Reset and Fonts CSS.
+ * http://developer.yahoo.com/yui/reset/
+ * http://developer.yahoo.com/yui/fonts/
+ * http://developer.yahoo.net/yui/license.txt
+*/
+/* @group ・ｽ・ｽ・ｽﾇ､・ｽ・ｽﾈ､ﾎ･・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+  line-height: 1.41;
+}
+
+body {
+  color: #333;
+  font: 13px/1.231 'Lucida Grande', Verdana, Arial, 'Hiragino Kaku Gothic Pro', Meiryo, 'メイリオ', sans-serif;
+  *font-family:Meiryo;
+  *font-size: small;
+  *font: x-small;
+  text-align: center;
+  background:url(../images/body_bg.gif) repeat;
+  }
+
+/* for Win IE8 */
+head~/* */body {
+  font: 13px/1.231 Meiryo, 'メイリオ', sans-serif;
+}
+
+html:not(:target) body {
+  font: 13px/1.231 'Lucida Grande', Verdana, Arial, 'Hiragino Kaku Gothic Pro', Meiryo, 'メイリオ', sans-serif;
+  *font: 13px/1.231 'メイリオ', Meiryo, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th {
+  text-align: left;
+}
+
+img {
+  border: none;
+  vertical-align: bottom;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+  position: relative;
+}
+
+fieldset {
+  border: none;
+}
+
+input,textarea,select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input,textarea,select {
+  *font-size: 100%;
+}
+
+input.text,
+textarea {
+  padding: 1px 2px 2px;
+  border: 1px solid #b9b9b9;
+  line-height: 1.35;
+  color: #222;
+  background: #fff url(../img/common/form_bg.png) repeat-x top;
+  font-size: 100%;
+  font-family: 'Lucida Grande', Verdana, Arial,'Hiragino Kaku Gothic Pro', sans-serif;
+  *font-family: Verdana, ・ｽ皈､・ｽ・ｪ, Meiryo, '・ｽﾍ｣・ｽ ・ｽ・ｽ・ｽ・ｽ・ｽﾃ･・ｽ', sans-serif;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+input.text {
+  _height: 1.55em;  /* for Win IE6 */
+}
+
+input.email,
+input.password,
+input.num {
+  ime-mode: inactive;
+}
+
+input.submit {
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+input.button {
+  padding: 0 2px;
+  vertical-align: middle;
+  *vertical-align: top;
+  font-size: 12px;
+  *font-size: 74%;
+  cursor: pointer;
+}
+
+textarea {
+  margin-bottom: 5px;
+  line-height: 1.21;
+  overflow: auto;
+}
+
+input.text:focus,
+textarea:focus {
+  color: #000;
+  background: #fff;
+}
+
+select {
+  cursor: pointer;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+p, ul, ol,
+ul li,
+ol li,
+table,
+table th,
+table td {
+  font-size: 100%;
+}
+
+p {
+  line-height: 1.51;
+}
+
+dt {
+
+}
+
+li {
+  line-height: 1.31;
+}
+
+table td ul,
+table td ul li,
+dl dd ul,
+dl dd ul li {
+  font-size: 100%;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+u {
+  text-decoration: underline;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* ・ｽ・ｽ・ｽﾐ､・ｽ */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 113%;
+  font-weight: bold;
+}
+
+/* ・ｽ・ｽｯ･・ｽ・ｽ鬘ｼ */
+a,
+a:link {
+  color: #006699;
+}
+
+a:visited {
+  color: #15227c;
+}
+
+a:hover,
+a:active {
+  color: #0093e3;
+  text-decoration:none;
+}
+
+hr {
+  clear: both;
+  height: 0;
+  border: none;
+}
+
+/* ・ｽﾆ･・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ */
+::-moz-selection {
+  color: #000;
+  background:#66FFFF;
+}
+
+::selection {
+  color: #000;
+  background: #f3f3f3;
+}
+
+/* @end ・ｽ・ｽ・ｽﾇ､・ｽ・ｽﾈ､ﾎ･・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ */
+
+/* @group ・ｽ・ｽ・ｽ・ｽ */
+.error,
+.new-mark,
+.required-mark,
+.alert {
+  color: #f00;
+}
+
+body.error {
+  color: #333;
+}
+
+.alert a {
+  color: #f00;
+  font-weight: bold;
+}
+
+.disabled {
+  color: #d0d0d0;
+}
+
+.success {
+  color: #00f;
+}
+
+.nobr {
+  white-space: nowrap;
+}
+
+.spacing {
+  letter-spacing: 2px;
+}
+
+.signature {
+  text-align: right;
+}
+
+.status {
+  margin-bottom: 5px;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+strong.highlight {
+  padding: 0 4px;
+  color: #000;
+  background: #ffffaa;
+}
+
+.hidden {
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.bottom {
+  line-height: 0;
+  font-size: 1px;
+  overflow: hidden;
+}
+
+span.br {
+  display: block;
+}
+
+.more {
+  font-size: 85%;
+  text-align: right;
+}
+
+p.more {
+  margin: 0 0 3px 0;
+}
+
+/*.more a {
+  padding-left: 13px;
+  background: url(../img/common/arrow.png) no-repeat 4px 4px;
+}*/
+
+.imgleft {
+  margin: 0 15px 15px 0;
+  float: left;
+}
+
+.imgright {
+  margin: 0 15px 15px 0;
+  float: right;
+}
+
+.section-lv1,
+.section-lv2,
+.section-lv3,
+.section-lv4 {
+  position: relative;
+}
+
+p.lead {
+  margin-bottom: 14px;
+}
+
+ul.pt li {
+  margin-bottom: 5px;
+  padding-left: 22px;
+}
+
+ul.lead {
+  margin-bottom: 20px;
+}
+
+ul.lead li {
+  margin-bottom: 15px;
+  line-height: 1.63;
+}
+
+div.big-submit {
+  padding: 15px 0 40px 0;
+  text-align: center;
+}
+
+.male,
+.female {
+  position: relative;
+}
+
+/* @group ロールオーバ―ボタン */
+.button a,
+.button button {
+  display: block!important;
+  text-decoration: none!important;
+}
+
+.button a:hover,
+.button button:hover {
+  background-image: none;
+}
+
+.button a span,
+.button a strong,
+.button button span {
+  visibility: hidden!important;
+}
+
+/* @end ・ｽ・ｽ・ｽ・ｽ・ｪ・ｽ・ｽ・ｽﾐ｡・ｽ・ｽﾜ･・ｽ・ｽ・ｽ */
+
+/* @group floating-clear */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac Hack \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+/* @end floating-clear */
+
+/* @end ・ｽ・ｽ・ｽ・ｽ */
+
+
+/******* general-purpose *******/
+/* margin */
+.mT0 {margin-top:0px!important;}
+.mT10 {margin-top:10px!important;}
+.mT25 {margin-top:25px!important;}
+
+.mB0 {margin-bottom:0px!important;}
+.mB5 {margin-bottom:5px!important;}
+.mB7 {margin-bottom:7px!important;}
+.mB10 {margin-bottom:10px!important;}
+.mB15 {margin-bottom:15px!important;}
+.mB20 {margin-bottom:20px!important;}
+.mB25 {margin-bottom:25px!important;}
+.mB30 {margin-bottom:30px!important;}
+.mB35 {margin-bottom:35px!important;}
+.mB40 {margin-bottom:40px!important;}
+.mB45 {margin-bottom:45px!important;}
+.mB50 {margin-bottom:50px!important;}
+
+.mR10 {margin-right:10px!important;}
+.mR15 {margin-right:15px!important;}
+.mR20 {margin-right:20px!important;}
+.mR25 {margin-right:25px!important;}
+
+.mL5 {margin-left:5px!important;}
+.mL20 {margin-left:20px!important;}
+
+.pa10{ padding:10px;}
+
+/* border */
+.bBn{ border-bottom:none!important;}
+.bTn{ border-top:none!important;}
+
+/* font */
+.font30{font-size:30px!important;}
+.font22{font-size:22px!important;}
+.font21{font-size:21px!important;}
+.font20{font-size:20px!important;}
+.font19{font-size:19px!important;}
+.font18{font-size:18px!important;}
+.font17{font-size:17px!important;}
+.font16{font-size:16px!important;}
+.font15{font-size:15px!important;}
+.font14{font-size:14px!important; line-height:1.7em;}
+.font13{font-size:13px!important;}
+.font12{font-size:12px!important;}
+.font11{font-size:11px!important;}
+.font10{font-size:10px!important;}
+
+.b{ font-weight:bold}
+.bg-check{ background:url(../images/bg_check.png) repeat-x bottom; padding-bottom:14px;}
+
+/* align */
+.align-l{ text-align:left!important;}
+.align-c{ text-align:center!important;}
+.align-r{ text-align:right!important;}
+
+/* color */
+.color666{color:#666!important;}
+.color333{color:#000!important;}
+.red{ color:#FF0000}
+.orange{ color:#ee9900}
+.orange2{ color:#ee9900; font-weight: bold; }
+.blue{ color:#29ABE2}
+.gray{ color:#666}
+
+.border img{ 1px solid #cccccc!important;}
+
+/* moz */
+.moz2{border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;}
+.moz4{border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;}
+
+/* icon */
+.icon{
+	vertical-align:middle;
+	padding:0 2px 4px 0;
+	border:none;
+}

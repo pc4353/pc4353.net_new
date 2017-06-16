@@ -1,0 +1,65 @@
+/*========================================
+スライド
+=========================================*/
+
+/* 1
+-----------------------------------------*/
+.c-slide1{
+	position:relative;
+
+	.bx-wrapper{
+	}
+
+	.bx-viewport{
+	}
+
+	.bx-controls-direction{
+		a{
+			display:block;
+			width:15px;
+			height:30px;
+			top:40%;
+			margin: -15px 0 0 0;
+			position:absolute;
+			@include hide_text;
+		}
+	}
+
+	.bx-pager{
+		text-align: center;
+	}
+
+	.bx-pager-item {
+		display: inline-block;
+		a{
+			display: block;
+			height: 9px;
+			width: 9px;
+			text-indent: -9999px;
+			background: #CACACA;
+			border-radius: 10px;
+			margin:8px 5px 0px 5px;
+			&.active{
+				background: #E60013;
+			}
+		}
+	}
+
+	.bx-prev{
+		left:3px;
+		background:url("../img/common/icon_15.png") 0 0 no-repeat;
+		-webkit-background-size: contain;
+		     -o-background-size: contain;
+		        background-size: contain;
+	}
+	.bx-next{
+		right:3px;
+		background:url("../img/common/icon_16.png") 0 0 no-repeat;
+		-webkit-background-size: contain;
+		     -o-background-size: contain;
+		        background-size: contain;
+	}
+
+}
+
+

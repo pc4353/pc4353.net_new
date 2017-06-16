@@ -1,0 +1,551 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keyword" content="" />
+
+	<title>コンタクトフォーム | ビジネスオンライン</title>
+
+	<style>
+	@import url("style.css") print;
+	@import url("style.css") all and (min-width: 641px);
+	@import url("style-sp.css") all and (max-width: 640px);
+	</style>
+
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	<script type="text/javascript" src="js/selectivizr-min.js"></script>
+	<script type="text/javascript" src="js/respond.js"></script>
+	<![endif]-->
+
+
+	<!--[if lt IE 9]><!-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!--<![endif]-->
+
+	<!--[if gte IE 9]><!-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<!--<![endif]-->
+
+	<!-- js 初期 -->
+	<script type="text/javascript" src="js/selectivizr103.js"></script>
+	<script type="text/javascript" src="js/respond.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.simplyscroll.js"></script>
+	<script type="text/javascript" src="js/jQueryAutoHeight.js"></script>
+	<script type="text/javascript" src="js/form.js"></script>
+	<script type="text/javascript" src="js/jquery.ah-placeholder.js"></script>
+
+	<script>
+	$(function(){
+
+		// 滑らかにスクロール
+		$('a[href^="#"]').click(function(){
+			$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top}, '500', 'swing');
+			return false;
+		});
+
+	});
+	</script>
+
+	<script type="text/javascript">
+	$(function(){
+
+		$('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 800);
+		        return false;
+		      }
+		    }
+		});
+
+	});
+	</script>
+
+	<!-- 高さ揃え -->
+	<script type="text/javascript">
+	jQuery(function($){
+
+		$('h4.block_ah0').autoHeight({});
+	   	$('p.block_ah1').autoHeight({column:'2', height:'height'});
+	   	$('p.block_ah2').autoHeight({column:'2', height:'height'});
+
+	})
+	</script>
+
+
+</head>
+<body>
+
+
+<div id="container">
+
+	<div class="l-header">
+		<div class="c-header__block1">
+			<h1><a href="http://dns1.prontonet.ne.jp/hp/nagamatsu/cheery_lp2/"><img src="img/logo.png" width="555" height="81" alt="ビジネスオンライン" /></a></h1>
+		</div><!-- c-header__block1 -->
+
+		<div class="c-header__block2">
+			<h2><img src="img/head_img01.png" width="724" height="155" alt="これまでなかった自宅＋教室で学べる 新パソコンスクール誕生！" /></h2>
+		</div><!-- /.c-header__block2 -->
+	</div><!-- /.l-header -->
+
+	<div class="l-contact">
+
+		<div class="c-contact-block1">
+			<h2>教室見学・無料体験予約フォーム</h2>
+		</div><!-- /.c-contact-block1 -->
+
+
+		<div class="c-contact-block2">
+
+		<script type="text/javascript">
+			function Mcheck(){
+
+				var i;
+
+				// 希望教室
+				if (document.form1.都道府県.value=="") {
+					window.alert("都道府県を入力してください。");
+					return false
+				}
+
+				if (document.form1.教室名.value=="") {
+					window.alert("教室名を入力してください。");
+					return false
+				}
+
+
+				// 希望日時
+				if (document.form1.年.value=="") {
+					window.alert("希望日時「年」を入力してください。");
+					return false
+				}
+
+				if (document.form1.月.value=="") {
+					window.alert("希望日時「月」を入力してください。");
+					return false
+				}
+
+				if (document.form1.日.value=="") {
+					window.alert("希望日時「日」を入力してください。");
+					return false
+				}
+
+				if (document.form1.時間帯.value=="") {
+					window.alert("希望日時「時間帯」を入力してください。");
+					return false
+				}
+
+				// 氏名
+				if (document.form1.姓.value=="") {
+					window.alert("お名前を入力してください。");
+					return false
+				}
+
+				if (document.form1.名.value=="") {
+					window.alert("お名前を入力してください。");
+					return false
+				}
+
+				// 電話番号
+				if (document.form1.電話番号.value=="") {
+					window.alert("電話番号を入力してください。");
+					return false
+				}
+
+			}
+			</script>
+
+
+			<form method="post" action="mailto:nagamatsu@prontonet.co.jp" subject="テスト" name="form1" onsubmit="return Mcheck()" accept-charset="Shift_JIS">
+
+
+			<h3>お客様情報の入力</h3>
+
+			<table>
+
+				<tr>
+					<th><label for="school">希望教室<span class="l"><a href="http://www.pc4353.net/school/" target="_blank">教室一覧はこちら</a></span><span class="h">必須</span></label></th>
+					<td>都道府県 <select id="f_pref" name="都道府県">
+								<option value="" selected="selected">--</option>
+								<option value="01">福島県</option>
+								<option value="02">茨城県</option>
+								<option value="03">埼玉県</option>
+								<option value="04">千葉県</option>
+								<option value="05">東京都</option>
+								<option value="06">神奈川県</option>
+								<option value="07">岐阜県</option>
+								<option value="08">静岡県</option>
+								<option value="09">愛知県</option>
+								<option value="10">滋賀県</option>
+								<option value="11">京都府</option>
+								<option value="12">大阪府</option>
+								<option value="13">兵庫県</option>
+								<option value="14">奈良県</option>
+								<option value="15">岡山県</option>
+								<option value="16">徳島県</option>
+								<option value="17">福岡県</option>
+							</select>
+							　<br class="sp-only">教室名 <select id="s_name" name="福島_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="01_01">会津若松ひのき町教室</option>
+							</select>
+							<!--<select id="s_name" name="茨城_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="02_01">イトーヨーカドー竜ヶ崎店教室</option>
+							</select>
+							<select id="s_name" name="埼玉_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="03_01">まるひろ入間店教室</option>
+								<option value="03_02">まるひろ南浦和店教室</option>
+								<option value="03_03">まるひろ上尾店教室</option>
+								<option value="03_04">ザ・プライス川口店教室</option>
+								<option value="03_05">イトーヨーカドー錦町店教室</option>
+								<option value="03_06">イトーヨーカドー三郷店教室</option>
+								<option value="03_07">越谷サンシティ教室</option>
+								<option value="03_08">イトーヨーカドー春日部店教室</option>
+								<option value="03_09">いなげや毛呂店教室</option>
+								<option value="03_10">イオン所沢教室（旧ダイエー所沢）</option>
+								<option value="03_11">イトーヨーカドー深谷店教室</option>
+								<option value="03_12">ひばりが丘教室</option>
+								<option value="03_13">東松山教室</option>
+							</select>
+							<select id="s_name" name="千葉_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="04_01">イオン鎌取店教室</option>
+								<option value="04_02">イオン市川妙典店教室</option>
+								<option value="04_03">ボンベルタ成田教室</option>
+								<option value="04_04">イオン稲毛店教室</option>
+								<option value="04_05">イオン北小金店教室</option>
+								<option value="04_06">おおたかの森S・C教室</option>
+								<option value="04_07">イトーヨーカドー流山店教室</option>
+								<option value="04_08">西友常盤平店教室</option>
+								<option value="04_09">イトーヨーカドー松戸店教室</option>
+								<option value="04_10">イトーヨーカドー船橋店教室</option>
+								<option value="04_11">サミット馬込沢店教室</option>
+								<option value="04_12">イトーヨーカドー津田沼店教室</option>
+								<option value="04_13">イトーヨーカドー新浦安店教室</option>
+								<option value="04_14">イオンユーカリが丘店教室</option>
+								<option value="04_15">イオン茂原店教室</option>
+								<option value="04_16">イトーヨーカドー柏店教室</option>
+								<option value="04_17">アビイクオーレ我孫子教室</option>
+							</select>
+							<select id="s_name" name="東京_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="05_01">イトーヨーカドー竹の塚店教室</option>
+								<option value="05_02">イトーヨーカドー金町店教室</option>
+								<option value="05_03">イトーヨーカドー亀有駅前店教室</option>
+								<option value="05_04">イトーヨーカドーアリオ亀有店教室</option>
+								<option value="05_05">イトーヨーカドー葛西店教室</option>
+								<option value="05_06">ダイエー東大島店教室</option>
+								<option value="05_07">大泉学園ゆめりあ教室</option>
+								<option value="05_08">ダイエー西八王子店教室</option>
+								<option value="05_09">西友福生店教室</option>
+							</select>
+							<select id="s_name" name="神奈川_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="06_01">センター北あいたい教室</option>
+								<option value="06_02">イトーヨーカドー川崎店教室</option>
+								<option value="06_03">イオン東神奈川店教室</option>
+								<option value="06_04">とうきゅうすすき野店教室</option>
+								<option value="06_05">イトーヨーカドー相模原店教室</option>
+								<option value="06_06">イトーヨーカドー古淵店教室</option>
+								<option value="06_07">イオン橋本店教室</option>
+								<option value="06_08">ショッパーズプラザ海老名教室</option>
+								<option value="06_09">イトーヨーカドー湘南台店教室</option>
+								<option value="06_10">イトーヨーカドー茅ヶ崎店教室</option>
+								<option value="06_11">伊勢原駅前教室</option>
+								<option value="06_12">島忠ホームズ川崎大師店教室</option>
+								<option value="06_13">ノジマ鴨宮店教室</option>
+								<option value="06_14">二俣川教室</option>
+								<option value="06_15">ダイエー向ヶ丘教室</option>
+								<option value="06_16">瀬谷教室</option>
+							</select>
+							<select id="s_name" name="岐阜_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="07_01">ピアゴ多治見教室</option>
+							</select>
+							<select id="s_name" name="静岡_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="08_01">沼津イシバシプラザ教室</option>
+								<option value="08_02">浜松プラザフレスポ教室</option>
+								<option value="08_03">遠鉄百貨店教室</option>
+							</select>
+							<select id="s_name" name="愛知_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="09_01">イトーヨーカドー豊橋教室</option>
+								<option value="09_02">岡崎シビコ教室</option>
+								<option value="09_03">イオン上飯田教室</option>
+								<option value="09_04">イトーヨーカドー尾張旭教室</option>
+								<option value="09_05">津島教室</option>
+								<option value="09_06">豊田フランテ館教室</option>
+							</select>
+							<select id="s_name" name="滋賀_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="10_01">フェリエ南草津教室</option>
+								<option value="10_02">アル・プラザ近江八幡教室</option>
+							</select>
+							<select id="s_name" name="京都_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="11_01">ダイエー桂南教室</option>
+								<option value="11_02">西友山科教室</option>
+								<option value="11_03">ヒカリ屋山科教室</option>
+								<option value="11_04">イトーヨーカドー六地蔵教室</option>
+								<option value="11_05">ライフ太秦教室</option>
+							</select>
+							<select id="s_name" name="大阪_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="12_01">イオン北千里教室</option>
+								<option value="12_02">イオン京橋教室（旧ダイエー京橋教室）</option>
+								<option value="12_03">イオン高見教室</option>
+								<option value="12_04">メラード大和田教室</option>
+								<option value="12_05">ダイエー吹田教室</option>
+								<option value="12_06">イズミヤ千里丘教室</option>
+								<option value="12_07">ライフ門真教室</option>
+								<option value="12_08">ライフ香里園教室</option>
+								<option value="12_09">イズミヤ東寝屋川店教室</option>
+								<option value="12_10">イズミヤ若江岩田教室</option>
+								<option value="12_11">イトーヨーカドー東大阪教室</option>
+								<option value="12_12">はやし山本教室</option>
+								<option value="12_13">イトーヨーカドー八尾教室</option>
+								<option value="12_14">ライフ国分教室</option>
+								<option value="12_15">エコール・ロゼ教室</option>
+								<option value="12_16">ダイエー光明池教室</option>
+								<option value="12_17">イズミヤ泉佐野教室</option>
+								<option value="12_18">ダイエー北野田教室</option>
+								<option value="12_19">イトーヨーカドーあべの教室</option>
+								<option value="12_20">千里中央教室</option>
+								<option value="12_21">新大阪リビング教室</option>
+								<option value="12_22">箕面教室</option>
+								<option value="12_23">豊中リビング教室</option>
+								<option value="12_24">ベルマージュ堺教室</option>
+							</select>
+							<select id="s_name" name="兵庫_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="13_01">アステ川西教室</option>
+								<option value="13_02">イオン西宮教室（旧ダイエー西宮教室）</option>
+								<option value="13_03">ライフ春日野道教室</option>
+								<option value="13_04">ダイエー三宮駅前教室</option>
+								<option value="13_05">イズミヤ西神戸店教室</option>
+								<option value="13_06">イトーヨーカドー甲子園教室</option>
+								<option value="13_07">伊丹駅前教室</option>
+								<option value="13_08">イトーヨーカドー広畑教室</option>
+								<option value="13_09">咲ランドショッピングセンター教室</option>
+								<option value="13_10">コープ西明石教室</option>
+								<option value="13_11">イトーヨーカドー明石教室</option>
+							</select>
+							<select id="s_name" name="奈良_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="14_01">ならファミリー教室</option>
+								<option value="14_02">ライフ学園前教室</option>
+								<option value="14_03">エコール・マミ教室</option>
+							</select>
+							<select id="s_name" name="岡山_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="15_01">高梁教室</option>
+							</select>
+							<select id="s_name" name="徳島_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="16_01">フジグラン北島教室</option>
+							</select>
+							<select id="s_name" name="福岡_教室名">
+								<option value="" selected="selected">--</option>
+								<option value="17_01">イオン笹丘教室</option>
+								<option value="17_02">スピナマート中井店教室</option>-->
+							</td>
+				</tr>
+
+				<tr>
+					<th>希望日時<span class="h">必須</span></th>
+					<td><select id="year" name="年">
+								<option value="" selected="selected">--</option>
+								<option value="y2016">2016</option>
+								<option value="y2017">2017</option>
+								<option value="y2018">2018</option>
+								<option value="y2019">2019</option>
+								<option value="y2020">2020</option>
+							</select> 年　
+							<select id="month" name="月">
+								<option value="" selected="selected">--</option>
+								<option value="m1">1</option>
+								<option value="m2">2</option>
+								<option value="m3">3</option>
+								<option value="m4">4</option>
+								<option value="m5">5</option>
+								<option value="m6">6</option>
+								<option value="m7">7</option>
+								<option value="m8">8</option>
+								<option value="m9">9</option>
+								<option value="m10">10</option>
+								<option value="m11">11</option>
+								<option value="m12">12</option>
+							</select> 月　
+							<select id="day" name="日">
+								<option value="" selected="selected">--</option>
+								<option value="d1">1</option>
+								<option value="d2">2</option>
+								<option value="d3">3</option>
+								<option value="d4">4</option>
+								<option value="d5">5</option>
+								<option value="d6">6</option>
+								<option value="d7">7</option>
+								<option value="d8">8</option>
+								<option value="d9">9</option>
+								<option value="d10">10</option>
+								<option value="d11">11</option>
+								<option value="d12">12</option>
+								<option value="d13">13</option>
+								<option value="d14">14</option>
+								<option value="d15">15</option>
+								<option value="d16">16</option>
+								<option value="d17">17</option>
+								<option value="d18">18</option>
+								<option value="d19">19</option>
+								<option value="d20">20</option>
+								<option value="d21">21</option>
+								<option value="d22">22</option>
+								<option value="d23">23</option>
+								<option value="d24">24</option>
+								<option value="d25">25</option>
+								<option value="d26">26</option>
+								<option value="d27">27</option>
+								<option value="d28">28</option>
+								<option value="d29">29</option>
+								<option value="d30">30</option>
+								<option value="d31">31</option>
+							</select> 日
+							　<br class="sp-only">時間帯　<select id="time" name="時間帯">
+								<option value="" selected="selected">--</option>
+								<option value="t10">10時台</option>
+								<option value="t11">11時台</option>
+								<option value="t12">12時台</option>
+								<option value="t13">13時台</option>
+								<option value="t14">14時台</option>
+								<option value="t15">15時台</option>
+								<option value="t16">16時台</option>
+								<option value="t17">17時台</option>
+								<option value="t18">18時台</option>
+								<option value="t19">19時台</option>
+							</select></td>
+				</tr>
+
+				<tr>
+					<th><label for="name">氏名<span class="h">必須</span></label></th>
+					<td>姓：<input id="f_name" name="姓" type="text" placeholder=" 例：山田" />　<br class="sp-only">名：<input id="l_name" name="名" type="text" placeholder=" 例：太郎" /></td>
+				</tr>
+
+				<tr>
+					<th><label for="furi">ふりがな</label></th>
+					<td>姓：<input id="f_furi" name="セイ" type="text" placeholder=" 例：やまだ" />　<br class="sp-only">名：<input id="l_furi" name="メイ" type="text" placeholder=" 例：たろう" /></td>
+				</tr>
+
+				<tr>
+					<th><label for="age">年代</label></th>
+					<td><select id="age" name="年代">
+								<option value="" selected="selected">--</option>
+								<option value="10">10代</option>
+								<option value="20">20代</option>
+								<option value="30">30代</option>
+								<option value="40">40代</option>
+								<option value="50">50代</option>
+								<option value="60">60代</option>
+								<option value="70">70代</option>
+								<option value="80">80代</option>
+							</select> 代</td>
+				</tr>
+
+				<tr>
+					<th><label for="tel">電話番号（携帯可）<span class="h">必須</span></label></th>
+					<td><input id="tel" name="電話番号" type="text" placeholder=" 例：09000000000" /></td>
+				</tr>
+
+				<tr>
+					<th><label for="mail">メールアドレス</label></th>
+					<td><input id="mail" name="メール" type="text" placeholder=" 例：bo@example.jp" /></td>
+				</tr>
+
+				<tr>
+					<th><label for="message">その他ご要望</label></th>
+					<td><textarea id="message" name="要望" wrap="PHYSICAL"></textarea></td>
+				</tr>
+
+			</table>
+
+			<p>無料体験をお申込みの方にはご予約確定の旨、教室から折返しご連絡をさせていただきます。</p>
+
+			<div class="c-contact_btn01">
+				<input type="image" src="img/contact_btn01.png" width="450" height="100" class="content09_submit" />
+			</div><!-- /.c-contact_btn01 -->
+
+
+			</form>
+
+		</div><!-- /.c-contact-block2 -->
+
+
+		<div class="c-contact-block3">
+			<h3>個人情報の取扱いについて</h3>
+
+			<div class="c-contact-block3__box">
+				<p>株式会社チアリー（以下「当社」と記す）は個人情報を扱う企業として、個人情報保護についての重要性・社会的責任を認識し、ここに個人情報保護方針を定め、これを実行、維持することにより個人情報の保護に努めます。</p>
+			</div><!-- /.c-contact-block3__box -->
+
+			<div class="c-contact-block3__box">
+				<h4>第1.個人情報保護に関する法令や規律の遵守</h4>
+				<p>当社は、個人情報の保護に関する法令およびその他の規範を遵守し、個人情報を適正に取り扱います。</p>
+			</div><!-- /.c-contact-block3__box -->
+
+			<div class="c-contact-block3__box">
+				<h4>第2.個人情報の取得</h4>
+				<p>当社は、個人情報の保護に関する法令およびその他の規範を遵守し、個人情報を適正に取り扱います。当社が個人情報を取得する際には、利用目的を明確化するよう努力し、適法かつ公正な手段によって、個人情報を取得します。</p>
+			</div><!-- /.c-contact-block3__box -->
+
+			<div class="c-contact-block3__box">
+				<h4>第3.個人情報の利用</h4>
+				<p>当社が取得した個人情報は、取得の際に示した利用目的もしくは、それと合法的な関連性のある範囲内で、業務の遂行上必要な限りにおいて利用します。</p>
+			</div><!-- /.c-contact-block3__box -->
+
+			<div class="c-contact-block3__box">
+				<h4>第4.個人情報の管理</h4>
+				<p>当社は、個人情報の正確性および最新性を保ち、安全に管理するとともに個人情報の紛失、改ざん、漏えいなどを防止するため、必要かつ適正な情報セキュリティー対策を実現します。</p>
+			</div><!-- /.c-contact-block3__box -->
+
+			<div class="c-contact-block3__box">
+				<h4>第5.個人情報の開示・訂正・利用停止・消去</h4>
+				<p>当社は、本人が個人情報について、開示・訂正・利用停止・消去などを求める権利を有していることを認識し、個人情報相談窓口を設置して、これらの要求がある場合には、法令に従って速やかに対応します。</p>
+			</div><!-- /.c-contact-block3__box -->
+
+			<div class="c-contact-block3__box">
+				<h4>第6.組織・体制</h4>
+				<p>当社は、業務上使用する個人情報について適正な管理を実施するとともに、業務上の個人情報の適正な取扱いを実現するための体制を構築します。</p>
+			</div><!-- /.c-contact-block3__box -->
+
+			<div class="c-contact-block3__box">
+				<h4>第7.見直し・改善・教育</h4>
+				<p>当社は、この個人情報保護方針を実施するため、コンプライアンス・プログラムの要求事項を尊重し、これに準じた管理体制を構築するために随時見直し改善し、これを研修・教育を通じて社内に周知徹底させて実行し、継続的に改善することに努めてまいります。</p>
+			</div><!-- /.c-contact-block3__box -->
+
+		</div><!-- /.c-contact-block3 -->
+
+	</div><!-- /.l-contact -->
+
+
+	<div class="l-contact-footer">
+		<h6>Copyright (C) 2016 ○○○○○○○. All Rights Reserved.</h6>
+	</div><!-- /.l-contact-footer -->
+
+</div><!-- /#container -->
+
+
+</body>
+</html>

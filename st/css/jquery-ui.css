@@ -1,0 +1,84 @@
+/*! jQuery UI - v1.11.2 - 2015-01-27
+* http://jqueryui.com
+* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */
+
+
+#accordion {
+	border-top: 1px solid #cccccc;
+}
+
+/* Overlays */
+
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+/*	margin: 0;
+	padding: 5px 10px;*/
+	min-height: 0; /* support: IE7 */
+
+	background-image:url(../../sp%20-%20Copy/images/bg0003.jpg);
+	background-repeat:repeat-x;
+	background-position:left center;
+	height:40px;
+	color: #000;
+	margin: 0;
+	padding: 20px 0 5px 10px;
+	text-align: left;
+	border-bottom:1px solid #afafaf;
+	font-size:20px;
+	font-weight:bold;
+	line-height:0.8em;
+
+}
+.ui-accordion .ui-accordion-icons {
+	padding-left: 10px;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	right: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 5px;
+	overflow: auto;
+}
+
+
+/* Component containers
+----------------------------------*/
+
+.ui-widget-content {
+	border-bottom: 1px solid #cccccc;
+}
+
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default {
+	border:none;
+	border-bottom: 1px solid #cccccc;
+	font-weight: bold;
+}
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	width: 30px;
+	height: 22px;
+}
+
+/* positioning */
+.ui-icon-triangle-1-e { 
+	background-image: url("../../st/css/images/point_plus3.png");
+}
+
+.ui-icon-triangle-1-s { 
+	background-image: url("../../st/css/images/point_none3.png");
+
+}
+
+
+

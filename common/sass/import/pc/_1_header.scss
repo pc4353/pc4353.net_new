@@ -1,0 +1,152 @@
+/*=======================================
+ヘッダー
+=========================================*/
+.l-header {background: #fff;}
+
+
+.l-header1 {
+
+	padding: 6px 0 14px;
+	
+	&__txt1 {
+		margin-bottom: 12px;
+		p {
+			color: #999;
+			@include fs12;
+			line-height: 160%;
+		}
+	}
+	&__block1 {
+		float: left;
+		width: 156px;
+	}
+	&__block2 {
+		float: right;
+		width: 645px;
+		text-align: right;
+		position: relative;
+		margin-top: -10px;
+		ul {}
+		li {
+			@include inline-block;
+			vertical-align: bottom;
+			margin-left: 10px;
+			border-radius: 8px;
+			box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+			&.free {
+				width: 360px;
+				margin-left: 14px;
+				border-radius: 12px;
+			}
+		}
+	}
+
+}
+
+
+
+/*=======================================
+グローバルメニュー
+=========================================*/
+.l-nav {
+	
+	background: #144288;
+	text-align: center;
+	border-bottom: 4px solid #6191cc;
+	
+	li {
+		float: left;
+		width: 190px;
+		@include fs17;
+		a {
+			display: block;
+			text-align: center;
+			font-weight: bold;
+			text-decoration: none;
+			border-left: 1px solid #6191cc;
+			color: #fff;
+			padding: 16px 0;
+			position: relative;
+			&:hover {background: #10356d;}
+		}
+		&:last-child a {border-right: 1px solid #6191cc;}
+		&.li1 {width: 240px;}
+		&.active a {
+			background: #10356d;
+			&:after {
+				display: block;
+				content: "";
+				position: absolute;
+				bottom: -4px;
+				left: 50%;
+				margin-left: -10px;
+				background: url(../img/common/nav1_bg1.png) no-repeat center;
+				width: 20px;
+				height: 4px;
+			}
+		}
+	}
+
+}
+
+
+
+/*=======================================
+パンくず
+=========================================*/
+.l-breadcrumb {
+	
+	background: #e8e6d7;
+	text-align: left;
+	padding: 6px;
+	@include fs13;
+	
+	li {
+		@include inline-block;
+		vertical-align: middle;
+		background: url(../img/common/breadcrumb_icon1.png) no-repeat left center;
+		padding-left: 12px;
+		margin-left: 9px;
+		&:first-child {
+			background: none;
+			padding-left: 0;
+			margin-left: 0;
+		}
+	}
+
+}
+
+
+
+/*=======================================
+ページタイトル
+=========================================*/
+.l-pagetitle {
+	
+	background: #4178bb url(../img/common/pagetitle_img1.jpg) no-repeat center;
+	background-size: contain;
+	padding: 55px 0;
+	
+	h1 {
+		@include fs34;
+		font-weight: bold;
+		text-align: left;
+		color: #fff;
+	}
+
+}
+
+
+
+
+
+/*=======================================
+スタイル上書き
+=========================================*/
+#contents {
+
+	width: 1000px;
+	background: transparent !important;
+	border: 0 !important;
+	
+}

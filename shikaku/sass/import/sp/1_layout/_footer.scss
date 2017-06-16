@@ -1,0 +1,56 @@
+/*========================================
+フッター
+=========================================*/
+
+/* インデックス
+-----------------------------------------*/
+.c-index-footer{
+	width: 100%;
+	background: #1D2087;
+
+	&__wrap{width: 95%; margin: 20px auto;
+		h5{ width: 30%; display: inline-block; float: left;
+			img{ max-width: 90%; height: auto; }
+		}
+	}
+
+	&__box1{
+		width: 70%;
+		display: inline-block;
+		margin: 10px 0 0 0;
+		float: left;
+		p{ font-size: 87%; font-weight: bold; line-height: 100%; color: #FFF; display: inline-block; margin-bottom: 10px; }
+		h5{
+			width: 95%;
+			img{ max-width: 100%; height: auto; }
+		}
+	}
+
+	&__box{
+		border-top: 2px solid #FFF;
+		h6{
+			width: 90%;
+			font-size: 11px;
+			font-weight: normal;
+			color: #FFF;
+			margin: 0 auto;
+			padding: 3px 0;
+			text-align: right;
+		}
+	}
+}
+
+
+/* コンタクト
+-----------------------------------------*/
+.l-contact-footer{
+	background: #1D2087;
+	h6{
+		font-size: 11px;
+		font-weight: normal;
+		color: #FFF;
+		line-height: 100%;
+		text-align: center;
+		padding: 6px 0 8px;
+	}
+}

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+dl.acordion{
+	margin: 0;
+}
+
+dl.acordion dt {
+	background-image:url(../images/bg0001.jpg);
+	background-repeat:repeat-x;
+	background-position:left center;
+/*	height:40px;
+	color: #000;
+	margin: 0;
+	padding: 20px 0 5px 10px;
+	text-align: left;
+	border-bottom:1px solid #afafaf;
+	font-size:20px;
+	font-weight:bold;
+	line-height:0.8em;*/
+}
+
+/*
+dl.acordion:first-child {
+	border-top:1px solid #afafaf;
+}
+dl.acordion:nth-child(1) dt { color:#9825f8;}
+dl.acordion:nth-child(2) dt { color:#5595f9;}
+dl.acordion:nth-child(3) dt { color:#449a23;}
+dl.acordion:nth-child(4) dt { color:#f49a36;}
+dl.acordion:nth-child(5) dt { color:#f10d28;}
+*/
+dl.acordion dt:hover {
+	cursor:pointer;
+/*	filter: alpha(opacity=50);-moz-opacity:0.50;opacity:0.50;*/
+}
+
+dl.acordion dt.iLeft {
+	float:left;
+}
+
+
+dl.acordion dt.trigger span.open-close {
+	float: right;
+	width: 30px;
+	height: 40px;
+	background-image: url(../images/point_plus5.png);
+	background-repeat: no-repeat;
+	background-position: right 5px;
+}
+
+dl.acordion dt.active span.open-close {
+	float: right;
+	width: 30px;
+	height: 40px;
+	background: url(../images/point_none5.png);
+	background-repeat: no-repeat;
+	background-position: right 5px;
+}
+
+dl.acordion dd {
+	border-bottom:1px solid #afafaf;
+	width:100%;
+}
+

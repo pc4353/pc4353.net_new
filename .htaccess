@@ -1,0 +1,254 @@
+Redirect permanent /about/ https://www.pc4353.net/overview.php
+Redirect permanent /about https://www.pc4353.net/overview.php
+Redirect permanent /company/ https://www.pc4353.net/about.php
+Redirect permanent /company https://www.pc4353.net/about.php
+Redirect permanent /recruit/ http://www.cheery.co.jp/saiyou/
+Redirect permanent /recruit http://www.cheery.co.jp/saiyou/
+Redirect permanent /all_school/ https://www.pc4353.net/school/
+Redirect permanent /all_school https://www.pc4353.net/school/
+Redirect permanent /security/ https://www.pc4353.net/privacy.php
+Redirect permanent /security https://www.pc4353.net/privacy.php
+Redirect permanent /sitemap/ https://www.pc4353.net/sitemap.php
+Redirect permanent /sitemap https://www.pc4353.net/sitemap.php
+Redirect permanent /faq/ https://www.pc4353.net/qa.php
+Redirect permanent /faq https://www.pc4353.net/qa.php
+Redirect permanent /ryoukin/ https://www.pc4353.net/overview.php
+Redirect permanent /ryoukin https://www.pc4353.net/overview.php
+
+Redirect permanent /course/course_beginner/ https://www.pc4353.net/course/first.php
+Redirect permanent /course/course_word/ https://www.pc4353.net/course/
+Redirect permanent /course/course_excel/ https://www.pc4353.net/course/
+Redirect permanent /course/course_ppt/ https://www.pc4353.net/course/
+Redirect permanent /course/course_khp/ https://www.pc4353.net/course/
+Redirect permanent /course/course_sougou/ https://www.pc4353.net/course/
+Redirect permanent /course/course_pken/ https://www.pc4353.net/course/qualification.php
+Redirect permanent /course/course_mos/ https://www.pc4353.net/course/qualification.php
+
+Redirect permanent /all_school/class_detail/?class=62 https://www.pc4353.net/inage/
+Redirect permanent /all_school/class_detail/?class=82 https://www.pc4353.net/yukari/
+Redirect permanent /all_school/class_detail/?class=128 https://www.pc4353.net/kobuchi/
+Redirect permanent /all_school/class_detail/?class=67 https://www.pc4353.net/nagareyama/
+Redirect permanent /all_school/class_detail/?class=93 https://www.pc4353.net/kameari/
+Redirect permanent /all_school/class_detail/?class=81 https://www.pc4353.net/shinurayasu/
+Redirect permanent /all_school/class_detail/?class=95 https://www.pc4353.net/kasai/
+Redirect permanent /all_school/class_detail/?class=120 https://www.pc4353.net/higashikanagawa/
+Redirect permanent /all_school/class_detail/?class=64 https://www.pc4353.net/kitakogane/
+Redirect permanent /all_school/class_detail/?class=71 https://www.pc4353.net/matudo/
+Redirect permanent /all_school/class_detail/?class=92 https://www.pc4353.net/kanamati/
+Redirect permanent /all_school/class_detail/?class=11 https://www.pc4353.net/tsuchiura/
+Redirect permanent /all_school/class_detail/?class=312 https://www.pc4353.net/ryugasaki/
+Redirect permanent /all_school/class_detail/?class=161 https://www.pc4353.net/isehara/
+Redirect permanent /all_school/class_detail/?class=156 https://www.pc4353.net/syonandai/
+Redirect permanent /all_school/class_detail/?class=130 https://www.pc4353.net/hashimoto/
+Redirect permanent /all_school/class_detail/?class=107 https://www.pc4353.net/oizumi/
+Redirect permanent /all_school/class_detail/?class=55 https://www.pc4353.net/tokorozawa/
+Redirect permanent /all_school/class_detail/?class=90 https://www.pc4353.net/takenotsuka/
+Redirect permanent /all_school/class_detail/?class=34 https://www.pc4353.net/kawaguchi/
+Redirect permanent /all_school/class_detail/?class=47 https://www.pc4353.net/kasukabe/
+Redirect permanent /all_school/class_detail/?class=97 https://www.pc4353.net/higashiojima/
+Redirect permanent /all_school/class_detail/?class=148 https://www.pc4353.net/ebina/
+Redirect permanent /all_school/class_detail/?class=158 https://www.pc4353.net/iy-chigasaki/
+Redirect permanent /all_school/class_detail/?class=124 https://www.pc4353.net/tokaichiba/
+Redirect permanent /all_school/class_detail/?class=111 https://www.pc4353.net/nishihachiouji/
+Redirect permanent /all_school/class_detail/?class=38 https://www.pc4353.net/nishikicho/
+Redirect permanent /all_school/class_detail/?class=88 https://www.pc4353.net/mobara/
+Redirect permanent /all_school/class_detail/?class=126 https://www.pc4353.net/sagamihara/
+Redirect permanent /all_school/class_detail/?class=70 https://www.pc4353.net/tokiwadaira/
+Redirect permanent /all_school/class_detail/?class=48 https://www.pc4353.net/moro/
+Redirect permanent /all_school/class_detail/?class=115 https://www.pc4353.net/fussa/
+Redirect permanent /all_school/class_detail/?class=61 https://www.pc4353.net/fukaya/
+Redirect permanent /all_school/class_detail/?class=74 https://www.pc4353.net/magome/
+Redirect permanent /all_school/class_detail/?class=73 https://www.pc4353.net/funabashi/
+Redirect permanent /all_school/class_detail/?class=123 https://www.pc4353.net/susukino/
+Redirect permanent /all_school/class_detail/?class=172 https://www.pc4353.net/kofusyowa/
+Redirect permanent /all_school/class_detail/?class=44 https://www.pc4353.net/misato/
+Redirect permanent /all_school/class_detail/?class=182 https://www.pc4353.net/maxfuji/
+Redirect permanent /all_school/class_detail/?class=36 https://www.pc4353.net/kawaguti/
+Redirect permanent /all_school/class_detail/?class=94 https://www.pc4353.net/kameariario/
+Redirect permanent /all_school/class_detail/?class=143 https://www.pc4353.net/tsurugamine/
+Redirect permanent /all_school/class_detail/?class=118 https://www.pc4353.net/kawasaki/
+Redirect permanent /all_school/class_detail/?class=75 https://www.pc4353.net/tsudanuma/
+Redirect permanent /all_school/class_detail/?class=328 https://www.pc4353.net/yotsugi/
+Redirect permanent /all_school/class_detail/?class=46 https://www.pc4353.net/nankoshi/
+Redirect permanent /all_school/class_detail/?class=332 https://www.pc4353.net/ootaka/
+Redirect permanent /all_school/class_detail/?class=282 https://www.pc4353.net/itami/
+Redirect permanent /all_school/class_detail/?class=209 https://www.pc4353.net/hachiman/
+Redirect permanent /all_school/class_detail/?class=309 https://www.pc4353.net/kitajima/
+Redirect permanent /all_school/class_detail/?class=270 https://www.pc4353.net/sannomiya/
+Redirect permanent /all_school/class_detail/?class=232 https://www.pc4353.net/ohwada/
+Redirect permanent /all_school/class_detail/?class=190 https://www.pc4353.net/kamiiida/
+Redirect permanent /all_school/class_detail/?class=248 https://www.pc4353.net/higashiosaka/
+Redirect permanent /all_school/class_detail/?class=185 https://www.pc4353.net/hamamatsu/
+Redirect permanent /all_school/class_detail/?class=186 https://www.pc4353.net/toyohashi/
+Redirect permanent /all_school/class_detail/?class=289 https://www.pc4353.net/hirohata/
+Redirect permanent /all_school/class_detail/?class=176 https://www.pc4353.net/yanaidu/
+Redirect permanent /all_school/class_detail/?class=252 https://www.pc4353.net/iy-yao/
+Redirect permanent /all_school/class_detail/?class=201 https://www.pc4353.net/owariasahi/
+Redirect permanent /all_school/class_detail/?class=254 https://www.pc4353.net/kokubu/
+Redirect permanent /all_school/class_detail/?class=238 https://www.pc4353.net/suita/
+Redirect permanent /all_school/class_detail/?class=242 https://www.pc4353.net/kadoma/
+Redirect permanent /all_school/class_detail/?class=295 https://www.pc4353.net/gakuenmae/
+Redirect permanent /all_school/class_detail/?class=230 https://www.pc4353.net/izuo/
+Redirect permanent /all_school/class_detail/?class=251 https://www.pc4353.net/yamamoto/
+Redirect permanent /all_school/class_detail/?class=277 https://www.pc4353.net/ashiyahama/
+Redirect permanent /all_school/class_detail/?class=219 https://www.pc4353.net/rokujizou/
+Redirect permanent /all_school/class_detail/?class=269 https://www.pc4353.net/kitanoda/
+Redirect permanent /all_school/class_detail/?class=217 https://www.pc4353.net/yamashina/
+Redirect permanent /all_school/class_detail/?class=263 https://www.pc4353.net/koumyouike/
+Redirect permanent /all_school/class_detail/?class=283 https://www.pc4353.net/nissei/
+Redirect permanent /all_school/class_detail/?class=216 https://www.pc4353.net/s-yamashina/
+Redirect permanent /all_school/class_detail/?class=187 https://www.pc4353.net/shibiko/
+Redirect permanent /all_school/class_detail/?class=204 https://www.pc4353.net/tsushima/
+Redirect permanent /all_school/class_detail/?class=273 https://www.pc4353.net/nishikobe/
+Redirect permanent /all_school/class_detail/?class=184 https://www.pc4353.net/kami/
+Redirect permanent /all_school/class_detail/?class=290 https://www.pc4353.net/sakiland/
+Redirect permanent /all_school/class_detail/?class=243 https://www.pc4353.net/koori/
+Redirect permanent /all_school/class_detail/?class=279 https://www.pc4353.net/amagasaki/
+Redirect permanent /all_school/class_detail/?class=296 https://www.pc4353.net/ecoll-mami/
+Redirect permanent /all_school/class_detail/?class=226 https://www.pc4353.net/kyobashi/
+Redirect permanent /all_school/class_detail/?class=267 https://www.pc4353.net/izumisano/
+Redirect permanent /all_school/class_detail/?class=247 https://www.pc4353.net/wakae/
+Redirect permanent /all_school/class_detail/?class=256 https://www.pc4353.net/ecoll-roze/
+Redirect permanent /all_school/class_detail/?class=244 https://www.pc4353.net/higashineyagawa/
+Redirect permanent /all_school/class_detail/?class=292 https://www.pc4353.net/akashi/
+Redirect permanent /all_school/class_detail/?class=310 https://www.pc4353.net/nakai/
+Redirect permanent /all_school/class_detail/?class=308 https://www.pc4353.net/ayaragi/
+Redirect permanent /all_school/class_detail/?class=175 https://www.pc4353.net/hozumi/
+Redirect permanent /all_school/class_detail/?class=206 https://www.pc4353.net/seta/
+Redirect permanent /all_school/class_detail/?class=281 https://www.pc4353.net/koushien/
+Redirect permanent /all_school/class_detail/?class=231 https://www.pc4353.net/takami/
+Redirect permanent /all_school/class_detail/?class=291 https://www.pc4353.net/nishiakashi/
+Redirect permanent /all_school/class_detail/?class=212 https://www.pc4353.net/katsuraminami/
+Redirect permanent /all_school/class_detail/?class=326 https://www.pc4353.net/nagata/
+Redirect permanent /all_school/class_detail/?class=223 https://www.pc4353.net/uzumasa/
+Redirect permanent /all_school/class_detail/?class=239 https://www.pc4353.net/senrioka/
+Redirect permanent /all_school/class_detail/?class=334 https://www.pc4353.net/kitasenri/
+Redirect permanent /shinurayasu_otonapc/ https://www.pc4353.net/
+Redirect permanent /kameari_otonapc/ https://www.pc4353.net/
+Redirect permanent /gakuenmae/ https://www.pc4353.net/naratomigaoka/
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://pc4353.net [NC]
+RewriteRule ^(.*)$ https://www.pc4353.net/$1 [R=301,L]
+Redirect permanent /default/ https://www.pc4353.net/
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.pc4353.net/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/index.php
+RewriteRule ^(.*)index.php$ https://www.pc4353.net/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ https://www.pc4353.net/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp.php
+RewriteRule ^(.*)sp.php$ /$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/
+RewriteRule ^(.*)sp/$ https://www.pc4353.net/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/school.html
+RewriteRule ^(.*)sp/school.html$ https://www.pc4353.net/school/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/fukushima.html
+RewriteRule ^(.*)sp/fukushima.html$ https://www.pc4353.net/school/fukushima.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/tokyo.html
+RewriteRule ^(.*)sp/tokyo.html$ https://www.pc4353.net/school/tokyo.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/kanagawa.html
+RewriteRule ^(.*)sp/kanagawa.html$ https://www.pc4353.net/school/kanagawa.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/chiba.html
+RewriteRule ^(.*)sp/chiba.html$ https://www.pc4353.net/school/chiba.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/saitama.html
+RewriteRule ^(.*)sp/saitama.html$ https://www.pc4353.net/school/saitama.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/ibaraki.html
+RewriteRule ^(.*)sp/ibaraki.html$ https://www.pc4353.net/school/ibaraki.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/aichi.html
+RewriteRule ^(.*)sp/aichi.html$ https://www.pc4353.net/school/aichi.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/gifu.html
+RewriteRule ^(.*)sp/gifu.html$ https://www.pc4353.net/school/gifu.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/shizuoka.html
+RewriteRule ^(.*)sp/shizuoka.html$ https://www.pc4353.net/school/shizuoka.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/osaka.html
+RewriteRule ^(.*)sp/osaka.html$ https://www.pc4353.net/school/osaka.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/hyougo.html
+RewriteRule ^(.*)sp/hyougo.html$ https://www.pc4353.net/school/hyogo.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/kyoto.html
+RewriteRule ^(.*)sp/kyoto.html$ https://www.pc4353.net/school/kyoto.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/nara.html
+RewriteRule ^(.*)sp/nara.html$ https://www.pc4353.net/school/nara.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/shiga.html
+RewriteRule ^(.*)sp/shiga.html$ https://www.pc4353.net/school/shiga.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/okayama.html
+RewriteRule ^(.*)sp/okayama.html$ https://www.pc4353.net/school/okayama.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/tokushima.html
+RewriteRule ^(.*)sp/tokushima.html$ https://www.pc4353.net/school/tokushima.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/fukuoka.html
+RewriteRule ^(.*)sp/fukuoka.html$ https://www.pc4353.net/school/fukuoka.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/privacy.html
+RewriteRule ^(.*)sp/privacy.html$ https://www.pc4353.net/privacy.php$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/sp/profile.html
+RewriteRule ^(.*)sp/profile.html$ https://www.pc4353.net/about.php$1 [R=301,L]
+
+ExpiresActive On
+ExpiresByType text/css "access plus 1 days"
+ExpiresByType image/gif "access plus 10 days"
+ExpiresByType image/jpg "access plus 10 days"
+ExpiresByType image/jpeg "access plus 10 days"
+ExpiresByType image/png "access plus 10 days"
+ExpiresByType application/x-javascript "access plus 10 days"
+ExpiresByType text/javascript "access plus 10 days"
+ExpiresByType application/javascript "access plus 10 days"
+ExpiresByType image/x-icon "access 10 days"
+
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript

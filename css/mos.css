@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+div#mos {
+	width: 635px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",Arial, sans-serif;
+}
+div#mos h2,
+div#mos h3,
+div#mos h4 {
+	margin: 0 0 20px 0;
+}
+div#mos p {
+	font-size: 14px;
+	line-height: 2 !important;
+	margin: 0 0 10px 0 !important;
+	padding: 0 !important;
+}
+div#mos_kv {
+	position: relative;
+	width: 636px;
+	height: 300px;
+	background: url(/images/mos2010/mos_01.jpg) 0 0 no-repeat;
+}
+div#mos_kv h1 {
+	position: absolute;
+	top: 247px;
+	left: 10px;
+	margin: 0;
+	padding: 0;
+}
+p#btn_kv {
+	position: absolute;
+	top: 254px;
+	right: 10px;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+}
+p#btn_kv a {
+	display: block;
+	width: 200px;
+	height: 30px;
+	background: url(/images/mos2010/mos_02.gif) 0 0 no-repeat;
+}
+p#btn_kv a:hover {
+	background-position:  0 -30px;
+}
+div.mos_section {
+	padding: 20px 15px;
+}
+div#mos_01 {
+	background: url(/images/mos2010/mos_12.gif) right bottom no-repeat #007CB3;
+}
+div#mos_02 {
+	background: url(/images/mos2010/mos_13.gif) right bottom no-repeat #FF8000;
+}
+div#mos_03 {
+	background: url(/images/mos2010/mos_14.gif) 386px 50px no-repeat #FC6689;
+}
+p#mos_btn {
+}
+p#mos_btn a {
+	display: block;
+	margin: 20px 0 5px 149px !important;
+	width: 320px;
+	height: 40px;
+	text-indent: -9999px;
+	background: url(/images/mos2010/mos_16.gif) 0 0 no-repeat;
+}
+p#mos_btn a:hover {
+	background-position: 0 -40px;
+}
+div#mos_04 {
+	background: url(/images/mos2010/mos_15.jpg) right bottom no-repeat #EEEEEE;
+}
+div#mos_05 {
+	background-color: #0059B3;
+}
+div#mos_06 {
+	background-color: #459500;
+}
+div#mos_05 ul,
+div#mos_06 ul {
+	margin-left: 100px;
+	list-style-type: disc !important;
+}
+div#mos_05 ul li,
+div#mos_06 ul li {
+	color: #FFF;
+	font-size: 12px;
+	list-style-type: disc !important;
+}
+div#mos_07 {
+	background-color: #FF8000;
+	border-bottom: 10px solid #00003B;
+}
+div#mos_08 {
+	background-color: #EEEEEE;
+	padding-top: 20px;
+}
+div#mos_09 {
+	background-color: #FF8000;
+}
+.pdgLR15 {
+	padding-left:15px;
+	padding-right:15px;
+}
+.fc_white {
+	color: #FFF !important;
+}
+.fc_gray {
+	color: #666 !important;
+}

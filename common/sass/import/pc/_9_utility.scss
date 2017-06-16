@@ -1,0 +1,254 @@
+//============================================
+// 余白
+//============================================
+.u-mt0 {margin-top: 0px;}
+.u-mt5 {margin-top: 5px;}
+.u-mt10 {margin-top: 10px;}
+.u-mt15 {margin-top: 15px;}
+.u-mt20 {margin-top: 20px;}
+.u-mt30 {margin-top: 30px;}
+.u-mt40 {margin-top: 40px;}
+.u-mt50 {margin-top: 50px;}
+.u-mt60 {margin-top: 60px;}
+.u-mt70 {margin-top: 70px;}
+.u-mt80 {margin-top: 80px;}
+.u-mt90 {margin-top: 90px;}
+
+.u-mb0 {margin-bottom: 0;}
+.u-mb5 {margin-bottom: 5px;}
+.u-mb10 {margin-bottom: 10px;}
+.u-mb15 {margin-bottom: 15px;}
+.u-mb20 {margin-bottom: 20px;}
+.u-mb30 {margin-bottom: 30px;}
+.u-mb40 {margin-bottom: 40px;}
+.u-mb50 {margin-bottom: 50px;}
+.u-mb60 {margin-bottom: 60px;}
+.u-mb70 {margin-bottom: 70px;}
+.u-mb80 {margin-bottom: 80px;}
+.u-mb90 {margin-bottom: 90px;}
+
+.u-pb0 {padding-bottom: 0px;}
+
+
+
+//============================================
+// 色
+//============================================
+.u-col {color: $color;}
+
+
+
+//============================================
+// フォント
+//============================================
+.u-mincho {@include mincho;}
+.u-gothic {@include gothic;}
+
+
+
+//============================================
+// 文字構え
+//============================================
+.u-center {
+	text-align: center !important;
+	th,td {text-align: center !important;}
+}
+.u-right {
+	text-align: right !important;
+	th,td {text-align: right !important;}
+}
+.u-left {
+	text-align: left !important;
+	th,td {text-align: left !important;}
+}
+.u-middle {
+	vertical-align: middle !important;
+	th,td {vertical-align: middle !important;}
+}
+.u-top {
+	vertical-align: top !important;
+	th,td {vertical-align: top !important;}
+}
+.u-bottom {
+	vertical-align: bottom !important;
+	th,td {vertical-align: bottom !important;}
+}
+
+
+
+//============================================
+// サイト幅でセンタリング
+//============================================
+.c-wrap {
+	width: $w;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.c-wrap2 {
+	width: 860px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+//============================================
+// 背景
+//============================================
+
+
+
+//============================================
+// ボタン
+//============================================
+.c-btn1 {
+	a {
+		@include inline-block;
+		background: #144288;
+		color: #fff;
+		text-decoration: none;
+		@include fs32;
+		padding: 0 70px;
+		border-radius: 12px;
+		box-shadow:
+			#10356d 0 7px 0,
+			rgba(0,0,0,.3) 0 2px 6px
+		;
+		font-weight: bold;
+		line-height: 150%;
+		position: relative;
+		top: 0;
+		span {
+			display: block;
+			background: url(../img/common/icon1_alt1.png) no-repeat left center;
+			padding: 20px 0 18px 60px;
+		}
+		&:hover {
+			top: 7px;
+			box-shadow: 
+				#10356d 0 0 0,
+				rgba(0,0,0,.3) 0 2px 6px
+			;
+		}
+	}
+}
+
+
+
+//============================================
+// 見出し
+//============================================
+.c-title1 {// 左アイコン（中見出し）
+	background: url(../img/common/title1_bg1.png) no-repeat left center !important;
+	padding: 3px 0 3px 20px !important;
+	@include fs24;
+	font-weight: bold !important;
+	height: auto !important;
+	margin: 20px 0 !important;
+	h2 {float: left;}
+	&__txt1 {
+		float: right;
+		padding-top: 6px;
+	}
+}
+
+.c-title2 {// 青背景 白文字（大見出し）
+	background: #4075b7 !important;
+	padding: 10px 15px !important;
+	border-bottom: 3px solid #ffdc00 !important;
+	margin: 20px 0 0 !important;
+	@include fs26;
+	font-weight: bold !important;
+	color: #fff !important;
+	height: auto !important;
+	line-height: 160% !important;
+}
+
+.c-title3 {// 下青線（小見出し）
+	@include fs22;
+	padding: 0 0 5px 5px !important;
+	margin: 0 0 20px !important;
+	border-bottom: 2px solid #6191cc !important;
+	background: none !important;
+}
+
+
+
+//============================================
+// テキスト
+//============================================
+.c-txt1 {}
+
+
+
+//============================================
+// リンク装飾
+//============================================
+.c-link1 {
+	a {
+		@include inline-block;
+		background: url(../img/common/icon1.png) no-repeat left center;
+		padding-left: 25px;
+		font-weight: bold;
+	}
+}
+
+.c-link2 {
+	a {
+		@include inline-block;
+		background: url(../img/common/icon2.png) no-repeat left center;
+		padding-left: 16px;
+	}
+}
+
+
+
+//============================================
+// 見出し + テキスト
+//============================================
+.c-tit_block1 {}
+
+
+
+//============================================
+// 表
+//============================================
+.c-table1 {
+	width: 100%;
+	margin: 30px 0;
+	th {
+		background: #F7F7F7;
+		text-align: center;
+		width: 160px;
+		vertical-align: top;
+		@include fs15;
+	}
+	td,th {
+		border: 1px solid #ccc;
+		padding: 20px;
+	}
+}
+
+
+
+//============================================
+// BxSlider
+//============================================
+.bx-wrapper {
+	margin-bottom: 0;
+	.bx-viewport {
+		text-align: center;
+		img {
+			display: inline;
+			width: auto;
+		}
+	}
+}
+
+
+
+//============================================
+// GoogleMap レスポンシブ
+//============================================
+.u-googlemap-wrap {}

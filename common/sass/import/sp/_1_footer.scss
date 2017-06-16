@@ -1,0 +1,144 @@
+/*=======================================
+フッター
+=========================================*/
+.l-footer {
+	
+	margin-top: 40px;
+
+}
+
+.l-footer1 {
+	
+	&__block1 {margin-bottom: 18px;}
+	&__block2 {
+		background: #e2e0ce;
+		.c-wrap {
+			position: relative;
+			padding: 25px 0;
+		}
+		ul {
+			position: relative;
+			z-index: 5;
+		}
+		li {
+			@include inline-block;
+			vertical-align: middle;
+			margin-right: 13px;
+			border-radius: 10px;
+			box-shadow: 2px 2px 8px rgba(0,0,0,.5);
+			&.free {
+				margin-right: 29px;
+				border-radius: 18px;
+			}
+		}
+		.img1 {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			z-index: 1;
+		}
+	}
+
+}
+
+
+.l-footer2 {
+
+	background: #427abe;
+	color: #fff;
+	
+	.c-wrap {margin: 0}
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+	&__block1 {
+		margin-bottom: 20px;
+		padding: 30px 10px 15px;
+		> ul {
+			&.first {padding-top: 0;}
+			> li {margin-bottom: 10px;}
+			ul {
+				padding-left: 10px;
+				li {
+					margin-top: 7px;
+					@include fs15;
+					line-height: 160%;
+				}
+			}
+		}
+	}
+	&__block2 {
+		background: #6191cc;
+		text-align: center;
+		padding-top: 20px;
+		li {
+			display: inline;
+			margin-right: 10px;
+		}
+	}
+
+}
+
+
+.l-footer3 {
+
+	padding: 10px 0 20px;
+	background: #6191cc;
+	
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+	&__block1 {
+		text-align: center;
+		margin-bottom: 30px;
+		display: none;
+		li {
+			@include inline-block;
+			margin: 0 9px;
+		}
+	}
+	&__block2 {
+		display: none;
+		h4 {
+			@include fs14;
+			font-weight: normal;
+			margin-bottom: 19px;
+			line-height: 150%;
+			color: #fff;
+		}
+		li {
+			@include inline-block;
+			@include fs13;
+			margin-right: 10px;
+			margin-bottom: 2px;
+			line-height: 150%;
+		}
+	}
+	&__block3 {
+		border-top: 1px solid #427abe;
+		padding-top: 25px;
+		margin-top: 13px;
+		text-align: center;
+		p {
+			color: #fff;
+			color: #adc7e7;
+			@include fs12;
+			line-height: 150%;
+		}
+	}
+	
+}
+
+
+/*=======================================
+ページトップへ
+=========================================*/
+.l-pagetop {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 999;
+	width: 30px;
+}

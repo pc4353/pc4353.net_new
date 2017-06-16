@@ -1,0 +1,1358 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ============================
+		Reset
+ ============================ */
+
+* {margin:0; padding:0;}
+
+html { line-height:1.0em; }
+
+body {
+font-family: "Hiragino Maru Gothic ProN W4" ,"HG丸ゴシックM-PRO","Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3",verdana ,arial ,sans-serif;
+background-color:#fff;
+font-size:14px;
+line-height:1.5em;
+text-align:left;
+}
+
+/*body { line-height:1.0em;}*/
+.container { width:310px; margin-left:auto; margin-right:auto;	}
+/*a {	color:#000;		}
+a:hover { filter: alpha(opacity=50);-moz-opacity:0.50;opacity:0.50;	}*/
+a img { border:0;	text-decoration:none;	}
+ul {margin:0; padding:0;}
+ul li { list-style:none;	}
+.iLeft { float:left;	}
+.iRight {	float:right;	}
+.allClear {	clear:both;	}
+img {vertical-align:bottom;}
+
+/* For modern browsers */
+.cf:before, .cf:after {	content:"";	display:table;	}
+.cf:after {	clear:both;	}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {	zoom:1;	}
+
+strong, .fontBold {
+　font-family: "HiraKakuProN-W6", sans-serif; 
+　font-weight: bold;
+}
+
+.colorRed { color:#f00; }
+
+
+
+/* ============================
+		header
+	============================ */
+
+header .container  {
+	height:62px;
+}
+
+
+header .header img {
+	float:left;
+	width:100px;
+	height:auto;
+	margin-right:10px;
+	padding-top:10px;
+}
+
+header .header p.catch {
+	font-size:12px;
+	color:#005bab;
+	font-weight:bold;
+	line-height:1.2em;
+	float:left;
+	width:200px;
+	padding-top:15px;
+}
+
+
+
+
+/* ============================
+		footer
+ ============================ */
+ 
+ footer {
+	 padding-bottom:61px;
+ }
+ footer .name p {
+	 text-align:center;
+	 font-size:12px;
+	 padding-bottom:5px;
+	 padding-top:25px;
+ }
+ 
+ footer .menu {
+	 background-image:url(../images/bg_footer001.jpg);
+	 background-repeat:repeat-x;
+ }
+
+ footer .menu ul {
+	 display:block;
+	 width:240px;
+	 margin-left:auto;
+	 margin-right:auto;
+	 padding:5px;
+	 padding-left:45px;
+}
+
+ footer .menu ul li {
+	 background-image:url(../images/mark03.png);
+	 background-repeat:no-repeat;
+	 background-position:right center;
+	 padding-right:10px;
+	 float:left;
+	 margin-right:12px;
+	 font-size:12px;
+}
+
+footer .menu ul li a {
+	text-decoration:none;
+	color:#000;
+}
+
+
+ footer .copyright {
+	 background-color:#005bab;
+ }
+
+ footer .copyright p {
+	 font-size:10px;
+	 color:#fff;
+	 text-align:center;
+	 padding:3px 0;
+ }
+
+
+
+.footerScript {
+	height:0px;
+	display:none;
+}
+
+
+/* ============================
+		section .topPageMainVisual
+ ============================ */
+
+section.topPageMainVisual {
+}
+
+section.topPageMainVisual img {
+	width:100%;
+	height:auto;
+}
+.sliderPhoto img{
+	width:100%;
+}
+.top_img img{
+	width:100%;
+	margin:0 0 20px;
+}
+
+
+/* ============================
+		section .selectCourse
+ ============================ */
+
+section.selectCourse {
+}
+
+section.selectCourse h1,
+section.coursePoint h1,
+section.selectSchool h1,
+section.selectCourse h2,
+section.coursePoint h2,
+section.selectSchool h2,
+section.studentVoice h2 {
+	background-color:#005bab;
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+　font-family: "HiraKakuProN-W6", sans-serif;
+}
+section.selectSchool h1 span.sub,
+section.selectSchool h2 span.sub {
+	font-size:10px;
+}
+
+section.selectCourse {
+	margin: 0;
+}
+
+section.selectCourse h3,
+section.selectCourse dl dt {
+	background-image:url(../images/bg0003.jpg);
+	background-repeat:repeat-x;
+	background-position:left center;
+	height:40px;
+	color: #000;
+	margin: 0;
+	padding: 20px 0 5px 10px;
+	text-align: left;
+	border-bottom:1px solid #afafaf;
+	font-size:20px;
+	font-weight:bold;
+	line-height:0.8em;
+}
+
+section.selectCourse dl dt .iLeft {
+	float:left;
+}
+
+.acordion .iLeft {
+	width:270px;
+}
+
+section.selectCourse dl dd {
+	border-bottom:1px solid #afafaf;
+}
+
+section.selectCourse dl.mosCourse dt {	color: #008e00; border-left:10px solid #008e00;}
+section.selectCourse dl.certifyCourse dt {	color: #559c7e; border-left:10px solid #559c7e;}
+section.selectCourse dl.officeCourse dt {	color: #338cff; border-left:10px solid #338cff;}
+section.selectCourse dl.ipadCourse dt {	color: #16498e;	 border-left:10px solid #16498e;}
+section.selectCourse dl.beginnerCourse dt {	color: #f06365; border-left:10px solid #f06365;}
+section.selectCourse dl.internetCourse dt {	color: #e86c00;	 border-left:10px solid #e86c00;}
+section.selectCourse dl.hobbyCourse dt {	color: #855bff; border-left:10px solid #855bff;}
+
+
+section.selectCourse .catch {
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+}
+section.selectCourse  .mosCourse .catch,
+section.selectCourse  .certifyCourse .catch { font-size:11px;}
+
+section.selectCourse .addWall {
+	padding:5px;
+	background-color:#fafadc;
+}
+
+
+
+section.selectCourse h4 {
+/*	font-size:18px;
+	color: #338cff;
+	margin-bottom:10px;
+	margin-top:10px;*/
+}
+
+section.selectCourse .officeCourse h4,
+section.selectCourse .ipadCourse h4,
+section.selectCourse .beginnerCourse h4,
+section.selectCourse .internetCourse h4,
+section.selectCourse .hobbyCourse h4 {
+	background-image:url(../images/bg_h4_02.png);
+	background-repeat:no-repeat;
+	height:30px;
+	padding:12px 0 0 46px;
+	margin-bottom:10px;
+	color:#fff;
+	font-size:12px;
+}
+
+section.selectCourse .recommenCourse h4 {
+	display: inline;
+	background-image:none;
+	padding:3px 10px;
+	margin:5px 0 15px 10px;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	border-radius:20px;
+}
+section.selectCourse .officeCourse .recommenCourse h4 {
+	background-color:#338cff;
+}
+section.selectCourse .ipadCourse .recommenCourse h4 {
+	background-color:#16498e;
+}
+section.selectCourse .beginnerCourse .recommenCourse h4 {
+	background-color:#f06365;
+}
+section.selectCourse .internetCourse .recommenCourse h4 {
+	background-color:#e86c00;
+}
+section.selectCourse .hobbyCourse .recommenCourse h4 {
+	background-color:#855bff;
+}
+
+
+section.selectCourse h5 {
+	background-image:url(../images/bg_h4.png);
+	background-repeat:no-repeat;
+	height:30px;
+	padding:17px 0 0 65px;
+	margin-bottom:10px;
+	color:#fff;
+	font-size:12px;
+}
+
+section.selectCourse .applicationList h5 {
+	background-image:none;
+	padding:0;
+	margin:0 0 5px 0;
+	height:auto;
+	font-size:12px;
+	font-weight:bold;
+	line-height:1.0em;
+	color:#000;
+}
+
+
+section.selectCourse .mosCourse h6,
+section.selectCourse .certifyCourse h6 {
+	font-size:18px;
+	font-weight:bold;
+	background-image:url(../images/bg_h6_mos.png);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	padding-left:20px;
+	padding-bottom:3px;
+	width:275px;
+	margin:10px auto 5px auto;
+}
+
+section.selectCourse .mosCourse h6.mosWord,
+section.selectCourse .certifyCourse h6.mosWord {
+	background-image:url(../images/logo-ofw.png);
+	background-size:38px auto;
+	padding-left:40px;
+	line-height:1.0em;
+	font-size:16px;
+	margin-bottom:10px;
+}
+section.selectCourse .mosCourse h6.mosExcel,
+section.selectCourse .certifyCourse h6.mosExcel {
+	background-image:url(../images/logo-ofe.png);
+	background-size:38px auto;
+	padding-left:40px;
+	line-height:1.0em;
+	font-size:16px;
+	margin-bottom:10px;
+}
+section.selectCourse .certifyCourse h6.mosPower {
+	background-image:url(../images/logo-ofp.png);
+	background-size:38px auto;
+	padding-left:40px;
+	line-height:1.0em;
+	font-size:16px;
+	margin-bottom:10px;
+}
+
+
+/* mosCourse */
+
+section.selectCourse dl.mosCourse dd,
+section.selectCourse .mosCourse,
+section.selectCourse dl.certifyCourse dd,
+section.selectCourse .certifyCourse {
+	background-color:#515151;
+	color:#fff;
+}
+
+
+section.selectCourse p.catchName {
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+section.selectCourse .officeCourse p.catchName { color: #338cff;}
+section.selectCourse .ipadCourse p.catchName { color: #16498e;}
+section.selectCourse .beginnerCourse p.catchName { color: #f06365;}
+section.selectCourse .internetCourse p.catchName { color: #e86c00;}
+section.selectCourse .hobbyCourse p.catchName { color: #855bff;}
+
+
+
+section.selectCourse .mosCourse h4 {
+	font-size:18px;
+	color:#fff;
+	background-image:url(../images/fig_b10days.png);
+	background-repeat:no-repeat;
+	background-position:208px top;
+	background-size:100px auto;
+	padding-right:105px;
+	padding-left:5px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+section.selectCourse .certifyCourse h4 {
+	font-size:18px;
+	color:#fff;
+	/*background-color:#fff;
+	background-repeat:no-repeat;
+	background-position:208px top;
+	background-size:100px auto;*/
+	padding-left:5px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+section.selectCourse .mosCourse h5,
+section.selectCourse .certifyCourse h5 {
+	background-image:url(../images/bg_h4.png);
+	background-repeat:no-repeat;
+	height:30px;
+	padding:17px 0 0 65px;
+	margin-bottom:15px;
+	color:#fff;
+	font-size:12px;
+}
+section.selectCourse .mosCourse h5.perfection,
+section.selectCourse .certifyCourse h5.perfection {
+	background-image:url(../images/bg_h4_001.png);
+}
+
+section.selectCourse .mosCourse ul.coursePoint,
+section.selectCourse .certifyCourse ul.coursePoint {
+	width:300px;
+	margin:0 0 0 5px;
+	padding:0;
+}
+
+section.selectCourse .mosCourse ul.coursePoint li,
+section.selectCourse .certifyCourse ul.coursePoint li {
+	height:30px;
+	background-repeat:no-repeat;
+	padding:8px 0 0 45px;
+	color:#000;
+	margin:0 0 5px 0;
+	font-size:16px;
+}
+
+section.selectCourse .mosCourse ul.coursePoint li:nth-child(1) {	background-image:url(../images/bg_c_select_office001.png);}
+section.selectCourse .mosCourse ul.coursePoint li:nth-child(2) {	background-image:url(../images/bg_c_select_office002.png);}
+section.selectCourse .mosCourse ul.coursePoint li:nth-child(3) {	background-image:url(../images/bg_c_select_office003.png);}
+section.selectCourse .mosCourse ul.coursePoint li:nth-child(4) {	background-image:url(../images/bg_c_select_office004.png);}
+section.selectCourse .mosCourse ul.coursePoint li:nth-child(5) {	background-image:url(../images/bg_c_select_office005.png);}
+section.selectCourse .mosCourse ul.coursePoint li:nth-child(6) {	background-image:url(../images/bg_c_select_office006.png);}
+section.selectCourse .mosCourse ul.coursePoint li:nth-child(7) {	background-image:url(../images/bg_c_select_office007.png);}
+section.selectCourse .mosCourse ul.coursePoint li:nth-child(8) {	background-image:url(../images/bg_c_select_office008.png);}
+
+/* btGoSchool */
+
+.btGoSchool {
+	display:table;
+	background-image:url(../images/bg_buttun001.gif);
+	background-repeat:repeat-x;
+	background-position:left center;
+	border-radius:5px;
+	margin:20px auto;
+	margin-bottom:30px;
+	height:45px;
+	width:300px;
+}
+
+.btGoSchool a {
+	display: table-cell;
+	vertical-align:middle;
+	width:100%;
+	background-image:url(../images/mark001.png);
+	background-repeat:no-repeat;
+	background-position:right center;
+	padding-left:10px;
+	padding-right:30px;
+	padding-bottom:2px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	line-height:0.9em;
+	font-size:18px;
+}
+.btGoSchool a span.name {
+	font-size:12px;
+}
+
+
+/* btGoCountact */
+
+.btGoCountact {
+	display:table;
+	background-image:url(../images/bg_buttun002.png);
+	background-repeat:repeat-x;
+	background-position:left center;
+	background-size:310px auto;
+	border-radius:5px;
+	margin:20px auto;
+	margin-bottom:15px;
+	height:45px;
+	width:310px;
+}
+
+.btGoCountact a {
+	display: table-cell;
+	vertical-align:middle;
+	width:100%;
+	padding-left:40px;
+	padding-right:20px;
+	padding-bottom:2px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	font-size:15px;
+}
+
+
+section.selectCourse .mosCourse p.bodyMosCourse,
+section.selectCourse .certifyCourse p.bodyMosCourse {
+	padding:0px 0px 5px 30px;
+}
+
+section.selectCourse .mosCourse table.mosCouresTab,
+section.selectCourse .certifyCourse table.mosCouresTab {
+	width:280px;
+	border:none;
+	border-collapse: collapse;
+	border-spacing:5px;
+	margin:0 0 10px 30px;
+}
+
+section.selectCourse .mosCourse table.mosCouresTab th,
+section.selectCourse .mosCourse table.mosCouresTab td,
+section.selectCourse .certifyCourse table.mosCouresTab th,
+section.selectCourse .certifyCourse table.mosCouresTab td {
+	line-height:1.0em;
+	border:none;
+	padding:5px;
+	text-align:left;
+	font-size:12px;
+	text-align:center;
+}
+section.selectCourse .mosCourse table.mosCouresTab th:first-child,
+section.selectCourse .mosCourse table.mosCouresTab td:first-child,
+section.selectCourse .certifyCourse table.mosCouresTab th:first-child,
+section.selectCourse .certifyCourse table.mosCouresTab td:first-child {
+	width:120px;
+	border-right:2px solid #515151;
+}
+
+
+section.selectCourse .mosCourse table.mosCouresTab th,
+section.selectCourse .certifyCourse table.mosCouresTab th {
+	font-weight:bold;
+	background-color:#919191;
+	color:#fff;
+}
+section.selectCourse .mosCourse table.mosCouresTab td,
+section.selectCourse .certifyCourse table.mosCouresTab td {
+	background-color:#fff;
+	color:#000;
+}
+
+section.selectCourse .mosCourse ul.listMosCourseNote li,
+section.selectCourse .certifyCourse ul.listMosCourseNote li {
+	text-indent:-10px;
+	margin-left:10px;
+	margin-bottom:5px;
+	line-height:1.0em;
+	font-size:10px;
+}
+section.selectCourse .mosCourse ul.mosWord,
+section.selectCourse .mosCourse ul.mosExcel,
+section.selectCourse .certifyCourse ul.mosWord,
+section.selectCourse .certifyCourse ul.mosExcel,
+section.selectCourse .certifyCourse ul.mosPower {
+	margin-left:20px;
+	margin-bottom:15px;
+}
+section.selectCourse .mosCourse ul.mosExcel {
+	background-image:url(../images/fig001.jpg);
+	background-repeat:no-repeat;
+	background-position:right top;
+	background-size:100px auto;
+}
+section.selectCourse .certifyCourse ul.mosExcel {
+	background-image:url(../images/fig011.jpg);
+	background-repeat:no-repeat;
+	background-position:right top;
+	background-size:100px auto;
+}
+section.selectCourse .mosCourse ul.mosWord li ,
+section.selectCourse .mosCourse ul.mosExcel li,
+section.selectCourse .certifyCourse ul.mosWord li,
+section.selectCourse .certifyCourse ul.mosExcel li,
+section.selectCourse .certifyCourse ul.mosPower li {
+	font-size:12px;
+	padding-left:0px;
+	text-indent:-12px;
+	line-height:1.0em;
+	margin-bottom:5px;
+}
+
+section.selectCourse .top_img {
+	width:100%;
+}
+section.selectCourse .top_img img {
+	width:100%;
+}
+
+
+/* officeCourse */
+
+section.selectCourse ul.courseList {
+	margin-bottom:20px;
+}
+
+section.selectCourse ul.courseList li {
+	font-size:16px;
+	font-weight:bold;
+	background-image:url(../images/bg_h6_mos.png);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	padding-left:20px;
+	padding-bottom:4px;
+	width:280px;
+	margin:10px auto 5px auto;
+}
+section.selectCourse .officeCourse ul.courseList li {
+	background-image:url(../images/bg_list_office_course.png);
+}
+section.selectCourse .ipadCourse ul.courseList li {
+	background-image:url(../images/bg_list_ipad_course.png);
+}
+section.selectCourse .beginnerCourse ul.courseList li {
+	background-image:url(../images/bg_list_beginner_course.png);
+}
+section.selectCourse .internetCourse ul.courseList li {
+	background-image:url(../images/bg_list_internet_course.png);
+}
+section.selectCourse .hobbyCourse ul.courseList li {
+	background-image:url(../images/bg_list_hobby_course.png);
+}
+
+
+ul.recommenCourseList {
+}
+
+section.selectCourse .recommenCourse {
+	background-repeat:no-repeat;
+}
+section.selectCourse .officeCourse .recommenCourse.wall {
+	background-position:right top;
+	background-image:url(../images/fig002.jpg);
+	background-size:120px auto;
+}
+section.selectCourse .ipadCourse .recommenCourse.wall {
+	background-position:right bottom;
+	background-image:url(../images/fig003.png);
+	background-size:120px auto;
+	padding-bottom:20px;
+}
+section.selectCourse .beginnerCourse .recommenCourse.wall {
+	background-position:right top;
+	background-image:url(../images/fig009.png);
+	background-size:120px auto;
+}
+
+section.selectCourse .internetCourse .recommenCourse.wall {
+	background-position:right top;
+	background-image:url(../images/fig007.png);
+	background-size:120px auto;
+}
+
+section.selectCourse .hobbyCourse .recommenCourse.wall {
+	background-position:right top;
+	background-image:url(../images/fig008.png);
+	background-size:110px auto;
+}
+
+section.selectCourse ul.recommenCourseList {
+	margin:10px 0 15px 20px;
+}
+section.selectCourse ul.recommenCourseList li {
+	font-size:12px;
+	padding-left:0px;
+	text-indent:-12px;
+	line-height:1.0em;
+	margin-bottom:5px;
+}
+
+/* applicationList */
+
+section.selectCourse .applicationList {
+	padding:5px 10px;
+}
+
+section.selectCourse .applicationList ul {
+	margin-bottom:15px;
+}
+section.selectCourse .applicationList li {
+	font-size:12px;
+	padding-left:13px;
+	margin-bottom:5px;
+	margin-right:24px;
+	background-repeat:no-repeat;
+	background-position:left center;
+	float:left;
+	line-height:1.0em;
+}
+section.selectCourse .applicationList li.word {
+	background-image:url(../images/mark_app_word.jpg);
+}
+section.selectCourse .applicationList li.excel {
+	background-image:url(../images/mark_app_excel.jpg);
+}
+section.selectCourse .applicationList li.ppt {
+	background-image:url(../images/mark_app_ppt.jpg);
+}
+section.selectCourse .applicationList li.win8 {
+	background-image:url(../images/mark_app_win8.jpg);
+}
+section.selectCourse .applicationList li.win7 {
+	background-image:url(../images/mark_app_win7.jpg);
+}
+section.selectCourse .applicationList li.ie {
+	background-image:url(../images/mark_app_ie.jpg);
+	margin-right:0px;
+	padding-left:19px;
+	background-position:left top;
+}
+
+
+/* ============================
+		section .coursePoint
+ ============================ */
+ 
+section.coursePoint {
+}
+
+section.coursePoint .pointList {
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+section.coursePoint .pointList dl {
+	background-repeat:no-repeat;
+	background-size:300px auto;
+	width:300px;
+	height:35px;
+	margin:00;
+	padding:0;
+	padding-top:5px;
+}
+
+section.coursePoint .pointList dl.point01 { background-image:url(../images/bg_point001.png);}
+section.coursePoint .pointList dl.point02 { background-image:url(../images/bg_point002.png);}
+section.coursePoint .pointList dl.point03 { background-image:url(../images/bg_point003.png);}
+section.coursePoint .pointList dl.point04 { background-image:url(../images/bg_point004.png);}
+section.coursePoint .pointList dl.point05 { background-image:url(../images/bg_point005.png);}
+
+
+section.coursePoint .pointList dl dt {
+	margin: 0;
+	padding:0;
+	padding-left:42px;
+	font-size:14px;
+	font-weight:bold;
+	line-height:1.1em;
+}
+
+section.coursePoint .pointList dl dd {
+	margin:0;
+	padding:0;
+	padding-left:42px;
+	font-size:10px;
+	line-height:1.1em;
+}
+
+/* ============================
+		section .selectSchool
+ ============================ */
+
+section.selectSchool .container {
+	display: table;
+	height:90px;
+	background-image:url(../images/bg_school002.jpg);
+	background-repeat:no-repeat;
+	background-position:right center;
+	background-size:300px auto;
+}
+section.selectSchool .catchBody {
+	display:table-cell;
+	vertical-align:middle;
+	line-height:1.2em;
+	padding-left:85px;
+	color:#4e4e4e;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+section.selectPrefecture {
+	padding:0 !important;
+	margin:0 !important;
+}
+
+section.selectPrefecture dt,
+section.selectPrefecture h3 {
+	height:30px !important;
+	margin: 0;
+	padding: 20px 0 5px 10px;
+	border-bottom:1px solid #afafaf;
+	font-size:18px;
+	font-weight:bold;
+	text-align: left;
+	line-height:0.8em;
+}
+section.selectPrefecture h3.tohoku  { color:#9825f8;}
+section.selectPrefecture h3.kanto { color:#5187f0;}
+section.selectPrefecture h3.tokai  { color:#409015;}
+section.selectPrefecture h3.kinki { color:#ea8f25;}
+section.selectPrefecture h3.seibu  { color:#e8001c;}
+
+
+section.selectPrefecture dt.tohoku  { color:#9825f8;border-top:1px solid #afafaf;}
+section.selectPrefecture dt.kanto { color:#5187f0;}
+section.selectPrefecture dt.tokai  { color:#409015;}
+section.selectPrefecture dt.kinki { color:#ea8f25;}
+section.selectPrefecture dt.seibu  { color:#e8001c;}
+
+
+section.selectPrefecture ul {
+	padding:0 !important;
+	margin:0 !important;
+	width:100%;
+}
+
+section.selectPrefecture li {
+	display: table;
+	width:100%;
+	height:50px !important;
+	border-bottom:1px solid #a3a3a3;
+	padding:0 !important;
+	margin:0 !important;
+	font-size:16px;
+	font-weight:bold;
+}
+section.selectPrefecture li:last-child {
+	border-bottom:none;
+}
+section.selectPrefecture li span,
+section.selectPrefecture li a {
+	display:table-cell;
+	vertical-align:middle;
+	text-decoration:none;
+	color:#727272;
+	padding-left:24px;
+	background-image:url(../images/mark004.gif);
+	background-repeat:no-repeat;
+	background-position:right center;
+	background-size:30px auto;
+}
+
+section.selectPrefecture li span {
+	color:#ccc;
+	background-image:none;
+}
+
+
+/* ============================
+		section .selectInPrefecture
+ ============================ */
+ section.selectInPrefecture {
+ }
+ 
+section.selectInPrefecture .prefectureName {
+	background-color:#5187f0;
+	font-size:18px;
+	font-weight:bold;
+	color: #fff;
+	margin: 0;
+	padding: 10px;
+	text-align: left;
+}
+
+ 
+section.selectInPrefecture ul {
+	padding:0 !important;
+	margin:0 !important;
+}
+
+section.selectInPrefecture li {
+	display: table;
+	width:100%;
+	height:50px !important;
+	border-bottom:1px solid #a3a3a3;
+	padding:0 !important;
+	margin:0 !important;
+	font-size:16px;
+	font-weight:bold;
+}
+
+section.selectInPrefecture li span,
+section.selectInPrefecture li a {
+	display:table-cell;
+	vertical-align:middle;
+	text-decoration:none;
+	color:#727272;
+	padding-left:24px;
+	background-image:url(../images/mark004.gif);
+	background-repeat:no-repeat;
+	background-position:right center;
+	background-size:30px auto;
+}
+
+section.selectInPrefecture li span {
+	color:#ccc;
+	background-image:none;
+}
+
+/* ============================
+		section .selectInPrefecture
+ ============================ */
+
+section.schoolRoom {
+}
+
+section.schoolRoom .schoolAddress {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+section.schoolRoom .schoolAddress p {
+	font-size:14px;
+	line-height:1.2em;
+	margin-bottom:5px;
+}
+
+section.schoolRoom .gMapApp {
+	display: table;
+	width:310px;
+	height:40px;
+	background-image:url(../images/bg_buttun007.png);
+	background-repeat:no-repeat;
+	background-position:right center;
+	background-size:310px auto;
+	border:1px solid #a3a3a3;
+}
+section.schoolRoom .gMapApp a {
+	width:100%;
+	display:table-cell;
+	vertical-align:middle;
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bold;
+	color:#515151;
+	text-align:right;
+	padding-right:20px;
+}
+
+section.schoolRoom .contactUs {
+	display: table;
+	background-image:url(../images/bg_contact002.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size:310px auto;
+	width:310px;
+	height:75px;
+	margin-bottom:15px;
+}
+section.schoolRoom .contactUs a {
+	width:100%;
+	display:table-cell;
+	vertical-align:middle;
+	text-decoration:none;
+	font-size:22px;
+	font-weight:bold;
+	color:#0b418f;
+	text-align:center;
+}
+
+section.schoolRoom .calender {
+	margin-bottom:15px;
+}
+
+section.schoolRoom .calender table {
+	width:310px;
+	border:none;
+	border-collapse: collapse;
+	margin:0 0 2px 0;
+}
+
+
+section.schoolRoom .calender table th {
+	background-color:#a0a0a0;
+	padding:5px;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	font-size:16px;
+}
+
+section.schoolRoom .calender table td {
+	padding:5px;
+	font-size:14px;
+	border-bottom:1px solid #a3a3a3;
+	border-left:1px solid #a3a3a3;
+}
+
+section.schoolRoom .calender table td:first-child {
+	border-left: none;
+}
+section.schoolRoom .calender table td:last-child {
+	border-right:none;
+}
+
+section.schoolRoom .calender table tr:nth-child(even) td {
+	background-color:#fff;
+}
+section.schoolRoom .calender table tr:nth-child(odd) td {
+	background-color:#f5f5e9;
+}
+
+section.schoolRoom .calender p.note {
+	line-height:1.2em;
+	font-size:12px;
+}
+
+
+section.schoolRoom .calender p.th {
+	background-color:#a0a0a0;
+	padding:5px;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	font-size:16px;
+}
+section.schoolRoom .calender p.body {
+	padding:5px;
+	background-color:#f5f5e9;
+	font-size:14px;
+	line-height:1.5em;
+}
+
+section.schoolRoom .photoSchoolRoom img {
+	width:308px;
+	height:auto;
+	border:1px solid #a3a3a3;
+}
+
+section.schoolRoom .linkPcSite {
+	display:table;
+	font-size:14px;
+	width:100%;
+	text-align:right;
+}
+section.schoolRoom .linkPcSite a {
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+	text-align:right;
+	background-image:url(../images/bg_pc_site.png);
+	background-repeat:no-repeat;
+	background-position:right center;
+	background-size:100px auto;
+	padding:10px;
+	padding-right:105px;
+	text-decoration:none;
+	color:#000;
+}
+
+
+/* ============================
+		section .contactForm
+ ============================ */
+
+section.contactNote { }
+
+section.contactNote p {
+	padding:5px;
+	padding-bottom:10px;
+	font-size:14px;
+	text-align:center;
+}
+
+section.contactForm {
+	background-color:#f5f5e9;
+	border-top:1px solid #a3a3a3;
+	border-bottom:1px solid #a3a3a3;
+	padding:10px;
+	padding-bottom:20px;
+}
+
+section.contactForm h3 {
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+section.contactForm p.body {
+	padding-bottom:5px;
+}
+section.contactForm p.name {
+	text-align:center;
+}
+section.contactForm hr {
+	border:none;
+	border-bottom:1px dotted #a3a3a3;
+	margin:10px 0;
+}
+
+section.contactForm  input.name {
+	-webkit-appearance:none;
+	font-size:14px;
+	padding:5px;
+	width:290px;
+	border-radius:0;
+	border:1px solid #a3a3a3;
+}
+
+section.contactForm .checkbox,
+section.contactForm .radio,
+section.contactForm .nichiji  {
+	margin-left:5px;
+}
+section.contactForm .old div,
+section.contactForm .free div,
+section.contactForm .omni div{
+	float:left;
+	width:50%;
+}
+
+section.contactForm .checkbox input {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	margin-right:10px;
+	border:1px solid #a3a3a3;
+	border-radius:0;
+}
+section.contactForm .radio input {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	margin-right:10px;
+	border:1px solid #a3a3a3;
+}
+section.contactForm .nichiji select {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	margin-right:15px;
+	border:1px solid #a3a3a3;
+}
+
+section.contactForm .checkbox label,
+section.contactForm .radio label {
+	display:block;
+	padding:10px 0;
+}
+
+section.contactForm .formNote p {
+	padding:10px;
+	color:#f00;
+	line-height:1.2em;
+}
+
+section.contactForm textarea.text {
+	-webkit-appearance:none;
+	font-size:14px;
+	padding:5px;
+	width:290px;
+	height:90px;
+	border-radius:0;
+	border:1px solid #a3a3a3;
+}
+
+
+section.contactForm .submit {
+}
+
+section.contactForm .submit .submitButton {
+	-webkit-appearance:none;
+	background-image:url(../images/bg_buttun005.png);
+	background-repeat:repeat-x;
+	background-position:right center;
+	background-size:310px auto;
+
+	margin:20px auto;
+	margin-bottom:15px;
+	height:45px;
+	width:300px;
+
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:2px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	text-align:left;
+	font-size:15px;
+	background-color: transparent;
+	border:none;
+	border-radius:5px;
+}
+
+section.contactForm .notice {
+	font-size:14px;
+	line-height:1.2em;
+	padding:10px 0;
+}
+
+
+
+/* ============================
+		section .privacy
+ ============================ */
+
+section.privacy { }
+
+section.privacy p.intro {
+	font-size:14px;
+	padding:10px 0 20px 0;
+}
+section.privacy .body {
+	padding:0 14px;
+}
+section.privacy .body h3 {
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+section.privacy .body p {
+	font-size:14px;
+	margin-bottom:18px;
+}
+
+
+/* ============================
+		section .corpratProfile
+ ============================ */
+
+
+section.corpratProfile { }
+
+section.corpratProfile h3 {
+	color:#0b418f;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding:15px 0 10px 0;
+}
+
+section.corpratProfile p.body {
+	font-size:14px;
+	padding:0 0 10px 0;
+}
+
+section.corpratProfile table {
+	width:310px;
+	border:none;
+	border-collapse: collapse;
+	margin:0 0 10px 0;
+}
+
+section.corpratProfile table th,
+section.corpratProfile table td {
+	line-height:1.2em;
+	border:1px solid #a3a3a3;
+	padding:5px;
+	text-align:left;
+	font-size:12px;
+}
+section.corpratProfile table th {
+	background-color:#f5f5e9;
+	width:80px;
+}
+section.corpratProfile table td {
+}
+
+section.corpratProfile table div {
+	margin-bottom:5px;
+}
+section.corpratProfile .mapApp {
+	display:table;
+	float:right;
+	width:142px;
+	height:29px;
+	background-image:url(../images/bg_buttun008.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:142px auto;
+}
+
+section.corpratProfile .mapApp a {
+	display:table-cell;
+	vertical-align:middle;
+	text-decoration:none;
+	color:#000;
+	padding-left:10px;
+}
+
+/* ============================
+		section .studentVoice
+ ============================ */
+
+
+section.studentVoice dt {
+	font-weight:bold;
+	font-size:16px;
+	text-align:center;
+	padding:10px;
+}
+section.studentVoice dd {
+	padding:10px;
+	margin-bottom:10px;
+	border-bottom:1px dashed #ccc;
+}
+section.studentVoice .img_voice {
+	text-align:center;
+	margin-bottom:10px;
+	color:#0b418f;
+	font-weight:bold;
+}
+section.studentVoice .img_voice img {
+	width:50%;
+}
+
+/* タブメニュー */
+section.studentVoice #tab-menu {
+  list-style: none;
+  margin-bottom:10px;
+}
+section.studentVoice #tab-menu li {
+	float:left;
+	width:33%;
+	text-align:center;
+	padding:5px 0 0;
+	border-radius:5px;
+}
+section.studentVoice #tab-menu li img {
+	width:70%;
+}
+section.studentVoice #tab-menu li.active {
+	background: #d2cde6;
+	color:#0b418f;
+}
+
+/* タブの中身 */
+section.studentVoice #tab-box {
+}
+section.studentVoice #tab-box div {
+  display: none;
+}
+section.studentVoice #tab-box div.active {
+  display: block;
+}
+
+section.inq_btn {
+	background: rgba(0,0,0,0.5);
+	width:100%;
+	height:61px;
+	position: fixed;
+	bottom:0;
+    z-index: 999;
+}
+section.inq_btn .btGoCountact{
+	margin:8px auto;
+}

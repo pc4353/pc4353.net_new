@@ -1,0 +1,74 @@
+/*=======================================
+ヘッダー
+=========================================*/
+.l-header {
+
+	background: #fff;
+	border-top: 6px solid #427abe;
+	border-bottom: 1px solid #bcc2c5;
+	
+}
+
+
+.l-header1 {
+
+	padding: 10px 0;
+	
+	&__txt1 {}
+	&__block1 {
+		float: left;
+		width: 26%;
+	}
+	&__block2 {
+		float: right;
+		width: 70%;
+		ul {
+			position: relative;
+			margin-left: -2.08%;
+		}
+		li {
+			float: left;
+			width: 37.5%;
+			margin-left: 2.08%;
+			border-radius: 10px;
+			box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+			&.btn1 {width: 18.75%;}
+		}
+	}
+
+}
+
+
+
+/*=======================================
+グローバルメニュー
+=========================================*/
+.l-nav {
+	
+	background: #144288;
+	text-align: center;
+	display: none;
+	
+	li {
+		@include fs17;
+		a {
+			display: block;
+			text-align: center;
+			font-weight: bold;
+			text-decoration: none;
+			border-left: 1px solid #6191cc;
+			color: #fff;
+			padding: 16px 0;
+			&:hover {background: #6191cc;}
+		}
+		&:last-child a {border-right: 1px solid #6191cc;}
+	}
+
+}
+
+
+
+/*=======================================
+パンくず
+=========================================*/
+.l-breadcrumb {}

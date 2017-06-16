@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/* 脳トレおとなプログラミング講座 */
+#contents {
+	padding-bottom: 10px;
+}
+.u-center {
+	text-align: center;
+	padding-bottom: 20px;
+	background-color: #fff;
+}
+#brain_tr {
+	background-color: #fff;
+}
+#brain_tr dd {
+	margin-left: 0;
+}
+#brain_tr .cnt {
+}
+#brain_tr h3 {
+	background: url(../../course/images/brain_tr/bg-ttl.jpg) no-repeat center top;
+	color: #fff;
+	font-size: 131.2% !important;
+	text-align: center;
+	padding: 12px 0 15px;
+	margin-bottom: 10px;
+}
+
+#brain_tr .lead_area {
+	margin-bottom: 30px;
+}
+#brain_tr .lead_area .ttl{
+	text-align: center;
+	color: #E41C24;
+	font-size: 137.5% !important;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#brain_tr .lead_area .lead {
+	line-height: 1.7;
+}
+
+#brain_tr .block {
+	margin-bottom: 50px;
+}
+#brain_tr .block .inc_area {
+	text-align: center;
+}
+
+#brain_tr #block_3 .lead {
+	border: 1px solid #E41C24;
+	color: #E41C24;
+	padding: 15px 20px;
+	line-height: 1.7;
+	font-size: 100% !important;
+}
+#brain_tr #block_4 .lead {
+	border: 1px solid #E41C24;
+	color: #E41C24;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	line-height: 1.7;
+	font-size: 100% !important;
+}
+#brain_tr #block_4 .lead dt {
+	background: url(../../course/images/brain_tr/ico-start.jpg) no-repeat left 3px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+#brain_tr #block_5 li {
+	font-size: 131.2% !important;
+	padding: 15px 0 15px 50px;
+	line-height: 1.2;
+}
+#brain_tr #block_5 li.no1 {background: url(../../course/images/brain_tr/img-no1.jpg) no-repeat left 6px;}
+#brain_tr #block_5 li.no2 {background: url(../../course/images/brain_tr/img-no2.jpg) no-repeat left 6px;}
+#brain_tr #block_5 li.no3 {background: url(../../course/images/brain_tr/img-no3.jpg) no-repeat left 6px;}
+#brain_tr #block_5 .start {
+	text-align: center;
+	color: #E41C24;
+	font-size: 131.2% !important;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#brain_tr #block_5 .sps {
+	text-align: center;
+	color: #E41C24;
+	font-size: 87.5% !important;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#brain_tr #block_5 .bnr_sps {
+	text-align: center;
+}
+#brain_tr #block_6 .prof_kamata {
+	background:url(../../course/images/brain_tr/img-kamata06.jpg) center top no-repeat;
+	padding-top: 180px;
+	margin-bottom: 20px;
+}
+#brain_tr #block_6 .prof_cat {
+	background:url(../../course/images/brain_tr/img-cat06.jpg) center top no-repeat;
+	padding-top: 120px;
+	margin-bottom: 20px;
+}
+#brain_tr #block_6 dt {
+	font-size: 112.5% !important;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#brain_tr #block_6 dd {
+	font-size: 106.2% !important;
+	line-height: 1.6;
+}
+#brain_tr #block_6 .lead_s {
+	clear: both;
+	font-size: 87.5% !important;
+	line-height: 1.5;
+}
+
+.brain_tr_btn1 {
+    padding: 0 0 50px;
+    text-align: center;
+}
+
+a:hover{opacity: 0.7}
+
+/*利用者の声*/
+.talk{
+	margin:30px 0 20px;
+}
+.voice_list{
+	padding:0 0 0 150px;
+	margin-bottom:20px;
+	min-height:130px;
+}
+.voice_list dt{
+	margin-bottom:10px;
+}
+.voice_list dd a{
+	color:#fff;
+}
+.voice_list dd a:hover{
+	color:#dd0000;
+	background:#fff;
+	text-decoration:none;
+}
+.kamata01{background:url(../../course/images/brain_tr/img-kamata01.jpg) left top no-repeat;}
+.kamata02{background:url(../../course/images/brain_tr/img-kamata02.jpg) left top no-repeat;}
+.kamata03{background:url(../../course/images/brain_tr/img-kamata03.jpg) left top no-repeat;}
+.kamata04{background:url(../../course/images/brain_tr/img-kamata04.jpg) left top no-repeat;}
+.kamata05{background:url(../../course/images/brain_tr/img-kamata05.jpg) left top no-repeat;}
+.kamata06{background:url(../../course/images/brain_tr/img-kamata03.jpg) left top no-repeat;}
+.kamata07{background:url(../../course/images/brain_tr/img-kamata05.jpg) left top no-repeat;}
+.cat01{background:url(../../course/images/brain_tr/img-cat01.jpg) right top no-repeat; padding: 0 100px 0 10px;}
+.cat02{background:url(../../course/images/brain_tr/img-cat02.jpg) right top no-repeat; padding: 0 100px 0 10px;}
+.cat03{background:url(../../course/images/brain_tr/img-cat03.jpg) right top no-repeat; padding: 0 100px 0 10px;}
+.cat04{background:url(../../course/images/brain_tr/img-cat04.jpg) right top no-repeat; padding: 0 100px 0 10px;}
+.cat05{background:url(../../course/images/brain_tr/img-cat05.jpg) right top no-repeat; padding: 0 100px 0 10px;}
+.cat06{background:url(../../course/images/brain_tr/img-cat03.jpg) right top no-repeat; padding: 0 100px 0 10px;}
+
+/*吹き出し*/
+.parent1 {
+	width:90%;
+	background:#FAF3F6;
+	border: 1px solid #E41C24;
+	padding:0;
+	position:relative;
+	 -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: 8px; border-radius: 8px;
+}
+
+.parent1 .child1 {
+	background:#FAF3F6;
+	position:relative;
+	 -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: 8px; border-radius: 8px;
+
+	/*テキストの補正*/
+	padding:20px;
+	line-height: 1.5;
+}
+
+.parent2 {
+	width:90%;
+	background:#FFFAF3;
+	border: 1px solid #EE8A1E;
+	padding:0;
+	position:relative;
+	 -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: 8px; border-radius: 8px;
+}
+
+.parent2 .child2 {
+	background:#FFFAF3;
+	position:relative;
+	 -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: 8px; border-radius: 8px;
+
+	/*テキストの補正*/
+	padding:20px;
+	line-height: 1.5;
+}
+
+/*擬似要素:after*/
+.parent1 .child1:after {
+	content: ' ';
+	width:0;
+	height: 0;
+	position:absolute;
+	border-top:8px solid transparent;
+	border-bottom:8px solid transparent;
+	border-left:10px solid transparent;
+	border-right:30px solid transparent;
+	border-right-color:#E41C24;
+	top:25%;
+	right:100%;
+}
+
+.parent2 .child2:after {
+	content: ' ';
+	width:0;
+	height: 0;
+	position:absolute;
+	border-top:8px solid transparent;
+	border-bottom:8px solid transparent;
+	border-left:30px solid transparent;
+	border-right:10px solid transparent;
+	border-left-color:#EE8A1E;
+	top:25%;
+	left:100%;
+}

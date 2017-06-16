@@ -1,0 +1,214 @@
+/*========================================
+コンタクトフォーム
+=========================================*/
+.l-contact{ background: url("img/block_bg04.jpg") 0 0; }
+
+/*
+-----------------------------------------*/
+.c-contact-block1{
+	h2{
+		font-size: 38px;
+		color: #FFF;
+		line-height: 100%;
+		text-align: center;
+		background: url("img/bg_19.png") left center no-repeat;
+		background-size: cover;
+		padding: 50px 0 40px 0;
+		position:relative;
+		z-index:-1;
+	}
+}
+
+
+.c-contact-block2{
+	width: 960px;
+	background: #FFF;
+	border: 5px solid #D2E9FF;
+	margin: 35px auto 50px;
+	padding: 35px 20px 50px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	h3{ font-size: 20px; color: #1D2087; line-height: 100%; margin-bottom: 25px; }
+
+	table{
+		width: 100%;
+		tr{ border-top: 1px solid #6767B6; border-bottom: 1px solid #6767B6; }
+		th{
+			width: 300px;
+			background: #DEDEEF;
+			font-size: 15px;
+			color: #393977;
+			line-height: 100%;
+			padding: 25px 0 25px 15px;
+			vertical-align: middle;
+			position: relative;
+			span{
+				font-size: 11px; color: #FFF; line-height: 100%;
+				&.l{
+					background: #005BAC;
+					border-radius: 5px;
+					padding: 5px 10px;
+					margin: 0 0 0 20px;
+					display: inline-block;
+					a{ color: #FFF; text-decoration: none; }
+				}
+				&.h{
+					font-size: 11px;
+					color: #FFF;
+					background: #FF2626;
+					border-radius: 5px;
+					padding: 5px 10px;
+					margin-right: 20px;
+					position: absolute;
+					right: 0px;
+				}
+			}
+		}
+		td{
+			padding: 0 15px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+			input{
+				&#tel, &#mail{ width: 100%; border: 1px solid #CCC; }
+				&#f_name, &#l_name, &#f_furi, &#l_furi{ border: 1px solid #CCC; }
+			}
+			textarea{
+				&#message{ width: 100%; height: 200px; border: 1px solid #CCC; margin: 20px 0; }
+			}
+		}
+	}
+
+	p{ font-size: 20px; font-weight: bold; color: #FF0000; text-align: center; margin: 20px 0 25px 0; }
+}
+
+
+.c-contact-block3{
+	width: 960px;
+	background: #FFF;
+	border: 5px solid #D2E9FF;
+	margin: 0 auto 70px;
+	padding: 35px 20px 40px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	h3{ font-size: 20px; color: #19434A; line-height: 100%; }
+
+	&__box{
+		margin-top: 30px;
+		h4{ font-size: 15px; line-height: 100%; margin-bottom: 15px; }
+		p{}
+	}
+}
+
+
+/* 送信ボタン
+-----------------------------------------*/
+.c-contact_btn01{
+	text-align: center;
+}
+
+
+/* 確認ページ
+-----------------------------------------*/
+.c-contact-block2{
+	width: 960px;
+	background: #FFF;
+	border: 5px solid #D2E9FF;
+	margin: 35px auto 50px;
+	padding: 35px 20px 50px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	h3{ font-size: 20px; color: #1D2087; line-height: 100%; margin-bottom: 25px; }
+
+	table{
+		width: 100%;
+		tr{ border-top: 1px solid #A9A9D6; border-bottom: 1px solid #A9A9D6; }
+		th{
+			width: 300px;
+			background: #F1F1F8;
+			border-bottom: 1px solid #A9A9D6;
+			font-size: 15px;
+			color: #393977;
+			line-height: 100%;
+			padding: 25px 0 25px 15px;
+			text-align: left;
+			vertical-align: middle;
+			position: relative;
+			span{
+				font-size: 11px; color: #FFF; line-height: 100%;
+				&.l{
+					background: #005BAC;
+					border-radius: 5px;
+					padding: 5px 10px;
+					margin: 0 0 0 20px;
+					display: inline-block;
+					a{ color: #FFF; text-decoration: none; }
+				}
+				&.h{
+					font-size: 11px;
+					color: #FFF;
+					background: #FF2626;
+					border-radius: 5px;
+					padding: 5px 10px;
+					margin-right: 20px;
+					position: absolute;
+					right: 0px;
+				}
+			}
+		}
+		td{
+			padding: 0 15px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+			input{
+				&#tel, &#mail{ width: 100%; border: 1px solid #CCC; }
+				&#f_name, &#l_name, &#f_furi, &#l_furi{ border: 1px solid #CCC; }
+			}
+			textarea{
+				&#message{ width: 100%; height: 200px; border: 1px solid #CCC; margin: 20px 0; }
+			}
+			&.c_message{ padding: 15px; }
+		}
+	}
+
+	p{ font-size: 20px; font-weight: bold; color: #FF0000; text-align: center; margin: 20px 0 25px 0; }
+}
+
+
+/* 送信完了ページ
+-----------------------------------------*/
+.c-contact-block4{
+	width: 960px;
+	background: #FFF;
+	border: 5px solid #D2E9FF;
+	padding: 80px 0;
+	margin: 80px auto;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+
+	h3{
+		font-size: 35px;
+		color: #1D2087;
+		line-height: 100%;
+		text-align: center;
+	}
+	p{
+		font-size: 15px;
+		text-align: center;
+		padding: 40px 0;
+		span{
+			font-size: 20px;
+			font-weight: bold;
+			color: #1D2087;
+		}
+	}
+
+	&__btn{
+		text-align: center;
+	}
+}
