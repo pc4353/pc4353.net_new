@@ -32,24 +32,41 @@ include_once('../lib/home/header.php');
 今後も日々進化するパソコン・iPad・iPhoneの楽しさをお伝えする新教材が、続々と登場しますのでお楽しみに！</p>
 </div>
 
-<h2 class="c-title1">はじめてのパソコン</h2>
-<h3 class="c-title3">ゼロから始めたい初心者の方へ</h3>
-<p class="mgnL20">メールやインターネットの使い方、デジカメ写真の活用、作品制作を通じ、パソコンを初歩から学べます。</p>
-<h2 class="c-title1">パソコンをもっと仕事で役立てたい！</h2>
-<h3 class="c-title3">ワードやエクセルをスキルアップ</h3>
-<p class="mgnL20">マイクロソフト オフィスの「ワード」「エクセル」「パワーポイント」を基礎から習得し、仕事に活かせるよう、スキルアップします。</p>
-<h2 class="c-title1">パソコン資格を取得したい！</h2>
-<h3 class="c-title3">パソコンの資格を取得したい方</h3>
-<p class="mgnL20">「MOS」「サーティファイ」のビジネスで役立つ資格が取得できます。あなたのスキルを証明できます！</p>
-<h2 class="c-title1">パソコンでインターネットをしたい！</h2>
-<h3 class="c-title3">メールやインターネットを使いたい</h3>
-<p class="mgnL20">Yahoo!やGoogleの使い方、メールの使い方など、インターネットの楽しみ方を基本から学べます。</p>
-<h2 class="c-title1">パソコンを趣味で楽しみたい！</h2>
-<h3 class="c-title3">デジカメ写真を活用したい</h3>
-<p class="mgnL20">デジカメ写真を活用してポストカードを作成したり、パソコンで絵を描いたり、趣味への活用法を学べます。</p>
-<h2 class="c-title1">シニアのためのパソコン教室</h2>
-<h3 class="c-title3">中高年からパソコンを始める方</h3>
-<p class="mgnL20">マウスやキーボードの操作から始められ、一人一人の目的にあわせて学習プランを選べます。</p>
+<div class="section3">
+<ul class="course_list">
+	<li class="clearfix"><h2 class="c-title1">はじめてのパソコン</h2>
+	<h3 class="c-title3">ゼロから始めたい初心者の方へ</h3>
+	<div class="img1"><img src="../img/course_first.jpg" width="224" height="221" alt="初心者でも安心して楽しめる！" /></div>
+	<p class="mgnL20">メールやインターネットの使い方、デジカメ写真の活用、作品制作を通じ、パソコンを初歩から学べます。</p>
+	</li>
+	<li class="clearfix"><h2 class="c-title1">パソコンをもっと仕事で役立てたい！</h2>
+	<h3 class="c-title3">ワードやエクセルをスキルアップ</h3>
+	<div class="img1"><img src="../img/course_works.jpg" width="224" height="221" alt="仕事に役立つ活用術が学べる！" /></div>
+	<p class="mgnL20">マイクロソフト オフィスの「ワード」「エクセル」「パワーポイント」を基礎から習得し、仕事に活かせるよう、スキルアップします。</p>
+	</li>
+	<li class="clearfix"><h2 class="c-title1">パソコン資格を取得したい！</h2>
+	<h3 class="c-title3">パソコンの資格を取得したい方</h3>
+	<div class="img1"><img src="../img/course_qualification.jpg" width="224" height="221" alt="資格取得でビジネススキルがあがる！" /></div>
+	<p class="mgnL20">「MOS」「サーティファイ」のビジネスで役立つ資格が取得できます。あなたのスキルを証明できます！</p>
+	</li>
+	<li class="clearfix"><h2 class="c-title1">パソコンでインターネットをしたい！</h2>
+	<h3 class="c-title3">メールやインターネットを使いたい</h3>
+	<div class="img1"><img src="../img/course_internet.jpg" width="224" height="221" alt="インターネットを使いこなすと便利になる！" /></div>
+	<p class="mgnL20">Yahoo!やGoogleの使い方、メールの使い方など、インターネットの楽しみ方を基本から学べます。</p>
+	</li>
+	<li class="clearfix"><h2 class="c-title1">パソコンを趣味で楽しみたい！</h2>
+	<h3 class="c-title3">デジカメ写真を活用したい</h3>
+	<div class="img1"><img src="../img/course_hobby.jpg" width="224" height="221" alt="デジカメ写真は撮ってからの活用でより楽しみが増える！" /></div>
+	<p class="mgnL20">デジカメ写真を活用してポストカードを作成したり、パソコンで絵を描いたり、趣味への活用法を学べます。</p>
+	</li>
+	<li class="clearfix"><h2 class="c-title1">シニアのためのパソコン教室</h2>
+	<h3 class="c-title3">中高年からパソコンを始める方</h3>
+	<div class="img1"><img src="../img/course_senior.jpg" width="224" height="221" alt="丁寧な指導でシニアからのスタートでも楽しみながら身に付けられる！" /></div>
+	<p class="mgnL20">マウスやキーボードの操作から始められ、一人一人の目的にあわせて学習プランを選べます。</p>
+	</li>
+</ul>
+</div>
+
 <ul class="course_bnr clearfix">
 	<li><a href="/course/first.php"><img src="/img/btn_course01.jpg" class="alpha" alt="はじめてのパソコン　メールやインターネットの使い方、デジカメ写真の活用、作品制作を通じ、パソコンを初歩から学べます。" width="240" height="150" /></a></li>
 	<li><a href="/course/works.php"><img src="/img/btn_course02.jpg" class="alpha" alt="パソコンをもっと仕事で役立てたい！　マイクロソフトオフィスのワード、エクセル、パワーポイントを基礎から習得し、仕事に活かせるよう、スキルアップします。" width="240" height="150" /></a></li>

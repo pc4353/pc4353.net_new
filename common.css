@@ -339,6 +339,11 @@ img.fr { 	padding-left:15px; }
 .tablet_section3 .section3_box1 .img1 {float: left;width: 200px;}
 .tablet_section3 .section3_box1 .txt1 {margin-left: 250px;}
 
+.section3 .course_list {margin-bottom: 30px;}
+.section3 .course_list li {margin-bottom: 30px;}
+.section3 .course_list .img1 {float: left; margin-right: 20px;}
+.section3 .course_list p {float: left; width: 600px;}
+
 table.about {
 	border-collapse: collapse;
 }
