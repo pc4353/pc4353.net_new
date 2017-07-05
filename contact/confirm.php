@@ -35,6 +35,10 @@ if( !$mail ) {
 	$errormsg .= "<label for=\"mail\">■メールアドレス" . $msg1 . "</label><br />\n" ;
 	$erMail = $erBg;
 }
+if( !$pref1 ) {
+	$errormsg .= "<label for=\"pref\">■お住いの都道府県" . $msg1 . "</label><br />\n" ;
+	$erPref1 = $erBg;
+}
 
 /* エラーメッセージ */
 if( $errormsg ){
@@ -104,6 +108,10 @@ if( $step == 1 ) {
 <tr>
 	<th>メールアドレス<span class="red">必須</span></th>
 	<td><? textConf( $mail, mail ) ?></td>
+</tr>
+<tr>
+	<th>お住いの都道府県<span class="red">必須</span></th>
+	<td><? textConf( $pref1, pref1 ) ?></td>
 </tr>
 <tr>
 	<th>ご住所</th>

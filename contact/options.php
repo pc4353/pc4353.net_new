@@ -12,8 +12,8 @@ define( "CONTACT_MAIL_TO", "student@pc4353.net" );
 入力用HTML
 ========================================*/
 function inputHTML() {
-global $erQuestion, $erName, $erKana, $erPhone, $erMail;
-global $question, $name, $kana, $phone, $mail, $address, $member, $room1, $room2, $way, $other;
+global $erQuestion, $erName, $erKana, $erPhone, $erMail, $erPref1;
+global $question, $name, $kana, $phone, $mail, $pref1, $address, $member, $room1, $room2, $way, $other;
 ?>
 <table class="about">
 <tr>
@@ -35,6 +35,10 @@ global $question, $name, $kana, $phone, $mail, $address, $member, $room1, $room2
 <tr>
 	<th>メールアドレス<span class="red">必須</span></th>
 	<td<?= $erMail ?>><input type="text" value="<?= $mail ?>" name="mail" id="mail" maxlength="100" size="40" style="height:25px;"></td>
+</tr>
+<tr>
+	<th>お住いの都道府県<span class="red">必須</span></th>
+	<td<?= $erPref1 ?>><input type="text" value="<?= $pref1 ?>" name="pref1" maxlength="120" size="60" style="height:25px;"></td>
 </tr>
 <tr>
 	<th>ご住所</th>

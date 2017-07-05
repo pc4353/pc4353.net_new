@@ -23,6 +23,7 @@ $body .= "[受付日時]　" . $date . "\n";
 $body .= "[お 名 前]　" . $name . "(" . $kana . ")\n";
 $body .= "[電話番号]　" . $phone . "\n";
 $body .= "[メ ー ル]　" . $mail . "\n";
+$body .= "[都道府県]　" . $pref1 . "\n";
 $body .= "[ご 住 所]　" . $address . "\n";
 $body .= "[受講状況]　" . $member . "(" . $room1 . $room2 . ")\n";
 $body .= "[認知方法]　" . checkboxComp( $_POST[wa] ) . "(" . $other . ")\n";

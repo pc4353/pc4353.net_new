@@ -127,8 +127,8 @@ include_once('lib/home/header.php');
 <div class="icon pc-only"><img src="/images/overview/choice_list_icon.png" alt="選ばれる理由！" width="126" height="126"></div>
 <img src="/images/overview/choice_list_txt1.png" alt="パソコン資格試験校ならではの合格率の高さ！" width="424" height="104" class="pc-only">
 <img src="/images/overview/sp/choice_list_txt1.png" alt="パソコン資格試験校ならではの合格率の高さ！" width="551" height="125" class="sp-only">
-<div class="txt pc-only">ワード・エクセル・パワーポイントの資格試験が教室で受験でき、資格対策を熟知した<br>インストラクターが学習をサポートするので、高い合格率を誇ります。</div>
-<div class="txt sp-only">ワード・エクセル・パワーポイントの資格試験が教室で受験でき、資格対策を熟知したインストラクターが学習をサポートするので、高い合格率を誇ります。</div>
+<div class="txt pc-only">ワード・エクセル・パワーポイントの資格試験が教室で受験でき、資格対策を熟知した<br>インストラクターが学習をサポートするので、高い合格率を誇ります。<br><span class="small">※パソコン市民講座受講生統計データより</span></div>
+<div class="txt sp-only">ワード・エクセル・パワーポイントの資格試験が教室で受験でき、資格対策を熟知したインストラクターが学習をサポートするので、高い合格率を誇ります。<br><span class="small">※パソコン市民講座受講生統計データより</span></div>
 <div class="img sp-only"><img src="/images/overview/sp/choice_list_img1.png" alt="合格率96.1%" width="243" height="226"></div></div>
 <div class="img pc-only"><img src="/images/overview/choice_list_img1.png" alt="合格率96.1%" width="215" height="200" ></div>
 </li>
