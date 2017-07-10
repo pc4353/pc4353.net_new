@@ -8,9 +8,9 @@
 	<h4><a href="/kawasaki/">イトーヨーカドー川崎教室</a></h4>
 	<span class="small">〒210-0843　神奈川県川崎市川崎区小田栄2-2-1<br />イトーヨーカドー川崎店　3F　A教室</span><br /><span class="bold">TEL：044-322-2101</span></li>
 
-	<li><img src="images/higashikanagawa.jpg" alt="イオン東神奈川教室" />
-	<h4><a href="/higashikanagawa/">イオン東神奈川教室</a></h4>
-	<span class="small">〒221-0821　神奈川県横浜市神奈川区富家町1<br />イオン東神奈川店　2F</span><br /><span class="bold">TEL：045-438-3454</span></li>
+	<li><img src="images/higashikanagawa.jpg" alt="イオンスタイル東神奈川教室" />
+	<h4><a href="/higashikanagawa/">イオンスタイル東神奈川教室</a></h4>
+	<span class="small">〒221-0821　神奈川県横浜市神奈川区富家町1<br />イオンスタイル東神奈川店　2F</span><br /><span class="bold">TEL：045-438-3454</span></li>
 
 	<li><img src="images/susukino.jpg" alt="とうきゅうすすき野教室" />
 	<h4><a href="/susukino/">とうきゅうすすき野教室</a></h4>

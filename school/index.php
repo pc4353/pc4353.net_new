@@ -52,7 +52,7 @@ include_once('../lib/home/header.php');
 <ul class="clearfix">
 	<li><h4><a href="/aitai/">センター北あいたい教室</a></h4></li>
 	<li><h4><a href="/kawasaki/">イトーヨーカドー川崎教室</a></h4></li>
-	<li><h4><a href="/higashikanagawa/">イオン東神奈川教室</a></h4></li>
+	<li><h4><a href="/higashikanagawa/">イオンスタイル東神奈川教室</a></h4></li>
 	<li><h4><a href="/susukino/">とうきゅうすすき野教室</a></h4></li>
 	<li><h4><a href="/sagamihara/">イトーヨーカドー相模原教室</a></h4></li>
 	<li><h4><a href="/kobuchi/">イトーヨーカドー古淵教室</a></h4></li>
