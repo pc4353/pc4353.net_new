@@ -178,7 +178,6 @@ include_once('../lib/home/header.php');
 <ul class="clearfix">
 	<li><h4><a href="/kawanishi/">アステ川西教室</a></h4></li>
 	<li><h4><a href="/nishinomiya/">イオン西宮教室</a></h4></li>
-	<li><h4><a href="/kasuganomichi/">ライフ春日野道教室</a></h4></li>
 	<li><h4><a href="/sannomiya/">ダイエー三宮駅前教室</a></h4></li>
 	<li><h4><a href="/nishikobe/">イズミヤ西神戸教室</a></h4></li>
 	<li><h4><a href="/koushien/">イトーヨーカドー甲子園教室</a></h4></li>

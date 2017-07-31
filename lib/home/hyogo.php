@@ -8,10 +8,6 @@
 	<h4><a href="/nishinomiya/">イオン西宮教室</a></h4>
 	<span class="small">〒663-8014　兵庫県西宮市林田町2-24<br />イオン西宮店 2階</span><br /><span class="bold">TEL：0798-66-6178</span></li>
 	
-	<li><img src="images/kasuganomichi.jpg" alt="ライフ春日野道教室" />
-	<h4><a href="/kasuganomichi/">ライフ春日野道教室</a></h4>
-	<span class="small">〒651-0075　兵庫県神戸市中央区北本町通1-1-23<br />ライフ春日野道店 2階</span><br /><span class="bold">TEL：078-272-0606</span></li>
-	
 	<li><img src="images/sannomiya.jpg" alt="ダイエー三宮駅前教室" />
 	<h4><a href="/sannomiya/">ダイエー三宮駅前教室</a></h4>
 	<span class="small">〒651-0096　兵庫県神戸市中央区雲井通6-1-15<br />ダイエー三宮駅前店 B2F</span><br /><span class="bold">TEL：078-262-0525</span></li>
