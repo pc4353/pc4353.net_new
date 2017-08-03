@@ -1,6 +1,6 @@
 <?php
 
-$title = "大阪府の教室を探す";
+$title = "大阪府のパソコン教室を探す";
 $description = "大阪府のパソコン市民講座の教室をご紹介。";
 $keywords = "教室一覧,";
 $pageId = "school";
