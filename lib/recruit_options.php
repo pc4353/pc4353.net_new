@@ -4,7 +4,7 @@
 include_once( "functions.php" );
 
 /* 送付先アドレス */
-define( "RECRUIT_MAIL_TO", "jinji@cheery.co.jp", "dtsubaki@pc4353.com" );
+define( "RECRUIT_MAIL_TO", "jinji@cheery.co.jp", "ymotoroku@pc4353.com" );
 
 /* このスクリプトのパス */
 $script_path = "/" . $room[$id][dir] . "/recruit.php";
