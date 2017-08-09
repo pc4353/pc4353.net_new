@@ -1,10 +1,12 @@
 <?php
 if ($home) {
+	$title_base = "パソコン教室 パソコン市民講座(東京/大阪ほか全国)";
 	$lbt = "<h1>";
 	$lat = "</h1>";
 	$ht = ' id="home" class="is-home"';
 	$smart_p = 'sp/';
 } else {
+	$title_base = "パソコン教室なら「パソコン市民講座」";
 	$sep = " - ";
 	$logo_s = "_s";
 	$ht = ' id="subpage" class="is-sub"';
@@ -14,7 +16,7 @@ if ($home) {
 <html lang="ja">
 <head>
 <meta charset="utf-8" />
-<title><?=$title?><?=$sep?>パソコン教室なら「パソコン市民講座」</title>
+<title><?=$title?><?=$sep?><?=$title_base?></title>
 <?=$a?>
 <meta name="viewport" content="width=device-width" />
 <meta name="Description" content="<?=$description?>初心者からスキルアップ・資格取得まで安心のパソコン教室 パソコン市民講座(東京/大阪ほか全国)。" />
@@ -98,7 +100,7 @@ if ($home) {
 		</div>
 
 		<div class="l-header1__block1">
-			<?=$lbt?><a href="/"><img src="/common/img/common/logo1.png" width="156" height="68" alt="パソコン教室なら「パソコン市民講座」" /></a><?=$lat?>
+			<?=$lbt?><a href="/"><img src="/common/img/common/logo1.png" width="156" height="68" alt="初心者からスキルアップ・資格取得まで安心のパソコン教室（東京/大阪）パソコン市民講座" /></a><?=$lat?>
 		</div><!-- /.l-header1__block1 -->
 
 		<div class="l-header1__block2 pc-only">

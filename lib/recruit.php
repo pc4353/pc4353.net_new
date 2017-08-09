@@ -38,8 +38,8 @@
 							<div class="section-lv3 clearfix mB30">
 								<div class="box-a">
 									<p>市民講座は確実な学習理解と定着にこだわり、全ての教材を自社開発しています。<br />
-									基本はDVD教材で500時間以上の講座があり、あなたが指導内容に迷うことはありません。<br />
-									もちろんDVD教材は全て見放題。また自社開発のタイピングWEBソフトもあり、ご自身のレベルをいつでも確認できますので、トータルであなたのスキルアップにも確実にプラスになるのです。</p>
+									基本は映像教材で800時間以上の講座があり、あなたが指導内容に迷うことはありません。<br />
+									もちろん映像教材は全て見放題。また自社開発のタイピングWEBソフトもあり、ご自身のレベルをいつでも確認できますので、トータルであなたのスキルアップにも確実にプラスになるのです。</p>
 								</div>
 								<div class="box-b">
 									<img src="/images/recruit_27.png" />
@@ -49,13 +49,13 @@
 							<h3 class="mB20"><img src="/images/recruit_14.png" width="632" height="26" alt="10年間の運営ノウハウ、伸長する会員専用サイト" /></h3>
 							<div class="section-lv3 clearfix mB30">
 								<div class="box-a">
-									<p>10年間で延べ40万名以上の卒業生を輩出した市民講座ならではの運営ノウハウは多々ありますが、この先5年・10年とますます地域に根ざし、安定した教室運営をしていく上で、日々進化していく必要があります。<br />
+									<p>15年間で延べ50万名以上の卒業生を輩出した市民講座ならではの運営ノウハウは多々ありますが、この先5年・10年とますます地域に根ざし、安定した教室運営をしていく上で、日々進化していく必要があります。<br />
 									生徒さんの卒業後も教室とつながり続けていただきたい、ライフワークとしてパソコンの楽しみを提供し続けたい、そんな願いを込めて、特別会員システム【市民講座プレミア倶楽部】を立ち上げました。<br />
 									プレミア倶楽部では会員専用のWEBサイトを活用していただけます。このサイトではご自宅でのパソコン活用や会員同士の交流など、これからも日々進化し続けるパソコンの楽しみを提供します。インストラクターの皆さんの意見や企画案もどんどん取り入れていきますので、一緒にサイトを成長させていきましょう！</p>
 								</div>
 								<div class="box-b">
 									<div class="mB25"><img src="/images/recruit_33.png" /></div>
-									<div class="banner align-r"><a href="http://www.cheery.co.jp/saiyou/index.html" onClick="javascript:_gaq.push(['trackEvent','click','saiyo');" target="_blank"><img class="alpha" src="/images/menu_bn.jpg" alt="チアリーの特設採用サイト" /></a></div>
+									<div class="banner align-r"><a href="https://www.cheery.co.jp/saiyou/" onClick="javascript:_gaq.push(['trackEvent','click','saiyo');" target="_blank"><img class="alpha" src="/images/menu_bn.jpg" alt="チアリーの特設採用サイト" /></a></div>
 								</div>
 							</div><!-- /.section-lv3 -->
 						</div><!-- /.section-lv2 -->
@@ -138,7 +138,7 @@
 						<input type="hidden" value="1" name="step" />
 						</form>
 						</div><!-- /.section-lv2 -->
-						<p class="mT25">当社の<a href="http://www.cheery.co.jp/privacy.html" target="_blank">プライバシーポリシー</a>を十分にご確認いただいた上で、ご応募ください。</p>
+						<p class="mT25">当社の<a href="https://www.pc4353.net/privacy.php" target="_blank">プライバシーポリシー</a>を十分にご確認いただいた上で、ご応募ください。</p>
 					</div><!-- /.i-pt -->
 					
 				</div><!-- /.block -->
