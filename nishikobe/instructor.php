@@ -54,19 +54,40 @@ include_once("../lib/header.php");
                     <div class="i-voice clearfix mB20"> 
                         <div class="section-lv2 moz2 clearfix"> 
                             <div class="box-a"> 
-                                <img class="mB10" src="/nishikobe/images/maruyama.jpg" width="214" height="221" alt="インストラクター写真" /> 
-                                <h2>丸山 先生</h2>
+                                <img class="mB10" src="/nishikobe/images/yamagiwa.jpg" width="214" height="221" alt="インストラクター写真" /> 
+                                <h2>山際 先生</h2>
                             </div><!-- /.box-a --> 
                             <div class="box-b">
                                 <dl> 
                                     <dt>○○日本一</dt> 
-                                    <dd>元気なインスト日本一</dd> 
+                                    <dd>パソコン大好きインスト日本一</dd> 
                                 </dl> 
                                 <dl> 
                                     <dt>ひとこと</dt> 
-                                    <dd>自称、iPad・iPhoneマスターです。<br />パソコン、スマホ、タブレットは今の時代必須のアイテムです！驚きと楽しみの世界が広がりますよ♪</dd> 
+                                    <dd>初めてで不安な気持ちをお持ちの方の味方になります。ITライフを楽しみましょう！</dd> 
                                 </dl> 
-                                <p><span class="option2">受講生から見た丸山先生</span><br />いつも元気はつらつとした姿に、こちらも元気をいただいています。分からない事があってもすぐに察して声をかけてくださるので、安心して色々聞くことができます。</p> 
+                                <p><span class="option2">受講生から見た山際先生</span><br />パソコンのことでもiPadのことでもiPhoneのことでも、何を聞いても答えてくれるのですごく頼りになります。教室に行けばいつもいて、声もかけやすく、教えてもらえるのでとても安心です。</p> 
+                            </div><!-- /.box-b --> 
+                        </div><!-- /.section-lv2 --> 
+                        <div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div> 
+                    </div><!-- /.i-voice --> 				
+
+                    <div class="i-voice clearfix mB20"> 
+                        <div class="section-lv2 moz2 clearfix"> 
+                            <div class="box-a"> 
+                                <img class="mB10" src="/nishikobe/images/matsumoto.jpg" width="214" height="221" alt="インストラクター写真" /> 
+                                <h2>松元 先生</h2>
+                            </div><!-- /.box-a --> 
+                            <div class="box-b">
+                                <dl> 
+                                    <dt>○○日本一</dt> 
+                                    <dd>温厚なインスト日本一</dd> 
+                                </dl> 
+                                <dl> 
+                                    <dt>ひとこと</dt> 
+                                    <dd>楽しく、効率よく、パソコンやタブレットを活用できるようお手伝いしていきます！</dd> 
+                                </dl> 
+                                <p><span class="option2">受講生から見た松元先生</span><br />いつもニコニコ笑顔で対応してくださるので、教室で会えるのを楽しみにしています。わからないことがあってもすぐに察して親身になって聞いてくれるので、安心していろいろ聞くことが出来ます。</p> 
                             </div><!-- /.box-b --> 
                         </div><!-- /.section-lv2 --> 
                         <div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div> 
