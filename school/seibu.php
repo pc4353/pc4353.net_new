@@ -27,6 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
+	<p>中国・四国・九州エリアには笹丘教室や北島教室、筑紫野教室など5件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="seibu" class="c-title2">中国・四国・九州エリア</h2>
 
 <?php

@@ -284,7 +284,7 @@ if( $index ) {
 					<dt>現在のページ</dt>
 					<dd>
 					  <ul>
-						<li><a href="/<?=$room[$id][dir]?>/">HOME</a> <img src="/images/locus.png" alt="の中の" width="9" height="9" /></li>
+						<li><a href="/<?=$room[$id][dir]?>/"><?=$room[$id][area]?>のパソコン教室・講座TOP</a> <img src="/images/locus.png" alt="の中の" width="9" height="9" /></li>
 						<li><?=$title?></li>
 					  </ul>
 					</dd>

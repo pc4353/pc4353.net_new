@@ -45,6 +45,10 @@
 	<span class="small">〒256-0813　神奈川県小田原市前川100<br />小田原シティモールフレスポ　2F　ノジマ店内</span><br /><span class="bold">TEL：0465-49-5565</span></li>
 
 	<li class="none"><img src="images/no_img.jpg" alt="写真準備中" />
+	<h4>そうてつローゼン湘南台教室</h4>
+	<span class="small">〒252-0804　神奈川県藤沢市湘南台1丁目10-1<br />そうてつローゼン湘南台店 1F</span><br /><span class="bold">TEL：0466-52-6009</span></li>
+
+	<li class="none"><img src="images/no_img.jpg" alt="写真準備中" />
 	<h4>二俣川教室</h4>
 	<span class="small">〒241-0821　神奈川県横浜市旭区二俣川2-58<br />第1清水ハーモニービル 204号室</span><br /><span class="bold">TEL：045-363-0945</span></li>
 

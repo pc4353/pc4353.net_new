@@ -27,6 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
+	<p>奈良県にはならファミリー教室や登美ヶ丘教室、エコール・マミ教室など3件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="kansai" class="c-title2">関西エリア</h2>
 
 <?php

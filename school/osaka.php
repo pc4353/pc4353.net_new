@@ -27,6 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
+	<p>大阪府には京橋教室やあべの教室、八尾教室など25件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="kansai" class="c-title2">関西エリア</h2>
 
 <?php

@@ -27,6 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
+	<p>神奈川県には川崎教室や相模原教室、海老名教室など14件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="kanto" class="c-title2">関東エリア</h2>
 
 <?php

@@ -27,6 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
+	<p>関西エリアにはあべの教室や西宮教室、登美ヶ丘教室など40件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="kansai" class="c-title2">関西エリア</h2>
 
 <?php

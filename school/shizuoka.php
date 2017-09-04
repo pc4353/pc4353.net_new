@@ -27,6 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
+	<p>静岡県には遠鉄百貨店教室や浜松プラザフレスポ教室、沼津教室など3件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="chubu" class="c-title2">中部エリア</h2>
 
 <?php

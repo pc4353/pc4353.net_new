@@ -27,6 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
+	<p>福岡県には中井教室や笹丘教室、筑紫野教室など3件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="seibu" class="c-title2">中国・四国・九州エリア</h2>
 
 <?php

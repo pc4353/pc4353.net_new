@@ -27,6 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
+	<p>兵庫県には三宮教室や甲子園教室、明石教室など8件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="kansai" class="c-title2">関西エリア</h2>
 
 <?php

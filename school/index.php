@@ -61,6 +61,7 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/iy-chigasaki/">イトーヨーカドー茅ヶ崎教室</a></h4></li>
 	<li><h4><a href="/isehara/">いせはらcoma教室</a></h4></li>
 	<li><h4><a href="/njmkamonomiya/">ノジマ鴨宮教室</a></h4></li>
+	<li class="none"><h4>そうてつローゼン湘南台教室</h4></li>
 	<li class="none"><h4>二俣川教室</h4></li>
 	<li class="none"><h4>ダイエー向ヶ丘教室</h4></li>
 	<li class="none"><h4>瀬谷教室</h4></li>

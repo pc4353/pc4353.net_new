@@ -2,7 +2,7 @@
 <ul class="clearfix">
 	<li><img src="images/shinibaraki.jpg" alt="イオンスタイル新茨木教室" />
 	<h4><a href="/shinibaraki/">イオンスタイル新茨木教室</a></h4>
-	<span class="small">〒567-0824　大阪府茨木市中津町18-1<br />イオンスタイル新茨木店 3F</span><br /><span class="bold">TEL：0120-272-773</span> 【2017年秋オープン予定】</li>
+	<span class="small">〒567-0824　大阪府茨木市中津町18-1<br />イオンスタイル新茨木店 3F</span><br /><span class="bold">TEL：072-646-7997</span></li>
 
 	<li><img src="images/kitasenri.jpg" alt="イオン北千里教室" />
 	<h4><a href="/kitasenri/">イオン北千里教室</a></h4>
