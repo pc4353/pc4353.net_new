@@ -281,6 +281,18 @@ main .voice_list,
 main .bnr_740{
 	margin-bottom: 20px;
 }
+main .top_lead{
+	color: #6d3238;
+	background: #fff;
+	font-size: 12px;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	line-height: 1.2;
+	border: 1px solid #beb381;
+	border-radius: 10px;        /* CSS3草案 */
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;   /* Firefox用 */
+}
 main .course_list h2{
 	background: url(../images/bg-ttl_course.png) center -3px no-repeat;
 	background-size: 555px auto;

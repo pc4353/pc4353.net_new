@@ -66,7 +66,7 @@ if( !$index ) {
 if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001") {
 ?>
 				<div class="mB10">
-					<h3><a href="http://www.4353p-club.com/blog/?member_id=<?=$room[$id][blog]?>" target="_blank"><img class="alpha" src="/images/blog.jpg" alt="教室のブログ紹介" /></a></h3>
+					<h3><a href="http://www.4353p-club.com/blog/?member_id=<?=$room[$id][blog]?>" target="_blank" rel="nofollow"><img class="alpha" src="/images/blog.jpg" alt="教室のブログ紹介" /></a></h3>
 				</div><!-- .section-->
 <?php
 }
@@ -75,7 +75,7 @@ if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001") {
 if ($id !== "6117001" && $id !== "1076001") {
 ?>
 				<div class="mB10">
-					<h3><a href="http://www.4353p-club.com" target="_blank"><img class="alpha" src="/images/menu_premire.jpg" width="180" height="378" alt="パソコン市民講座だけの会員専用学べるサイト「プレミア倶楽部」" /></a></h3>
+					<h3><a href="http://www.4353p-club.com" target="_blank" rel="nofollow"><img class="alpha" src="/images/menu_premire.jpg" width="180" height="378" alt="パソコン市民講座だけの会員専用学べるサイト「プレミア倶楽部」" /></a></h3>
 				</div><!-- .section-->
 <?php
 }

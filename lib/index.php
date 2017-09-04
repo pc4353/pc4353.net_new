@@ -39,6 +39,9 @@ if ($id == "6015128") {
 
 <div class="main_lft">
 <section>
+	<div class="top_lead">
+		<p><?=$room[$id][name]?>教室は<?=$room[$id][area]?>に位置するパソコン教室で、<?=$room[$id][area]?>の皆様に支えられながら運営を行っています。<br>初めてパソコンを使う初心者の方から、「仕事に役立てたい」「MOSなどの資格を取得したい」という方までご利用いただけるパソコン教室になります。ぜひ、お気軽に無料体験をご利用下さい！</p>
+	</div>
 	<div class="course_list">
 		<h2 class="tk-kozuka-gothic-pr6n"><span>自分に合った資格・講座を探す</span></h2>
 		<div class="inner clearfix">
@@ -385,7 +388,7 @@ if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001") {
 		<dd>
 			<div><img class="pc-only" src="../images/img-blog.png" width="215" alt="<?=$room[$id][name]?>教室の教室ブログ紹介" />
 			<img class="sp-only" src="/common/img/top/sp/top4_bnr1.png" width="300" height="107" alt="" /></div>
-					<p><a href="http://www.4353p-club.com/blog/?member_id=<?=$room[$id][blog]?>" target="_blank"><?=$room[$id][name]?>教室の<br>教室ブログ紹介</a></p>
+					<p><a href="http://www.4353p-club.com/blog/?member_id=<?=$room[$id][blog]?>" target="_blank" rel="nofollow"><?=$room[$id][name]?>教室の<br>教室ブログ紹介</a></p>
 		</dd>
 	</dl>
 	</li>
