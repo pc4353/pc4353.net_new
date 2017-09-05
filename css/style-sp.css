@@ -284,14 +284,16 @@ main .bnr_740{
 main .top_lead{
 	color: #6d3238;
 	background: #fff;
-	font-size: 12px;
 	margin-bottom: 10px;
-	padding: 5px 10px;
 	line-height: 1.2;
 	border: 1px solid #beb381;
-	border-radius: 10px;        /* CSS3草案 */
-    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
-    -moz-border-radius: 10px;   /* Firefox用 */
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+main .top_lead p{
+	font-size: 12px;
+	padding: 5px 10px;
 }
 main .course_list h2{
 	background: url(../images/bg-ttl_course.png) center -3px no-repeat;
@@ -734,7 +736,6 @@ main .main_rgt .map .link_gmap a,
 main .main_rgt .pass .more a,
 main .main_rgt .one_point .more a,
 main .main_rgt .premiere .more a{
-	font-size: 12px;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
@@ -764,6 +765,12 @@ main .main_rgt .one_point dt,
 main .main_rgt .premiere dt,
 main .main_rgt .blog dt{
 	margin-bottom: 5px;
+}
+main .main_rgt .map dd p{
+	padding: 0 8px;
+	margin-bottom: 5px;
+	line-height: 1.3;
+	text-align: left;
 }
 main .main_rgt .pass dd{
 	padding: 0 8px;
@@ -895,6 +902,22 @@ main .notice dd p{
 
 
 /* footer */
+.ft_lead{
+	padding: 0 10px 10px;
+	text-align: center;
+}
+.ft_lead p{
+	text-align: left;
+	color: #6d3238;
+	background: #fff;
+	font-size: 12px;
+	padding: 5px;
+	line-height: 1.2;
+	border: 1px solid #beb381;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
 footer{background:#dfdfdf; border-top:1px solid #beb381;padding: 0 10px;margin-bottom: 40px;}
 #ft_wrap{}
 

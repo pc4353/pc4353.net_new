@@ -315,6 +315,8 @@ $voice_id++ ;
 		<dt class="tk-kozuka-gothic-pr6n"><span>教室情報</span></dt>
 		<dd>
 			<div id="gmap" style="margin-bottom: 5px;width:232px; height:150px;"></div>
+			<p>【住　所】<br><?=$room[$id][ad1]?><br><?=$room[$id][ad2]?><br><?=$room[$id][ad3]?></p>
+			<p>【アクセス】<br><?=$room[$id][access]?></p>
 			<p class="link_gmap"><a href="/<?=$room[$id][dir]?>/about.php">開講時間・アクセス</a></p> 
 		</dd>
 	</dl>
