@@ -52,7 +52,7 @@ global $name, $kana, $old, $phone, $mail, $purpose, $event, $other, $free, $mont
 </tr>
 <tr>
 	<th>電話番号（携帯可）<span class="red">必須</span></th>
-	<td<?= $erPhone ?>>例）09000000000<br /><input type="text" value="<?= $phone ?>" name="phone" maxlength="15" size="30"></td>
+	<td<?= $erPhone ?>>例）09012345678<br /><input type="text" value="<?= $phone ?>" name="phone" maxlength="15" size="30"></td>
 </tr>
 <tr>
 	<th>メールアドレス</th>

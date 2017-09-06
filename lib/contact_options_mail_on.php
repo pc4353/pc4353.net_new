@@ -7,7 +7,7 @@ include_once( "functions.php" );
 define( "CONTACT_MAIL_TO", "student@pc4353.net" );
 
 /* このスクリプトのパス */
-$script_path = "/" . $room[$id][dir] . "/doc_contact.php";
+$script_path = "/" . $room[$id][dir] . "/contact.php";
 
 /*========================================
 お電話でのお問い合わせHTML
@@ -16,7 +16,7 @@ function telHTML() {
 global $room, $id;
 ?>
 						<div class="pc-only">
-						<h2 class="bg-check blue font20 mB20"><img src="/images/mos2010/ico-tel.gif" width="30" height="30" alt="電話" /> お電話でのお問い合わせ・資料請求のお申し込み</h2>
+						<h2 class="bg-check blue font20 mB20"><img src="/images/mos2010/ico-tel.gif" width="30" height="30" alt="電話" /> お電話でのお問い合わせ・無料体験のお申し込み</h2>
 						<div class="clearfix">
 						<img src="/images/contact_62.jpg" class="imgleft" />
 						<div class="section-lv2 moz2 mB30 clearfix">
@@ -34,8 +34,8 @@ global $room, $id;
 ========================================*/
 function inputHTML() {
 global $room, $rid;
-global $erName, $erKana, $erZip, $erAddrs, $erPhone;
-global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event, $other, $free, $month, $day, $time, $nichiji, $nichiji_1, $nichiji_2, $nichiji_3, $question;
+global $erName, $erKana, $erPhone, $erMail;
+global $name, $kana, $old, $phone, $mail, $purpose, $event, $other, $free, $month, $day, $time, $nichiji, $nichiji_1, $nichiji_2, $nichiji_3, $question;
 ?>
 <table class="inq_form">
 <tr>
@@ -51,20 +51,12 @@ global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event,
 	<td<?= $erKana ?>>例）シミンハナコ<br /><input type="text" value="<?= $kana ?>" name="kana" maxlength="20" size="40"></td>
 </tr>
 <tr>
-	<th>郵便番号<span class="red">必須</span></th>
-	<td<?= $erZip ?>>例）1000001<br /><input type="text" name="zip" value="<?= $zip ?>" placeholder="　" maxlength="15" size="15">　<br class="sp-only">【入力すると住所が自動入力されます】</td>
-</tr>
-<tr>
-	<th>住所<span class="red">必須</span></th>
-	<td<?= $erAddrs ?>><input type="text" value="<?= $addr ?>" name="addr" maxlength="100" size="40"><br /><input type="text" value="<?= $addrs ?>" name="addrs" placeholder="番地以降を入力" maxlength="100" size="40"></td>
-</tr>
-<tr>
 	<th>電話番号（携帯可）<span class="red">必須</span></th>
 	<td<?= $erPhone ?>>例）09012345678<br /><input type="text" value="<?= $phone ?>" name="phone" maxlength="15" size="30"></td>
 </tr>
 <tr>
-	<th>メールアドレス</th>
-	<td>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100" size="40"></td>
+	<th>メールアドレス<span class="red">必須</span></th>
+	<td<?= $erMail ?>>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100" size="40"></td>
 </tr>
 <tr>
 	<th>年代</th>

@@ -7,35 +7,15 @@ include_once( "functions.php" );
 define( "CONTACT_MAIL_TO", "student@pc4353.net" );
 
 /* このスクリプトのパス */
-$script_path = "/" . $room[$id][dir] . "/doc_contact.php";
+$script_path = "/" . $room[$id][dir] . "/mos.php";
 
-/*========================================
-お電話でのお問い合わせHTML
-========================================*/
-function telHTML() {
-global $room, $id;
-?>
-						<div class="pc-only">
-						<h2 class="bg-check blue font20 mB20"><img src="/images/mos2010/ico-tel.gif" width="30" height="30" alt="電話" /> お電話でのお問い合わせ・資料請求のお申し込み</h2>
-						<div class="clearfix">
-						<img src="/images/contact_62.jpg" class="imgleft" />
-						<div class="section-lv2 moz2 mB30 clearfix">
-							<p>お気軽にお電話下さい！</p>
-							<p><span class="font30 red">tel.<?=$room[$id][phone]?></span><br />
-							・お電話の際は、必ず<strong>「ホームページを見た」とお伝えください。</strong><br />
-							・営業時間は<a href="/<?=$room[$id][dir]?>/about.php#about4" target="_blank">こちらをご覧ください</a></p>
-						</div><!-- /.section-lv2 -->
-						</div>
-						</div>
-<?php
-}
 /*========================================
 入力用HTML
 ========================================*/
 function inputHTML() {
 global $room, $rid;
-global $erName, $erKana, $erZip, $erAddrs, $erPhone;
-global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event, $other, $free, $month, $day, $time, $nichiji, $nichiji_1, $nichiji_2, $nichiji_3, $question;
+global $erName, $erKana, $erPhone, $erMail, $erNichiji;
+global $name, $kana, $phone, $mail, $old, $nichiji, $nichiji_1, $nichiji_2, $nichiji_3, $course, $question;
 ?>
 <table class="inq_form">
 <tr>
@@ -43,28 +23,20 @@ global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event,
 	<td><?= $room[$rid]["name"] ?>教室</td>
 </tr>
 <tr>
-	<th>お名前<span class="red">必須</span></th>
-	<td<?= $erName ?>>例）市民花子<br /><input type="text" value="<?= $name ?>" name="name" maxlength="20" size="40"></td>
+	<th>お名前　<span class="red">必須</span></th>
+	<td<?= $erName ?>>例）市民花子<br /><input type="text" value="<?= $name ?>" name="name" maxlength="20" size="40" class="form_input01"></td>
 </tr>
 <tr>
-	<th>フリガナ<span class="red">必須</span></th>
-	<td<?= $erKana ?>>例）シミンハナコ<br /><input type="text" value="<?= $kana ?>" name="kana" maxlength="20" size="40"></td>
+	<th>フリガナ　<span class="red">必須</span></th>
+	<td<?= $erKana ?>>例）シミンハナコ<br /><input type="text" value="<?= $kana ?>" name="kana" maxlength="20" size="40" class="form_input01"></td>
 </tr>
 <tr>
-	<th>郵便番号<span class="red">必須</span></th>
-	<td<?= $erZip ?>>例）1000001<br /><input type="text" name="zip" value="<?= $zip ?>" placeholder="　" maxlength="15" size="15">　<br class="sp-only">【入力すると住所が自動入力されます】</td>
+	<th>電話番号（携帯可）　<span class="red">必須</span></th>
+	<td<?= $erPhone ?>>例）09000000000<br /><input type="text" value="<?= $phone ?>" name="phone" maxlength="15" size="30" class="form_input02"></td>
 </tr>
 <tr>
-	<th>住所<span class="red">必須</span></th>
-	<td<?= $erAddrs ?>><input type="text" value="<?= $addr ?>" name="addr" maxlength="100" size="40"><br /><input type="text" value="<?= $addrs ?>" name="addrs" placeholder="番地以降を入力" maxlength="100" size="40"></td>
-</tr>
-<tr>
-	<th>電話番号（携帯可）<span class="red">必須</span></th>
-	<td<?= $erPhone ?>>例）09012345678<br /><input type="text" value="<?= $phone ?>" name="phone" maxlength="15" size="30"></td>
-</tr>
-<tr>
-	<th>メールアドレス</th>
-	<td>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100" size="40"></td>
+	<th>メールアドレス　<span class="red">必須</span></th>
+	<td<?= $erMail ?>>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100" size="40"></td>
 </tr>
 <tr>
 	<th>年代</th>
@@ -80,49 +52,9 @@ global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event,
 	</ul></td>
 </tr>
 <tr>
-	<th>あなたの目的は？<br class="pc-only">（複数選択可）</th>
-	<td><ul>
-<?php
-$purpose[0] = "はじめてのパソコン！";
-$purpose[1] = "インターネットがしたい！";
-$purpose[2] = "趣味で楽しみたい！";
-$purpose[3] = "仕事に活かしたい！";
-$purpose[4] = "学校で必要となった！";
-$purpose[5] = "転職・就活に役立てたい！";
-$purpose[6] = "資格（サーティファイ・MOS）を取得したい！";
-$purpose[7] = "タブレット・スマホを使いこなしたい！";
-$purpose[8] = "その他";
-
-foreach( $purpose as $key => $value ) {
-?>
-		<li><label><input type="checkbox" class="nBn" value="<?= $purpose[$key] ?>" name="pur[<?=$key?>]"<? if( $_POST[pur][$key] ) { echo " checked=checked"; } ?>> <?= $value ?></label></li>
-<?php
-}
-?>
-<li><input type="text" value="<?= $other ?>" name="other" maxlength="100" size="40" /></li>
-	</ul></td>
-</tr>
-<tr>
-	<th>無料体験のお申し込み</th>
-	<td><label><input type="radio" class="nBn" value="する" name="free"<? if( $free == "する" ) { echo " checked"; } ?>> する</label>&nbsp;&nbsp;
-		<label><input type="radio" class="nBn" value="しない" name="free"<? if( $free == "しない" ) { echo " checked"; } ?>> しない</label>
-<?/*
-		<select name="month">
-<?= getOptionHTML( 1, 12, $month, "--" ) ?>
-		</select>月
-		<select name="day">
-<?= getOptionHTML( 1, 31, $day, "--" ) ?>
-		</select>日
-		<select name="time">
-<?= getOptionHTML( 9, 20, $time, "--" ) ?>
-		</select>時頃の訪問
-*/?>
-</td>
-</tr>
-<tr>
-	<th>無料体験希望日</th>
-    <td><select name="nichiji_1">
-    	<option value="--"<? if( $nichiji_1 == "--" ) { echo " selected"; } ?>>--</option>
+	<th>無料説明会希望日　<span class="red">必須</span></th>
+    <td<?= $erNichiji ?>><select name="nichiji_1">
+    	<option value=""<? if( $nichiji_1 == "" ) { echo " selected"; } ?>>&nbsp;</option>
     	<option value="1"<? if( $nichiji_1 == "1" ) { echo " selected"; } ?>>1</option>
     	<option value="2"<? if( $nichiji_1 == "2" ) { echo " selected"; } ?>>2</option>
     	<option value="3"<? if( $nichiji_1 == "3" ) { echo " selected"; } ?>>3</option>
@@ -137,7 +69,7 @@ foreach( $purpose as $key => $value ) {
     	<option value="12"<? if( $nichiji_1 == "12" ) { echo " selected"; } ?>>12</option>
         </select>月&nbsp;
         <select name="nichiji_2">
-    	<option value="--"<? if( $nichiji_2 == "--" ) { echo " selected"; } ?>>--</option>
+    	<option value=""<? if( $nichiji_2 == "" ) { echo " selected"; } ?>>&nbsp;</option>
     	<option value="1"<? if( $nichiji_2 == "1" ) { echo " selected"; } ?>>1</option>
     	<option value="2"<? if( $nichiji_2 == "2" ) { echo " selected"; } ?>>2</option>
     	<option value="3"<? if( $nichiji_2 == "3" ) { echo " selected"; } ?>>3</option>
@@ -171,7 +103,7 @@ foreach( $purpose as $key => $value ) {
     	<option value="31"<? if( $nichiji_2 == "31" ) { echo " selected"; } ?>>31</option>
         </select>日&nbsp;
         <select name="nichiji_3">
-    	<option value="--"<? if( $nichiji_3 == "--" ) { echo " selected"; } ?>>--</option>
+    	<option value=""<? if( $nichiji_3 == "" ) { echo " selected"; } ?>>&nbsp;</option>
     	<option value="午前"<? if( $nichiji_3 == "午前" ) { echo " selected"; } ?>>午前</option>
     	<option value="午後"<? if( $nichiji_3 == "午後" ) { echo " selected"; } ?>>午後</option>
         </select>
@@ -198,9 +130,10 @@ foreach( $purpose as $key => $value ) {
 </tr>
 <tr>
 	<th>ご質問など</th>
-	<td><textarea name="question" rows="8" cols="44"><?= $question ?></textarea></td>
+	<td><textarea name="question" rows="8" cols="44" class="form_input01"><?= $question ?></textarea></td>
 </tr>
 </table>
+
 <?php
 }
 ?>

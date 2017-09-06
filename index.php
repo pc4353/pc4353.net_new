@@ -97,10 +97,10 @@ include_once('lib/home/header.php');
 						<span class="txt1">資格を取得したい</span>
 						<span class="img1"><img src="/common/img/top/top3_img2.jpg" width="100" height="100" alt="" /></span>
 					</a></li>
-					<?php /*<li class="gakusei">
-						<span class="txt1">学生コース</span>
+					<li><a href="/gakuwari/">
+						<span class="txt1">学割で学びたい</span>
 						<span class="img1"><img src="/common/img/top/top3_img3.jpg" width="100" height="100" alt="" /></span>
-					</a></li>*/?>
+					</a></li>
 					<li><a href="/course/first.php">
 						<span class="txt1">パソコンの<br class="pc-only" />基本操作を<br />覚えたい</span>
 						<span class="img1"><img src="/common/img/top/top3_img4.jpg" width="100" height="100" alt="" /></span>

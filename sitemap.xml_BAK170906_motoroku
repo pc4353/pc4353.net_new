@@ -17,6 +17,10 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/merit.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/course/</loc>
 	<priority>0.8</priority>
 </url>
@@ -34,6 +38,10 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/gakuwari/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/course/brain_training.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -62,10 +70,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/qa.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/course/brain_training.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -157,6 +161,10 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/voice/senior.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/voice/</loc>
 	<priority>0.8</priority>
 </url>
@@ -165,23 +173,23 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=164</loc>
+	<loc>https://www.pc4353.net/news/?p=55</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=157</loc>
+	<loc>https://www.pc4353.net/news/?p=65</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=115</loc>
+	<loc>https://www.pc4353.net/news/?p=58</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=131</loc>
+	<loc>https://www.pc4353.net/news/?p=68</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=100</loc>
+	<loc>https://www.pc4353.net/news/?p=73</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -617,19 +625,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/voice/senior.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/news/?paged=2</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?paged=3</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=96</loc>
+	<loc>https://www.pc4353.net/news/?p=76</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -677,15 +677,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/nakano/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/nakano/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/nakano/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/nakano/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -737,15 +737,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/jiyugaoka/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/jiyugaoka/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/jiyugaoka/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/jiyugaoka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -797,15 +797,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/jinbocho/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/jinbocho/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/jinbocho/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/jinbocho/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -857,15 +857,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/takenotsuka/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/takenotsuka/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/takenotsuka/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/takenotsuka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -917,15 +917,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kanamati/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kanamati/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kanamati/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kanamati/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -985,10 +985,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kameari/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/kameari/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -1037,15 +1033,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kameariario/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kameariario/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kameariario/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kameariario/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1097,15 +1093,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kasai/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kasai/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kasai/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kasai/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1157,15 +1153,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/higashiojima/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/higashiojima/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/higashiojima/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/higashiojima/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1209,15 +1205,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/oizumi/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/oizumi/win10.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/oizumi/shikaku.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/oizumi/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/oizumi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1230,10 +1230,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/oizumi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/oizumi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1285,15 +1281,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/nishihachiouji/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/nishihachiouji/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/nishihachiouji/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/nishihachiouji/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1345,15 +1341,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/fussa/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/fussa/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/fussa/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/fussa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1405,15 +1401,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/aitai/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/aitai/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/aitai/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/aitai/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1465,15 +1461,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kawasaki/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kawasaki/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kawasaki/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawasaki/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1525,15 +1521,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/higashikanagawa/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/higashikanagawa/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/higashikanagawa/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/higashikanagawa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1585,15 +1581,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/susukino/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/susukino/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/susukino/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/susukino/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1637,15 +1633,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/sagamihara/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/sagamihara/win10.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/sagamihara/shikaku.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/sagamihara/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/sagamihara/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1654,10 +1654,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/sagamihara/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/sagamihara/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1709,15 +1705,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kobuchi/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kobuchi/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kobuchi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kobuchi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1769,15 +1765,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/hashimoto/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/hashimoto/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/hashimoto/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/hashimoto/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1829,15 +1825,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/ebina/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/ebina/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/ebina/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/ebina/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1889,15 +1885,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/iy-chigasaki/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/iy-chigasaki/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/iy-chigasaki/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/iy-chigasaki/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1949,15 +1945,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/isehara/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/isehara/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/isehara/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/isehara/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2009,15 +2005,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/njmkamonomiya/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/njmkamonomiya/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/njmkamonomiya/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/njmkamonomiya/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2061,15 +2057,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ariokashiwa/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/ariokashiwa/win10.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/ariokashiwa/shikaku.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/ariokashiwa/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/ariokashiwa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2078,10 +2078,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/ariokashiwa/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/ariokashiwa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2133,15 +2129,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kamatori/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kamatori/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kamatori/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kamatori/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2193,15 +2189,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/myoden/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/myoden/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/myoden/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/myoden/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2253,15 +2249,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/narita/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/narita/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/narita/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/narita/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2313,15 +2309,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kitakogane/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kitakogane/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kitakogane/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kitakogane/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2337,10 +2333,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ootaka/contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/ootaka/course.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -2350,6 +2342,10 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/ootaka/apply.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/ootaka/contact.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2373,15 +2369,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/ootaka/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/ootaka/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/ootaka/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/ootaka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2433,15 +2429,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/nagareyama/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/nagareyama/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/nagareyama/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/nagareyama/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2493,15 +2489,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/tokiwadaira/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/tokiwadaira/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/tokiwadaira/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/tokiwadaira/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2553,15 +2549,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/matudo/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/matudo/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/matudo/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/matudo/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2613,15 +2609,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/funabashi/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/funabashi/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/funabashi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/funabashi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2673,15 +2669,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/magome/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/magome/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/magome/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2733,15 +2729,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/tsudanuma/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/tsudanuma/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/tsudanuma/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/tsudanuma/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2793,15 +2789,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/yukari/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/yukari/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/yukari/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yukari/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2853,15 +2849,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/mobara/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/mobara/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/mobara/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/mobara/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2913,15 +2909,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kashiwa/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kashiwa/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kashiwa/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kashiwa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2973,15 +2969,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/abiko/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/abiko/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/abiko/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/abiko/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3033,15 +3029,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/higashimatsuyama/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/higashimatsuyama/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/higashimatsuyama/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/higashimatsuyama/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3093,15 +3089,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/yono/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/yono/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/yono/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yono/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3153,15 +3149,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/iruma/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/iruma/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/iruma/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/iruma/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3213,15 +3209,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/minamiurawa/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/minamiurawa/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/minamiurawa/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/minamiurawa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3273,15 +3269,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/ageo/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/ageo/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/ageo/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/ageo/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3333,15 +3329,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kawaguchi/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kawaguchi/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kawaguchi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3393,15 +3389,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/nishikicho/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/nishikicho/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/nishikicho/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/nishikicho/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3453,15 +3449,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/misato/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/misato/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/misato/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/misato/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3513,15 +3509,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/nankoshi/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/nankoshi/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/nankoshi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/nankoshi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3573,15 +3569,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kasukabe/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kasukabe/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kasukabe/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kasukabe/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3633,15 +3629,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/moro/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/moro/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/moro/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/moro/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3693,15 +3689,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/tokorozawa/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/tokorozawa/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/tokorozawa/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/tokorozawa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3753,15 +3749,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/fukaya/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/fukaya/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/fukaya/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/fukaya/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3841,15 +3837,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/ryugasaki/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/ryugasaki/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/ryugasaki/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/ryugasaki/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3901,15 +3897,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/toyohashi/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/toyohashi/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/toyohashi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/toyohashi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3961,15 +3957,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kamiiida/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kamiiida/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kamiiida/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kamiiida/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4013,15 +4009,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/owariasahi/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/owariasahi/win10.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/owariasahi/shikaku.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/owariasahi/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/owariasahi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4030,10 +4030,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/owariasahi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/owariasahi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4085,15 +4081,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/tsushima/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/tsushima/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/tsushima/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/tsushima/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4173,15 +4169,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/numadu/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/numadu/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/numadu/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/numadu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4225,15 +4221,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/hamamatsu/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/hamamatsu/win10.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/hamamatsu/shikaku.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/hamamatsu/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/hamamatsu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4242,10 +4242,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/hamamatsu/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/hamamatsu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4297,15 +4293,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/entetsu/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/entetsu/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/entetsu/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/entetsu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4357,15 +4353,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/shinibaraki/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/shinibaraki/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/shinibaraki/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/shinibaraki/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4417,15 +4413,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kitasenri/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kitasenri/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kitasenri/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kitasenri/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4477,15 +4473,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kyobashi/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kyobashi/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kyobashi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kyobashi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4537,15 +4533,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/takami/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/takami/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/takami/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/takami/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4597,15 +4593,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/ohwada/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/ohwada/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/ohwada/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/ohwada/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4657,15 +4653,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/suita/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/suita/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/suita/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/suita/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4717,15 +4713,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/senrioka/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/senrioka/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/senrioka/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/senrioka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4833,15 +4829,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/koori/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/koori/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/koori/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/koori/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4893,15 +4889,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/higashineyagawa/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/higashineyagawa/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/higashineyagawa/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/higashineyagawa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4953,15 +4949,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/wakae/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/wakae/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/wakae/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/wakae/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5013,15 +5009,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/higashiosaka/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/higashiosaka/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/higashiosaka/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/higashiosaka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5073,15 +5069,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/yamamoto/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/yamamoto/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/yamamoto/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5133,15 +5129,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/iy-yao/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/iy-yao/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/iy-yao/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/iy-yao/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5193,15 +5189,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kokubu/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kokubu/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kokubu/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kokubu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5253,15 +5249,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/ecoll-roze/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/ecoll-roze/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/ecoll-roze/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/ecoll-roze/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5313,15 +5309,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/koumyouike/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/koumyouike/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/koumyouike/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/koumyouike/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5373,15 +5369,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/izumisano/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/izumisano/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/izumisano/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5433,15 +5429,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kitanoda/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kitanoda/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kitanoda/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kitanoda/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5493,15 +5489,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/abeno/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/abeno/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/abeno/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/abeno/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5573,15 +5569,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kawanishi/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/kawanishi/win10.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kawanishi/shikaku.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kawanishi/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawanishi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5590,10 +5590,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/kawanishi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawanishi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5645,15 +5641,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/nishinomiya/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/nishinomiya/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/nishinomiya/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/nishinomiya/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5705,15 +5701,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/sannomiya/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/sannomiya/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/sannomiya/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/sannomiya/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5765,15 +5761,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/nishikobe/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/nishikobe/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/nishikobe/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/nishikobe/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5825,15 +5821,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/koushien/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/koushien/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/koushien/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/koushien/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5885,15 +5881,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/itami/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/itami/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/itami/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/itami/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5945,15 +5941,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/sakiland/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/sakiland/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/sakiland/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/sakiland/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6005,15 +6001,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/akashi/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/akashi/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/akashi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/akashi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6065,15 +6061,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/s-yamashina/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/s-yamashina/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/s-yamashina/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/s-yamashina/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6125,15 +6121,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/uzumasa/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/uzumasa/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/uzumasa/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/uzumasa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6185,15 +6181,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/naratomigaoka/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/naratomigaoka/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/naratomigaoka/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/naratomigaoka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6245,15 +6241,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/narafa/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/narafa/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/narafa/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/narafa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6305,15 +6301,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/ecoll-mami/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/ecoll-mami/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/ecoll-mami/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/ecoll-mami/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6365,15 +6361,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/minamikusatsu/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/minamikusatsu/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/minamikusatsu/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/minamikusatsu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6425,15 +6421,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/hachiman/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/hachiman/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/hachiman/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/hachiman/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6485,15 +6481,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kitajima/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kitajima/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kitajima/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kitajima/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6545,15 +6541,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/chikushino/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/chikushino/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/chikushino/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6605,15 +6601,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/sasaoka/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/sasaoka/junior.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/sasaoka/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/sasaoka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6665,6 +6661,10 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/nakai/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/nakai/junior.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -6673,39 +6673,7 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nakai/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/nakai/recruit.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=90</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=55</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=65</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=58</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=68</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=73</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=76</loc>
 	<priority>0.8</priority>
 </url>
 <url>

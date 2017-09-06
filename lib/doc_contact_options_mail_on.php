@@ -34,7 +34,7 @@ global $room, $id;
 ========================================*/
 function inputHTML() {
 global $room, $rid;
-global $erName, $erKana, $erZip, $erAddrs, $erPhone;
+global $erName, $erKana, $erZip, $erAddrs, $erPhone, $erMail;
 global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event, $other, $free, $month, $day, $time, $nichiji, $nichiji_1, $nichiji_2, $nichiji_3, $question;
 ?>
 <table class="inq_form">
@@ -63,8 +63,8 @@ global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event,
 	<td<?= $erPhone ?>>例）09012345678<br /><input type="text" value="<?= $phone ?>" name="phone" maxlength="15" size="30"></td>
 </tr>
 <tr>
-	<th>メールアドレス</th>
-	<td>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100" size="40"></td>
+	<th>メールアドレス<span class="red">必須</span></th>
+	<td<?= $erMail ?>>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100" size="40"></td>
 </tr>
 <tr>
 	<th>年代</th>

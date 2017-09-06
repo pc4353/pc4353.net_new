@@ -359,7 +359,7 @@
 	<td>例）09012345678<br /><input type="text" value="" name="phone" maxlength="15" size="30" class="form_input02"></td>
 </tr>
 <tr>
-	<th>メールアドレス</th>
+	<th>メールアドレス　<span class="red">必須</span></th>
 	<td>例）example@pc4353.com<br /><input type="text" value="" name="mail" maxlength="100" size="40"></td>
 </tr>
 <tr>
