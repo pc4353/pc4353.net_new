@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* デジタル写真マスター講座 */
+.u-center {
+	text-align: center;
+	padding-bottom: 20px;
+	background-color: #fff;
+	position: relative;
+}
+
+.u-center .lead_area {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+	position: absolute;
+	top: 48px;
+}
+.u-center .lead_area .ttl{
+	color: #065a30;
+	font-size: 112.5% !important;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+.u-center .lead_area .lead {
+	line-height: 1.3;
+	font-size: 87.5% !important;
+	font-weight: bold;
+}
+
+#d_photo_master {
+	background-color: #fff;
+}
+#d_photo_master dd {
+	margin-left: 0;
+}
+#d_photo_master .cnt {
+}
+
+#d_photo_master .block {
+	margin-bottom: 50px;
+}
+#d_photo_master .block .inc_area {
+	text-align: center;
+}
+#d_photo_master .block_list {
+	position: relative;
+}
+#d_photo_master .block_list h3 {
+	background: #065a30;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+#d_photo_master #block_2 {
+	position: relative;
+}
+#d_photo_master #block_2 .lead {
+	width: 100%;
+	text-align: center;
+	line-height: 1.7;
+	font-size: 112.5% !important;
+	font-weight: bold;
+	position: absolute;
+	top: 45px;
+}
+#d_photo_master #block_2 .inc_area {
+}
+#d_photo_master #block_3 ul,
+#d_photo_master #block_4 ul,
+#d_photo_master #block_5 ul {
+	color: #065a30;
+	font-size: 131.2% !important;
+	font-weight: bold;
+	line-height: 1.7;
+	padding: 0 10px;
+}
+#d_photo_master #block_3 .lesson_point,
+#d_photo_master #block_4 .lesson_point,
+#d_photo_master #block_5 .lesson_point {
+	margin-bottom: 30px;
+	padding: 0 10px;
+}
+#d_photo_master #block_3 .lesson_point dl dt,
+#d_photo_master #block_4 .lesson_point dl dt,
+#d_photo_master #block_5 .lesson_point dl dt {
+	font-size: 112.5% !important;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#d_photo_master #block_3 .lesson_point dl dd {
+}
+#d_photo_master #block_4 .lesson_point dl dd {
+}
+#d_photo_master #block_5 .lesson_point dl dd {
+}
+#d_photo_master #block_5 .start {
+	text-align: center;
+	color: #E41C24;
+	font-size: 131.2% !important;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+a:hover{opacity: 0.7}
+

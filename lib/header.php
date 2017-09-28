@@ -152,14 +152,14 @@ $(document).ready(function(){
 		buildPager: function(slideIndex){
       switch (slideIndex){
 <?php
-if ($id == "6015128") {
+if ($id == "6015000") {
 ?>
         case 0:
           return '<img src="/images/img-new_thumb.png" width="150" />';
         case 1:
           return '<img src="/images/img-main_thumb01.png" width="150" />';
         case 2:
-          return '<img src="/images/img-main_thumb03.png" width="150" />';
+          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
         case 3:
           return '<img src="/images/img-main_thumb02.png" width="150" />';
 <?php
@@ -168,7 +168,7 @@ if ($id == "6015128") {
         case 0:
           return '<img src="/images/img-main_thumb01.png" width="150" />';
         case 1:
-          return '<img src="/images/img-main_thumb03.png" width="150" />';
+          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
         case 2:
           return '<img src="/images/img-main_thumb02.png" width="150" />';
         case 3:

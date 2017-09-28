@@ -16,6 +16,7 @@ include_once('lib/home/header.php');
 			<ul>
 				<!--<li><a href="/news/?p=100"><img src="/common/img/top/top1_slide4.jpg" width="690" height="370" alt="今なら最大6,000円OFF！入会キャンペーン実施中！" /></a></li>-->
 				<li><a href="/shikaku/"><img src="/common/img/top/top1_slide1.jpg" width="690" height="370" alt="資格対策講座 即戦力の証明とスキルの自信につながる主要資格（MOS/サーティファイ）に対応！！ビジネスコースを見る" /></a></li>
+				<li><a href="/course/d_photo_master.php"><img src="/common/img/top/top1_slide5.jpg" width="690" height="370" alt="デジタル写真マスター講座 写真のすべてが学べる講座が2017年9月スタート！詳しくはこちらから" /></a></li>
 				<li><a href="/course/brain_training.php"><img src="/common/img/top/top1_slide3.png" width="690" height="370" alt="脳トレ おとなプログラミング講座 話題の講座が2017年6月スタート！詳しくはこちらから" /></a></li>
 				<li><a href="/gakuwari/"><img src="/common/img/top/top1_slide2.png" width="690" height="370" alt="学割 小学生から大学生まで対象拡大しました！" /></a></li>
 			</ul>

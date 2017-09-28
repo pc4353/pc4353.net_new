@@ -36,7 +36,9 @@ global $name, $kana, $phone, $mail, $old, $nichiji, $nichiji_1, $nichiji_2, $nic
 </tr>
 <tr>
 	<th>メールアドレス　<span class="red">必須</span></th>
-	<td<?= $erMail ?>>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100" size="40"></td>
+	<td<?= $erMail ?>>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100" size="40">
+	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
+	</td>
 </tr>
 <tr>
 	<th>年代</th>

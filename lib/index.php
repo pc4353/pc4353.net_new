@@ -16,15 +16,8 @@ if( $id == "1001000" ) {
 ?>
 <div class="main_vi">
 <ul class="slider">
-<?php
-if ($id == "6015128") {
-?>
-	<li><img src="/images/img-new_shinibaraki.jpg" width="985" height="300" alt="2017年秋 イオンスタイル新茨木教室オープン！" class="alpha" /></li>
-<?php
-}
-?>
 	<li><a href="/<?=$room[$id][dir]?>/certify.php"><img src="/images/img-main01.png" width="985" height="300" alt="エクセル・ワード・パワーポイントを仕事で活かす！ビジネス実践講座" class="alpha" /></a></li>
-	<li><a href="/course/brain_training.php" target="_blank"><img src="/images/img-main03.png" width="985" height="300" alt="脳トレ おとなプログラミング講座 話題の講座が2017年6月スタート！詳しくはこちらから" class="alpha" /></a></li>
+	<li><a href="/course/d_photo_master.php" target="_blank"><img src="/images/img-main05.jpg" width="985" height="300" alt="デジタル写真マスター講座 写真のすべてが学べる講座が2017年9月スタート！詳しくはこちらから" class="alpha" /></a></li>
 	<li><a href="/<?=$room[$id][dir]?>/mos.php"><img src="/images/img-main02.png" width="985" height="300" alt="就職・転職を有利に！資格は実力の証！MOS資格取得コース" class="alpha" /></a></li>
 	<?php
 	if( $room[$id][biz_on] == "1" ) {
