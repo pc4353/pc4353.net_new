@@ -66,65 +66,6 @@ include_once("../lib/header_contact.php");
 				</div><!-- /.block -->
 				</div><!-- /#kasou -->
 
-<SCRIPT language="JavaScript" type="text/javascript">
-<!-- Yahoo Japan Corporation.
-window.ysm_customData = new Object();
-window.ysm_customData.conversion = "transId=,currency=,amount=";
-var ysm_accountid  = "1315393TRU0DD5K3ELIBBRVNRRK";
-document.write("<SCR" + "IPT language='JavaScript' type='text/javascript' " 
-+ "SRC=//" + "srv2.wa.marketingsolutions.yahoo.com" + "/script/ScriptServlet" + "?aid=" + ysm_accountid 
-+ "></SCR" + "IPT>");
-// -->
-</SCRIPT>
-
-<script language="Javascript" type="text/javascript">
-<!--
-var account_id="Ot05zqgOLDWUgRVy_Vo1"; 
-var transaction_id = "";
-var amount = "";
-if (location.protocol == "https:") { var protocol = "https:"} else { var protocol = "http:" }
-document.write("<img width=1 height=1 border=0 src='" + protocol + "//b90.yahoo.co.jp/c?account_id=" + account_id + "&transaction_id=" + transaction_id + "&amount=" + amount + "'>");
-//-->
-</script>
-
-<!-- Google Code for &#30003;&#36796;&#23436;&#20102; Conversion Page -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 1014763094;
-var google_conversion_language = "ja";
-var google_conversion_format = "1";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "VdVACLKY7gIQ1pzw4wM";
-var google_conversion_value = 0;
-/* ]]> */
-</script>
-<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1014763094/?label=VdVACLKY7gIQ1pzw4wM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
-
-<!-- Google Code for &#28961;&#26009;&#20307;&#39443; Conversion Page -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 1002710857;
-var google_conversion_language = "ja";
-var google_conversion_format = "1";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "5QvmCMfMkQMQyc6Q3gM";
-var google_conversion_value = 0;
-/* ]]> */
-</script>
-<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1002710857/?value=0&amp;label=5QvmCMfMkQMQyc6Q3gM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
-
 <!-- Yahoo Code for &#28961;&#26009;&#20307;&#39443;&#30003;&#36796; Conversion Page -->
 <script type="text/javascript">
 /* <![CDATA[ */
@@ -149,30 +90,6 @@ var amount = "";
 if (location.protocol == "https:") { var protocol = "https:"} else { var protocol = "http:" }
 document.write("<img width=1 height=1 border=0 src='" + protocol + "//b90.yahoo.co.jp/c?account_id=" + account_id + "&transaction_id=" + transaction_id + "&amount=" + amount + "'>");
 //-->
-</script>
-
-<!-- BLADE Conversion Page -->
-<script type="text/javascript" class="microad_blade_track">
-<!--
-var microad_blade_jp = microad_blade_jp || { 'params' : new Array(),
-'complete_map' : new Object() };
-(function() {
-var param = {'co_account_id' : '16809', 'group_id' : 'convtrack39384',
-'country_id' : '1', 'ver' : '2.1.0'};
-microad_blade_jp.params.push(param);
-
-var src = (location.protocol == 'https:')
-? 'https://d-cache.microad.jp/js/blade_track_jp.js' :
-'http://d-cache.microad.jp/js/blade_track_jp.js';
-
-var bs = document.createElement('script');
-bs.type = 'text/javascript'; bs.async = true;
-bs.charset = 'utf-8'; bs.src = src;
-
-var s = document.getElementsByTagName('script')[0];
-s.parentNode.insertBefore(bs, s);
-})();
--->
 </script>
 
 <?php

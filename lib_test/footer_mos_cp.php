@@ -52,20 +52,9 @@
 </ul>
 <div id="ft_tel_box">
 <div id="ft_tel"><?=$room[$id][phone]?></div>
-<?php
-if ($id == "1001111") {
-?>
-	<div id="ft_reception">店舗改修中につきイトーヨーカドー柏教室に繋がります 
-	</div>
-<?php
-} else {
-?>
 	<div id="ft_reception">受付時間 / 
 	<a href="/<?=$room[$id][dir]?>/about.php">営業時間はこちら</a>
 	</div>
-<?php
-}
-?>
 </div>
 </div>
 </div>

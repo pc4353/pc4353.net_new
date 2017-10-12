@@ -327,15 +327,8 @@
 
 </div><!-- /.p-mos -->
 
-
-        <div id="contents" class="clearfix mos" style="background: #fff !important;">
-            <div id="main">
-                <div id="kasou" class="clearfix">
-
-                <div class="block">
-
                 <div id="toiawase_form" class="c-wrap">
-					<div class="i-pt clearfix mB20 mR10">
+					<div class="i-pt clearfix mR10">
 						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料説明会のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step1.jpg" width="810" height="55" alt="お客様情報入力" /></div>
 						<p><span class="red">必須</span>項目は必ずご入力お願いいたします。</p>
@@ -356,11 +349,13 @@
 </tr>
 <tr>
 	<th>電話番号（携帯可）　<span class="red">必須</span></th>
-	<td>例）09000000000<br /><input type="text" value="" name="phone" maxlength="15" size="30" class="form_input02"></td>
+	<td>例）09012345678<br /><input type="text" value="" name="phone" maxlength="15" size="30" class="form_input02"></td>
 </tr>
 <tr>
 	<th>メールアドレス</th>
-	<td>例）example@pc4353.com<br /><input type="text" value="" name="mail" maxlength="100" size="40"></td>
+	<td>例）example@pc4353.com<br /><input type="text" value="" name="mail" maxlength="100" size="40">
+	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
+	</td>
 </tr>
 <tr>
 	<th>年代</th>
@@ -431,7 +426,21 @@
     	<option value="午前">午前</option>
     	<option value="午後">午後</option>
         </select>
-        <p class="red">※後程、お電話にてお時間の確認をさせていただきます。</p>
+	<?php
+	if( $room[$rid][close] == "0" ) {
+    ?>
+        <p class="red">※後程、お電話にてお時間の確認をさせていただきます。<br />
+		なお、ご連絡には少々お時間をいただく場合がありますので、お急ぎの方は直接、お電話でお申し込みください。</p>
+	<?php
+	} else {
+    //休校日ありver
+    ?>
+        <p class="red"><strong>※希望日は本日から2日後以降としてください。</strong><br />
+        ※後程、お電話にてお時間の確認をさせていただきます。<br />
+        ※お急ぎの方は直接、お電話でお申し込みください。</p>
+	<?php
+	}
+    ?>
         </td>
 </tr>
 <tr>
@@ -452,7 +461,7 @@
 </tr>
 </table>
 						</div><!-- /.section-lv2 -->
-						<p class="mT25">当社の<a href="http://www.cheery.co.jp/privacy.html" target="_blank">プライバシーポリシー</a>を十分にご確認いただいた上で、お問い合わせください。</p>
+						<p class="mT25 mB20">当社の<a href="https://www.pc4353.net/privacy.php" target="_blank">プライバシーポリシー</a>を十分にご確認いただいた上で、お問い合わせください。</p>
 					</div><!-- /.i-pt -->
                 </div><!-- /#toiawase_form -->
 					

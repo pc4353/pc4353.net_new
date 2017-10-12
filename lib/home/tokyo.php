@@ -1,6 +1,6 @@
 <h3 id="tokyo" class="c-title1">東京都</h3>
 <ul class="clearfix">
-	<li><img src="images/no_img.jpg" alt="中野マルイ教室" />
+	<li><img src="images/nakano.jpg" alt="中野マルイ教室" />
 	<h4><a href="/nakano/">中野マルイ教室</a></h4>
 	<span class="small">〒164-0001　東京都中野区中野3-34-28<br />中野マルイ 3F</span><br /><span class="bold">TEL：03-6382-5878<br />エリア：中野区</span></li>
 

@@ -29,7 +29,7 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width" />
-<title><?=$title.$sep?><?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室</title>
+<title><?=$title.$sep?><?=$room[$id][area]?>のパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室</title>
 <meta name="keywords" content="パソコン教室,<?=$room[$id][keywords]?><?=$room[$id][name]?>教室,パソコンスクール,資格,検定,MOS,サーティファイ,ビジネスオンライン,PC教室,初心者">
 <meta name="description" content="<?=$title.$sep?>初心者からスキルアップ・資格取得まで安心のパソコン教室。<?=$room[$id][area]?>のパソコン市民講座 <?=$room[$id][name]?>教室。MOS資格・サーティファイ技能検定などエクセル・ワード・パワーポイントの資格取得やビジネススキルアップを教室インストラクターがしっかりとサポート！">
 
@@ -122,7 +122,7 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
                     <dt>現在のページ</dt>
                     <dd>
                       <ul>
-                        <li><a href="/<?=$room[$id][dir]?>/">HOME</a> <img src="/images/locus.png" alt="の中の" width="9" height="9" /></li>
+                        <li><a href="/<?=$room[$id][dir]?>/"><?=$room[$id][area]?>のパソコン教室・講座TOP</a> ＞</li>
                         <li>サーティファイ ビジネス実践講座</li>
                       </ul>
                     </dd>
@@ -507,6 +507,9 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
 
 
 </div><!-- /.p-cert -->
+				</div><!-- /#.block -->
+				</div><!-- /#kasou -->
+		</div><!-- #contents -->
 
 <footer>
 <div id="ft_wrap" class="clearfix">
@@ -562,20 +565,9 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
 </ul>
 <div id="ft_tel_box">
 <div id="ft_tel"><?=$room[$id][phone]?></div>
-<?php
-if ($id == "1001111") {
-?>
-    <div id="ft_reception">店舗改修中につきイトーヨーカドー柏教室に繋がります 
-    </div>
-<?php
-} else {
-?>
     <div id="ft_reception">受付時間 / 
     <a href="/<?=$room[$id][dir]?>/about.php">営業時間はこちら</a>
     </div>
-<?php
-}
-?>
 </div>
 </div>
 </div>
@@ -596,56 +588,5 @@ if ($id == "1001111") {
 </div>
 </div>
 </footer>
-
-<!-- GoogleAnalytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-60689014-1', 'auto');
-  ga('require', 'displayfeatures');
-  ga('require', 'linkid', 'linkid.js');
-  ga('send', 'pageview');
-
-  ga('create', 'UA-19029672-1', 'auto', {'name': 'secondTracker'});
-  ga('secondTracker.require', 'displayfeatures');
-  ga('secondTracker.require', 'linkid', 'linkid.js');
-  ga('secondTracker.send','pageview');
-
-</script>
-<!-- Google Code for &#35370;&#21839;&#12375;&#12383;&#12518;&#12540;&#12470;&#12540; Remarketing List -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 1014763094;
-var google_conversion_language = "en";
-var google_conversion_format = "3";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "FFTDCIKl7wIQ1pzw4wM";
-var google_conversion_value = 0;
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1014763094/?label=FFTDCIKl7wIQ1pzw4wM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
-
-<!-- YahooListing -->
-<script type="text/javascript">
-  (function () {
-    var tagjs = document.createElement("script");
-    var s = document.getElementsByTagName("script")[0];
-    tagjs.async = true;
-    tagjs.src = "//s.yjtag.jp/tag.js#site=iBKwITQ";
-    s.parentNode.insertBefore(tagjs, s);
-  }());
-</script>
-<noscript>
-  <iframe src="//b.yjtag.jp/iframe?c=iBKwITQ" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-</noscript>
-
 </body>
 </html>

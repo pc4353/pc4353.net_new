@@ -2,7 +2,7 @@
 <ul class="clearfix">
 	<li><img src="images/ariokashiwa.jpg" alt="イトーヨーカドーアリオ柏教室" />
 	<h4><a href="/ariokashiwa/">イトーヨーカドーアリオ柏教室</a></h4>
-	<span class="small">〒277-0922　千葉県柏市大島田950-1<br />イトーヨーカドーアリオ柏店 2階</span><br /><span class="bold">TEL：04-7179-5432<br />エリア：柏市</span></li>
+	<span class="small">〒277-0922　千葉県柏市大島田1丁目6番地1<br />イトーヨーカドーアリオ柏店 2階</span><br /><span class="bold">TEL：04-7179-5432<br />エリア：柏市</span></li>
 
 	<li><img src="images/kamatori.jpg" alt="イオン鎌取教室" />
 	<h4><a href="/kamatori/">イオン鎌取教室</a></h4>

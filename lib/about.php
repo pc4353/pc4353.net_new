@@ -1,13 +1,4 @@
 					<h1 class="mB10"><img src="/images/about_03.png" width="632" height="46" alt="<?=$room[$id][name]?>教室の紹介" /></h1>
-					<div class="local-nav2 mB20">
-						<ul>
-							<li class="nav1"><a href="#about1">市民講座の特長</a></li>
-							<li class="nav2"><a href="#about2">イベントカレンダー</a></li>
-							<li class="nav3"><a href="#about3">受講システム</a></li>
-							<li class="nav4"><a href="#about4">教室情報</a></li>
-							<li class="nav5"><a href="/<?=$room[$id][dir]?>/contact.php">無料体験</a></li>
-						</ul>
-					</div>
 					<div>
 						<div><img src="/<?=$room[$id][dir]?>/images/about_38.jpg" alt="教室の様子など" /></div>
 						<div class="about_tel">

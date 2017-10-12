@@ -34,25 +34,6 @@
   ga('secondTracker.send','pageview');
 
 </script>
-<!-- Google Code for &#35370;&#21839;&#12375;&#12383;&#12518;&#12540;&#12470;&#12540; Remarketing List -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 1014763094;
-var google_conversion_language = "en";
-var google_conversion_format = "3";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "FFTDCIKl7wIQ1pzw4wM";
-var google_conversion_value = 0;
-/* ]]> */
-</script>
-<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1014763094/?label=FFTDCIKl7wIQ1pzw4wM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
-</div>
 
 <!-- YahooListing -->
 <script type="text/javascript">

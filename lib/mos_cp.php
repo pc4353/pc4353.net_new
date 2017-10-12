@@ -327,15 +327,8 @@
 
 </div><!-- /.p-mos -->
 
-
-        <div id="contents" class="clearfix mos" style="background: #fff !important;">
-            <div id="main">
-                <div id="kasou" class="clearfix">
-
-                <div class="block">
-
                 <div id="toiawase_form" class="c-wrap">
-					<div class="i-pt clearfix mB20 mR10">
+					<div class="i-pt clearfix mR10">
 						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料説明会のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step1.jpg" width="810" height="55" alt="お客様情報入力" /></div>
 						<p><span class="red">必須</span>項目は必ずご入力お願いいたします。</p>
@@ -468,7 +461,7 @@
 </tr>
 </table>
 						</div><!-- /.section-lv2 -->
-						<p class="mT25">当社の<a href="https://www.pc4353.net/privacy.php" target="_blank">プライバシーポリシー</a>を十分にご確認いただいた上で、お問い合わせください。</p>
+						<p class="mT25 mB20">当社の<a href="https://www.pc4353.net/privacy.php" target="_blank">プライバシーポリシー</a>を十分にご確認いただいた上で、お問い合わせください。</p>
 					</div><!-- /.i-pt -->
                 </div><!-- /#toiawase_form -->
 					

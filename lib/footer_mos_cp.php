@@ -52,20 +52,9 @@
 </ul>
 <div id="ft_tel_box">
 <div id="ft_tel"><?=$room[$id][phone]?></div>
-<?php
-if ($id == "1001111") {
-?>
-	<div id="ft_reception">店舗改修中につきイトーヨーカドー柏教室に繋がります 
-	</div>
-<?php
-} else {
-?>
 	<div id="ft_reception">受付時間 / 
 	<a href="/<?=$room[$id][dir]?>/about.php">営業時間はこちら</a>
 	</div>
-<?php
-}
-?>
 </div>
 </div>
 </div>
@@ -86,25 +75,6 @@ if ($id == "1001111") {
 </div>
 </div>
 </footer>
-
-<!-- Google Code for &#35370;&#21839;&#12375;&#12383;&#12518;&#12540;&#12470;&#12540; Remarketing List -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 1014763094;
-var google_conversion_language = "en";
-var google_conversion_format = "3";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "FFTDCIKl7wIQ1pzw4wM";
-var google_conversion_value = 0;
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1014763094/?label=FFTDCIKl7wIQ1pzw4wM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
 
 <!-- YahooListing -->
 <script type="text/javascript">
