@@ -150,13 +150,13 @@ include_once('lib/home/header.php');
 
 				<div class="box box3 pc-only">
 					<h3><img src="/common/img/top/top3_tit3.png" width="309" height="73" alt="講座人気ランキング BEST5" /></h3>
-					<div class="txt1"><p>2017.04.15更新</p></div>
+					<div class="txt1"><p>2017.10.16更新</p></div>
 					<ol class="rank">
 						<li class="rank1">ワード2013講座</li>
 						<li class="rank2">ビジネスワード実践講座</li>
 						<li class="rank3">エクセル2013講座</li>
-						<li class="rank4">Windows10基礎講座</li>
-						<li class="rank5">ビジネスエクセル実践講座</li>
+						<li class="rank4">ビジネスエクセル実践講座</li>
+						<li class="rank5">Windows10基礎講座</li>
 					</ol>
 				</div><!-- /.box -->
 
@@ -205,13 +205,13 @@ include_once('lib/home/header.php');
 
 				<div class="box box3 sp-only">
 					<h3><img src="/common/img/top/top3_tit3.png" width="309" height="73" alt="講座人気ランキング BEST5" /></h3>
-					<div class="txt1"><p>2017.04.15更新</p></div>
+					<div class="txt1"><p>2017.10.16更新</p></div>
 					<ol>
 						<li class="rank1">ワード2013講座</li>
 						<li class="rank2">ビジネスワード実践講座</li>
 						<li class="rank3">エクセル2013講座</li>
-						<li class="rank4">Windows10基礎講座</li>
-						<li class="rank5">ビジネスエクセル実践講座</li>
+						<li class="rank4">ビジネスエクセル実践講座</li>
+						<li class="rank5">Windows10基礎講座</li>
 					</ol>
 				</div><!-- /.box -->
 
