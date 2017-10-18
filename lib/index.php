@@ -189,6 +189,12 @@ if( $id == "1001000" ) {
 
 	</section>
 
+<?php
+if ($id == "6015129") {
+?>
+<?php
+}else{
+?>
 <section>
 	<div class="room_info">
 		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
@@ -221,6 +227,9 @@ if( $id == "1001000" ) {
 		</div>
 	</div>
 	</section>
+<?php
+}
+?>
 
 <section>
 	<div class="voice_list">
@@ -338,7 +347,7 @@ if ($id == "1001126") {
 	</ul>
 
 <?php
-if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001") {
+if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001" && $id !== "6015129") {
 ?>
 	<ul class="blog">
 	<li>
