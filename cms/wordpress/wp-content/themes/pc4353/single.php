@@ -12,7 +12,7 @@ $pageId = 'course';
 
 <div class="l-breadcrumb">
 	<ul class="c-wrap">
-		<li><a href="/">パソコン市民講座トップ</a></li>
+		<li><a href="/">パソコン教室なら「市民講座」</a></li>
 		<li><a href="/news/">お知らせ</a></li>
 		<li><?php the_title(); ?></li>
 	</ul>

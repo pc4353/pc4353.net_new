@@ -11,7 +11,7 @@ include_once('../lib/home/header.php');
 
 <div class="l-breadcrumb">
 	<ul class="c-wrap">
-		<li><a href="/">パソコン市民講座トップ</a></li>
+		<li><a href="/">パソコン教室なら「市民講座」</a></li>
 		<li><?=$title?></li>
 	</ul>
 </div><!-- /.l-breadcrumb -->
@@ -32,12 +32,12 @@ include_once('../lib/home/header.php');
 今後も日々進化するパソコン・iPad・iPhoneの楽しさをお伝えする新教材が、続々と登場しますのでお楽しみに！</p>
 </div>
 
-<h2 class="c-title2">はじめてのパソコン</h2>
+<!-- <h2 class="c-title2">はじめてのパソコン</h2>
 <h2 class="c-title2">パソコンをもっと仕事で役立てたい！</h2>
 <h2 class="c-title2">シニアのためのパソコン教室</h2>
 <h2 class="c-title2">パソコンでインターネットをしたい！</h2>
 <h2 class="c-title2">パソコンを趣味で楽しみたい！</h2>
-<h2 class="c-title2">パソコン資格を習得したい！</h2>
+<h2 class="c-title2">パソコン資格を習得したい！</h2> -->
 <ul class="course_bnr clearfix">
 	<li><a href="/course/first.php"><img src="/img/btn_course01.jpg" class="alpha" alt="はじめてのパソコン　メールやインターネットの使い方、デジカメ写真の活用、作品制作を通じ、パソコンを初歩から学べます。" width="240" height="150" /></a></li>
 	<li><a href="/course/works.php"><img src="/img/btn_course02.jpg" class="alpha" alt="パソコンをもっと仕事で役立てたい！　マイクロソフトオフィスのワード、エクセル、パワーポイントを基礎から習得し、仕事に活かせるよう、スキルアップします。" width="240" height="150" /></a></li>
