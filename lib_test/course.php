@@ -1,4 +1,4 @@
-					<h1><img src="/images/course_03.png" width="632" height="48" alt="あなたの目的は？（コース紹介）" /></h1>
+					<h1>あなたの目的は？（コース紹介）</h1>
 					<div class="section-lv2 clearfix">
 						<p><img src="/images/course_05.png" width="632" height="93" alt="あなたの「やりたい気持ち」をパソコン市民講座が叶えます！すべての人に「できた」の感動を！" /></p>
 						<p class="mB20 mL20 mR20">全く初めての方、趣味で楽しみたい方、仕事で役立てたい方、資格を取得したい方など、<br>様々なあなたの目的やご要望に合わせて、800講座以上の豊富なカリキュラムの中から、インストラクターが最適なコースをご提案します。パソコンも「Windows 7」から最新の「Windows 10」まで対応、さらにはiPad講座もご用意し、最新のiPadで受講ができるので安心ですね。
@@ -323,7 +323,7 @@ if ($id == "6117001") {
 					</div><!-- /.section-lv2 -->
 				</div><!-- /.block -->
 				<div class="block subject6 mB40">
-					<h2 class="mB20"><img src="/images/course1_03.png" width="632" height="56" alt="「市民講座なら、こんなものが作れる！」作品の一部をご紹介" /></h2>
+					<h2 class="mB20">「市民講座なら、こんなものが作れる！」作品の一部をご紹介</h2>
 					<div class="clearfix mB5 section-lv2">
 						<a class="box-a" href="/images/word-sample.gif" target="_blank"><img src="/images/word-samples.gif" width="280" height="206" /></a>
 						<a class="box-b" href="/images/excel-samples.gif" target="_blank"><img src="/images/excel-sampless.gif" width="280" height="200" /></a>

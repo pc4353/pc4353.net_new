@@ -11,7 +11,7 @@ if ($id ==  "6117001" || $id == "6114001" || $id == "1076001") {
 }
 ?>
 <? telHTML(); ?>
-						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・資料請求のお申し込みフォーム</h2>
+						<h2 class="mB20 bg-check blue"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・資料請求のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step1.jpg" width="810" height="55" alt="お客様情報入力" /></div>
 						<p><span class="red">必須</span>項目は、必ずご入力お願いいたします。</p>
 						<div class="section-lv2 contact">

@@ -54,7 +54,7 @@ if( $step == 1 ) {
 ?>
                 <div id="toiawase_form">
 					<div class="i-pt clearfix mB20 mR10">
-						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料体験のお申し込みフォーム</h2>
+						<h2 class="mB20 bg-check blue"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料体験のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step1.jpg" width="810" height="55" alt="お客様情報入力" /></div>
 						<p><span class="red">必須</span>項目は、必ずご入力お願いいたします。</p>
 						<div class="section-lv2 contact">
@@ -83,7 +83,7 @@ if( $step == 1 ) {
 ?>
                 <div id="toiawase_form">
 					<div class="i-pt clearfix mB20 mR10">
-						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料体験のお申し込みフォーム</h2>
+						<h2 class="mB20 bg-check blue"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料体験のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step2.jpg" width="810" height="55" alt="入力内容確認" /></div>
 						<p>入力内容をご確認ください。</p>
 						<div class="section-lv2 contact">

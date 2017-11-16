@@ -1,4 +1,4 @@
-					<h1><img class="mB20" src="/images/tablet/h1.png" width="632" height="48" alt="タブレット講座" /></h1>
+					<h1>タブレット講座（iPad対応）</h1>
 					<div class="section-lv2 clearfix">
 						<p class="mT10"><img src="/images/tablet/img_01.jpg" width="632" alt="タブレット講座" /></p>
 						

@@ -457,6 +457,7 @@ div.big-submit {
 #locus-area dl.locus {
 	float: left;
 	width: 735px;
+	margin-bottom: 10px;
 }
 dl.locus dt {
 	height: 0;
@@ -497,6 +498,21 @@ dl.footer-locus {
 }
 #contents #kasou {
 	padding:5px 0 0 15px
+}
+#contents #kasou h1 {
+	color:#0064be;
+	border-left: 10px solid #0064be;
+	border-bottom: 3px solid #0064be;
+	padding-left: 10px;
+	font-size: 22px;
+}
+#contents #kasou h2,
+#contents #contact h2 {
+	color:#fff;
+	background: #4075b7;
+	border-bottom: 4px solid #ffdc00;
+	padding: 10px;
+	font-size: 18px;
 }
 #contents .notice {
 	background: #F4DEDE;
@@ -881,6 +897,13 @@ a.banner:hover{ color:#333333!important}
 	padding:0 8px;
 	border-radius: 5px;
 	margin-right:8px;
+}
+#contents #toiawase_form h2 {
+	color:#29ABE2;
+	background: #fff;
+	border-bottom: 4px solid #29ABE2;
+	padding: 10px;
+	font-size: 22px;
 }
 
 /* サイドエリア */

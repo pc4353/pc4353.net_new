@@ -1,4 +1,4 @@
-					<h1 class="mB20"><img src="/images/qa_03.png" width="632" height="45" alt="よくあるご質問" /></h1>
+					<h1 class="mB20">よくあるご質問</h1>
 					<div><img src="/images/qahead_03.png" width="633" height="10" /></div>
 					<div class="i-qa clearfix">
 						<div class="section-lv2 moz2 clearfix">

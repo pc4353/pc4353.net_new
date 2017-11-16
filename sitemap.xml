@@ -65,11 +65,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/course/brain_training.php</loc>
+	<loc>https://www.pc4353.net/course/d_photo_master.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/course/d_photo_master.php</loc>
+	<loc>https://www.pc4353.net/course/brain_training.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -169,23 +169,23 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/news/?p=188</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/?p=177</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/?p=167</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/news/?p=164</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/news/?p=157</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=115</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=131</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=100</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -413,6 +413,10 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/akaike/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/toyohashi/</loc>
 	<priority>0.8</priority>
 </url>
@@ -625,15 +629,27 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?paged=2</loc>
+	<loc>https://www.pc4353.net/news/?p=115</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?paged=3</loc>
+	<loc>https://www.pc4353.net/news/?p=131</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/?p=100</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/news/?p=96</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/?p=90</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/?paged=2</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3861,6 +3877,66 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/akaike/qa.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/about.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/contact.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/course.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/voice.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/apply.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/doc_contact.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/certify.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/mos.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/win10.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/junior.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/instructor.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/recruit.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/toyohashi/qa.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -6682,10 +6758,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/nakai/recruit.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/?p=90</loc>
 	<priority>0.8</priority>
 </url>
 <url>

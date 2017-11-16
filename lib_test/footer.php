@@ -2,7 +2,7 @@
 if( !$index ) {
 ?>
 				<div id="contact" class="block mB20">
-					<h2 class="mB15"><img src="/images/title_50.png" width="650" height="71" alt="興味を持ったらまずはお問い合わせ" /></h2>
+					<h2 class="mB15">興味を持ったらまずはお問い合わせ</h2>
 					<div class="section-lv2 clearfix moz2">
 						<div class="box-a">
 							<p><img src="/images/contact_53.png" width="350" height="24" alt="お問い合わせフォームはこちら" /></p>
@@ -66,7 +66,7 @@ if( !$index ) {
 if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001") {
 ?>
 				<div class="mB10">
-					<h3><a href="http://www.4353p-club.com/blog/?member_id=<?=$room[$id][blog]?>" target="_blank"><img class="alpha" src="/images/blog.jpg" alt="教室のブログ紹介" /></a></h3>
+					<h3><a href="http://www.4353p-club.com/blog/?member_id=<?=$room[$id][blog]?>" target="_blank" rel="nofollow"><img class="alpha" src="/images/blog.jpg" alt="教室のブログ紹介" /></a></h3>
 				</div><!-- .section-->
 <?php
 }
@@ -75,7 +75,7 @@ if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001") {
 if ($id !== "6117001" && $id !== "1076001") {
 ?>
 				<div class="mB10">
-					<h3><a href="http://www.4353p-club.com" target="_blank"><img class="alpha" src="/images/menu_premire.jpg" width="180" height="378" alt="パソコン市民講座だけの会員専用学べるサイト「プレミア倶楽部」" /></a></h3>
+					<h3><a href="http://www.4353p-club.com" target="_blank" rel="nofollow"><img class="alpha" src="/images/menu_premire.jpg" width="180" height="378" alt="パソコン市民講座だけの会員専用学べるサイト「プレミア倶楽部」" /></a></h3>
 				</div><!-- .section-->
 <?php
 }
@@ -105,6 +105,9 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 <?php
 }
 ?>
+<div class="ft_lead">
+<p>パソコン市民講座はどなたでもお気軽に受講していただける、あなたに合ったコースをご用意しております。初心者からスキルアップ・資格取得まで安心のパソコン教室 パソコン市民講座(東京/大阪ほか全国)。</p>
+</div>
 <footer>
 <div id="ft_wrap" class="clearfix">
 <div id="ft_lft">
@@ -130,12 +133,28 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 <!--<dd><a href="/<?=$room[$id][dir]?>/contact.php">キャンペーン</a></dd>-->
 </dl>
 <dl class="ft_room_search">
-<dt>教室検索</dt>
-<dd><a href="/school/tohoku.php">東北</a></dd>
-<dd><a href="/school/kanto.php">関東</a></dd>
-<dd><a href="/school/chubu.php">中部</a></dd>
-<dd><a href="/school/kansai.php">関西</a></dd>
-<dd><a href="/school/seibu.php">中国・四国・九州</a></dd>
+<dt><a href="/school/tohoku.php">東北エリア</a></dt>
+<dd><a href="/school/fukushima.php">福島</a></dd>
+<dt><a href="/school/kanto.php">関東エリア</a></dt>
+<dd><a href="/school/tokyo.php">東京</a></dd>
+<dd><a href="/school/kanagawa.php">神奈川</a></dd>
+<dd><a href="/school/chiba.php">千葉</a></dd>
+<dd><a href="/school/saitama.php">埼玉</a></dd>
+<dd><a href="/school/ibaraki.php">茨城</a></dd>
+<dt><a href="/school/chubu.php">中部エリア</a></dt>
+<dd><a href="/school/aichi.php">愛知</a></dd>
+<dd><a href="/school/gifu.php">岐阜</a></dd>
+<dd><a href="/school/shizuoka.php">静岡</a></dd>
+<dt><a href="/school/kansai.php">関西エリア</a></dt>
+<dd><a href="/school/osaka.php">大阪</a></dd>
+<dd><a href="/school/hyogo.php">兵庫</a></dd>
+<dd><a href="/school/kyoto.php">京都</a></dd>
+<dd><a href="/school/nara.php">奈良</a></dd>
+<dd><a href="/school/shiga.php">滋賀</a></dd>
+<dt><a href="/school/seibu.php">中国・四国・九州エリア</a></dt>
+<dd><a href="/school/okayama.php">岡山</a></dd>
+<dd><a href="/school/tokushima.php">徳島</a></dd>
+<dd><a href="/school/fukuoka.php">福岡</a></dd>
 </dl>
 <dl class="ft_relation">
 <dt>関連サイト</dt>

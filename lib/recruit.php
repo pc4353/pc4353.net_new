@@ -1,5 +1,5 @@
-					<h1><img src="/images/recruit_03.png" width="632" height="56" alt="パソコン市民講座で働くときの「いいトコロ」" /></h1>
-					<h2><img src="/images/recruit_05.png" width="632" height="93" alt="あなたも私たちと共に、この教室の「先生」になってみませんか？" /></h2>
+					<h1 class="mB20">パソコン市民講座で働くときの「いいトコロ」</h1>
+					<h2 class="mB15">あなたも私たちと共に、この教室の「先生」になってみませんか？</h2>
 					<div class="i-pt clearfix mB20">
 						<div class="section-lv2 moz2 clearfix">
 							<h3 class="mB20"><img src="/images/recruit_06.png" width="632" height="26" alt="充実の研修体制で、しっかりサポート！" /></h3>
@@ -60,7 +60,7 @@
 							</div><!-- /.section-lv3 -->
 						</div><!-- /.section-lv2 -->
 						
-						<h2 class=" mB20"><img src="/images/recruit_36.png" width="632" height="54" alt="募集要項" /></h2>	
+						<h2 class=" mB20">募集要項</h2>	
 						<div class="section-lv2 mB30">
 							<table class="table1 mB25" width="95%">
 								<!-- <tr>

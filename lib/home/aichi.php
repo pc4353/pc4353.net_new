@@ -1,5 +1,9 @@
 <h3 id="aichi" class="c-title1">愛知県</h3>
 <ul class="clearfix">
+	<li><img src="images/no_img.jpg" alt="プライムツリー赤池教室" />
+	<h4><a href="/akaike/">プライムツリー赤池教室</a></h4>
+	<span class="small">〒470-0126　愛知県日進市赤池町箕ノ手1番<br />プライムツリー赤池　3F</span><br /><span class="bold">TEL：準備中<br />エリア：日進市　2017年12月より第1期生募集開始！</span></li>
+	
 	<li><img src="images/toyohashi.jpg" alt="バロー豊橋教室" />
 	<h4><a href="/toyohashi/">バロー豊橋教室</a></h4>
 	<span class="small">〒440-0851　愛知県豊橋市前田南町2丁目17-2<br />バロー豊橋店　2F</span><br /><span class="bold">TEL：0532-43-6470<br />エリア：豊橋市</span></li>

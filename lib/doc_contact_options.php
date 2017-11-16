@@ -16,7 +16,7 @@ function telHTML() {
 global $room, $id;
 ?>
 						<div class="pc-only">
-						<h2 class="bg-check blue font20 mB20"><img src="/images/mos2010/ico-tel.gif" width="30" height="30" alt="電話" /> お電話でのお問い合わせ・資料請求のお申し込み</h2>
+						<h2 class="bg-check blue mB20"><img src="/images/mos2010/ico-tel.gif" width="30" height="30" alt="電話" /> お電話でのお問い合わせ・資料請求のお申し込み</h2>
 						<div class="clearfix">
 						<img src="/images/contact_62.jpg" class="imgleft" />
 						<div class="section-lv2 moz2 mB30 clearfix">

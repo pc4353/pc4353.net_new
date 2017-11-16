@@ -1,4 +1,4 @@
-					<h1><img class="mB20" src="/images/iphone/h1.jpg" width="632" height="48" alt="iPhone講座" /></h1>
+					<h1>iPhone講座</h1>
 					<div class="section-lv2 clearfix">
 						<p class="mT10"><img src="/images/iphone/img_01.jpg" width="632" alt="シニアの方にも優しい、ゼロからはじめる！iPhone講座7月スタート！" /></p>
 						

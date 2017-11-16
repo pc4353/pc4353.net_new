@@ -27,7 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
-	<p>中部エリアには浜松教室や豊橋教室、尾張旭教室など9件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
+	<p>中部エリアには浜松教室や豊橋教室、尾張旭教室など10件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="chubu" class="c-title2">中部エリア</h2>
 
 <?php

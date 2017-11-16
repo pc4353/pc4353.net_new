@@ -11,6 +11,7 @@
 
 .p-cert1 { margin-bottom: 30px; }
 .p-cert1 h2 { margin-bottom: 15px; }
+#contents #kasou .p-cert1 h2 {color:#fff;background: none;border-bottom: none;padding: 0;font-size: 18px;}
 .p-cert1__block1 { text-align: center; }
 
 .p-cert2__block1 { position: relative; margin-bottom: 30px; }

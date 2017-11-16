@@ -1,4 +1,4 @@
-					<h1><img src="/images/junior/h1.png" width="632" height="48" alt="小・中学生のパソコン学習" /></h1>
+					<h1>小・中学生のパソコン学習</h1>
 					<div class="section-lv2 clearfix">
 						<!-- <p class="mT10"><img src="/images/junior/img_01.jpg" width="632" height="270" alt="" /></p> -->
 						

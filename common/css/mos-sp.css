@@ -14,6 +14,7 @@ a.mos_btn2:hover { background: #1d69b2; color: #fff; }
 
 .p-mos1 { margin-bottom: 28px; }
 .p-mos1 h2 { text-align: center; margin-bottom: 26px; }
+#contents #kasou .p-mos h2 {color:#fff;background: none;border-bottom: none;padding: 0;font-size: 18px;}
 .p-mos1__block1 { text-align: center; }
 .p-mos1__block1 h3 { font-size: 150% !important; font-weight: bold; line-height: 140%; margin-bottom: 18px; }
 .p-mos1__block1 h3 span { display: inline-block; *display: inline; *zoom: 1; border-bottom: 5px solid #f8e80d; padding: 0 0 8px; }

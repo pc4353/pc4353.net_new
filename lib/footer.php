@@ -2,7 +2,7 @@
 if( !$index ) {
 ?>
 				<div id="contact" class="block mB20">
-					<h2 class="mB15"><img src="/images/title_50.png" width="650" height="71" alt="興味を持ったらまずはお問い合わせ" /></h2>
+					<h2 class="mB15">興味を持ったらまずはお問い合わせ</h2>
 					<div class="section-lv2 clearfix moz2">
 						<div class="box-a">
 							<p><img src="/images/contact_53.png" width="350" height="24" alt="お問い合わせフォームはこちら" /></p>

@@ -59,7 +59,7 @@ $message .= "<a href=/" . $room[$rid][dir] . "/>トップページへ戻る</a><
 include_once("../lib/header_contact.php");
 ?>
 					<div class="i-pt clearfix mB20 mR10">
-						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お申し込み完了のお知らせ</h2>
+						<h2 class="mB20 bg-check blue"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お申し込み完了のお知らせ</h2>
                         <div class="mB20"><img src="/images/img-form_step3.jpg" width="810" height="55" alt="申込完了" /></div>
 						<div class="section-lv2 contact thanks_msg">
 <?=$message?>

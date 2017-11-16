@@ -152,7 +152,7 @@ $(document).ready(function(){
 		buildPager: function(slideIndex){
       switch (slideIndex){
 <?php
-if ($id == "6015000") {
+if ($id == "6015000" && $id == "6015129") {
 ?>
         case 0:
           return '<img src="/images/img-new_thumb.png" width="150" />';

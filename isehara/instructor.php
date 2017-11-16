@@ -20,7 +20,7 @@ $ary = array(
 					<h1 class=""><img src="/images/inst_03.png" width="632" height="45" alt="インストラクターのご紹介" /></h1>
 					<p><img src="/images/inst_05.png" width="632" height="93" alt="「できない」悩みが「楽しくできる！」喜びの笑顔に変わる。私たちが熱い想いといっぱいの笑顔で、必ずできるようにフォローします！" /></p>
 					<p class=" mB30"><img src="/isehara/images/inst_06.jpg" width="628" height="241" alt="インストラクターの写真" /></p>
-					<h2 class="mB20"><img src="/images/inst_08.png" width="632" height="45" alt="インストラクターからのメッセージ" /></h2>
+					<h2 class="mB20">インストラクターからのメッセージ</h2>
 					
 					<div class="i-pr clearfix mB50">
 						<div class="section-lv2 moz2 clearfix">

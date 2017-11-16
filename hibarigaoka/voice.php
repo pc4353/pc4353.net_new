@@ -3,7 +3,7 @@ require_once("config.php");
 require_once("../lib/config.php");
 include_once("../lib/header-fc.php");
 ?>
-					<h1><img src="/images/voice_title_03.png" width="632" height="52" alt="受講生の声" /></h1>
+					<h1><?=$room[$id][name]?>教室の受講生の声</h1>
 					<p><img src="/images/title_05.png" width="632" height="93" alt="今日も生徒さんの「できた！」喜びの声が続々と！次はあなたが「パソコンを楽しむ」番ですよ！" /></p>
 
 

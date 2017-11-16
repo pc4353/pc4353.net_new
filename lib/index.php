@@ -1,18 +1,26 @@
 <main>
 <div id="main_contents" class="clearfix">
 <?php
-if( $id == "6015076" ) {
-	//香里園
+if( $id == "1001062" ) {
+	//海老名
 ?>
                     <dl class="notice tk-kozuka-gothic-pr6n">
-                    <dt>【店舗改修のご案内】</dt>
-                    <dd><p>2017年10月16日（月）から27日（金）までの間「パソコン市民講座 ライフ香里園教室」は店舗改修に伴い、リニューアルオープンまでの間、一時休講させていただきます。<br />10月28日（土）より改めて受講を再開する予定となっております。今後とも変わらぬご愛顧のほどよろしくお願い申し上げます。</p></dd>
+                    <dt>【店舗移転のご案内】</dt>
+                    <dd><p>「パソコン市民講座 ショッパーズプラザ海老名教室」は2017年11月25日（土）をもちまして閉校し、「パソコン市民講座 マルイファミリー海老名教室」として12月1日（金）より移転リニューアルオープンさせていただきます。11月26日～30日までの間、一時休講させていただき、改めて受講を再開する予定となっております。今後とも変わらぬご愛顧のほどよろしくお願い申し上げます。</p></dd>
                     </dl>
 <?php
 }
 ?>
 <div class="main_vi">
 <ul class="slider">
+<?php
+if ($id == "6015129") {
+	//赤池
+?>
+	<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="/images/img-new_akaike.jpg" width="985" height="300" alt="プライムツリー赤池教室 12月3日より第一期生募集スタート！" class="alpha" /></a></li>
+<?php
+}
+?>
 	<li><a href="/<?=$room[$id][dir]?>/certify.php"><img src="/images/img-main01.png" width="985" height="300" alt="エクセル・ワード・パワーポイントを仕事で活かす！ビジネス実践講座" class="alpha" /></a></li>
 	<li><a href="/course/d_photo_master.php" target="_blank"><img src="/images/img-main05.jpg" width="985" height="300" alt="デジタル写真マスター講座 写真のすべてが学べる講座が2017年9月スタート！詳しくはこちらから" class="alpha" /></a></li>
 	<li><a href="/<?=$room[$id][dir]?>/mos.php"><img src="/images/img-main02.png" width="985" height="300" alt="就職・転職を有利に！資格は実力の証！MOS資格取得コース" class="alpha" /></a></li>
@@ -103,18 +111,18 @@ if( $id == "6015076" ) {
 	} elseif( $room[$id][biz_on] == "0" && $room[$id][sps] == "1" ) {
     //SPS実施教室
     ?>
-		<li class="bnr_l"><a href="http://www.star-programming-school.com/" target="_blank"><img src="../images/bnr-course_sps_l.png" width="462" height="195" alt="スタープログラミングスクール"></a></li>
+		<li class="bnr_l"><a href="http://www.star-programming-school.com/" target="_blank"><img src="../images/bnr-course_sps_l.jpg" width="462" height="194" alt="スタープログラミングスクール"></a></li>
 	<?php
 	} else {
     ?>
-		<li class="bnr_l"><a href="http://www.star-programming-school.com/" target="_blank"><img src="../images/bnr-course_sps_l.png" width="462" height="195" alt="スタープログラミングスクール"></a></li>
+		<li class="bnr_l"><a href="http://www.star-programming-school.com/" target="_blank"><img src="../images/bnr-course_sps_l.jpg" width="462" height="194" alt="スタープログラミングスクール"></a></li>
 	<?php
 	}
     ?>
 		</ul>
 		</div>
 	</div>
-	<div class="bnr_740"><a href="http://www.star-programming-school.com/" target="_blank"><img src="../images/bnr-sps_740.png" width="740" height="90" alt="2020年 プログラミング教育必修化！STAR Programming SCHOOL"></a></div>
+	<div class="bnr_740"><a href="http://www.star-programming-school.com/" target="_blank"><img src="../images/bnr-sps_740.jpg" width="740" height="90" alt="2020年 プログラミング教育必修化！STAR Programming SCHOOL"></a></div>
 	</section>
 
 <section>
@@ -188,7 +196,44 @@ if( $id == "6015076" ) {
 
 <?php
 if ($id == "6015129") {
+	//赤池
 ?>
+<?php
+}elseif( $id == "1001062" ) {
+	//海老名
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201711cp1.jpg" target="_blank"><img src="../images/201711cp1.jpg" width="180" alt="最大6,000円OFFキャンペーン！"></a><a href="../images/201711cp2.jpg" target="_blank"><img src="../images/201711cp2.jpg" width="180" alt="最大6,000円OFFキャンペーン！"></a></dt>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">今年最後のお得キャンペーン！最大6,000円OFF！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>パソコン市民講座で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>パソコン市民講座では、11月18日（土）まで<strong>「最大6,000円OFFキャンペーン」</strong>を実施中です！<br>さらに<strong>体験当日ご入会の方には、入会金半額！</strong></p>
+			<p>行楽の秋が真っ盛り！写真を撮る機会が多くなる季節にぴったりの「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容をもとに、来年の年賀状作りに役立てる事です！</p>
+			<p>来年の年賀状をパソコンを使って綺麗に作りたいなら、今からワードやオフィスのソフトを習い始めるのがオススメです！<?=$room[$id][name]?>教室では、初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>また、ビジネススキルの向上を目指す方は、就職・転職までの間にパソコンの資格を取得し、オフィスで活躍するパソコンスキルを身に付けておけば、転職・就職活動で有利に！<br>ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がスタートしています！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
 <?php
 }else{
 ?>
@@ -199,16 +244,16 @@ if ($id == "6015129") {
 		<div class="box_a clearfix">
 		<div class="room_info_lft">
 		<dl>
-			<dt><a href="../images/201710cp1.jpg" target="_blank"><img src="../images/201710cp1.jpg" width="180" alt="最大6,000円OFFキャンペーン！"></a><a href="../images/201710cp2.jpg" target="_blank"><img src="../images/201710cp2.jpg" width="180" alt="最大6,000円OFFキャンペーン！"></a></dt>
+			<dt><a href="../images/201711cp1.jpg" target="_blank"><img src="../images/201711cp1.jpg" width="180" alt="最大6,000円OFFキャンペーン！"></a><a href="../images/201711cp2.jpg" target="_blank"><img src="../images/201711cp2.jpg" width="180" alt="最大6,000円OFFキャンペーン！"></a></dt>
 			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
 		</dl>
 		</div>
 		<div class="room_info_rgt">
 		<dl>
-			<dt class="tk-kozuka-gothic-pr6n">あなたのやる気を後押し！最大6,000円OFFキャンペーン！</dt>
+			<dt class="tk-kozuka-gothic-pr6n">今年最後のお得キャンペーン！最大6,000円OFF！</dt>
 			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
 			<p>パソコン市民講座で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
-			<p>パソコン市民講座では、10月21日（土）まで<strong>「最大6,000円OFFキャンペーン」</strong>を実施中です！<br>さらに<strong>体験当日ご入会の方には、入会金半額！</strong></p>
+			<p>パソコン市民講座では、11月18日（土）まで<strong>「最大6,000円OFFキャンペーン」</strong>を実施中です！<br>さらに<strong>体験当日ご入会の方には、入会金半額！</strong></p>
 			<p>行楽の秋が真っ盛り！写真を撮る機会が多くなる季節にぴったりの「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容をもとに、来年の年賀状作りに役立てる事です！</p>
 			<p>来年の年賀状をパソコンを使って綺麗に作りたいなら、今からワードやオフィスのソフトを習い始めるのがオススメです！<?=$room[$id][name]?>教室では、初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
 			<p>また、ビジネススキルの向上を目指す方は、就職・転職までの間にパソコンの資格を取得し、オフィスで活躍するパソコンスキルを身に付けておけば、転職・就職活動で有利に！<br>ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>

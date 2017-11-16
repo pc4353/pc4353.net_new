@@ -122,6 +122,29 @@ if ($id == "1001111") {
 		</div>
 	</div>
 	<div class="bnr_740"><a href="http://www.star-programming-school.com/" target="_blank"><img src="../images/bnr-sps_740.png" width="740" height="90" alt="2020年 プログラミング教育必修化！STAR Programming SCHOOL"></a></div>
+						 <div class="i-pr clearfix mB20">
+						<div class="section-lv2 moz2 clearfix">
+<?php
+foreach( $ary_inst as $key => $value  ) {
+?>
+							<h3 class="blue"><?=$value[00]?></h3>
+							<div class="section-lv3 clearfix mB30">
+								<dl class="clearfix mB10">
+									<dt class="box-a">好きな分野</dt>
+									<dd class="box-b"><?=$value[01]?></dd>
+								</dl>
+								<dl class="clearfix mB20">
+									<dt class="box-a">趣味</dt>
+									<dd class="box-b"><?=$value[02]?></dd>
+								</dl>
+								<p><?=$value[03]?></p>
+							</div><!-- /.section-lv3 -->
+<?php
+}
+?>
+						</div><!-- /.section-lv2 -->
+					</div><!-- /.i-pr -->
+
 	</section>
 
 <section>
@@ -312,7 +335,9 @@ $voice_id++ ;
 		<dt class="tk-kozuka-gothic-pr6n"><span>教室情報</span></dt>
 		<dd>
 			<div id="gmap" style="margin-bottom: 5px;width:232px; height:150px;"></div>
-			<p class="link_gmap"><a href="/<?=$room[$id][dir]?>/about.php">開講時間・アクセス</a></p> 
+			<p>【住　所】<br><?=$room[$id][ad1]?><br><?=$room[$id][ad2]?><br><?=$room[$id][ad3]?></p>
+			<p>【アクセス】<br><?=$room[$id][access]?></p>
+			<p class="link_gmap"><a href="/<?=$room[$id][dir]?>/about.php">開講時間・アクセス</a></p>
 		</dd>
 	</dl>
 	</li>
