@@ -620,6 +620,9 @@ ul#sitemap li.sub ul {
 	padding-left:20px;
 	background: url("img/icon.gif") no-repeat 0 2px ;
 }
+.school_list li h4{
+	float: left;
+}
 
 .school li img {
 	float: right;
@@ -629,6 +632,49 @@ ul#sitemap li.sub ul {
 
 .school li.none {
 	cursor: auto;
+}
+
+.school_list li .mos_sc{
+	float: right;
+	font-size: 10px;
+	background: #639;
+	color: #fff;
+	padding: 0 5px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.school_list li .certify_sc{
+	float: right;
+	font-size: 10px;
+	background: #023f73;
+	color: #fff;
+	padding: 0 5px;
+	margin-left: 5px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.school li .mos_sc2{
+	float: right;
+	font-size: 10px;
+	background: #639;
+	color: #fff;
+	padding: 0 5px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.school li .certify_sc2{
+	float: right;
+	font-size: 10px;
+	background: #023f73;
+	color: #fff;
+	padding: 0 5px;
+	margin-left: 5px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
 }
 
 

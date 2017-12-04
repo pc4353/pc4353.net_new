@@ -111,7 +111,7 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 <footer>
 <div id="ft_wrap" class="clearfix">
 <div id="ft_lft">
-<dl class="ft_course">
+<dl class="ft_course clearfix">
 <dt>コース一覧</dt>
 <dd><a href="/<?=$room[$id][dir]?>/course.php">講座案内</a></dd>
 <dd><a href="/<?=$room[$id][dir]?>/certify.php">ビジネス実践講座</a></dd>
@@ -121,7 +121,7 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 <dd><a href="/<?=$room[$id][dir]?>/tablet.php">iPad講座</a></dd>
 <dd><a href="/<?=$room[$id][dir]?>/iphone.php">iPhone講座</a></dd>
 </dl>
-<dl class="ft_about">
+<dl class="ft_about clearfix">
 <dt>教室概要</dt>
 <dd><a href="/<?=$room[$id][dir]?>/about.php">教室紹介</a></dd>
 <dd><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター紹介</a></dd>
@@ -132,29 +132,13 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 <dd><a href="/<?=$room[$id][dir]?>/apply.php">お申込み方法</a></dd>
 <!--<dd><a href="/<?=$room[$id][dir]?>/contact.php">キャンペーン</a></dd>-->
 </dl>
-<dl class="ft_room_search">
-<dt><a href="/school/tohoku.php">東北エリア</a></dt>
-<dd><a href="/school/fukushima.php">福島</a></dd>
-<dt><a href="/school/kanto.php">関東エリア</a></dt>
-<dd><a href="/school/tokyo.php">東京</a></dd>
-<dd><a href="/school/kanagawa.php">神奈川</a></dd>
-<dd><a href="/school/chiba.php">千葉</a></dd>
-<dd><a href="/school/saitama.php">埼玉</a></dd>
-<dd><a href="/school/ibaraki.php">茨城</a></dd>
-<dt><a href="/school/chubu.php">中部エリア</a></dt>
-<dd><a href="/school/aichi.php">愛知</a></dd>
-<dd><a href="/school/gifu.php">岐阜</a></dd>
-<dd><a href="/school/shizuoka.php">静岡</a></dd>
-<dt><a href="/school/kansai.php">関西エリア</a></dt>
-<dd><a href="/school/osaka.php">大阪</a></dd>
-<dd><a href="/school/hyogo.php">兵庫</a></dd>
-<dd><a href="/school/kyoto.php">京都</a></dd>
-<dd><a href="/school/nara.php">奈良</a></dd>
-<dd><a href="/school/shiga.php">滋賀</a></dd>
-<dt><a href="/school/seibu.php">中国・四国・九州エリア</a></dt>
-<dd><a href="/school/okayama.php">岡山</a></dd>
-<dd><a href="/school/tokushima.php">徳島</a></dd>
-<dd><a href="/school/fukuoka.php">福岡</a></dd>
+<dl class="ft_room_search clearfix">
+<dt>教室検索</dt>
+<dd><a href="/school/tohoku.php">東北</a></dd>
+<dd><a href="/school/kanto.php">関東</a></dd>
+<dd><a href="/school/chubu.php">中部</a></dd>
+<dd><a href="/school/kansai.php">関西</a></dd>
+<dd><a href="/school/seibu.php">中国・四国・九州</a></dd>
 </dl>
 <dl class="ft_relation">
 <dt>関連サイト</dt>
@@ -162,6 +146,33 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 <dd><a href="https://www.cheery.co.jp/" target="_blank"><img src="../images/bnr-cheery_ft.jpg" width="185" alt="株式会社チアリー"></a></dd>
 <dd><a href="http://www.nsg.gr.jp/" target="_blank"><img src="../images/bnr-nsg_ft.jpg" width="185" alt="NSGグループ"></a></dd>
 </dl>
+<dl class="ft_pref_list clearfix">
+<dt>都道府県から探す</dt>
+<dd><a href="/school/fukushima.php">福島</a></dd>
+<dd><a href="/school/tokyo.php">東京</a></dd>
+<dd><a href="/school/kanagawa.php">神奈川</a></dd>
+<dd><a href="/school/chiba.php">千葉</a></dd>
+<dd><a href="/school/saitama.php">埼玉</a></dd>
+<dd><a href="/school/ibaraki.php">茨城</a></dd>
+<dd><a href="/school/aichi.php">愛知</a></dd>
+<dd><a href="/school/gifu.php">岐阜</a></dd>
+<dd><a href="/school/shizuoka.php">静岡</a></dd>
+<dd><a href="/school/osaka.php">大阪</a></dd>
+<dd><a href="/school/hyogo.php">兵庫</a></dd>
+<dd><a href="/school/kyoto.php">京都</a></dd>
+<dd><a href="/school/nara.php">奈良</a></dd>
+<dd><a href="/school/shiga.php">滋賀</a></dd>
+<dd><a href="/school/okayama.php">岡山</a></dd>
+<dd><a href="/school/tokushima.php">徳島</a></dd>
+<dd><a href="/school/fukuoka.php">福岡</a></dd>
+</dl>
+<?php
+	if ($room[$id][other_area] == "1") {
+		echo "<dl class=\"ft_near_list clearfix\"><dt>近くの教室を探す</dt>";
+		echo $room[$id][other_area2];
+		echo "</dl>";
+	}
+?>
 </div>
 <div id="ft_rgt" class="tk-kozuka-gothic-pr6n">
 	<div id="ft_logo"><a href="/<?=$room[$id][dir]?>/"><img src="../images/img-ft_logo.png" width="168" height="85" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室"></a></div>

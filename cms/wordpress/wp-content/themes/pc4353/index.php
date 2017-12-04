@@ -36,7 +36,7 @@ $pageId = 'course';
 				$pag = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				$args = array(
 					'post_type' => 'post',
-					'showposts' => '5',
+					'showposts' => '10',
 					'paged' => $pag
 				);
 				query_posts($args);

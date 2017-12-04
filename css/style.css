@@ -826,6 +826,8 @@ footer{background:#dfdfdf; border-top:1px solid #beb381;}
 #ft_lft .ft_relation dd{margin: 0 0 7px; padding-left: 0;}
 #ft_lft .ft_pref_list{clear: both; width: 100%; padding-top: 30px;}
 #ft_lft .ft_pref_list dd{float: left;}
+#ft_lft .ft_near_list{clear: both; width: 100%; padding-top: 30px;}
+#ft_lft .ft_near_list dd{float: left;}
 
 #ft_rgt{float: right; width:240px; margin: 20px 0;}
 #ft_rgt #ft_logo{margin: 0 0 8px}

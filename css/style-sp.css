@@ -924,8 +924,8 @@ footer{background:#dfdfdf; border-top:1px solid #beb381;padding: 0 10px;margin-b
 #ft_lft{padding: 25px 10px 10px;position: relative;margin: 0 -10px;background: #427abe;color: #fff;font-size: 14px;font-weight: bold;}
 #ft_lft a{color: #fff;text-decoration: none;}
 #ft_lft dl{}
-#ft_lft dl dt{margin: 0 0 10px; background: url(../common/img/common/icon1.png) no-repeat left center; background-size: 16px;padding: 3px 0 3px 20px;}
-#ft_lft dl dd{margin: 0 0 12px; padding-left: 18px;margin-left: 10px;background: url(../common/img/common/icon2.png) no-repeat left center;}
+#ft_lft dl dt{margin: 0 0 10px; background: url(../common/img/common/icon1.png) no-repeat left center; background-size: 16px;padding: 8px 0 8px 20px; border-bottom: 2px solid#fff;}
+#ft_lft dl dd{margin: 0 0 12px; padding-left: 18px;margin-left: 10px;background: url(../common/img/common/icon2.png) no-repeat left center; width: 40%; float: left;}
 #ft_lft .ft_relation dd{margin: 0 0 7px; padding-left: 0;}
 
 #ft_rgt{margin: 20px 0;text-align: center;}
@@ -937,7 +937,7 @@ footer{background:#dfdfdf; border-top:1px solid #beb381;padding: 0 10px;margin-b
 #ft_rgt #ft_tel{display: inline-block;background: url(../images/ico-ft_tel.png) no-repeat left top; padding-left: 25px; font-size: 30px; font-weight: bold;}
 #ft_reception{font-size: 14px;}
 
-.ft_course,.ft_about,.ft_room_search,.ft_relation{margin-bottom: 25px;}
+.ft_course,.ft_about,.ft_room_search,.ft_relation,.ft_pref_list{margin-bottom: 25px;}
 
 #ft_rgt .inq_btn {text-align: center;}
 #ft_rgt .inq_btn li {display: block;float: none !important;}

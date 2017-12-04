@@ -57,6 +57,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/narita/\">ボンベルタ成田教室</a></dd>",
 		"mail"		=> "yukari@pc4353.com"
 	),
 	1001005 => array(
@@ -78,6 +79,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/sagamihara/\">イトーヨーカドー相模原教室</a></dd><dd><a href=\"/hashimoto/\">イオン橋本教室</a></dd>",
 		"mail"		=> "kobuchi@pc4353.com"
 	),
 	1001006 => array(
@@ -99,6 +101,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/ootaka/\">おおたかの森S・C教室</a></dd><dd><a href=\"/misato/\">イトーヨーカドー三郷教室</a></dd>",
 		"mail"		=> "nagare@pc4353.com"
 	),
 	1001008 => array(
@@ -120,6 +123,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kameariario/\">イトーヨーカドーアリオ亀有教室</a></dd><dd><a href=\"/kanamati/\">イトーヨーカドー金町教室</a></dd>",
 		"mail"		=> "kameari@pc4353.com"
 	),
 	1001013 => array(
@@ -141,6 +145,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/myoden/\">イオン市川妙典教室</a></dd><dd><a href=\"/funabashi/\">イトーヨーカドー船橋教室</a></dd>",
 		"mail"		=> "kasai@pc4353.com"
 	),
 	1001016 => array(
@@ -162,6 +167,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kawasaki/\">イトーヨーカドー川崎教室</a></dd>",
 		"mail"		=> "higashikanagawa@pc4353.com"
 	),
 	1001024 => array(
@@ -183,6 +189,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/matudo/\">イトーヨーカドー松戸教室</a></dd><dd><a href=\"/tokiwadaira/\">西友常盤平教室</a></dd>",
 		"mail"		=> "kitakogane@pc4353.com"
 	),
 	1001028 => array(
@@ -204,6 +211,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kitakogane/\">イオン北小金教室</a></dd><dd><a href=\"/tokiwadaira/\">西友常盤平教室</a></dd>",
 		"mail"		=> "matsudo@pc4353.com"
 	),
 	1001029 => array(
@@ -225,6 +233,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kameari/\">亀有駅前教室</a></dd><dd><a href=\"/kameariario/\">イトーヨーカドーアリオ亀有教室</a></dd>",
 		"mail"		=> "kanamachi1@pc4353.com"
 	),
 	1001037 => array(
@@ -245,7 +254,7 @@ $room = array(
 		"mos"		=> "1",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "ryugasaki@pc4353.com"
 	),
 	1001039 => array(
@@ -267,6 +276,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/ebina/\">ショッパーズプラザ海老名教室</a></dd><dd><a href=\"/iy-chigasaki/\">イトーヨーカドー茅ヶ崎教室</a></dd>",
 		"mail"		=> "isehara@pc4353.com"
 	),
 	1001048 => array(
@@ -288,6 +298,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kobuchi/\">イトーヨーカドー古淵教室</a></dd>",
 		"mail"		=> "hashimoto@pc4353.com"
 	),
 	1001049 => array(
@@ -308,7 +319,7 @@ $room = array(
 		"mos"		=> "1",
 		"biz_on"	=> "1",
 		"sps"		=> "1",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "oizumi@pc4353.com"
 	),
 	1001050 => array(
@@ -330,6 +341,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/iruma/\">まるひろ入間教室</a></dd>",
 		"mail"		=> "tokorozawa@pc4353.com"
 	),
 	1001051 => array(
@@ -351,6 +363,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kameari/\">亀有駅前教室</a></dd><dd><a href=\"/kameariario/\">イトーヨーカドーアリオ亀有教室</a></dd>",
 		"mail"		=> "takenotsuka@pc4353.com"
 	),
 	1001058 => array(
@@ -372,6 +385,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/minamiurawa/\">まるひろ南浦和教室</a></dd><dd><a href=\"/nishikicho/\">イトーヨーカドー錦町教室</a></dd>",
 		"mail"		=> "kawaguchi@pc4353.com"
 	),
 	1001059 => array(
@@ -383,7 +397,7 @@ $room = array(
 		"ad1"		=> "埼玉県春日部市中央1-13-1",
 		"ad2"		=> "イトーヨーカドー春日部店　3F",
 		"ad3"		=> "ちびっこ広場奥",
-		"open"		=> "月　10:00-18:15<br />火　10:00-20:15<br />水　休講<br />木　10:00-18:15<br />金　10:00-20:15<br />土　10:00-16:15<br />日　10:00-16:15<br />祝　10:00-16:15<br />※12:00-13:00、15:00-15:15は休講",
+		"open"		=> "月　10:00-17:15<br />火　10:00-20:15<br />水　休講<br />木　10:00-17:15<br />金　10:00-20:15<br />土　10:00-17:15<br />日　10:00-17:15<br />祝　10:00-17:15<br />※12:00-13:00、15:00-15:15は休講",
 		"close"		=> "1",
 		"access"	=> "東武伊勢崎線「春日部駅」<br />西口より徒歩5分",
 		"phone"		=> "048-754-1166",
@@ -392,7 +406,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "kasukabe@pc4353.com"
 	),
 	1001060 => array(
@@ -414,16 +428,17 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/jinbocho/\">神保町駅前教室</a></dd>",
 		"mail"		=> "higashiojima@pc4353.com"
 	),
 	1001062 => array(
 		"dir"		=> "ebina",
 		"blog"		=> "ebina",
-		"name"		=> "ショッパーズプラザ海老名",
+		"name"		=> "マルイファミリー海老名",
 		"zip"		=> "243-0432",
-		"address"	=> "神奈川県海老名市中央3-2-5　ショッパーズプラザ海老名 2階",
-		"ad1"		=> "神奈川県海老名市中央3-2-5",
-		"ad2"		=> "ショッパーズプラザ海老名 2F",
+		"address"	=> "神奈川県海老名市中央1-6-1　マルイファミリー海老名 5階",
+		"ad1"		=> "神奈川県海老名市中央1-6-1",
+		"ad2"		=> "マルイファミリー海老名 5F",
 		"ad3"		=> "",
 		"open"		=> "月　10:00-17:30<br />火　10:00-19:30<br />水　10:00-17:30<br />木　休講<br />金　10:00-20:30<br />土　10:00-17:30<br />日　10:00-17:30<br />（日曜隔週）　10:00-13:00<br />祝　休講",
 		"close"		=> "1",
@@ -435,6 +450,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/isehara/\">いせはらcoma教室</a></dd><dd><a href=\"/iy-chigasaki/\">イトーヨーカドー茅ヶ崎教室</a></dd><dd><a href=\"/sagamihara/\">イトーヨーカドー相模原教室</a></dd>",
 		"mail"		=> "ebina@pc4353.com"
 	),
 	1001065 => array(
@@ -456,6 +472,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/ebina/\">ショッパーズプラザ海老名教室</a></dd><dd><a href=\"/isehara/\">いせはらcoma教室</a></dd>",
 		"mail"		=> "iy-chigasaki@pc4353.com"
 	),
 	1001068 => array(
@@ -476,7 +493,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "nishihachiouji@pc4353.com"
 	),
 	1001069 => array(
@@ -498,6 +515,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kawaguchi/\">ザ・プライス川口教室</a></dd><dd><a href=\"/minamiurawa/\">まるひろ南浦和教室</a></dd>",
 		"mail"		=> "nishikicho@pc4353.com"
 	),
 	1001071 => array(
@@ -519,6 +537,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kamatori/\">イオン鎌取教室</a></dd>",
 		"mail"		=> "mobara@pc4353.com"
 	),
 	1001075 => array(
@@ -539,7 +558,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "njmkamonomiya@pc4353.com"
 	),
 	1001078 => array(
@@ -561,6 +580,7 @@ $room = array(
 		"biz_on"	=> "1",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/ebina/\">ショッパーズプラザ海老名教室</a></dd><dd><a href=\"/kobuchi/\">イトーヨーカドー古淵教室</a></dd>",
 		"mail"		=> "sagamihara@pc4353.com"
 	),
 	1001079 => array(
@@ -582,6 +602,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kitakogane/\">イオン北小金教室</a></dd><dd><a href=\"/matudo/\">イトーヨーカドー松戸教室</a></dd>",
 		"mail"		=> "tokiwadaira@pc4353.com"
 	),
 	1001082 => array(
@@ -602,7 +623,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "moro@pc4353.com"
 	),
 	1001083 => array(
@@ -623,7 +644,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "fussa@pc4353.com"
 	),
 	1001085 => array(
@@ -644,7 +665,7 @@ $room = array(
 		"mos"		=> "1",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "fukaya@pc4353.com"
 	),
 	1001092 => array(
@@ -666,6 +687,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/funabashi/\">イトーヨーカドー船橋教室</a></dd><dd><a href=\"/tsudanuma/\">イトーヨーカドー津田沼教室</a></dd>",
 		"mail"		=> "magomesawa@pc4353.com"
 	),
 	1001095 => array(
@@ -687,6 +709,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/tsudanuma/\">イトーヨーカドー津田沼教室</a></dd><dd><a href=\"/magome/\">サミット馬込沢教室</a></dd><dd><a href=\"/myoden/\">イオン市川妙典教室</a></dd>",
 		"mail"		=> "funabashi@pc4353.com"
 	),
 	1001097 => array(
@@ -708,6 +731,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/aitai/\">センター北あいたい教室</a></dd>",
 		"mail"		=> "susukino@pc4353.com"
 	),
 	1001099 => array(
@@ -729,6 +753,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/nagareyama/\">イトーヨーカドー流山教室</a></dd><dd><a href=\"/ootaka/\">おおたかの森S・C教室</a></dd><dd><a href=\"/nankoshi/\">越谷サンシティ教室</a></dd>",
 		"mail"		=> "misato@pc4353.com"
 	),
 	1001104 => array(
@@ -750,6 +775,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kameari/\">亀有駅前教室</a></dd><dd><a href=\"/kanamati/\">イトーヨーカドー金町教室</a></dd>",
 		"mail"		=> "kameariario1@pc4353.com"
 	),
 	1001106 => array(
@@ -771,6 +797,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/higashikanagawa/\">イオンスタイル東神奈川教室</a></dd>",
 		"mail"		=> "kawasaki@pc4353.com"
 	),
 	1001108 => array(
@@ -792,6 +819,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/funabashi/\">イトーヨーカドー船橋教室</a></dd><dd><a href=\"/magome/\">サミット馬込沢教室</a></dd>",
 		"mail"		=> "iy-tsudanuma@pc4353.com"
 	),
 	1001110 => array(
@@ -813,6 +841,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/misato/\">イトーヨーカドー三郷教室</a></dd>",
 		"mail"		=> "minamikoshigaya@pc4353.com"
 	),
 	1001111 => array(
@@ -834,6 +863,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/misato/\">イトーヨーカドー三郷教室</a></dd><dd><a href=\"/nagareyama/\">イトーヨーカドー流山教室</a></dd>",
 		"mail"		=> "ootaka@pc4353.com"
 	),
 	1001116 => array(
@@ -855,6 +885,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/ariokashiwa/\">イトーヨーカドーアリオ柏教室</a></dd><dd><a href=\"/abiko/\">アビイクオーレ我孫子教室</a></dd>",
 		"mail"		=> "kashiwa@pc4353.com"
 	),
 	1001117 => array(
@@ -876,6 +907,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kashiwa/\">イトーヨーカドー柏教室</a></dd><dd><a href=\"/ariokashiwa/\">イトーヨーカドーアリオ柏教室</a></dd>",
 		"mail"		=> "abiko@pc4353.com"
 	),
 	1001118 => array(
@@ -896,7 +928,7 @@ $room = array(
 		"mos"		=> "1",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "ageo@pc4353.com"
 	),
 	1001119 => array(
@@ -917,7 +949,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "numadu@pc4353.com"
 	),
 	1001120 => array(
@@ -939,6 +971,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/yukari/\">イオンタウンユーカリが丘教室</a></dd>",
 		"mail"		=> "narita@pc4353.com"
 	),
 	1001121 => array(
@@ -960,6 +993,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/nishikicho/\">イトーヨーカドー錦町教室</a></dd><dd><a href=\"/kawaguchi/\">ザ・プライス川口教室</a></dd><dd><a href=\"/yono/\">イオンモール与野教室</a></dd>",
 		"mail"		=> "minamiurawa@pc4353.com"
 	),
 	1001122 => array(
@@ -981,6 +1015,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kasai/\">イトーヨーカドー葛西教室</a></dd><dd><a href=\"/funabashi/\">イトーヨーカドー船橋教室</a></dd>",
 		"mail"		=> "myoden@pc4353.com"
 	),
 	1001124 => array(
@@ -1002,6 +1037,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/tokorozawa/\">イオン所沢教室</a></dd>",
 		"mail"		=> "iruma@pc4353.com"
 	),
 	1001125 => array(
@@ -1023,6 +1059,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/susukino/\">とうきゅうすすき野教室</a></dd>",
 		"mail"		=> "aitai@pc4353.com"
 	),
 	1001126 => array(
@@ -1044,6 +1081,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/mobara/\">茂原駅前教室</a></dd>",
 		"mail"		=> "kamatori@pc4353.com"
 	),
 	1001127 => array(
@@ -1065,6 +1103,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/minamiurawa/\">まるひろ南浦和教室</a></dd>",
 		"mail"		=> "yono@pc4353.com"
 	),
 	1001128 => array(
@@ -1086,6 +1125,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/higashiojima/\">ダイエー東大島教室</a></dd>",
 		"mail"		=> "jinbocho@pc4353.com"
 	),
 	1001129 => array(
@@ -1106,7 +1146,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "jiyugaoka@pc4353.com"
 	),
 	1001130 => array(
@@ -1118,7 +1158,7 @@ $room = array(
 		"ad1"		=> "千葉県柏市大島田1丁目6番地1",
 		"ad2"		=> "イトーヨーカドーアリオ柏店 2階",
 		"ad3"		=> "",
-		"open"		=> "月　10:15-19:45<br />火　10:15-17:30<br />水　休講<br />木　10:15-19:45<br />金　10:15-17:30<br />土　10:15-17:30<br />日　休講",
+		"open"		=> "月　10:15-19:45<br />火　10:15-17:30<br />水　休講<br />木　10:15-19:45<br />金　10:15-14:30<br />土　10:15-17:30<br />日　休講",
 		"close"		=> "1",
 		"access"	=> "JR常磐線(快速/各駅)・東武鉄道「柏駅」東口より東武バス「沼南車庫行き」にて約17分『セブンパークアリオ柏前』バス停下車",
 		"phone"		=> "04-7179-5432",
@@ -1128,6 +1168,7 @@ $room = array(
 		"biz_on"	=> "1",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kashiwa/\">イトーヨーカドー柏教室</a></dd><dd><a href=\"/abiko/\">アビイクオーレ我孫子教室</a></dd>",
 		"mail"		=> "ariokashiwa@pc4353.com"
 	),
 	1001132 => array(
@@ -1148,7 +1189,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "higashimatsuyama@pc4353.com"
 	),
 	1001133 => array(
@@ -1169,7 +1210,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "1",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "nakano@pc4353.com"
 	),
 	
@@ -1195,6 +1236,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/nishinomiya/\">イオン西宮教室</a></dd><dd><a href=\"/koushien/\">イトーヨーカドー甲子園教室</a></dd><dd><a href=\"/kawanishi/\">アステ川西教室</a></dd>",
 		"mail"		=> "itami@pc4353.com"
 	),
 	6015006 => array(
@@ -1216,6 +1258,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/minamikusatsu/\">フェリエ南草津教室</a></dd><dd><a href=\"/s-yamashina/\">西友山科教室</a></dd>",
 		"mail"		=> "hachiman@pc4353.com"
 	),
 	6015012 => array(
@@ -1236,7 +1279,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "fuji@pc4353.com"
 	),
 	6015013 => array(
@@ -1258,6 +1301,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/nishinomiya/\">イオン西宮教室</a></dd><dd><a href=\"/koushien/\">イトーヨーカドー甲子園教室</a></dd>",
 		"mail"		=> "sannomiya@pc4353.com"
 	),
 	6015014 => array(
@@ -1279,6 +1323,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/takami/\">イオン高見教室</a></dd><dd><a href=\"/koushien/\">イトーヨーカドー甲子園教室</a></dd><dd><a href=\"/kyobashi/\">イオン京橋教室</a></dd>",
 		"mail"		=> "ohwada@pc4353.com"
 	),
 	6015015 => array(
@@ -1300,6 +1345,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/owariasahi/\">イトーヨーカドー尾張旭教室</a></dd><dd><a href=\"/tsushima/\">津島教室</a></dd><dd><a href=\"/akaike/\">プライムツリー赤池教室</a></dd>",
 		"mail"		=> "kamiiida@pc4353.com"
 	),
 	6015016 => array(
@@ -1321,6 +1367,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/wakae/\">イズミヤ若江岩田教室</a></dd><dd><a href=\"/iy-yao/\">イトーヨーカドー八尾教室</a></dd>",
 		"mail"		=> "higashiosaka@pc4353.com"
 	),
 	6015017 => array(
@@ -1342,6 +1389,7 @@ $room = array(
 		"biz_on"	=> "1",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/entetsu/\">遠鉄百貨店教室</a></dd><dd><a href=\"/toyohashi/\">バロー豊橋教室</a></dd>",
 		"mail"		=> "hamamatsu@pc4353.com"
 	),
 	6015018 => array(
@@ -1363,6 +1411,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/entetsu/\">遠鉄百貨店教室</a></dd><dd><a href=\"/hamamatsu/\">浜松プラザフレスポ教室</a></dd>",
 		"mail"		=> "toyohashi@pc4353.com"
 	),
 	6015022 => array(
@@ -1384,6 +1433,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kokubu/\">ライフ国分教室</a></dd><dd><a href=\"/higashiosaka/\">イトーヨーカドー東大阪教室</a></dd><dd><a href=\"/wakae/\">イズミヤ若江岩田教室</a></dd>",
 		"mail"		=> "iy-yao@pc4353.com"
 	),
 	6015027 => array(
@@ -1405,6 +1455,7 @@ $room = array(
 		"biz_on"	=> "1",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kamiiida/\">イオン上飯田教室</a></dd><dd><a href=\"/tsushima/\">津島教室</a></dd><dd><a href=\"/akaike/\">プライムツリー赤池教室</a></dd>",
 		"mail"		=> "owariasahi@pc4353.com"
 	),
 	6015028 => array(
@@ -1426,6 +1477,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/ecoll-mami/\">エコール・マミ教室</a></dd><dd><a href=\"/iy-yao/\">イトーヨーカドー八尾教室</a></dd>",
 		"mail"		=> "kokubu@pc4353.com"
 	),
 	6015029 => array(
@@ -1447,6 +1499,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/senrioka/\">イズミヤ千里丘教室</a></dd><dd><a href=\"/shinibaraki/\">イオンスタイル新茨木教室</a></dd><dd><a href=\"/kitasenri/\">イオン北千里教室</a></dd>",
 		"mail"		=> "suita@pc4353.com"
 	),
 	6015030 => array(
@@ -1468,6 +1521,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/higashineyagawa/\">イズミヤ東寝屋川教室</a></dd><dd><a href=\"/koori/\">ライフ香里園教室</a></dd><dd><a href=\"/kyobashi/\">イオン京橋教室</a></dd>",
 		"mail"		=> "kadoma@pc4353.com"
 	),
 	6015031 => array(
@@ -1489,6 +1543,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/narafa/\">ならファミリー教室</a></dd>",
 		"mail"		=> "tomigaoka@pc4353.com"
 	),
 	6015037 => array(
@@ -1510,6 +1565,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/iy-yao/\">イトーヨーカドー八尾教室</a></dd><dd><a href=\"/kokubu/\">ライフ国分教室</a></dd><dd><a href=\"/higashiosaka/\">イトーヨーカドー東大阪教室</a></dd><dd><a href=\"/wakae/\">イズミヤ若江岩田教室</a></dd>",
 		"mail"		=> "yamamoto@pc4353.com"
 	),
 	6015043 => array(
@@ -1531,6 +1587,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/ecoll-roze/\">エコール・ロゼ教室</a></dd><dd><a href=\"/koumyouike/\">ダイエー光明池教室</a></dd>",
 		"mail"		=> "kitanoda@pc4353.com"
 	),
 	6015052 => array(
@@ -1542,7 +1599,7 @@ $room = array(
 		"ad1"		=> "大阪府和泉市室堂町841－1",
 		"ad2"		=> "ダイエー光明池店 3F",
 		"ad3"		=> "",
-		"open"  => "月　10:00-15:15<br />火　10:00-19:45<br />水　休講<br />木　10:00-19:45<br />金　10:00-15:15<br />土　10:00-15:15<br />日　隔週 10:00-12:00<br />祝　休講<br />※ダイエー光明池店がお休みの場合、<br />　上記に限らず当教室も休講します。<br />　日曜日の開講については、<br />　教室へご確認ください。",
+		"open"  => "月　10:15-15:30<br />火　10:15-19:45<br />水　休講<br />木　10:15-19:45<br />金　10:15-15:30<br />土　10:15-15:30<br />日　隔週 10:15-12:15<br />祝　休講<br />※ダイエー光明池店がお休みの場合、<br />　上記に限らず当教室も休講します。<br />　日曜日の開講については、<br />　教室へご確認ください。",
 		"close"		=> "0",
 		"access"	=> "泉北高速鉄道「光明池駅」下車　徒歩5分",
 		"phone"		=> "0725-56-4355",
@@ -1552,6 +1609,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/ecoll-roze/\">エコール・ロゼ教室</a></dd><dd><a href=\"/kitanoda/\">ダイエー北野田教室</a></dd>",
 		"mail"		=> "koumyouike@pc4353.com"
 	),
 	6015061 => array(
@@ -1573,6 +1631,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/uzumasa/\">ライフ太秦教室</a></dd><dd><a href=\"/minamikusatsu/\">フェリエ南草津教室</a></dd>",
 		"mail"		=> "s-yamashina@pc4353.com"
 	),
 	6015066 => array(
@@ -1594,6 +1653,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kamiiida/\">イオン上飯田教室</a></dd><dd><a href=\"/owariasahi/\">イトーヨーカドー尾張旭教室</a></dd>",
 		"mail"		=> "tsushima@pc4353.com"
 	),
 	6015067 => array(
@@ -1615,6 +1675,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/akashi/\">イトーヨーカドー明石教室</a></dd>",
 		"mail"		=> "nishikobe@pc4353.com",
 		"maps"		=> "兵庫県神戸市西区竜が岡1-21"
 	),
@@ -1636,7 +1697,7 @@ $room = array(
 		"mos"		=> "1",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "sakiland@pc4353.com"
 	),
 	6015076 => array(
@@ -1658,6 +1719,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/higashineyagawa/\">イズミヤ東寝屋川教室</a></dd><dd><a href=\"/kadoma/\">ライフ門真教室</a></dd><dd><a href=\"/kyobashi/\">イオン京橋教室</a></dd>",
 		"mail"		=> "shinkoori@pc4353.com"
 	),
 	6015081 => array(
@@ -1679,6 +1741,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kokubu/\">ライフ国分教室</a></dd>",
 		"mail"      => "ecoll-mami@pc4353.com"
 ),
 	6015083 => array(
@@ -1700,6 +1763,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/higashineyagawa/\">イズミヤ東寝屋川教室</a></dd><dd><a href=\"/kadoma/\">ライフ門真教室</a></dd><dd><a href=\"/koori/\">ライフ香里園教室</a></dd><dd><a href=\"/abeno/\">イトーヨーカドーあべの教室</a></dd>",
 		"mail"		=> "kyobashi@pc4353.com"
 	),
 	6015084 => array(
@@ -1720,7 +1784,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "izumisano@pc4353.com"
 	),
 	6015085 => array(
@@ -1742,6 +1806,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/iy-yao/\">イトーヨーカドー八尾教室</a></dd><dd><a href=\"/higashiosaka/\">イトーヨーカドー東大阪教室</a></dd>",
 		"mail"		=> "wakae@pc4353.com"
 	),
 	6015089 => array(
@@ -1763,6 +1828,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kitanoda/\">ダイエー北野田教室</a></dd><dd><a href=\"/koumyouike/\">ダイエー光明池教室</a></dd>",
 		"mail"		=> "ecoll-roze@pc4353.com"
 	),
 	6015090 => array(
@@ -1784,6 +1850,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/koori/\">ライフ香里園教室</a></dd><dd><a href=\"/kadoma/\">ライフ門真教室</a></dd><dd><a href=\"/kyobashi/\">イオン京橋教室</a></dd>",
 		"mail"		=> "higashineyagawa@pc4353.com"
 	),
 	6015097 => array(
@@ -1805,6 +1872,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/nishikobe/\">イズミヤ西神戸教室</a></dd>",
 		"mail"		=> "iyakashi@pc4353.com"
 	),
 	6015099 => array(
@@ -1825,7 +1893,7 @@ $room = array(
 		"mos"		=> "1",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "s-nakai@pc4353.com"
 	),
 	6015104 => array(
@@ -1847,6 +1915,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/nishinomiya/\">イオン西宮教室</a></dd><dd><a href=\"/itami/\">伊丹駅前教室</a></dd><dd><a href=\"/sannomiya/\">ダイエー三宮駅前教室</a></dd><dd><a href=\"/ohwada/\">メラード大和田教室</a></dd>",
 		"mail"		=> "koushien@pc4353.com"
 	),
 	6015107 => array(
@@ -1868,6 +1937,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/ohwada/\">メラード大和田教室</a></dd><dd><a href=\"/kyobashi/\">イオン京橋教室</a></dd><dd><a href=\"/abeno/\">イトーヨーカドーあべの教室</a></dd>",
 		"mail"		=> "takami@pc4353.com"
 	),
 	6015113 => array(
@@ -1889,6 +1959,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/s-yamashina/\">西友山科教室</a></dd><dd><a href=\"/minamikusatsu/\">フェリエ南草津教室</a></dd>",
 		"mail"		=> "uzumasa@pc4353.com"
 	),
 	6015114 => array(
@@ -1910,6 +1981,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/suita/\">イオン吹田教室</a></dd><dd><a href=\"/shinibaraki/\">イオンスタイル新茨木教室</a></dd><dd><a href=\"/kitasenri/\">イオン北千里教室</a></dd>",
 		"mail"		=> "senrioka@pc4353.com"
 	),
 	6015116 => array(
@@ -1931,6 +2003,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/suita/\">イオン吹田教室</a></dd><dd><a href=\"/shinibaraki/\">イオンスタイル新茨木教室</a></dd><dd><a href=\"/senrioka/\">イズミヤ千里丘教室</a></dd>",
 		"mail"		=> "kitasenri@pc4353.com"
 	),
 	6015118 => array(
@@ -1952,6 +2025,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/takami/\">イオン高見教室</a></dd><dd><a href=\"/kyobashi/\">イオン京橋教室</a></dd>",
 		"mail"		=> "abeno@pc4353.com"
 	),
 	6015121 => array(
@@ -1973,6 +2047,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/koushien/\">イトーヨーカドー甲子園教室</a></dd><dd><a href=\"/itami/\">伊丹駅前教室</a></dd><dd><a href=\"/kawanishi/\">アステ川西教室</a></dd><dd><a href=\"/sannomiya/\">ダイエー三宮駅前教室</a></dd>",
 		"mail"		=> "nishinomiya@pc4353.com"
 	),
 	6015122 => array(
@@ -1994,6 +2069,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/naratomigaoka/\">イオンモール奈良登美ヶ丘教室</a></dd>",
 		"mail"		=> "narafa@pc4353.com"
 	),
 	6015123 => array(
@@ -2015,6 +2091,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/hamamatsu/\">浜松プラザフレスポ教室</a></dd><dd><a href=\"/toyohashi/\">バロー豊橋教室</a></dd>",
 		"mail"		=> "entetsu@pc4353.com"
 	),
 	6015124 => array(
@@ -2036,6 +2113,7 @@ $room = array(
 		"biz_on"	=> "1",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/itami/\">伊丹駅前教室</a></dd><dd><a href=\"/nishinomiya/\">イオン西宮教室</a></dd>",
 		"mail"		=> "kawanishi@pc4353.com"
 	),
 	6015125 => array(
@@ -2056,7 +2134,7 @@ $room = array(
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "0",
-		"other_area"		=> "1",
+		"other_area"		=> "0",
 		"mail"		=> "sasaoka@pc4353.com"
 	),
 	6015126 => array(
@@ -2078,6 +2156,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/hachiman/\">アル・プラザ近江八幡教室</a></dd><dd><a href=\"/s-yamashina/\">西友山科教室</a></dd>",
 		"mail"		=> "minamikusatsu@pc4353.com"
 	),
 	6015127 => array(
@@ -2099,6 +2178,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "0",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/sasaoka/\">イオンスタイル笹丘教室</a></dd>",
 		"mail"		=> "chikushino@pc4353.com"
 	),
 	6015128 => array(
@@ -2120,6 +2200,7 @@ $room = array(
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/suita/\">イオン吹田教室</a></dd><dd><a href=\"/kitasenri/\">イオン北千里教室</a></dd><dd><a href=\"/senrioka/\">イズミヤ千里丘教室</a></dd>",
 		"mail"		=> "shinibaraki@pc4353.com"
 	),
 	6015129=> array(
@@ -2134,14 +2215,14 @@ $room = array(
 		"open"		=> "準備中",
 		"close"		=> "0",
 		"access"	=> "名古屋市営地下鉄鶴舞線、名鉄豊田線「赤池駅」より徒歩4分",
-		"phone"		=> "準備中",
-//		"phone"		=> "052-838-6860",
+		"phone"		=> "052-838-6860",
 		"keywords"	=> "日進市,赤池,",
 		"area"		=> "日進市",
 		"mos"		=> "0",
 		"biz_on"	=> "0",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kamiiida/\">イオン上飯田教室</a></dd><dd><a href=\"/owariasahi/\">イトーヨーカドー尾張旭教室</a></dd>",
 		"mail"		=> "akaike@pc4353.com"
 	),
 	
@@ -2996,6 +3077,7 @@ $room = array(
 		"biz_on"	=> "1",
 		"sps"		=> "1",
 		"other_area"		=> "1",
+		"other_area2"		=> "<dd><a href=\"/kyobashi/\">イオン京橋教室</a></dd><dd><a href=\"/takami/\">イオン高見教室</a></dd>",
 		"mail"		=> "test@pc4353.com"
 	),
 
