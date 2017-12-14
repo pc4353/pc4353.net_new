@@ -1,5 +1,5 @@
 <?php
-if( !$index ) {
+if( !$index && !$mos && !$certify) {
 ?>
 				<div id="contact" class="block mB20">
 					<h2 class="mB15">興味を持ったらまずはお問い合わせ</h2>
@@ -147,7 +147,7 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 <dd><a href="http://www.nsg.gr.jp/" target="_blank"><img src="../images/bnr-nsg_ft.jpg" width="185" alt="NSGグループ"></a></dd>
 </dl>
 <dl class="ft_pref_list clearfix">
-<dt>都道府県から探す</dt>
+<dt>都道府県からパソコン教室を探す</dt>
 <dd><a href="/school/fukushima.php">福島</a></dd>
 <dd><a href="/school/tokyo.php">東京</a></dd>
 <dd><a href="/school/kanagawa.php">神奈川</a></dd>
@@ -168,7 +168,7 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 </dl>
 <?php
 	if ($room[$id][other_area] == "1") {
-		echo "<dl class=\"ft_near_list clearfix\"><dt>近くの教室を探す</dt>";
+		echo "<dl class=\"ft_near_list clearfix\"><dt>近くの教室からパソコン教室を探す</dt>";
 		echo $room[$id][other_area2];
 		echo "</dl>";
 	}

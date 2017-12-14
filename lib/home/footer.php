@@ -37,6 +37,9 @@ if (!$home) {
 
 
 	<div class="l-footer2">
+	<div class="footer_txt">
+		<p>パソコン市民講座はどなたでもお気軽に受講していただける、あなたに合ったコースをご用意しております。初心者からスキルアップ・資格取得まで安心のパソコン教室 パソコン市民講座(東京/大阪ほか全国)。</p>
+	</div>
 	<div class="c-wrap">
 
 		<div class="l-footer2__block1 pc-only">

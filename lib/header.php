@@ -11,7 +11,7 @@ if( ereg( "index", $_SERVER["SCRIPT_NAME"])){
 }
 
 // form判定
-if( ereg( "contact", $_SERVER["SCRIPT_NAME"]) || ereg( "recruit", $_SERVER["SCRIPT_NAME"]) || ereg( "biz-online", $_SERVER["SCRIPT_NAME"])){
+if( ereg( "contact", $_SERVER["SCRIPT_NAME"]) || ereg( "recruit", $_SERVER["SCRIPT_NAME"]) || ereg( "mos", $_SERVER["SCRIPT_NAME"])){
 	$form = 1;
 }
 
@@ -75,6 +75,13 @@ if( ereg( "summer_lesson", $_SERVER["SCRIPT_NAME"])){
 }
 if( ereg( "mos", $_SERVER["SCRIPT_NAME"])){
 	$title = "MOS（マイクロソフトオフィススペシャリスト）資格取得講座";
+	$mos = 1;
+	$contents_class = " mos";
+}
+if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
+	$title = "サーティファイ ビジネス実践講座";
+	$certify = 1;
+	$contents_class = " certify";
 }
 if( ereg( "biz-online", $_SERVER["SCRIPT_NAME"])){
 	$title = "ビジネスオンライン";
@@ -111,6 +118,22 @@ if( !$index ) {
 ?>
 <link rel="stylesheet" type="text/css" href="/css/index_new.css?<?php echo filemtime($root.'/css/index_new.css'); ?>" media="screen and (min-width: 768px), print" />
 <link rel="stylesheet" type="text/css" href="/css/index_new-sp.css?<?php echo filemtime($root.'/css/index_new-sp.css'); ?>" media="only screen and (max-width: 767px)" />
+<?php
+}
+?>
+<?php
+if( $mos ) {
+?>
+<link rel="stylesheet" type="text/css" href="/common/css/mos.css?<?php echo filemtime($root.'/common/css/mos.css'); ?>" media="screen and (min-width: 767px), print" />
+<link rel="stylesheet" type="text/css" href="/common/css/mos-sp.css?<?php echo filemtime($root.'/common/css/mos-sp.css'); ?>" media="only screen and (max-width: 768px)" />
+<?php
+}
+?>
+<?php
+if( $certify ) {
+?>
+<link rel="stylesheet" type="text/css" href="/common/css/certify.css?<?php echo filemtime($root.'/common/css/certify.css'); ?>" media="screen and (min-width: 768px), print" />
+<link rel="stylesheet" type="text/css" href="/common/css/certify-sp.css?<?php echo filemtime($root.'/common/css/certify-sp.css'); ?>" media="only screen and (max-width: 767px)" />
 <?php
 }
 ?>
@@ -275,21 +298,23 @@ if( $index ) {
 <?php
 } else {
 ?>
-		<div id="contents" class="clearfix">
-			<div id="main">
-				<div id="kasou" class="clearfix">
-
 				<div id="locus-area" class="clearfix">
 				  <dl class="locus">
 					<dt>現在のページ</dt>
 					<dd>
 					  <ul>
+						<li><a href="/">パソコン教室なら「パソコン市民講座」</a> ＞</li>
+						<li><a href="/school/<?=$room[$id][pref]?>.php"><?=$room[$id][pref_name]?>のパソコン教室を探す</a> ＞</li>
 						<li><a href="/<?=$room[$id][dir]?>/"><?=$room[$id][area]?>のパソコン教室・講座TOP</a> ＞</li>
 						<li><?=$title?></li>
 					  </ul>
 					</dd>
 				  </dl><!-- /.locus -->
 				</div><!-- /#locus-area -->
+
+		<div id="contents" class="clearfix<?=$contents_class?>">
+			<div id="main">
+				<div id="kasou" class="clearfix">
 
 				<div class="block">
 <?php

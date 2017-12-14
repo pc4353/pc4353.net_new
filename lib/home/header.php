@@ -19,7 +19,7 @@ if ($home) {
 <title><?=$title?><?=$sep?><?=$title_base?></title>
 <?=$a?>
 <meta name="viewport" content="width=device-width" />
-<meta name="Description" content="<?=$description?>初心者からスキルアップ・資格取得まで安心のパソコン教室 パソコン市民講座(東京/大阪ほか全国)。" />
+<meta name="description" content="<?=$description?>初心者からスキルアップ・資格取得まで安心のパソコン教室 パソコン市民講座(東京/大阪ほか全国)。" />
 <meta name="keywords" content="<?=$keywords?>パソコン教室,パソコンスクール,資格,検定,東京,大阪,パソコン,市民講座,pc4353,PC教室,初心者,サーティファイ,MOS" />
 
 

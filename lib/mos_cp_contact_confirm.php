@@ -47,7 +47,7 @@ if( $errormsg ){
 	$step = 2;
 }
 
-include_once("../lib/header_mos_cp.php");
+include_once("../lib/header_contact.php");
 
 ?>
 
@@ -56,7 +56,7 @@ include_once("../lib/header_mos_cp.php");
 // 入力内容に不備があった場合
 if( $step == 1 ) {
 ?>
-                <div id="toiawase_form" class="c-wrap">
+                <div id="toiawase_form">
 					<div class="i-pt clearfix mB20 mR10">
 						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料説明会のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step1.jpg" width="810" height="55" alt="お客様情報入力" /></div>
@@ -85,7 +85,7 @@ if( $step == 1 ) {
 } else {
 
 ?>
-                <div id="toiawase_form" class="c-wrap">
+                <div id="toiawase_form">
 					<div class="i-pt clearfix mB20 mR10">
 						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料説明会のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step2.jpg" width="810" height="55" alt="入力内容確認" /></div>
@@ -145,6 +145,6 @@ if( $step == 1 ) {
 				</div><!-- /#kasou -->
 <?php
 } // エラーチェック or 確認画面分岐終了
-include_once("../lib/footer_mos_cp.php");
+include_once("../lib/footer_contact.php");
 } // stepを踏まないアクセスを回避
 ?>

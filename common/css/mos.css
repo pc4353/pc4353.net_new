@@ -12,6 +12,8 @@ a.mos_btn2:hover { background: #1d69b2; color: #fff; }
 
 .mos_txt1 { text-align: center; font-size: 137.5% !important; font-weight: normal; line-height: 150%; margin-bottom: 22px; }
 
+.u-right { text-align: right !important; }
+
 .p-mos1 { margin-bottom: 28px; }
 .p-mos1 h2 { text-align: center; margin-bottom: 26px; }
 #contents #kasou .p-mos h2 {color:#fff;background: none;border-bottom: none;padding: 0;font-size: 18px;}
@@ -94,4 +96,7 @@ a.mos_btn2:hover { background: #1d69b2; color: #fff; }
 
 
 #contents {width: 100% !important;padding: 0 !important;}
-#main {width: 100%;}
+#contents #kasou {padding: 0 !important;}
+#main {width: 100%; float:none; margin: 0 auto;}
+.c-wrap { width: 1000px; margin-left: auto; margin-right: auto; }
+.c-wrap2 { width: 860px; margin-left: auto; margin-right: auto; }

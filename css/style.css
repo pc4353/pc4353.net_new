@@ -250,6 +250,26 @@ main .main_lft{
 	float: left;
 }
 
+main .main_lft .locus-area{
+	width: 100%;
+}
+main .main_lft dl.locus dt {
+	height: 0;
+	font-size: 0;
+	overflow: hidden;
+}
+main .main_lft dl.locus dd {
+	padding: 0 0 10px 0;
+	font-size: 75%;
+}
+main .main_lft dl.locus dd li {
+	display: inline;
+}
+main .main_lft dl.locus dd li img {
+	padding-bottom: 2px;
+	vertical-align: middle;
+}
+
 main .course_list,
 main .osusume_list,
 main .room_info,

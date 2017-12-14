@@ -15,7 +15,7 @@ include_once('../lib/home/header.php');
 
 <div class="l-breadcrumb">
 	<ul class="c-wrap">
-		<li><a href="/">パソコン教室なら「市民講座」</a></li>
+		<li><a href="/">パソコン教室なら「パソコン市民講座」</a></li>
 		<li><a href="/shikaku/">ビジネス向け資格取得講座</a></li>
 		<li><?=$title?></li>
 	</ul>

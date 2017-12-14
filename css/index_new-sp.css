@@ -456,8 +456,14 @@ img.mL20 {margin-left: 0 !important;}
 	_overflow: hidden;
 }
 /* パンくずリスト */
+#locus-area {
+	background: #f6f5ef;
+	padding: 6px 0;
+	line-height: 1em;
+}
 #locus-area dl.locus {
-	margin-bottom: 10px;
+	width: 98%;
+	margin: 0 auto;
 }
 dl.locus dt {
 	height: 0;
@@ -465,8 +471,7 @@ dl.locus dt {
 	overflow: hidden;
 }
 dl.locus dd {
-	padding: 5px 0 10px 0;
-	font-size: 93%;
+	font-size: 75%;
 }
 dl.locus dd li {
 	display: inline;
@@ -898,6 +903,11 @@ a.banner:hover{ color:#333333!important}
 #contact .box-b .section-lv3 dd,
 #contact2 .box-b .section-lv3 dd {
 	line-height:1em
+}
+#toiawase_form {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #toiawase_form .section-lv2 {
 	font-size:14px;

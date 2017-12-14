@@ -454,10 +454,14 @@ div.big-submit {
 	_overflow: hidden;
 }
 /* パンくずリスト */
+#locus-area {
+	background: #f6f5ef;
+	padding: 6px 0;
+	line-height: 1.8em;
+}
 #locus-area dl.locus {
-	float: left;
-	width: 735px;
-	margin-bottom: 10px;
+	width: 1000px;
+	margin: 0 auto;
 }
 dl.locus dt {
 	height: 0;
@@ -465,8 +469,7 @@ dl.locus dt {
 	overflow: hidden;
 }
 dl.locus dd {
-	padding: 5px 0 10px 0;
-	font-size: 93%;
+	font-size: 75%;
 }
 dl.locus dd li {
 	display: inline;
@@ -486,7 +489,7 @@ dl.footer-locus {
 /* @group コンテンツ #contents */
 #contents {
 	margin: 0 auto;
-	padding:10px 0;
+	padding:0;
 	width: 860px;
 	position: relative;
   color: #333;
@@ -869,6 +872,11 @@ a.banner:hover{ color:#333333!important}
 #contact2 .box-b .section-lv3 dd {
 	line-height:1em
 }
+#toiawase_form {
+	width: 810px;
+	margin-left: auto;
+	margin-right: auto;
+}
 #toiawase_form .section-lv2 {
 	font-size:14px;
 }
@@ -910,6 +918,7 @@ a.banner:hover{ color:#333333!important}
 #sub {
 	float: right;
 	width: 180px;
+	padding-top: 5px;
 	overflow: hidden;
 }
 #sub-menu {

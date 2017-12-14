@@ -11,7 +11,7 @@ include_once('../lib/home/header.php');
 
 <div id="contents">
 <ul id="bl">
-	<li><a href="/">パソコン教室なら「市民講座」</a></li>
+	<li><a href="/">パソコン教室なら「パソコン市民講座」</a></li>
 	<li><?=$title?></li>
 </ul>
 

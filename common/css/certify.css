@@ -85,3 +85,10 @@
 .p-cert5__block2 .txt1 p { font-size: 131.2% !important; font-weight: bold; line-height: 140%; margin-bottom: 15px; }
 .p-cert5__block2 .txt1 h5 { color: #eb6100; font-size: 370%; line-height: 110%; font-weight: bold; }
 .p-cert5__block2 .txt1 h5 small { font-size: 56.2% !important; }
+
+
+#contents {width: 100% !important;padding: 0 !important;}
+#contents #kasou {padding: 0 !important;}
+#main {width: 100%; float:none; margin: 0 auto;}
+.c-wrap { width: 1000px; margin-left: auto; margin-right: auto; }
+.c-wrap2 { width: 860px; margin-left: auto; margin-right: auto; }

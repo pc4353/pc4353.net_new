@@ -31,6 +31,12 @@ $body .= "[メ ー ル]　" . $mail . "\n";
 $body .= "[年　　代]　" . $old . "\n";
 $body .= "[無料説明会希望日]　" . $nichiji_1 . "月" . $nichiji_2 . "日　" . $nichiji_3 . "\n";
 $body .= "[ご質問等]\n" . $question . "\n";
+$ua=$_SERVER['HTTP_USER_AGENT'];
+  if((strpos($ua,'iPhone')!==false)||(strpos($ua,'iPod')!==false)||(strpos($ua,'Android')!==false)) {
+$body .= "\nスマホサイトから送信\n";
+  } else {
+$body .= "\nパソコンサイトから送信\n";
+  }
 
 mb_language( "ja" );
 mb_internal_encoding( "UTF-8" );
@@ -45,8 +51,9 @@ if( mb_send_mail( $to1, $subject, $body, $header ) && mb_send_mail( $to2, $subje
 }
 $message .= "当教室、または本部事務局（電話：<span class=\"bold\">" . $area[$aid][phone] . "）</span>までご連絡ください。<br /><br />";
 $message .= "<a href=/" . $room[$rid][dir] . "/>トップページへ戻る</a></p>\n";
-include_once("../lib/header_mos_cp.php");
+include_once("../lib/header_contact.php");
 ?>
+                <div id="toiawase_form">
 					<div class="i-pt clearfix mB20 mR10">
 						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お申し込み完了のお知らせ</h2>
                         <div class="mB20"><img src="/images/img-form_step3.jpg" width="810" height="55" alt="申込完了" /></div>
@@ -54,6 +61,7 @@ include_once("../lib/header_mos_cp.php");
 <?=$message?>
 						</div><!-- /.section-lv2 -->
 					</div><!-- /.i-pt -->
+                </div><!-- /#toiawase_form -->
 				</div><!-- /.block -->
 				</div><!-- /#kasou -->
 
@@ -84,6 +92,6 @@ document.write("<img width=1 height=1 border=0 src='" + protocol + "//b90.yahoo.
 </script>
 
 <?php
-include_once("../lib/footer_mos_cp.php");
+include_once("../lib/footer_contact.php");
 } // stepを踏まないアクセスを回避
 ?>

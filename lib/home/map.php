@@ -1,13 +1,13 @@
 <h2 class="c-title2">他の地域の教室を探す</h2>
 <div class="center">
-<img src="images/top4_img1.png" alt="全国に120教室 駅近やショッピング施設内だから通いやすい！" usemap="#map" width="981" height="653" />
+<img src="images/top4_img1_b.png" alt="全国に120教室 駅近やショッピング施設内だから通いやすい！" usemap="#map" width="981" height="653" />
 </div>
 
 </div>
 
 <map name="map" id="map">
 <area shape="rect" coords="17,42,285,173" href="/school/" alt="パソコン市民講座の教室を探す" />
-				<?php /*?><area shape="rect" coords="701,558,981,658" href="##" alt="今日の教室ブログ" /><?php */?>
+				<area shape="rect" coords="701,558,981,658" href="/blog/" alt="今日の教室ブログ" />
 
 				<?php /* 中国・四国・九州エリア */ ?>
 				<area shape="rect" coords="80,239,284,289" href="/school/seibu.php" alt="中国・四国・九州エリア" />

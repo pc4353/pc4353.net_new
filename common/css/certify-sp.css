@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* サーティファイ ビジネス実践講座 */
 .p-cert { background: #fff; }
+.c-wrap, .c-wrap2 { margin-left: 10px; margin-right: 10px; }
 
 .cert_btn1 { text-align: center; padding: 20px 10px 40px; }
 

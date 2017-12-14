@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* MOS試験 */
 .p-mos { background: #fff; }
+.c-wrap, .c-wrap2 { margin-left: 10px; margin-right: 10px; }
 
 .mos_btn1 { text-align: center; padding: 20px 10px 40px; }
 
@@ -11,6 +12,8 @@ a.mos_btn2:hover { background: #1d69b2; color: #fff; }
 .mos_tit1:after { display: block; content: ""; position: absolute; bottom: -10px; left: 50%; margin-left: -10px; border-top: 10px solid #d95858; border-left: 10px solid transparent; border-right: 10px solid transparent; }
 
 .mos_txt1 { text-align: center; font-size: 125% !important; font-weight: normal; line-height: 150%; margin-bottom: 20px; }
+
+.u-right { text-align: right !important; }
 
 .p-mos1 { margin-bottom: 28px; }
 .p-mos1 h2 { text-align: center; margin-bottom: 26px; }

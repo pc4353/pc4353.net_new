@@ -56,6 +56,7 @@ $message .= "当教室、または本部事務局（電話：<span class=\"bold\
 $message .= "<a href=/" . $room[$rid][dir] . "/>トップページへ戻る</a></p>\n";
 include_once("../lib/header_contact.php");
 ?>
+                <div id="toiawase_form">
 					<div class="i-pt clearfix mB20 mR10">
 						<h2 class="mB20 bg-check blue"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お申し込み完了のお知らせ</h2>
                         <div class="mB20"><img src="/images/img-form_step3.jpg" width="810" height="55" alt="申込完了" /></div>
@@ -63,6 +64,7 @@ include_once("../lib/header_contact.php");
 <?=$message?>
 						</div><!-- /.section-lv2 -->
 					</div><!-- /.i-pt -->
+                </div><!-- /#toiawase_form -->
 				</div><!-- /.block -->
 				</div><!-- /#kasou -->
 

@@ -11,7 +11,7 @@ if( ereg( "index", $_SERVER["SCRIPT_NAME"])){
 }
 
 // form判定
-if( ereg( "contact", $_SERVER["SCRIPT_NAME"]) || ereg( "doc_contact", $_SERVER["SCRIPT_NAME"]) || ereg( "recruit", $_SERVER["SCRIPT_NAME"]) || ereg( "biz-online", $_SERVER["SCRIPT_NAME"])){
+if( ereg( "contact", $_SERVER["SCRIPT_NAME"]) || ereg( "doc_contact", $_SERVER["SCRIPT_NAME"]) || ereg( "recruit", $_SERVER["SCRIPT_NAME"]) || ereg( "mos", $_SERVER["SCRIPT_NAME"])){
 	$form = 1;
 }
 
@@ -27,9 +27,8 @@ if( ereg( "doc_contact", $_SERVER["SCRIPT_NAME"])){
 	$menu5 = " class=\"here\"";
 	$title = "資料請求";
 }
-if( ereg( "biz-online", $_SERVER["SCRIPT_NAME"])){
-	$title = "ビジネスオンライン";
-	$biz_online = 1;
+if( ereg( "mos", $_SERVER["SCRIPT_NAME"])){
+	$title = "MOS（マイクロソフトオフィススペシャリスト）資格取得講座　お問い合わせ";
 }
 
 
@@ -38,8 +37,8 @@ if( ereg( "biz-online", $_SERVER["SCRIPT_NAME"])){
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title><?=$title.$sep?><?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室</title>
 <meta name="viewport" content="width=device-width" />
+<title><?=$title.$sep?><?=$room[$id][area]?>のパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室</title>
 <meta name="keywords" content="パソコン教室,<?=$room[$id][keywords]?><?=$room[$id][name]?>教室,パソコンスクール,資格,検定,MOS,サーティファイ,ビジネスオンライン,PC教室,初心者">
 <meta name="description" content="<?=$title.$sep?>初心者からスキルアップ・資格取得まで安心のパソコン教室。<?=$room[$id][area]?>のパソコン市民講座 <?=$room[$id][name]?>教室。MOS資格・サーティファイ技能検定などエクセル・ワード・パワーポイントの資格取得やビジネススキルアップを教室インストラクターがしっかりとサポート！">
 
@@ -109,9 +108,9 @@ $(document).ready(function(){
 <header class="header">
 <div id="hd_wrap" class="clearfix tk-kozuka-gothic-pr6n">
 <div id="hd_lft">
-<<?=$logo_tag?> class="hd_txt"><?=$room[$id][area]?>の資格が取れるパソコン教室　パソコン市民講座 <?=$room[$id][name]?>教室</<?=$logo_tag?>>
+<<?=$logo_tag?> class="hd_txt"><?=$room[$id][area]?>で資格が取れるパソコン教室　パソコン市民講座 <?=$room[$id][name]?>教室</<?=$logo_tag?>>
 	<div id="hd_logo">
-		<img class="pc-only" src="../images/img-hd_logo.png" width="211" height="34" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">
+		<img class="pc-only" src="/images/img-hd_logo.png" width="211" height="34" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">
 		<img class="sp-only" src="/common/img/common/logo1.png" width="156" height="68" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">
 	</div>
 <div id="hd_room"><?=$room[$id][name]?>教室</div>

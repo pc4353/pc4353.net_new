@@ -1,150 +1,3 @@
-<?php
-// index判定
-if( ereg( "index", $_SERVER["SCRIPT_NAME"])){
-    $index = 1;
-    $body_class = " class=\"top\"";
-    $logo_tag = "h1";
-} else {
-    $sep = "｜";
-    $logo_tag = "p";
-}
-
-// form判定
-if( ereg( "contact", $_SERVER["SCRIPT_NAME"]) || ereg( "recruit", $_SERVER["SCRIPT_NAME"]) || ereg( "mos", $_SERVER["SCRIPT_NAME"])){
-	$form = 1;
-}
-
-// 各ページ判定
-if( ereg( "mos", $_SERVER["SCRIPT_NAME"])){
-	$title = "MOS（マイクロソフトオフィススペシャリスト）資格取得講座";
-}
-if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
-	$title = "ビジネス実践講座【サーティファイ】ワード・エクセル技能認定試験対応";
-}
-
-
-?>
-<!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width" />
-<title><?=$title.$sep?><?=$room[$id][area]?>のパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室</title>
-<meta name="keywords" content="パソコン教室,<?=$room[$id][keywords]?><?=$room[$id][name]?>教室,パソコンスクール,資格,検定,MOS,サーティファイ,ビジネスオンライン,PC教室,初心者">
-<meta name="description" content="<?=$title.$sep?>初心者からスキルアップ・資格取得まで安心のパソコン教室。<?=$room[$id][area]?>のパソコン市民講座 <?=$room[$id][name]?>教室。MOS資格・サーティファイ技能検定などエクセル・ワード・パワーポイントの資格取得やビジネススキルアップを教室インストラクターがしっかりとサポート！">
-
-<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($root.'/css/style.css'); ?>" media="screen and (min-width: 768px), print" />
-<link rel="stylesheet" type="text/css" href="/css/style-sp.css?<?php echo filemtime($root.'/css/style-sp.css'); ?>" media="only screen and (max-width: 767px)" />
-<link rel="stylesheet" type="text/css" href="/css/index_new.css?<?php echo filemtime($root.'/css/index_new.css'); ?>" media="screen and (min-width: 768px), print" />
-<link rel="stylesheet" type="text/css" href="/css/index_new-sp.css?<?php echo filemtime($root.'/css/index_new-sp.css'); ?>" media="only screen and (max-width: 767px)" />
-
-<link rel="stylesheet" type="text/css" href="/common/css/style.css?<?php echo filemtime($root.'/common/css/style.css'); ?>" media="screen and (min-width: 768px), print" />
-<link rel="stylesheet" type="text/css" href="/common/css/style-sp.css?<?php echo filemtime($root.'/common/css/style-sp.css'); ?>" media="only screen and (max-width: 767px)" />
-
-
-<link rel="stylesheet" type="text/css" href="/common/css/certify.css?<?php echo filemtime($root.'/common/css/certify.css'); ?>" media="screen and (min-width: 768px), print" />
-<link rel="stylesheet" type="text/css" href="/common/css/certify-sp.css?<?php echo filemtime($root.'/common/css/certify-sp.css'); ?>" media="only screen and (max-width: 767px)" />
-
-
-
-<link rel="shortcut icon" href="/favicon.ico">
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/js/jquery-page-scroller.js"></script>
-<script type="text/javascript" src="/common/js/jquery.maphilight.js" charset="utf-8"></script>
-<script src="/common/js/function.js"></script>
-
-<script src="//use.typekit.net/zec0ewo.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-<script>
- $(function() {
-  $(window).on('scroll', function() {
-    if ($(this).scrollTop() > 0) {
-      $('.header').addClass('fixed');
-    } else {
-      $('.header').removeClass('fixed');
-    }
-  });
-});
-</script>
-
-<!-- GoogleAnalytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-60689014-1', 'auto');
-  ga('require', 'displayfeatures');
-  ga('require', 'linkid', 'linkid.js');
-  ga('send', 'pageview');
-
-  ga('create', 'UA-19029672-1', 'auto', {'name': 'secondTracker'});
-  ga('secondTracker.require', 'displayfeatures');
-  ga('secondTracker.require', 'linkid', 'linkid.js');
-  ga('secondTracker.send','pageview');
-
-</script>
-</head>
-
-<body<?=$body_class?>>
-<header id="header" class="certify">
-<div id="hd_wrap" class="clearfix tk-kozuka-gothic-pr6n">
-<div id="hd_lft">
-<<?=$logo_tag?> class="hd_txt"><?=$room[$id][area]?>で資格が取れるパソコン教室　パソコン市民講座 <?=$room[$id][name]?>教室</<?=$logo_tag?>>
-    <div id="hd_logo"><a href="/<?=$room[$id][dir]?>/">
-        <img class="pc-only" src="/images/img-hd_logo.png" width="211" height="34" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">
-        <img class="sp-only" src="/common/img/common/logo1.png" width="156" height="68" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">
-    </a></div>
-<div id="hd_room"><?=$room[$id][name]?>教室</div>
-</div>
-<div id="hd_rgt">
-<ul class="link">
-<li><a href="/<?=$room[$id][dir]?>/qa.php">よくある質問</a></li>
-</ul>
-<div id="hd_tel"><?=$room[$id][phone]?></div>
-    <div id="hd_reception">受付時間/<br>
-    <a href="/<?=$room[$id][dir]?>/about.php">営業時間はこちら</a>
-    </div>
-    <div class="header-btn1 sp-only"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約"></a></div>
-    <div class="header-btn2 sp-only"><img src="/common/img/common/sp/header1_btn3.png" width="90" height="90" alt="メニュー"></div>
-</div>
-</div>
-
-<nav>
-<div id="nav_wrap" class="clearfix tk-kozuka-gothic-pr6n">
-<ul class="main_nav clearfix">
-<li><a href="/<?=$room[$id][dir]?>/about.php">教室情報</a></li>
-<li><a href="/<?=$room[$id][dir]?>/course.php">講座紹介</a></li>
-<li><a href="/<?=$room[$id][dir]?>/voice.php">受講生の声</a></li>
-<li class="last"><a href="/<?=$room[$id][dir]?>/apply.php">お申込み方法</a></li>
-</ul>
-<ul class="inq_btn clearfix">
-<li class="fl_left"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約"></a></li>
-<li class="fl_right"><a href="/<?=$room[$id][dir]?>/doc_contact.php"><img src="../images/btn-inq_shiryo.png" width="102" height="33" alt="資料請求"></a></li>
-</ul>
-</div>
-</nav>
-</header>
-
-        <div id="contents" class="clearfix certify">
-
-                <div id="kasou" class="clearfix">
-
-                <div id="locus-area" class="clearfix c-wrap">
-                  <dl class="locus">
-                    <dt>現在のページ</dt>
-                    <dd>
-                      <ul>
-                        <li><a href="/<?=$room[$id][dir]?>/"><?=$room[$id][area]?>のパソコン教室・講座TOP</a> ＞</li>
-                        <li>サーティファイ ビジネス実践講座</li>
-                      </ul>
-                    </dd>
-                  </dl><!-- /.locus -->
-                </div><!-- /#locus-area -->
-
-                <div class="block">
 <div class="p-cert">
 
 
@@ -167,7 +20,7 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
         <h3 class="cert_tit1">あなたに必要なパソコンスキルはどれ？</h3>
 
         <div class="c-wrap2">
-        <div class="p-cert2__block1">
+        <div class="p-cert2__block1 clearfix">
 
             <div class="p-cert2__block1--box1 word">
                 <div class="box1">
@@ -235,11 +88,11 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
 
             <h3><span>あなたにオススメの講座はコレ！</span></h3>
 
-            <div class="p-cert2__block2--box1">
+            <div class="p-cert2__block2--box1 clearfix">
 
-                <div class="box1">
+                <div class="box1 clearfix">
                     <h4>効率の良いビジネス書類で<br />同僚に差をつけよう！</h4>
-                    <div class="img1"><img src="/certify/images/cert2_img4.png" width="51" height="78" alt="Word" /></div>
+                    <div class="img1"><img src="/certify/images/cert2_img4.png" width="51" height="103" alt="Word" /></div>
                     <div class="txt1">
                         <h4>ビジネスワード<br />実践講座</h4>
                         <p>Word文書処理技能認定試験対応</p>
@@ -250,9 +103,9 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
                     </div>
                 </div><!-- /.box1 -->
 
-                <div class="box1">
+                <div class="box1 clearfix">
                     <h4>関数やマクロを使って<br />作業効率大幅アップ！</h4>
-                    <div class="img1"><img src="/certify/images/cert2_img5.png" width="51" height="78" alt="Excel" /></div>
+                    <div class="img1"><img src="/certify/images/cert2_img5.png" width="51" height="103" alt="Excel" /></div>
                     <div class="txt1">
                         <h4>ビジネスエクセル<br />実践講座</h4>
                         <p>Excel表計算処理技能認定試験対応</p>
@@ -263,9 +116,9 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
                     </div>
                 </div><!-- /.box1 -->
 
-                <div class="box1">
+                <div class="box1 clearfix">
                     <h4>分かりやすいプレゼン資料で<br />受注率アップ！</h4>
-                    <div class="img1"><img src="/certify/images/cert2_img6.png" width="51" height="78" alt="Excel" /></div>
+                    <div class="img1"><img src="/certify/images/cert2_img6.png" width="51" height="103" alt="Excel" /></div>
                     <div class="txt1">
                         <h4>ビジネスパワーポイント<br />実践講座</h4>
                         <p>PowerPointプレゼンテーション技能認定試験</p>
@@ -372,7 +225,7 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
         <div class="p-cert4__block1">
         <div class="c-wrap2">
 
-            <div class="p-cert4__block1--box1">
+            <div class="p-cert4__block1--box1 clearfix">
 
                 <div class="box1">
                     <h4>後輩に教えれる程に！</h4>
@@ -443,7 +296,7 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
         </div><!-- /.p-cert5__block1 -->
 
 
-        <div class="p-cert5__block2 c-wrap2">
+        <div class="p-cert5__block2 c-wrap2 clearfix">
 
             <h3><span>だから多くのビジネスパーソンは<br />
             パソコンスキルを身に着けたい！</span></h3>
@@ -465,11 +318,11 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
 
             <h3><span>あなたにオススメの講座はコレ！</span></h3>
 
-            <div class="p-cert2__block2--box1">
+            <div class="p-cert2__block2--box1 clearfix">
 
-                <div class="box1">
+                <div class="box1 clearfix">
                     <h4>効率の良いビジネス書類で<br />同僚に差をつけよう！</h4>
-                    <div class="img1"><img src="/certify/images/cert2_img4.png" width="51" height="78" alt="Word" /></div>
+                    <div class="img1"><img src="/certify/images/cert2_img4.png" width="51" height="103" alt="Word" /></div>
                     <div class="txt1">
                         <h4>ビジネスワード<br />実践講座</h4>
                         <p>Word文書処理技能認定試験対応</p>
@@ -480,9 +333,9 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
                     </div>
                 </div><!-- /.box1 -->
 
-                <div class="box1">
+                <div class="box1 clearfix">
                     <h4>関数やマクロを使って<br />作業効率大幅アップ！</h4>
-                    <div class="img1"><img src="/certify/images/cert2_img5.png" width="51" height="78" alt="Excel" /></div>
+                    <div class="img1"><img src="/certify/images/cert2_img5.png" width="51" height="103" alt="Excel" /></div>
                     <div class="txt1">
                         <h4>ビジネスエクセル<br />実践講座</h4>
                         <p>Excel表計算処理技能認定試験対応</p>
@@ -493,9 +346,9 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
                     </div>
                 </div><!-- /.box1 -->
 
-                <div class="box1">
+                <div class="box1 clearfix">
                     <h4>分かりやすいプレゼン資料で<br />受注率アップ！</h4>
-                    <div class="img1"><img src="/certify/images/cert2_img6.png" width="51" height="78" alt="Excel" /></div>
+                    <div class="img1"><img src="/certify/images/cert2_img6.png" width="51" height="103" alt="Excel" /></div>
                     <div class="txt1">
                         <h4>ビジネスパワーポイント<br />実践講座</h4>
                         <p>PowerPointプレゼンテーション技能認定試験</p>
@@ -524,99 +377,7 @@ if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
 </div><!-- /.p-cert -->
 				</div><!-- /#.block -->
 				</div><!-- /#kasou -->
+          </div><!-- #main-->
+
 		</div><!-- #contents -->
 
-<footer>
-<div id="ft_wrap" class="clearfix">
-<div id="ft_lft">
-<dl class="ft_course">
-<dt>コース一覧</dt>
-<dd><a href="/<?=$room[$id][dir]?>/course.php">講座案内</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/certify.php">ビジネス実践講座</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/mos.php">MOS資格対策講座</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/win10.php">Windows10講座</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/course.php#subject3">パソコン趣味講座</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/tablet.php">iPad講座</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/iphone.php">iPhone講座</a></dd>
-</dl>
-<dl class="ft_about">
-<dt>教室概要</dt>
-<dd><a href="/<?=$room[$id][dir]?>/about.php">教室紹介</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター紹介</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/voice.php">受講生の声</a></dd>
-<!--<dd><a href="/<?=$room[$id][dir]?>/contact.php">ワンポイント動画</a></dd>-->
-<dd><a href="/premiere.php">プレミア倶楽部</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/qa.php">よくあるご質問</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/apply.php">お申込み方法</a></dd>
-<!--<dd><a href="/<?=$room[$id][dir]?>/contact.php">キャンペーン</a></dd>-->
-</dl>
-<dl class="ft_room_search">
-<dt>教室検索</dt>
-<dd><a href="/school/tohoku.php">東北</a></dd>
-<dd><a href="/school/kanto.php">関東</a></dd>
-<dd><a href="/school/chubu.php">中部</a></dd>
-<dd><a href="/school/kansai.php">関西</a></dd>
-<dd><a href="/school/seibu.php">中国・四国・九州</a></dd>
-</dl>
-<dl class="ft_relation">
-<dt>関連サイト</dt>
-<dd><a href="http://www.star-programming-school.com/" target="_blank"><img src="../images/bnr-sps_ft.jpg" width="185" alt="2020年 プログラミング教育必修化！STAR Programming SCHOOL"></a></dd>
-<dd><a href="https://www.cheery.co.jp/" target="_blank"><img src="../images/bnr-cheery_ft.jpg" width="185" alt="株式会社チアリー"></a></dd>
-<dd><a href="http://www.nsg.gr.jp/" target="_blank"><img src="../images/bnr-nsg_ft.jpg" width="185" alt="NSGグループ"></a></dd>
-</dl>
-</div>
-<div id="ft_rgt" class="tk-kozuka-gothic-pr6n">
-    <div id="ft_logo"><a href="/<?=$room[$id][dir]?>/"><img src="../images/img-ft_logo.png" width="168" height="85" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室"></a></div>
-<div id="ft_room"><?=$room[$id][name]?>教室</div>
-<ul class="inq_btn clearfix">
-<li class="fl_left"><a href="/<?=$room[$id][dir]?>/contact.php">
-    <img class="pc-only" src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約">
-    <img class="sp-only" src="../images/btn-inq_taiken_l.png" width="249" height="92" alt="無料体験予約">
-</a></li>
-<li class="fl_right"><a href="/<?=$room[$id][dir]?>/doc_contact.php">
-    <img class="pc-only" src="../images/btn-inq_shiryo.png" width="102" height="33" alt="資料請求">
-    <img class="sp-only" src="../images/btn-inq_shiryo_l.png" width="240" height="48" alt="資料請求">
-</a></li>
-</ul>
-<div id="ft_tel_box">
-<div id="ft_tel"><?=$room[$id][phone]?></div>
-    <div id="ft_reception">受付時間 / 
-    <a href="/<?=$room[$id][dir]?>/about.php">営業時間はこちら</a>
-    </div>
-</div>
-</div>
-</div>
-<div id="ft_top_link">
-<div id="ft_top_link_wrap">
-<p><a href="https://www.pc4353.net/" target="_blank">初心者からスキルアップ・資格取得まで安心のパソコン教室 [パソコン市民講座]</a></p>
-</div>
-</div>
-<div id="ft_btm">
-<div id="ft_btm_wrap" class="clearfix">
-<ul id="ft_link">
-<li><a href="/about.php" target="_blank">会社概要</a></li>
-<li><a href="/<?=$room[$id][dir]?>/recruit.php">採用情報</a></li>
-<li><a href="/privacy.php" target="_blank">プライバシーポリシー</a></li>
-<!--<li><a href="/<?=$room[$id][dir]?>/sitemap.php">サイトマップ</a></li>-->
-</ul>
-<address>COPYRIGHT <?=date("Y")?> Cheery, All Rights Reserved.</address>
-</div>
-</div>
-</footer>
-
-<!-- YahooListing -->
-<script type="text/javascript">
-  (function () {
-    var tagjs = document.createElement("script");
-    var s = document.getElementsByTagName("script")[0];
-    tagjs.async = true;
-    tagjs.src = "//s.yjtag.jp/tag.js#site=iBKwITQ";
-    s.parentNode.insertBefore(tagjs, s);
-  }());
-</script>
-<noscript>
-  <iframe src="//b.yjtag.jp/iframe?c=iBKwITQ" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-</noscript>
-
-</body>
-</html>
