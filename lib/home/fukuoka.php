@@ -12,7 +12,7 @@
 
 	<li><img src="images/nakai.jpg" width="80" alt="スピナマート中井教室" />
 	<h4><a href="/nakai/">スピナマート中井教室</a></h4>
-	<span class="small">〒803-0836　福岡県北九州市小倉北区中井4-8-10<br />スピナマート中井店　1F</span><br /><span class="bold">TEL：093-582-4066<br />エリア：北九州市</span>
+	<span class="small">〒803-0836　福岡県北九州市小倉北区中井4-8-1<br />スピナマート中井店　1F</span><br /><span class="bold">TEL：093-582-4066<br />エリア：北九州市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 </ul>
 

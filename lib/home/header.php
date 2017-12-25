@@ -96,7 +96,7 @@ if ($home) {
 	<div class="l-header1">
 
 		<div class="l-header1__txt1 pc-only">
-			<p>初心者からスキルアップ・資格取得まで安心のパソコン教室（東京/大阪）パソコン市民講座</p>
+			<p><?=$title?><?=$sep?><?=$title_base?></p>
 		</div>
 
 		<div class="l-header1__block1">
@@ -128,16 +128,88 @@ if ($home) {
 
 <div class="l-nav">
 
-	<ul class="c-wrap pc-only">
+	<!-- <ul class="c-wrap pc-only">
 		<li class="li1<?php if($pageId=="overview"){echo ' active';} ?>"><a href="/overview.php">パソコン市民講座について</a></li>
 		<li<?php if($pageId=="school"){echo ' class="active"';} ?>><a href="/school/">全国の教室</a></li>
 		<li<?php if($pageId=="course"){echo ' class="active"';} ?>><a href="/course/">講座一覧</a></li>
 		<li<?php if($pageId=="shikaku"){echo ' class="active"';} ?>><a href="/shikaku/">資格対策講座</a></li>
 		<li<?php if($pageId=="voice"){echo ' class="active"';} ?>><a href="/voice/works.php">受講生の声</a></li>
-	</ul>
-
+	</ul> -->
+<ul class="accordion c-wrap pc-only">
+		<li class="li1<?php if($pageId=="overview"){echo ' active';} ?>"><a href="/overview.php">パソコン市民講座について</a></li>
+		<li<?php if($pageId=="school"){echo ' class="active"';} ?>><a href="/school/">全国の教室</a>
+      <ul>
+         <li><a href="/school/tohoku.php">東北エリア</a>
+			   <ul class="tohoku">
+				 <li><a href="/school/fukushima.php">福島県</a></li>
+			  </ul>
+		</li>
+         <li><a href="/school/kanto.php">関東エリア</a>
+			   <ul class="kanto">
+				 <li><a href="/school/tokyo.php">東京都</a></li>
+				 <li><a href="/school/kanagawa.php">神奈川県</a></li>
+				 <li><a href="/school/chiba.php">千葉県</a></li>
+				 <li><a href="/school/saitama.php">埼玉県</a></li>
+				 <li><a href="/school/ibaraki.php">茨城県</a></li>
+			  </ul>
+		</li>
+         <li><a href="/school/chubu.php">中部エリア</a>
+			   <ul class="chubu">
+				 <li><a href="/school/aichi.php">愛知県</a></li>
+				 <li><a href="/school/gifu.php">岐阜県</a></li>
+				 <li><a href="/school/shizuoka.php">静岡県</a></li>
+			  </ul>
+		</li>
+         <li><a href="/school/kansai.php">関西エリア</a>
+			   <ul class="kansai">
+				 <li><a href="/school/osaka.php">大阪府</a></li>
+				 <li><a href="/school/hyogo.php">兵庫県</a></li>
+				 <li><a href="/school/kyoto.php">京都府</a></li>
+				 <li><a href="/school/nara.php">奈良県</a></li>
+				 <li><a href="/school/shiga.php">滋賀県</a></li>
+			  </ul>
+		</li>
+         <li><a href="/school/seibu.php">中国・四国・九州エリア</a>
+			   <ul class="seibu">
+				 <li><a href="/school/okayama.php">岡山県</a></li>
+				 <li><a href="/school/tokushima.php">徳島県</a></li>
+				 <li><a href="/school/fukuoka.php">福岡県</a></li>
+			  </ul>
+		</li>
+      </ul>
+   </li>
+		<li<?php if($pageId=="course"){echo ' class="active"';} ?>><a href="/course/">講座一覧</a>
+      <ul>
+         <li><a href="/course/works.php">今すぐ仕事で役立てたい</a></li>
+         <li><a href="/course/qualification.php">資格を取得したい</a></li>
+         <li><a href="/course/first.php">基本操作を覚えたい</a></li>
+         <li><a href="/course/hobby.php">趣味で楽しみたい</a></li>
+         <li><a href="/tablet/">タブレット・スマートフォン</a></li>
+      </ul>
+   </li>
+		<li<?php if($pageId=="shikaku"){echo ' class="active"';} ?>><a href="/shikaku/">資格対策講座</a>
+      <ul>
+         <li><a href="/certify/">サーティファイ</a></li>
+         <li><a href="/mos/">MOS</a></li>
+      </ul>
+   </li>
+		<li<?php if($pageId=="voice"){echo ' class="active"';} ?>><a href="/voice/works.php">受講生の声</a>
+      <ul>
+         <li><a href="/voice/works.php">仕事に活かす</a></li>
+         <li><a href="/voice/">初めてのパソコン</a></li>
+         <li><a href="/voice/senior.php">シニアこそパソコンを</a></li>
+      </ul>
+   </li>
+</ul>
 </div><!-- /.l-nav -->
 
+<script>
+   //li(親メニュー)にhover(マウスオーバー)したら実行
+   $('li').hover(function(){
+      //this(イベントが起きた要素)のchildren(子要素)のulにslideToggleを実行
+      $(this).children('ul').stop().toggle();
+   });
+</script>
 
 <div class="l-nav2 sp-only">
 	<div class="l-nav2__block1">

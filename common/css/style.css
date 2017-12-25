@@ -186,6 +186,22 @@ img, .bx-wrapper img { max-width: 100%; height: auto; }
 .l-nav li.active a { background: #10356d; }
 .l-nav li.active a:after { display: block; content: ""; position: absolute; bottom: -4px; left: 50%; margin-left: -10px; background: url(../img/common/nav1_bg1.png) no-repeat center; width: 20px; height: 4px; }
 
+.accordion li ul {width: 100%;	display: none;	position: absolute;	z-index: 100;}
+.accordion li ul li {float: none;	background: #144288;}
+.accordion li ul li a {padding: 0;	font-weight: normal;	font-size: 75% !important;	border-right: 1px solid #6191cc;	border-bottom: 1px solid #6191cc;}
+.accordion li.active ul li a {padding: 0;	font-weight: normal;	font-size: 75% !important;	border-right: 1px solid #6191cc;	border-bottom: 1px solid #6191cc;background: #144288;}
+.accordion li.active ul li a:hover {background: #10356d;}
+.accordion li.active ul li a:after {background: none;}
+.accordion li ul li ul {position: absolute;	left:190px;}
+.accordion li ul li ul.tohoku {top:0;}
+.accordion li ul li ul.kanto {top:30px;}
+.accordion li ul li ul.chubu {top:60px;}
+.accordion li ul li ul.kansai {top:89px;}
+.accordion li ul li ul.seibu {top:119px;}
+.accordion li ul li ul li {width: 100px;	background: #6191cc;}
+.accordion li ul li ul li a {border-bottom: 1px solid #144288;}
+.accordion li.active ul li ul li a {background: #6191cc; border-bottom: 1px solid #144288;}
+
 /*=======================================
 パンくず
 =========================================*/

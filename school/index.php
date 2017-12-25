@@ -125,7 +125,7 @@ include_once('../lib/home/header.php');
 
 <h3 id="aichi" class="c-title1">愛知県</h3>
 <ul class="clearfix">
-	<li><h4><a href="/akaike/">プライムツリー赤池教室</a>　2017年12月より第1期生募集開始！</h4><span class="certify_sc">サーティファイ</span></li>
+	<li><h4><a href="/akaike/">プライムツリー赤池教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/toyohashi/">バロー豊橋教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/kamiiida/">イオン上飯田教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/owariasahi/">イトーヨーカドー尾張旭教室</a></h4><span class="certify_sc">サーティファイ</span></li>

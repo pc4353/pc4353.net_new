@@ -20,15 +20,15 @@
 <file name="certify.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131576256556320095" remote="131576257200000000" Dst="0" />
 <file name="footer.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131575424577631935" remote="131575424400000000" Dst="0" />
 <file name="footer_mos_cp.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131516674710912677" remote="131516674800000000" Dst="0" />
-<file name="config.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131574464235192066" remote="131574463800000000" Dst="0" />
+<file name="config.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131584001662637627" remote="131584001400000000" Dst="0" />
 <file name="header.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131576252832407099" remote="131576252400000000" Dst="0" />
-<file name="index.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131576916293499695" remote="131576916000000000" Dst="0" />
+<file name="index.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131580562757462603" remote="131580562200000000" Dst="0" />
 <file name="header_contact.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131576310227509911" remote="131576310000000000" Dst="0" />
 <file name="header_mos_cp.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131517549839145270" remote="131517549600000000" Dst="0" />
 <file name="footer_contact.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131517396292659633" remote="131517399000000000" Dst="0" />
 <file name="header-fc.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131401675384591485" remote="131401675200000000" Dst="0" />
 <file name="footer-fc.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131490703425850099" remote="131490703200000000" Dst="0" />
-<file name="about.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131569132248389751" remote="131569132200000000" Dst="0" />
+<file name="about.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131581454112986254" remote="131581453800000000" Dst="0" />
 <file name="contact.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131539120598373511" remote="131539120800000000" Dst="0" />
 <file name="course.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131539094466268840" remote="131539094400000000" Dst="0" />
 <file name="index-fc.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131401657291471697" remote="131401657200000000" Dst="0" />
@@ -45,7 +45,7 @@
 <file name="contact_confirm_mail_on.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131539126015613360" remote="131539126200000000" Dst="0" />
 <file name="doc_contact_options_mail_on.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131539128309194545" remote="131539128000000000" Dst="0" />
 <file name="doc_contact_confirm_mail_on.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131539128120183734" remote="131539128000000000" Dst="0" />
-<file name="mos_cp_mail_on.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131502804166301904" remote="131502804000000000" Dst="0" />
+<file name="mos_cp_mail_on.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131577117692889081" remote="131577117600000000" Dst="0" />
 <file name="mos_cp_contact_options_mail_on.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131502801490080039" remote="131502801000000000" Dst="0" />
 <file name="mos_cp_contact_confirm_mail_on.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131576328510645647" remote="131576328600000000" Dst="0" />
 <file name="mos_cp_contact_complete.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131576324358458155" remote="131576323800000000" Dst="0" />
@@ -61,4 +61,5 @@
 <file name="doc_contact.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131539127787784722" remote="131539128000000000" Dst="0" />
 <file name="doc_contact_confirm.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131527862548033366" remote="131539128000000000" Dst="0" />
 <file name="mos_cp_contact_confirm.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131576321278712004" remote="131576320800000000" Dst="0" />
+<file name="voice.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131580619893150578" remote="131580619800000000" Dst="0" />
 </dwsync>

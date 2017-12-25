@@ -2,7 +2,7 @@
 $home = 1;
 $description = "パソコン市民講座はどなたでもお気軽に受講していただける、あなたに合ったコースをご用意しております。";
 include_once('lib/home/config.php');
-include_once('lib/home/header.php');
+include_once('lib/home/header-test.php');
 ?>
 
 

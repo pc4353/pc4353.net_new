@@ -5,7 +5,7 @@
 
         <h2><img src="/mos/images/mos1_img1.jpg" width="1000" height="498" alt="MOS資格コースなら最短10日で取得可能！" /></h2>
 
-        <div class="p-mos1__block1">
+        <div class="p-mos1__block1 clearfix">
             <h3><span>MOSで周りと差をつけよう！</span></h3>
 
             <ul>
@@ -20,7 +20,7 @@
 
     <div class="p-mos2">
 
-        <div class="p-mos2__block1">
+        <div class="p-mos2__block1 clearfix">
         <div class="c-wrap2">
 
             <div class="txt1">
@@ -41,9 +41,9 @@
 
             <h3><span>あなたにオススメの講座はコレ！</span></h3>
 
-            <div class="p-mos2__block2--box1">
+            <div class="p-mos2__block2--box1 clearfix">
 
-                <div class="box1">
+                <div class="box1 clearfix">
                     <h4>効率の良いビジネス書類で同僚に差をつけよう！</h4>
                     <div class="img1"><img src="/mos/images/mos2_txt1.png" width="51" height="78" alt="Word" /></div>
                     <div class="txt1">
@@ -57,7 +57,7 @@
                     <?php /*?><div class="btn1"><a class="mos_btn2" href="##">詳しくはコチラ</a></div><?php */?>
                 </div><!-- /.box1 -->
 
-                <div class="box2">
+                <div class="box2 clearfix">
                     <h4>関数やマクロを使って作業効率大幅アップ！</h4>
                     <div class="img1"><img src="/mos/images/mos2_txt2.png" width="51" height="78" alt="Excel" /></div>
                     <div class="txt1">
@@ -260,7 +260,7 @@
 
         <div class="p-mos5__block2 word">
         <div class="c-wrap2">
-            <div class="box1">
+            <div class="box1 clearfix">
                 <div class="img1"><img src="/mos/images/mos5_txt1.png" width="91" height="91" alt="Word" /></div>
                 <div class="txt1">
                     <h4>Word2010 スペシャリスト コース<br />
@@ -283,7 +283,7 @@
 
         <div class="p-mos5__block2 excel">
         <div class="c-wrap2">
-            <div class="box1">
+            <div class="box1 clearfix">
                 <div class="img1"><img src="/mos/images/mos5_txt2.png" width="91" height="91" alt="Excel" /></div>
                 <div class="txt1">
                     <h4>Excel2010 スペシャリスト コース<br />
@@ -327,15 +327,8 @@
 
 </div><!-- /.p-mos -->
 
-
-        <div id="contents" class="clearfix mos" style="background: #fff !important;">
-            <div id="main">
-                <div id="kasou" class="clearfix">
-
-                <div class="block">
-
-                <div id="toiawase_form" class="c-wrap">
-					<div class="i-pt clearfix mB20 mR10">
+                <div id="toiawase_form">
+					<div class="i-pt clearfix mR10">
 						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料説明会のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step1.jpg" width="810" height="55" alt="お客様情報入力" /></div>
 						<p><span class="red">必須</span>項目は必ずご入力お願いいたします。</p>
@@ -468,7 +461,7 @@
 </tr>
 </table>
 						</div><!-- /.section-lv2 -->
-						<p class="mT25">当社の<a href="https://www.pc4353.net/privacy.php" target="_blank">プライバシーポリシー</a>を十分にご確認いただいた上で、お問い合わせください。</p>
+						<p class="mT25 mB20">当社の<a href="https://www.pc4353.net/privacy.php" target="_blank">プライバシーポリシー</a>を十分にご確認いただいた上で、お問い合わせください。</p>
 					</div><!-- /.i-pt -->
                 </div><!-- /#toiawase_form -->
 					
