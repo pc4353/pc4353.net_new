@@ -12,27 +12,6 @@ include_once("../lib/header.php");
                     <div class="i-voice clearfix mB20"> 
                         <div class="section-lv2 moz2 clearfix"> 
                             <div class="box-a"> 
-                                <img class="mB10" src="/nishikobe/images/yoshimoto.jpg" width="214" height="221" alt="インストラクター写真" /> 
-                                <h2>芳本 先生</h2>
-                            </div><!-- /.box-a --> 
-                            <div class="box-b">
-                                <dl> 
-                                    <dt>○○日本一</dt> 
-                                    <dd>親身なインスト日本一</dd> 
-                                </dl> 
-                                <dl> 
-                                    <dt>ひとこと</dt> 
-                                    <dd>皆さんのパソコン等での不安・悩みを取り除き、楽しんでいただけるように提案していきます！</dd> 
-                                </dl> 
-                                <p><span class="option2">受講生から見た芳本先生</span><br />初めて教室で受講した日、実はとても緊張していたのですが、芳本先生が自然な笑顔で話しかけて下さり、リラックスして授業を受ける事ができました。とっても笑顔が素敵な先生なので、安心してついついたくさん話してしまいます。</p> 
-                            </div><!-- /.box-b --> 
-                        </div><!-- /.section-lv2 --> 
-                        <div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div> 
-                    </div><!-- /.i-voice --> 				
-
-                    <div class="i-voice clearfix mB20"> 
-                        <div class="section-lv2 moz2 clearfix"> 
-                            <div class="box-a"> 
                                 <img class="mB10" src="/nishikobe/images/maeno.jpg" width="214" height="221" alt="インストラクター写真" /> 
                                 <h2>前野 先生</h2>
                             </div><!-- /.box-a --> 
@@ -67,27 +46,6 @@ include_once("../lib/header.php");
                                     <dd>初めてで不安な気持ちをお持ちの方の味方になります。ITライフを楽しみましょう！</dd> 
                                 </dl> 
                                 <p><span class="option2">受講生から見た山際先生</span><br />パソコンのことでもiPadのことでもiPhoneのことでも、何を聞いても答えてくれるのですごく頼りになります。教室に行けばいつもいて、声もかけやすく、教えてもらえるのでとても安心です。</p> 
-                            </div><!-- /.box-b --> 
-                        </div><!-- /.section-lv2 --> 
-                        <div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div> 
-                    </div><!-- /.i-voice --> 				
-
-                    <div class="i-voice clearfix mB20"> 
-                        <div class="section-lv2 moz2 clearfix"> 
-                            <div class="box-a"> 
-                                <img class="mB10" src="/nishikobe/images/matsumoto.jpg" width="214" height="221" alt="インストラクター写真" /> 
-                                <h2>松元 先生</h2>
-                            </div><!-- /.box-a --> 
-                            <div class="box-b">
-                                <dl> 
-                                    <dt>○○日本一</dt> 
-                                    <dd>温厚なインスト日本一</dd> 
-                                </dl> 
-                                <dl> 
-                                    <dt>ひとこと</dt> 
-                                    <dd>楽しく、効率よく、パソコンやタブレットを活用できるようお手伝いしていきます！</dd> 
-                                </dl> 
-                                <p><span class="option2">受講生から見た松元先生</span><br />いつもニコニコ笑顔で対応してくださるので、教室で会えるのを楽しみにしています。わからないことがあってもすぐに察して親身になって聞いてくれるので、安心していろいろ聞くことが出来ます。</p> 
                             </div><!-- /.box-b --> 
                         </div><!-- /.section-lv2 --> 
                         <div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div> 

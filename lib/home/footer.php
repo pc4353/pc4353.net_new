@@ -43,8 +43,10 @@ if (!$home) {
 	<div class="c-wrap">
 
 		<div class="l-footer2__block1 pc-only">
+			<ul class="home">
+				<li class="c-link1"><a href="/">パソコン教室なら「パソコン市民講座」</a></li>
+			</ul>
 			<ul class="first">
-				<li class="c-link1"><a href="/">パソコン市民講座ホーム</a></li>
 				<li class="c-link1">
 					<a href="/overview.php">パソコン市民講座について</a>
 					<ul>
@@ -84,6 +86,7 @@ if (!$home) {
 		<div class="l-footer2__block1 sp-only">
 			<h3>メニュー</h3>
 			<ul>
+				<li class="c-link1"><a href="/">パソコン教室なら「パソコン市民講座」</a></li>
 				<li class="c-link1">
 					<a href="/overview.php">パソコン市民講座について</a>
 					<ul>

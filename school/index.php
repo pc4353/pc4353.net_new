@@ -26,7 +26,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="center">
-<img src="images/top4_img1.png" alt="全国に120教室 駅近やショッピング施設内だから通いやすい！" usemap="#map" width="981" height="653" />
+<img src="images/top4_img1_b.png" alt="全国に120教室 駅近やショッピング施設内だから通いやすい！" usemap="#map" width="981" height="653" />
 </div>
 
 <div class="school">
@@ -103,7 +103,7 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/moro/">いなげや毛呂教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/tokorozawa/">イオン所沢教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/fukaya/">イトーヨーカドー深谷教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
-	<li><h4><a href="/hibarigaoka/">ひばりが丘教室</a></h4><span class="certify_sc">サーティファイ</span></li>
+	<li><h4><a href="/hibarigaoka/">ひばりが丘教室</a></h4></li>
 	<li class="none"><h4>東松山教室</h4></li>
 </ul>
 
@@ -223,7 +223,6 @@ include_once('../lib/home/header.php');
 
 <h3 id="fukuoka" class="c-title1">福岡県</h3>
 <ul class="clearfix">
-	<li><h4><a href="/chikushino/">ゆめタウン筑紫野教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/sasaoka/">イオンスタイル笹丘教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/nakai/">スピナマート中井教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 </ul>
@@ -235,8 +234,7 @@ include_once('../lib/home/header.php');
 
 <map name="map" id="map">
 <area shape="rect" coords="17,42,285,173" href="/school/" alt="パソコン市民講座の教室を探す" />
-				<?php /*?><area shape="rect" coords="701,558,981,658" href="##" alt="今日の教室ブログ" /><?php */?>
-
+				<area shape="rect" coords="701,558,981,658" href="/blog/" alt="今日の教室ブログ" />
 				<?php /* 中国・四国・九州エリア */ ?>
 				<area shape="rect" coords="80,239,284,289" href="/school/seibu.php" alt="中国・四国・九州エリア" />
 				<area shape="rect" coords="80,293,180,333" href="/school/fukuoka.php" alt="福岡" />

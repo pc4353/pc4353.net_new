@@ -214,6 +214,7 @@ if ($home) {
 <div class="l-nav2 sp-only">
 	<div class="l-nav2__block1">
 		<ul>
+			<li class="c-link1"><a href="/">パソコン教室なら「パソコン市民講座」</a></li>
 			<li class="c-link1">
 				<a href="/overview.php">パソコン市民講座について</a>
 				<ul>

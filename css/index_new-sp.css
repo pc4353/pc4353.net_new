@@ -749,6 +749,13 @@ a.banner:hover{ color:#333333!important}
 	margin-bottom:5px
 }
 
+#main .lead_txt {
+	font-size: 14px;
+	font-weight: bold;
+	color: #2aabe4;
+	padding: 10px;
+}
+
 /* 講座紹介*/
 #search-course .box-a, #search-course .box-b, #search-course .box-c {
 	width:207px

@@ -1,10 +1,5 @@
 <h3 id="fukuoka" class="c-title1">福岡県</h3>
 <ul class="clearfix">
-	<li><img src="images/chikushino.jpg" width="80" alt="ゆめタウン筑紫野教室" />
-	<h4><a href="/chikushino/">ゆめタウン筑紫野教室</a></h4>
-	<span class="small">〒818-0081　福岡県筑紫野市針摺東3-3-1<br />ゆめタウン筑紫野店　本館1F</span><br /><span class="bold">TEL：092-555-6424<br />エリア：筑紫野市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
 	<li><img src="images/sasaoka.jpg" width="80" alt="イオンスタイル笹丘教室" />
 	<h4><a href="/sasaoka/">イオンスタイル笹丘教室</a></h4>
 	<span class="small">〒810-0034　福岡県福岡市中央区笹丘1-28-74<br />イオンスタイル笹丘店　1F</span><br /><span class="bold">TEL：092-753-6633<br />エリア：福岡市</span>

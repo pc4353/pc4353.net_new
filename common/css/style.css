@@ -238,8 +238,9 @@ img, .bx-wrapper img { max-width: 100%; height: auto; }
 .l-footer2 a { color: #fff; text-decoration: none; }
 .l-footer2 .footer_txt { width: 1000px; margin-left: auto; margin-right: auto; font-size: 93.7% !important; margin-bottom: 30px; line-height: 120%; }
 .l-footer2__block1 { margin-bottom: 50px; }
-.l-footer2__block1 > ul { float: left; width: 25%; padding-top: 38px; }
-.l-footer2__block1 > ul.first { padding-top: 0; }
+.l-footer2__block1 > ul { float: left; width: 25%; }
+.l-footer2__block1 > ul.home { width: 100%; }
+.l-footer2__block1 > ul.first { clear: both; }
 .l-footer2__block1 > ul > li { margin-bottom: 10px; }
 .l-footer2__block1 > ul ul { padding-left: 10px; }
 .l-footer2__block1 > ul ul li { margin-top: 7px; font-size: 93.7% !important; line-height: 160%; }

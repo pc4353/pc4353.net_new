@@ -35,6 +35,12 @@ $body .= "[無料体験]　" . $free . "\n";
 //$body .= "[希望日時]　" . $month . "月" . $day . "日" . $time . "時頃\n";
 $body .= "[無料体験希望日]　" . $nichiji_1 . "月 " . $nichiji_2 . "日　" . $nichiji_3 . "\n";
 $body .= "[ご質問等]\n" . $question . "\n";
+if (date("Ymd") >= 20180122){
+$body .= "\n■ウェブ申込み特典対象■\n";
+$body .= "2018年1月22日から2月キャンペーン終了期間までの間\n";
+$body .= "ウェブサイトのメールフォームよりお問い合わせいただいた方には\n";
+$body .= "ウェブ申込み特典として、2時間分の無料受講券を進呈してください\n";
+}
 $ua=$_SERVER['HTTP_USER_AGENT'];
   if((strpos($ua,'iPhone')!==false)||(strpos($ua,'iPod')!==false)||(strpos($ua,'Android')!==false)) {
 $body .= "\nスマホサイトから送信\n";
