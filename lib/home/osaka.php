@@ -60,11 +60,6 @@
 	<span class="small">〒578-0983　大阪府東大阪市吉田下島1-1<br />イトーヨーカドー東大阪店　1F</span><br /><span class="bold">TEL：072-961-0350<br />エリア：東大阪市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
-	<li><img src="images/yamamoto.jpg" width="80" alt="はやし山本教室" />
-	<h4><a href="/yamamoto/">はやし山本教室</a></h4>
-	<span class="small">〒581-0013　大阪府八尾市山本町南4-15<br />スーパーはやし山本店　3F</span><br /><span class="bold">TEL：072-992-4702<br />エリア：八尾市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
 	<li><img src="images/iy-yao.jpg" width="80" alt="イトーヨーカドー八尾教室" />
 	<h4><a href="/iy-yao/">イトーヨーカドー八尾教室</a></h4>
 	<span class="small">〒581-0803　大阪府八尾市光町2-3<br />イトーヨーカドー八尾店　3F</span><br /><span class="bold">TEL：072-995-3755<br />エリア：八尾市</span>
@@ -83,7 +78,7 @@
 	<li><img src="images/koumyouike.jpg" width="80" alt="ダイエー光明池教室" />
 	<h4><a href="/koumyouike/">ダイエー光明池教室</a></h4>
 	<span class="small">〒594-1101　大阪府和泉市室堂町841-1<br />ダイエー光明池店　3F</span><br /><span class="bold">TEL：0725-56-4355<br />エリア：和泉市</span>
-	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
+	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/izumisano.jpg" width="80" alt="イズミヤ泉佐野教室" />
 	<h4><a href="/izumisano/">イズミヤ泉佐野教室</a></h4>

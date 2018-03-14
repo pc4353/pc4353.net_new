@@ -35,6 +35,7 @@ include_once('../lib/home/header.php');
 
 <h3 id="tokyo" class="c-title1">東京都</h3>
 <ul class="clearfix">
+	<li><h4><a href="/kinshicho/">丸井錦糸町教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/nakano/">中野マルイ教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/jiyugaoka/">自由が丘教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/jinbocho/">神保町駅前教室</a></h4><span class="certify_sc">サーティファイ</span></li>
@@ -80,7 +81,6 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/tokiwadaira/">西友常盤平教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/matudo/">イトーヨーカドー松戸教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/funabashi/">イトーヨーカドー船橋教室</a></h4><span class="certify_sc">サーティファイ</span></li>
-	<li><h4><a href="/magome/">サミット馬込沢教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/tsudanuma/">イトーヨーカドー津田沼教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/yukari/">イオンタウンユーカリが丘教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/mobara/">茂原駅前教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
@@ -145,6 +145,11 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/entetsu/">遠鉄百貨店教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 </ul>
 
+<h3 id="niigata" class="c-title1">新潟県</h3>
+<ul class="clearfix">
+	<li><h4><a href="/keyaki/">NSGけやき通り教室</a></h4></li>
+</ul>
+
 
 <h2 id="kansai" class="c-title2">関西エリア</h2>
 
@@ -162,11 +167,10 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/higashineyagawa/">イズミヤ東寝屋川教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/wakae/">イズミヤ若江岩田教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/higashiosaka/">イトーヨーカドー東大阪教室</a></h4><span class="certify_sc">サーティファイ</span></li>
-	<li><h4><a href="/yamamoto/">はやし山本教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/iy-yao/">イトーヨーカドー八尾教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/kokubu/">ライフ国分教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/ecoll-roze/">エコール・ロゼ教室</a></h4><span class="certify_sc">サーティファイ</span></li>
-	<li><h4><a href="/koumyouike/">ダイエー光明池教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
+	<li><h4><a href="/koumyouike/">ダイエー光明池教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/izumisano/">イズミヤ泉佐野教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/kitanoda/">ダイエー北野田教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/abeno/">イトーヨーカドーあべの教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
@@ -184,7 +188,7 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/sannomiya/">ダイエー三宮駅前教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/nishikobe/">イズミヤ西神戸教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/koushien/">イトーヨーカドー甲子園教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
-	<li><h4><a href="/itami/">伊丹駅前教室</a></h4><span class="certify_sc">サーティファイ</span></li>
+	<li><h4><a href="/itami/">伊丹駅前教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/sakiland/">咲ランドショッピングセンター教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/akashi/">イトーヨーカドー明石教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 </ul>
@@ -262,10 +266,11 @@ include_once('../lib/home/header.php');
 				<area shape="rect" coords="769,488,864,528" href="/school/chiba.php" alt="千葉" />
 
 				<?php /* 中部エリア */ ?>
-				<area shape="rect" coords="172,597,366,647" href="/school/chubu.php" alt="中部エリア" />
-				<area shape="rect" coords="370,602,465,642" href="/school/aichi.php" alt="愛知" />
-				<area shape="rect" coords="469,602,564,642" href="/school/gifu.php" alt="岐阜" />
-				<area shape="rect" coords="568,602,663,642" href="/school/shizuoka.php" alt="静岡" />
+				<area shape="rect" coords="270,597,464,647" href="/school/chubu.php" alt="中部エリア" />
+				<area shape="rect" coords="470,582,565,622" href="/school/aichi.php" alt="愛知" />
+				<area shape="rect" coords="469,626,564,666" href="/school/gifu.php" alt="岐阜" />
+				<area shape="rect" coords="568,582,663,622" href="/school/shizuoka.php" alt="静岡" />
+				<area shape="rect" coords="568,626,663,666" href="/school/niigata.php" alt="新潟" />
 </map>
 
 <?php

@@ -205,7 +205,7 @@
 
             <p>※時間数および受講期間の目安は個人差がございます。<br />
 			※Excel、Word、PowerPointいずれか1つの受講料金です。<br />
-            ※テキスト代、月会費2,000円（税別）、資格試験料が別途かかります。</p>
+            ※テキスト代、月会費、資格試験料が別途かかります。</p>
 
         </div><!-- /.p-mos3__block1 -->
 
@@ -229,7 +229,7 @@
 
                 <div class="box1">
                     <h4>後輩に教えれる程に！</h4>
-                    <div class="img1"><img src="/certify/images/cert4_img1.jpg" width="270" height="162" alt="" /></div>
+                    <div class="img1"><img src="/certify/images/cert4_img1.jpg" width="270" height="162" alt="体験者① 尾形 様" /></div>
                     <div class="txt1">
                         <p>会社でofficeを使うようになったけど効率的に作業ができず、自宅学習よりも教室できっちりと勉強したい。さらに受講曜日を自由に選べることが決め手となりました。今では、会社で後輩に教えることが出来る程です。（尾形 様）</p>
                     </div>
@@ -237,7 +237,7 @@
 
                 <div class="box1">
                     <h4>基本スキルを習得したい！</h4>
-                    <div class="img1"><img src="/certify/images/cert4_img2.jpg" width="270" height="162" alt="" /></div>
+                    <div class="img1"><img src="/certify/images/cert4_img2.jpg" width="270" height="162" alt="体験者② 三瓶 様" /></div>
                     <div class="txt1">
                         <p>事務の仕事をはじめるにあたって、受講しました。他と比べて料金体系が明確で、自宅での復習もできます。今はビジネス講座で身に付けたスキルでWord・Excel・PowerPointと全ての資格取得を目標に頑張っています。（三瓶 様）</p>
                     </div>
@@ -245,7 +245,7 @@
 
                 <div class="box1">
                     <h4>パソコンは苦手だったけど</h4>
-                    <div class="img1"><img src="/certify/images/cert4_img3.jpg" width="270" height="162" alt="" /></div>
+                    <div class="img1"><img src="/certify/images/cert4_img3.jpg" width="270" height="162" alt="体験者③ 中嶋 様" /></div>
                     <div class="txt1">
                         <p>昔からデジタルに対して苦手意識を持っていました。とにかくパソコンの画面が苦痛でした。そんな私が12月にExcel試験に合格して、今ではWord試験にチャレンジしようとしています。将来はスキルを活かして起業します。（中嶋 様）</p>
                     </div>

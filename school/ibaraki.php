@@ -27,7 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
-	<p>茨城県には竜ケ崎教室など1件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
+	<p>茨城県には竜ケ崎教室の1件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="kanto" class="c-title2">関東エリア</h2>
 
 <?php

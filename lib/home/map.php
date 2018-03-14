@@ -36,8 +36,9 @@
 				<area shape="rect" coords="769,488,864,528" href="/school/chiba.php" alt="千葉" />
 
 				<?php /* 中部エリア */ ?>
-				<area shape="rect" coords="172,597,366,647" href="/school/chubu.php" alt="中部エリア" />
-				<area shape="rect" coords="370,602,465,642" href="/school/aichi.php" alt="愛知" />
-				<area shape="rect" coords="469,602,564,642" href="/school/gifu.php" alt="岐阜" />
-				<area shape="rect" coords="568,602,663,642" href="/school/shizuoka.php" alt="静岡" />
+				<area shape="rect" coords="270,597,464,647" href="/school/chubu.php" alt="中部エリア" />
+				<area shape="rect" coords="470,582,565,622" href="/school/aichi.php" alt="愛知" />
+				<area shape="rect" coords="469,626,564,666" href="/school/gifu.php" alt="岐阜" />
+				<area shape="rect" coords="568,582,663,622" href="/school/shizuoka.php" alt="静岡" />
+				<area shape="rect" coords="568,626,663,666" href="/school/niigata.php" alt="新潟" />
 </map>

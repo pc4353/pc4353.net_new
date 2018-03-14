@@ -3,7 +3,7 @@
 						<p class="mT10"><img src="/images/win10/img_01.jpg" width="632" alt="早くもスタート！Windows10講座" /></p>
 						
 						<div class="win10 clearfix mT10">
-							<h3 class="mB10 mT10"><img src="/images/win10/h3_01.jpg" width="632" alt="マイクロソフト最新OS『Windows10』対応のパソコン講座スタート！" /></h3>
+							<h3 class="c-title1">マイクロソフト最新OS<br />『Windows10』対応のパソコン講座</h3>
 							
 							<div class="section-lv3 clearfix">
 							<div class="box-b mB20">
@@ -19,7 +19,7 @@
 						</div><!-- /#subject1 -->
 
 						<div class="win10 clearfix mT10">
-							<h3 class="mB10 mT10"><img src="/images/win10/h3_02.jpg" width="632" alt="パソコン市民講座ならではの安心の授業サポート体制！" /></h3>
+							<h3 class="c-title1">パソコン市民講座ならではの<br />安心の授業サポート体制！</h3>
 							<div class="section-lv3 clearfix">
 							<div class="box-b mB20">
 								<div class="support mB10">

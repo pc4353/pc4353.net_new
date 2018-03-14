@@ -28,7 +28,7 @@
 	<li><img src="images/itami.jpg" width="80" alt="伊丹駅前教室" />
 	<h4><a href="/itami/">伊丹駅前教室</a></h4>
 	<span class="small">〒664-0851　兵庫県伊丹市中央1-1-1<br />伊丹ショッピングデパート 5F</span><br /><span class="bold">TEL：072-787-3170<br />エリア：伊丹市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
+	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 	
 	<li><img src="images/sakiland.jpg" width="80" alt="咲ランドショッピングセンター教室" />
 	<h4><a href="/sakiland/">咲ランドショッピングセンター教室</a></h4>

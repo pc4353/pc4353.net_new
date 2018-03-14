@@ -27,7 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
-	<p>徳島県には北島教室など1件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
+	<p>徳島県には北島教室の1件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="seibu" class="c-title2">中国・四国・九州エリア</h2>
 
 <?php

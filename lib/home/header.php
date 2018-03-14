@@ -158,6 +158,7 @@ if ($home) {
 				 <li><a href="/school/aichi.php">愛知県</a></li>
 				 <li><a href="/school/gifu.php">岐阜県</a></li>
 				 <li><a href="/school/shizuoka.php">静岡県</a></li>
+				 <li><a href="/school/niigata.php">新潟県</a></li>
 			  </ul>
 		</li>
          <li><a href="/school/kansai.php">関西エリア</a>

@@ -50,11 +50,6 @@
 	<span class="small">〒273-0005　千葉県船橋市本町7-6-1<br />イトーヨーカドー船橋店東館　5F</span><br /><span class="bold">TEL：047-422-9397<br />エリア：船橋市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
-	<li><img src="images/magome.jpg" width="80" alt="サミット馬込沢教室" />
-	<h4><a href="/magome/">サミット馬込沢教室</a></h4>
-	<span class="small">〒273-0047　千葉県船橋市藤原7-2-2<br />サミットストア馬込沢駅前店　2F</span><br /><span class="bold">TEL：047-438-6111<br />エリア：船橋市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
 	<li><img src="images/tsudanuma.jpg" width="80" alt="イトーヨーカドー津田沼教室" />
 	<h4><a href="/tsudanuma/">イトーヨーカドー津田沼教室</a></h4>
 	<span class="small">〒275-0016　千葉県習志野市津田沼1-10-30<br />イトーヨーカドー津田沼店　7F</span><br /><span class="bold">TEL：047-479-2281<br />エリア：習志野市</span>
@@ -77,7 +72,7 @@
 
 	<li><img src="images/abiko.jpg" width="80" alt="アビイクオーレ我孫子教室" />
 	<h4><a href="/abiko/">アビイクオーレ我孫子教室</a></h4>
-	<span class="small">〒270-1151　千葉県我孫子市本町3-2-28<br />アビイクオーレ（イトーヨーカドー我孫子南口店 2階）</span><br /><span class="bold">TEL：04-7189-7378<br />エリア：我孫子市</span>
+	<span class="small">〒270-1151　千葉県我孫子市本町3-2-1<br />アビイクオーレ（イトーヨーカドー我孫子南口店 2階）</span><br /><span class="bold">TEL：04-7189-7378<br />エリア：我孫子市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 </ul>
 

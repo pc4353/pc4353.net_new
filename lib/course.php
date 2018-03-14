@@ -13,11 +13,11 @@
 						</ul>
 						
 						<div id="subject4" class="subject clearfix">
-							<h3 class="mB10"><img src="/images/course_39.png" width="632" height="30" alt="仕事で役立てたい" /></h3>
+							<h3 class="c-title1">仕事で役立てたい</h3>
 							<p class="mB20">どこよりも実践力がＵＰする教室です。仕事で役立つワード・エクセル・パワーポイントの演習講座を豊富にご用意。タイピングもしっかりマスターできる教室です。職場のパソコン博士としてヒーローになれるかも？</p>
 							<div class="section-lv3 clearfix">
 								<div class="box-a">
-									<img class="mB10" src="/images/course_42.jpg" width="200" height="155" alt="*" />
+									<img class="mB10" src="/images/course_42.jpg" width="200" height="155" alt="仕事で役立てたい！" />
 								</div><!-- /.box-a -->
 								<div class="box-b">
 									<table>
@@ -82,10 +82,10 @@ if ($id == "6117001") {
 						</div><!-- /#subject1 -->
 
 						<div id="subject5" class="subject clearfix">
-							<h3 class="mB10"><img src="/images/course_47.png" width="632" height="30" alt="資格を取得したい" /></h3>
+							<h3 class="c-title1">資格を取得したい</h3>
 							<div class="section-lv3 clearfix">
 								<div class="box-a">
-									<img class="mB10" src="/images/course_50.jpg" width="200" height="155" alt="*" />
+									<img class="mB10" src="/images/course_50.jpg" width="200" height="155" alt="取得可能な資格" />
 								</div><!-- /.box-a -->
 								<div class="box-b">
 									<table>
@@ -135,11 +135,11 @@ if ($id == "6117001") {
 						</div><!-- /#subject1 -->
 
 						<div id="subject1" class="subject clearfix">
-							<h3 class="mB10"><img src="/images/course_06.png" width="632" height="30" alt="はじめてのパソコン" /></h3>
+							<h3 class="c-title1">はじめてのパソコン</h3>
 							<p class="mB20">超初心者の方大歓迎！の教室です。<br />初心者の方がパソコンの楽しみ方を効率よくマスターできるよう、バラエティに富んだコースをご用意しています！</p>
 							<div class="section-lv3 clearfix">
 								<div class="box-a">
-									<img class="mB10" src="/images/course_09.jpg" width="200" height="155" alt="*" />
+									<img class="mB10" src="/images/course_09.jpg" width="200" height="155" alt="初心者でも楽しめる！" />
 								</div><!-- /.box-a -->
 							<div class="box-b">
 									<table>
@@ -194,12 +194,12 @@ if ($id == "6117001") {
 						</div><!-- /#subject1 -->
 						
 						<div id="subject2" class="subject clearfix">
-							<h3 class="mB10"><img src="/images/course_25.png" width="632" height="30" alt="インターネットをしたい" /></h3>
+							<h3 class="c-title1">インターネットをしたい</h3>
 							<p class="mB20">初めての方でも、十分にインターネットが楽しめるようになります。楽しさや発見がいっぱいのインターネットを活用する授業内容で、お店検索やショッピング、友人との交流などインターネットの無限に広がる楽しさをお伝えし、日常でしっかり使いこなせるようになります。
 </p>
 							<div class="section-lv3 clearfix">
 								<div class="box-a">
-									<img class="mB10" src="/images/course_28.jpg" width="200" height="155" alt="*" />
+									<img class="mB10" src="/images/course_28.jpg" width="200" height="155" alt="インターネットを活用しよう" />
 								</div><!-- /.box-a -->
 								<div class="box-b">
 									<table>
@@ -255,11 +255,11 @@ if ($id == "6117001") {
 						
 
 						<div id="subject3" class="subject clearfix">
-							<h3 class="mB10"><img src="/images/course_33.png" width="632" height="30" alt="趣味で楽しみたい" /></h3>
+							<h3 class="c-title1">趣味で楽しみたい</h3>
 							<p class="mB20">デジカメ・絵はがきなど生活に彩りを添えるコースを多数ご用意しています！ワープロソフトの「ワード」や表計算ソフトの「エクセル」を使った、料理レシピやはがきづくりなどの応用術も満載！！</p>
 							<div class="section-lv3 clearfix">
 								<div class="box-a">
-									<img class="mB10" src="/images/course_36.jpg" width="200" height="155" alt="*" />
+									<img class="mB10" src="/images/course_36.jpg" width="200" height="155" alt="趣味に役立つ使い方" />
 								</div><!-- /.box-a -->
 								<div class="box-b">
 									<table>

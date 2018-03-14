@@ -2,7 +2,7 @@
 					<h2 class="mB15">あなたも私たちと共に、この教室の「先生」になってみませんか？</h2>
 					<div class="i-pt clearfix mB20">
 						<div class="section-lv2 moz2 clearfix">
-							<h3 class="mB20"><img src="/images/recruit_06.png" width="632" height="26" alt="充実の研修体制で、しっかりサポート！" /></h3>
+							<h3 class="c-title1">充実の研修体制で、しっかりサポート！</h3>
 							<div class="section-lv3 clearfix mB30">
 								<div class="box-a">
 									<p>教室で「自信を持った指導者」として活躍していただくために、運営本部が様々な研修体制でしっかりサポートします。当初はスキル面・運営面ともに不安が大きい中でスタートされた方も、意欲を持って本部での研修やOJTでの勤務にトライしていただくことで、指導者としての自信・マインドが芽生えていきます。</p>
@@ -12,7 +12,7 @@
 								</div>
 							</div><!-- /.section-lv3 -->
 							
-							<h3 class="mB20"><img src="/images/recruit_08.png" width="632" height="26" alt="全国100以上の教室、400名以上の指導者集団の安心ネットワーク" /></h3>
+							<h3 class="c-title1">全国100以上の教室、400名以上の指導者集団の安心ネットワーク</h3>
 							<div class="section-lv3 clearfix mB30">
 								<div class="box-a">
 									<p>チアリーが運営する「パソコン市民講座」は100教室以上が直営教室。直営だからこそ、きめ細やかな管理や指導・研修の等質化が可能となります。<br />
@@ -23,7 +23,7 @@
 								</div>
 							</div><!-- /.section-lv3 -->
 							
-							<h3 class="mB20"><img src="/images/recruit_10.png" width="632" height="26" alt="パート～契約社員～正社員、成長評価でステップアップ！" /></h3>
+							<h3 class="c-title1">パート～契約社員～正社員、成長評価でステップアップ！</h3>
 							<div class="section-lv3 clearfix mB30">
 								<div class="box-a">
 									<p>教室は3～5名のスタッフで助け合いながら、自分たちの教室チームとして運営を盛り立てていきます。<br />
@@ -34,7 +34,7 @@
 								</div>
 							</div><!-- /.section-lv3 -->
 							
-							<h3 class="mB20"><img src="/images/recruit_12.png" width="632" height="26" alt="自社開発の教材でスキルアップが可能" /></h3>
+							<h3 class="c-title1">自社開発の教材でスキルアップが可能</h3>
 							<div class="section-lv3 clearfix mB30">
 								<div class="box-a">
 									<p>市民講座は確実な学習理解と定着にこだわり、全ての教材を自社開発しています。<br />
@@ -46,7 +46,7 @@
 								</div>
 							</div><!-- /.section-lv3 -->
 							
-							<h3 class="mB20"><img src="/images/recruit_14.png" width="632" height="26" alt="10年間の運営ノウハウ、伸長する会員専用サイト" /></h3>
+							<h3 class="c-title1">15年間の運営ノウハウ、伸長する会員専用サイト</h3>
 							<div class="section-lv3 clearfix mB30">
 								<div class="box-a">
 									<p>15年間で延べ50万名以上の卒業生を輩出した市民講座ならではの運営ノウハウは多々ありますが、この先5年・10年とますます地域に根ざし、安定した教室運営をしていく上で、日々進化していく必要があります。<br />

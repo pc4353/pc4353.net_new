@@ -27,7 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
-	<p>東京都には中野マルイ教室や西八王子教室、亀有教室など12件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
+	<p>東京都には中野マルイ教室や西八王子教室、亀有教室など13件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="kanto" class="c-title2">関東エリア</h2>
 
 <?php

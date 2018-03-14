@@ -1,5 +1,10 @@
 <h3 id="tokyo" class="c-title1">東京都</h3>
 <ul class="clearfix">
+	<li><img src="images/no_img.jpg" width="80" alt="丸井錦糸町教室" />
+	<h4><a href="/kinshicho/">丸井錦糸町教室</a></h4>
+	<span class="small">〒130-0022　東京都墨田区江東橋3-9-10<br />丸井錦糸町店 5F</span><br /><span class="bold">TEL：03-6659-4345<br />エリア：墨田区</span>
+	<span class="certify_sc2">サーティファイ</span></li>
+
 	<li><img src="images/nakano.jpg" width="80" alt="中野マルイ教室" />
 	<h4><a href="/nakano/">中野マルイ教室</a></h4>
 	<span class="small">〒164-0001　東京都中野区中野3-34-28<br />中野マルイ 3F</span><br /><span class="bold">TEL：03-6382-5878<br />エリア：中野区</span>

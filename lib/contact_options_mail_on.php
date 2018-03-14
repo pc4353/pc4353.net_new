@@ -98,8 +98,9 @@ foreach( $purpose as $key => $value ) {
 </tr>
 <tr>
 	<th>無料体験のお申し込み</th>
-	<td><label><input type="radio" class="nBn" value="する" name="free"<? if( $free == "する" ) { echo " checked"; } ?>> する</label>&nbsp;&nbsp;
-		<label><input type="radio" class="nBn" value="しない" name="free"<? if( $free == "しない" ) { echo " checked"; } ?>> しない</label>
+	<td><ul class="old clearfix">
+    <li><label><input type="radio" class="nBn" value="する" name="free"<? if( $free == "する" ) { echo " checked"; } ?>> する</label></li>
+    <li><label><input type="radio" class="nBn" value="しない" name="free"<? if( $free == "しない" ) { echo " checked"; } ?>> しない</label></li>
 <?/*
 		<select name="month">
 <?= getOptionHTML( 1, 12, $month, "--" ) ?>
@@ -111,7 +112,7 @@ foreach( $purpose as $key => $value ) {
 <?= getOptionHTML( 9, 20, $time, "--" ) ?>
 		</select>時頃の訪問
 */?>
-</td>
+</ul></td>
 </tr>
 <tr>
 	<th>無料体験希望日</th>

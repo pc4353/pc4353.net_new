@@ -3,7 +3,7 @@
 						<p class="mT10"><img src="/images/iphone/img_01.jpg" width="632" alt="シニアの方にも優しい、ゼロからはじめる！iPhone講座7月スタート！" /></p>
 						
 						<div class="iphone clearfix mT10">
-							<h3 class="mB10 mT10"><img src="/images/iphone/h3_01.jpg" width="632" alt="パソコン市民講座のiPhone講座とは？" /></h3>
+							<h3 class="c-title1">パソコン市民講座のiPhone講座とは？</h3>
 							
 							<div class="section-lv3 clearfix">
 							<div class="box-b">
@@ -24,7 +24,7 @@
 						</div><!-- /#subject1 -->
 
 						<div class="subject clearfix mT10">
-							<h3 class="mB10 mT10"><img src="/images/iphone/h3_02.jpg" width="632" alt="講座のPOINT" /></h3>
+							<h3 class="c-title1">講座のPOINT</h3>
 							<div class="section-lv3 clearfix">
 								<p class="lead mB20">せっかくのスマートフォン、電話やメールだけではもったいない！<br />「なんとなく・・・」がスッキリわかる！使える！講座がスタート。</p>
 

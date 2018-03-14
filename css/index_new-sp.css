@@ -521,6 +521,21 @@ dl.footer-locus {
 	padding: 10px;
 	font-size: 14px;
 }
+#contents #kasou .c-title1 {
+	background: url(/common/img/common/title1_bg1.png) no-repeat left center !important;
+	padding: 3px 0 3px 20px !important;
+	font-size: 120% !important;
+	font-weight: bold !important;
+	height: auto !important;
+	margin: 10px 0 !important;
+}
+#contents #kasou .c-title3 {
+	font-size: 120% !important;
+	padding: 10px 0 5px 5px !important;
+	margin: 0 0 20px !important;
+	border-bottom: 2px solid #6191cc !important;
+	background: none !important;
+}
 #main h1 img,
 #main h2 img,
 #main h3 img,
@@ -930,7 +945,8 @@ a.banner:hover{ color:#333333!important}
 #toiawase_form input[type="text"]{width: 100%;}
 #toiawase_form input[type="image"]{width: 100%;height: auto;}
 #toiawase_form li{
-	margin-bottom:5px;
+	margin-bottom:15px;
+	font-size: 16px;
 }
 #toiawase_form .old li{
 	width:50%;

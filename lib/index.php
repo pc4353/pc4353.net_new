@@ -13,34 +13,77 @@ if( $id == "6015000" ) {
 ?>
 <div class="main_vi">
 <ul class="slider">
-      <?php if (date("Ymd") >= 20180122) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
+      <?php if (date("Ymd") <= 20180317) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
 	<?php
-	if ($id == "6015083" || $id == "1001085" || $id == "1001095" || $id == "1001108" || $id == "1001118" ) {
-		//②京橋・深谷・船橋・津田沼・上尾_1000円2/24まで
+	if ($id == "6015116" || $id == "6015128" || $id == "1001006" || $id == "1001116" ) {
+		//北千里・新茨木・流山・柏_8H教室3/24まで
 	?>
-		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="/images/img-main_cp1802-2.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-main_cp1803-2.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
 	<?php
-	} elseif ($id == "6015116" || $id == "1001006" ) {
-		//③北千里・流山_月謝半額2/17まで
+	} elseif ($id == "6015029" ) {
+		//吹田3/25まで
 	?>
-		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="/images/img-main_cp1802-3.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-main_cp1803-suita.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
 	<?php
-	} elseif ($id == "6015128" || $id == "1001116" ) {
-		//④新茨木・柏_月謝半額2/24まで
+	} elseif ($id == "1001134" ) {
+		//錦糸町3/17まで
 	?>
-		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="/images/img-main_cp1802-4.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-new_kinshicho.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-main_cp1803-kinshicho.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
 	<?php
 	} else {
-		//①1000円2/17まで
+	//通常3/24まで
 	?>
-		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="/images/img-main_cp1802-1.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-main_cp1803-1.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
 	<?php
 	}
 	?>
       <?php endif; ?>
-	<li><a href="/<?=$room[$id][dir]?>/certify.php"><img src="/images/img-main01.png" width="985" height="300" alt="エクセル・ワード・パワーポイントを仕事で活かす！ビジネス実践講座" class="alpha" /></a></li>
-	<li><a href="/course/d_photo_master.php" target="_blank"><img src="/images/img-main05.jpg" width="985" height="300" alt="デジタル写真マスター講座 写真のすべてが学べる講座が2017年9月スタート！詳しくはこちらから" class="alpha" /></a></li>
-	<li><a href="/<?=$room[$id][dir]?>/mos.php"><img src="/images/img-main02.png" width="985" height="300" alt="就職・転職を有利に！資格は実力の証！MOS資格取得コース" class="alpha" /></a></li>
+      <?php if (date("Ymd") >= 20180318) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
+	<?php
+	if ($id == "6015116" || $id == "6015128" || $id == "1001006" || $id == "1001116" ) {
+		//北千里・新茨木・流山・柏_8H教室3/24まで
+	?>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-main_cp1803-2.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+	<?php
+	} elseif ($id == "6015029" ) {
+		//吹田3/25まで
+	?>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-main_cp1803-suita.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+	<?php
+	} elseif ($id == "1001134" ) {
+		//錦糸町3/31まで
+	?>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-new_kinshicho.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-main_cp1803-kinshicho2.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+	<?php
+	} elseif ($id == "1076000") {
+		//NSGけやき通り3/26まで
+	?>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-main_cp1803-keyaki.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+	<?php
+	} else {
+	//通常3/24まで
+	?>
+		<li><a href="/<?=$room[$id][dir]?>/contact.php" target="_blank"><img src="../images/img-main_cp1803-1.jpg" width="985" height="300" alt="" class="alpha" /></a></li>
+	<?php
+	}
+	?>
+      <?php endif; ?>
+	<li><a href="/<?=$room[$id][dir]?>/certify.php"><img src="../images/img-main01.png" width="985" height="300" alt="エクセル・ワード・パワーポイントを仕事で活かす！ビジネス実践講座" class="alpha" /></a></li>
+	<li><a href="/course/d_photo_master.php" target="_blank"><img src="../images/img-main05.jpg" width="985" height="300" alt="デジタル写真マスター講座 写真のすべてが学べる講座が2017年9月スタート！詳しくはこちらから" class="alpha" /></a></li>
+	<?php
+	if ($id == "1001134" ) {
+		//錦糸町3/31まで
+	?>
+	<?php
+	} else {
+	//通常3/24まで
+	?>
+	<li><a href="/<?=$room[$id][dir]?>/mos.php"><img src="../images/img-main02.png" width="985" height="300" alt="就職・転職を有利に！資格は実力の証！MOS資格取得コース" class="alpha" /></a></li>
+	<?php
+	}
+	?>
 </ul>
 </div>
 
@@ -184,7 +227,647 @@ if( $id == "6015000" ) {
 
 	</section>
 
-      <?php if (date("Ymd") <= 20180102) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
+      <?php if (date("Ymd") <= 20180317) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
+<?php
+if ($id == "6015116" || $id == "6015128" || $id == "1001006" || $id == "1001116" ) {
+	//北千里・新茨木・流山・柏_8H教室3/24まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+<?php
+if( $room[$id][sps] == "1" ) {
+//SPS実施校
+?>
+			<dt><a href="../images/201803cp2.pdf" target="_blank"><img src="../images/201803cp2.jpg" width="180" alt="「早割」キャンペーン開催！"></a><a href="../images/201803cp1_ura_sps.pdf" target="_blank"><img src="../images/201803cp1_ura_sps.jpg" width="180" alt="全ての世代で役立つスキル"></a></dt>
+<?php
+}elseif( $room[$id][sps] == "0" ) {
+?>
+			<dt><a href="../images/201803cp2.pdf" target="_blank"><img src="../images/201803cp2.jpg" width="180" alt="「早割」キャンペーン開催！"></a><a href="../images/201803cp1_ura.pdf" target="_blank"><img src="../images/201803cp1_ura.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+<?php
+}
+?>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">はじめるなら3月が断然お得！「早割」キャンペーン！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「早割」キャンペーン</strong>を<strong>3月24日（土）まで実施中</strong>です！<br>今だけの総額最大10,500円(税別)OFFでスタートいただけるお得なキャンペーンとなります。この機会にぜひお申込みください！</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+} elseif ($id == "6015029" ) {
+	//吹田3/25まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201801sps_suita_a.jpg" target="_blank"><img src="../images/201801sps_suita_a.jpg" width="180" alt="「スタープログラミングスクール」無料体験イベント開催！"></a><a href="../images/201801sps_suita_b.jpg" target="_blank"><img src="../images/201801sps_suita_b.jpg" width="180" alt="「スタープログラミングスクール」概要"></a></dt>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">「スタープログラミングスクール」<br>3月24日（土）無料体験イベント開催！</dt>
+			<dd><p>パソコン市民講座 <?=$room[$id][name]?>教室内にこの春開校予定の<strong>「スタープログラミングスクール イオン吹田教室」</strong>では、無料体験イベントを開催いたします。</p>
+			<p><strong>無料体験イベント日程<br>■3月24日（土）10:30～12:00　タブレット＆Scratch体験コース<br>■3月24日（土）13:30～15:00　タブレット＆Scratch体験コース<br>■3月24日（土）16:00～17:30　Scratch体験コース</strong></p>
+			<p>2020年に小学校での「プログラミング教育」必修化が決まり、注目の高まっている「プログラミング」を今から体験していただけるチャンスです！<br>「スタープログラミングスクール」では、少人数制で段階的にステップアップしていけるカリキュラムをご提案しています。</p>
+			<p>プログラミング未経験の方でもご参加いただける内容となっておりますので、この機会にぜひご参加いただき、プログラミング教室での学習についてご検討ください。</p>
+			<p>無料体験イベントは先着順の予約制となっており、各回限定８名までのご参加となりますので、お早めにお問い合わせの上、参加希望をお伝えください。</p>
+			<p>お問い合わせ電話番号：<strong>06-6263-4123</strong>（受付時間：平日9:30～18:00）<br>スタープログラミングスクール運営本部まで</p>
+			<p>「スタープログラミングスクール」ホームページからもメールでご予約いただけます。<br><a href="https://www.star-programming-school.com/event/" target="_blank">お申し込みはこちらから</a></p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201803cp_suita.pdf" target="_blank"><img src="../images/201803cp_suita.jpg" width="180" alt="リニューアルオープン記念「早割キャンペーン」実施中！"></a><a href="../images/201803cp1_ura_sps.pdf" target="_blank"><img src="../images/201803cp1_ura_sps.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">リニューアルオープン記念「早割キャンペーン」実施中！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>3月5日（月）にリニューアルオープンのパソコン市民講座 <?=$room[$id][name]?>教室では、リニューアルオープン企画<strong>「早割キャンペーン」</strong>を<strong>3月25日（日）まで実施中</strong>です！<br>今だけの総額最大12,000円（税別）OFFでスタートできるお得なキャンペーンですので、この機会にぜひお申込みください！</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+} elseif ($id == "1001120" ) {
+	//成田3/24まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201803cp_narita.pdf" target="_blank"><img src="../images/201803cp_narita.jpg" width="180" alt="リニューアルオープン記念「早割キャンペーン」実施中！"></a><a href="../images/201803cp1_ura.pdf" target="_blank"><img src="../images/201803cp1_ura.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">リニューアルオープン記念「早割キャンペーン」実施中！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>2月21日（水）にリニューアルオープンのパソコン市民講座 <?=$room[$id][name]?>教室では、リニューアルオープン企画<strong>「早割キャンペーン」</strong>を<strong>3月24日（土）まで実施中</strong>です！<br>今だけの総額最大12,000円（税別）OFFでスタートできるお得なキャンペーンですので、この機会にぜひお申込みください！</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+} elseif ($id == "1001134" ) {
+	//錦糸町3/17まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201803cp_kinshicho1.pdf" target="_blank"><img src="../images/201803cp_kinshicho1.jpg" width="180" alt="新規開校記念「早割キャンペーン」実施中！"></a><a href="../images/201803cp1_ura_sps.pdf" target="_blank"><img src="../images/201803cp1_ura_sps.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">新規開校記念「早割キャンペーン」実施中！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>3月1日（木）に新規開校のパソコン市民講座 <?=$room[$id][name]?>教室では、新規オープン記念企画<strong>「早割キャンペーン」</strong>を<strong>3月17日（土）まで実施中</strong>です！<br>今だけの総額最大12,000円（税別）OFFでスタートできるお得なキャンペーンですので、この機会にぜひお申込みください！</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+} elseif ($id == "1076000") {
+	//NSGけやき通り3/24まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201803cp_keyaki1.pdf" target="_blank"><img src="../images/201803cp_keyaki1.jpg" width="180" alt="新規開校記念「早割キャンペーン」実施中！"></a><a href="../images/201803cp_keyaki_ura.pdf" target="_blank"><img src="../images/201803cp_keyaki_ura.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">新規開校記念「早割キャンペーン」実施中！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>3月5日（月）に新規開校のパソコン市民講座 <?=$room[$id][name]?>教室では、新規オープン記念企画<strong>「早割キャンペーン」</strong>を<strong>3月24日（土）まで実施中</strong>です！<br>今だけの総額最大12,000円（税別）OFFでスタートできるお得なキャンペーンですので、この機会にぜひお申込みください！</p>
+			<p>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+} else {
+	//通常3/24まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+	<?php
+	if ($id == "6015061" ) {
+			//山科（SPS告知）
+	?>
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201801sps_yamashina_a.jpg" target="_blank"><img src="../images/201801sps_yamashina_a.jpg" width="180" alt="「スタープログラミングスクール」無料体験イベント開催！"></a><a href="../images/201801sps_suita_b.jpg" target="_blank"><img src="../images/201801sps_suita_b.jpg" width="180" alt="「スタープログラミングスクール」概要"></a></dt>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">「スタープログラミングスクール」<br>3月21日（水）無料体験イベント開催！</dt>
+			<dd><p>パソコン市民講座 <?=$room[$id][name]?>教室内にこの春開校予定の<strong>「スタープログラミングスクール 西友山科教室」</strong>では、無料体験イベントを開催いたします。</p>
+			<p><strong>無料体験イベント日程<br>■3月21日（水）10:30～12:00　タブレット＆Scratch体験コース<br>■3月21日（水）13:30～15:00　タブレット＆Scratch体験コース<br>■3月21日（水）16:00～17:30　Scratch体験コース</strong></p>
+			<p>2020年に小学校での「プログラミング教育」必修化が決まり、注目の高まっている「プログラミング」を今から体験していただけるチャンスです！<br>「スタープログラミングスクール」では、少人数制で段階的にステップアップしていけるカリキュラムをご提案しています。</p>
+			<p>プログラミング未経験の方でもご参加いただける内容となっておりますので、この機会にぜひご参加いただき、プログラミング教室での学習についてご検討ください。</p>
+			<p>無料体験イベントは先着順の予約制となっており、各回限定８名までのご参加となりますので、お早めにお問い合わせの上、参加希望をお伝えください。</p>
+			<p>お問い合わせ電話番号：<strong>06-6263-4123</strong>（受付時間：平日9:30～18:00）<br>スタープログラミングスクール運営本部まで</p>
+			<p>「スタープログラミングスクール」ホームページからもメールでご予約いただけます。<br><a href="https://www.star-programming-school.com/event/" target="_blank">お申し込みはこちらから</a></p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+
+	<?php
+	} elseif ($id == "6015123" ) {
+			//遠鉄（SPS告知）
+	?>
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201801sps_entetsu_c.jpg" target="_blank"><img src="../images/201801sps_entetsu_c.jpg" width="180" alt="「スタープログラミングスクール」無料体験イベント開催！"></a><a href="../images/201801sps_suita_b.jpg" target="_blank"><img src="../images/201801sps_suita_b.jpg" width="180" alt="「スタープログラミングスクール」概要"></a></dt>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">「スタープログラミングスクール」<br>3月28日（水）無料体験イベント開催！</dt>
+			<dd><p>パソコン市民講座 <?=$room[$id][name]?>教室内で開講中の<strong>「スタープログラミングスクール 遠鉄百貨店教室」</strong>では、この春スタート生の募集に伴い、無料体験イベントを開催いたします。</p>
+			<p><strong>無料体験イベント日程<br>■3月28日（水）10:30～12:00　タブレット＆Scratch体験コース<br>■3月28日（水）13:30～15:00　タブレット＆Scratch体験コース<br>■3月28日（水）16:00～17:30　Scratch体験コース</strong></p>
+			<p>2020年に小学校での「プログラミング教育」必修化が決まり、注目の高まっている「プログラミング」を今から体験していただけるチャンスです！<br>「スタープログラミングスクール」では、少人数制で段階的にステップアップしていけるカリキュラムをご提案しています。</p>
+			<p>プログラミング未経験の方でもご参加いただける内容となっておりますので、この機会にぜひご参加いただき、プログラミング教室での学習についてご検討ください。</p>
+			<p>無料体験イベントは先着順の予約制となっており、各回限定８名までのご参加となりますので、お早めにお問い合わせの上、参加希望をお伝えください。</p>
+			<p>お問い合わせ電話番号：<strong>06-6263-4123</strong>（受付時間：平日9:30～18:00）<br>スタープログラミングスクール運営本部まで</p>
+			<p>「スタープログラミングスクール」ホームページからもメールでご予約いただけます。<br><a href="https://www.star-programming-school.com/event/" target="_blank">お申し込みはこちらから</a></p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+
+	<?php
+	}
+	?>
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+<?php
+if( $room[$id][sps] == "1" ) {
+//SPS実施校
+?>
+			<dt><a href="../images/201803cp1.pdf" target="_blank"><img src="../images/201803cp1.jpg" width="180" alt="「早割」キャンペーン開催！"></a><a href="../images/201803cp1_ura_sps.pdf" target="_blank"><img src="../images/201803cp1_ura_sps.jpg" width="180" alt="全ての世代で役立つスキル"></a></dt>
+<?php
+}elseif( $room[$id][sps] == "0" ) {
+?>
+			<dt><a href="../images/201803cp1.pdf" target="_blank"><img src="../images/201803cp1.jpg" width="180" alt="「早割」キャンペーン開催！"></a><a href="../images/201803cp1_ura.pdf" target="_blank"><img src="../images/201803cp1_ura.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+<?php
+}
+?>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">はじめるなら3月が断然お得！「早割」キャンペーン！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「早割」キャンペーン</strong>を<strong>3月24日（土）まで実施中</strong>です！<br>今だけの総額最大12,000円(税別)OFFでスタートいただけるお得なキャンペーンとなります。この機会にぜひお申込みください！</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+}
+?>
+      <?php endif; ?>
+
+      <?php if (date("Ymd") >= 20180318) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
+<?php
+if ($id == "6015116" || $id == "6015128" || $id == "1001006" || $id == "1001116" ) {
+	//北千里・新茨木・流山・柏_8H教室3/24まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+<?php
+if( $room[$id][sps] == "1" ) {
+//SPS実施校
+?>
+			<dt><a href="../images/201803cp2.pdf" target="_blank"><img src="../images/201803cp2.jpg" width="180" alt="「早割」キャンペーン開催！"></a><a href="../images/201803cp1_ura_sps.pdf" target="_blank"><img src="../images/201803cp1_ura_sps.jpg" width="180" alt="全ての世代で役立つスキル"></a></dt>
+<?php
+}elseif( $room[$id][sps] == "0" ) {
+?>
+			<dt><a href="../images/201803cp2.pdf" target="_blank"><img src="../images/201803cp2.jpg" width="180" alt="「早割」キャンペーン開催！"></a><a href="../images/201803cp1_ura.pdf" target="_blank"><img src="../images/201803cp1_ura.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+<?php
+}
+?>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">はじめるなら3月が断然お得！「早割」キャンペーン！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「早割」キャンペーン</strong>を<strong>3月24日（土）まで実施中</strong>です！<br>今だけの総額最大10,500円(税別)OFFでスタートいただけるお得なキャンペーンとなります。この機会にぜひお申込みください！</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+} elseif ($id == "6015029" ) {
+	//吹田3/25まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201801sps_suita_a.jpg" target="_blank"><img src="../images/201801sps_suita_a.jpg" width="180" alt="「スタープログラミングスクール」無料体験イベント開催！"></a><a href="../images/201801sps_suita_b.jpg" target="_blank"><img src="../images/201801sps_suita_b.jpg" width="180" alt="「スタープログラミングスクール」概要"></a></dt>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">「スタープログラミングスクール」<br>3月24日（土）無料体験イベント開催！</dt>
+			<dd><p>パソコン市民講座 <?=$room[$id][name]?>教室内にこの春開校予定の<strong>「スタープログラミングスクール イオン吹田教室」</strong>では、無料体験イベントを開催いたします。</p>
+			<p><strong>無料体験イベント日程<br>■3月24日（土）10:30～12:00　タブレット＆Scratch体験コース<br>■3月24日（土）13:30～15:00　タブレット＆Scratch体験コース<br>■3月24日（土）16:00～17:30　Scratch体験コース</strong></p>
+			<p>2020年に小学校での「プログラミング教育」必修化が決まり、注目の高まっている「プログラミング」を今から体験していただけるチャンスです！<br>「スタープログラミングスクール」では、少人数制で段階的にステップアップしていけるカリキュラムをご提案しています。</p>
+			<p>プログラミング未経験の方でもご参加いただける内容となっておりますので、この機会にぜひご参加いただき、プログラミング教室での学習についてご検討ください。</p>
+			<p>無料体験イベントは先着順の予約制となっており、各回限定８名までのご参加となりますので、お早めにお問い合わせの上、参加希望をお伝えください。</p>
+			<p>お問い合わせ電話番号：<strong>06-6263-4123</strong>（受付時間：平日9:30～18:00）<br>スタープログラミングスクール運営本部まで</p>
+			<p>「スタープログラミングスクール」ホームページからもメールでご予約いただけます。<br><a href="https://www.star-programming-school.com/event/" target="_blank">お申し込みはこちらから</a></p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201803cp_suita.pdf" target="_blank"><img src="../images/201803cp_suita.jpg" width="180" alt="リニューアルオープン記念「早割キャンペーン」実施中！"></a><a href="../images/201803cp1_ura_sps.pdf" target="_blank"><img src="../images/201803cp1_ura_sps.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">リニューアルオープン記念「早割キャンペーン」実施中！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>3月5日（月）にリニューアルオープンのパソコン市民講座 <?=$room[$id][name]?>教室では、リニューアルオープン企画<strong>「早割キャンペーン」</strong>を<strong>3月25日（日）まで実施中</strong>です！<br>今だけの総額最大12,000円（税別）OFFでスタートできるお得なキャンペーンですので、この機会にぜひお申込みください！</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+} elseif ($id == "1001120" ) {
+	//成田3/24まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201803cp_narita.pdf" target="_blank"><img src="../images/201803cp_narita.jpg" width="180" alt="リニューアルオープン記念「早割キャンペーン」実施中！"></a><a href="../images/201803cp1_ura.pdf" target="_blank"><img src="../images/201803cp1_ura.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">リニューアルオープン記念「早割キャンペーン」実施中！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>2月21日（水）にリニューアルオープンのパソコン市民講座 <?=$room[$id][name]?>教室では、リニューアルオープン企画<strong>「早割キャンペーン」</strong>を<strong>3月24日（土）まで実施中</strong>です！<br>今だけの総額最大12,000円（税別）OFFでスタートできるお得なキャンペーンですので、この機会にぜひお申込みください！</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+} elseif ($id == "1001134" ) {
+	//錦糸町3/31まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201803cp_kinshicho2.pdf" target="_blank"><img src="../images/201803cp_kinshicho2.jpg" width="180" alt="新規開校記念「早割キャンペーン」実施中！"></a><a href="../images/201803cp_kinshicho2_ura.pdf" target="_blank"><img src="../images/201803cp_kinshicho2_ura.jpg" width="180" alt="私達、夢が叶いました！"></a></dt>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">「新規開校キャンペーン」実施中！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>3月1日（木）に新規開校のパソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「新規開校キャンペーン」</strong>を<strong>3月31日（土）まで実施中</strong>です！<br>通常受講料1時間あたり1,500円（税別）のところ、受講スタート初月に限り最大12時間までスタート応援価格1,000円（税別）で受講ができるお得なキャンペーンですので、この機会にぜひお申込みください！</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+} elseif ($id == "1076000") {
+	//NSGけやき通り3/26まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201803cp_keyaki2.pdf" target="_blank"><img src="../images/201803cp_keyaki2.jpg" width="180" alt="新規開校記念「早割キャンペーン」実施中！"></a><a href="../images/201803cp_keyaki_ura.pdf" target="_blank"><img src="../images/201803cp_keyaki_ura.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">新規開校記念「早割キャンペーン」実施中！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>3月5日（月）に新規開校のパソコン市民講座 <?=$room[$id][name]?>教室では、新規オープン記念企画<strong>「早割キャンペーン」</strong>を<strong>3月26日（月）まで実施中</strong>です！<br>今だけの総額最大12,000円（税別）OFFでスタートできるお得なキャンペーンですので、この機会にぜひお申込みください！</p>
+			<p>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+} else {
+	//通常3/24まで
+?>
+<section>
+	<div class="room_info">
+		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
+		<div class="inner">
+	<?php
+	if ($id == "6015061" ) {
+			//山科（SPS告知）
+	?>
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201801sps_yamashina_a.jpg" target="_blank"><img src="../images/201801sps_yamashina_a.jpg" width="180" alt="「スタープログラミングスクール」無料体験イベント開催！"></a><a href="../images/201801sps_suita_b.jpg" target="_blank"><img src="../images/201801sps_suita_b.jpg" width="180" alt="「スタープログラミングスクール」概要"></a></dt>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">「スタープログラミングスクール」<br>3月21日（水）無料体験イベント開催！</dt>
+			<dd><p>パソコン市民講座 <?=$room[$id][name]?>教室内にこの春開校予定の<strong>「スタープログラミングスクール 西友山科教室」</strong>では、無料体験イベントを開催いたします。</p>
+			<p><strong>無料体験イベント日程<br>■3月21日（水）10:30～12:00　タブレット＆Scratch体験コース<br>■3月21日（水）13:30～15:00　タブレット＆Scratch体験コース<br>■3月21日（水）16:00～17:30　Scratch体験コース</strong></p>
+			<p>2020年に小学校での「プログラミング教育」必修化が決まり、注目の高まっている「プログラミング」を今から体験していただけるチャンスです！<br>「スタープログラミングスクール」では、少人数制で段階的にステップアップしていけるカリキュラムをご提案しています。</p>
+			<p>プログラミング未経験の方でもご参加いただける内容となっておりますので、この機会にぜひご参加いただき、プログラミング教室での学習についてご検討ください。</p>
+			<p>無料体験イベントは先着順の予約制となっており、各回限定８名までのご参加となりますので、お早めにお問い合わせの上、参加希望をお伝えください。</p>
+			<p>お問い合わせ電話番号：<strong>06-6263-4123</strong>（受付時間：平日9:30～18:00）<br>スタープログラミングスクール運営本部まで</p>
+			<p>「スタープログラミングスクール」ホームページからもメールでご予約いただけます。<br><a href="https://www.star-programming-school.com/event/" target="_blank">お申し込みはこちらから</a></p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+
+	<?php
+	} elseif ($id == "6015123" ) {
+			//遠鉄（SPS告知）
+	?>
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+			<dt><a href="../images/201801sps_entetsu_c.jpg" target="_blank"><img src="../images/201801sps_entetsu_c.jpg" width="180" alt="「スタープログラミングスクール」無料体験イベント開催！"></a><a href="../images/201801sps_suita_b.jpg" target="_blank"><img src="../images/201801sps_suita_b.jpg" width="180" alt="「スタープログラミングスクール」概要"></a></dt>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">「スタープログラミングスクール」<br>3月28日（水）無料体験イベント開催！</dt>
+			<dd><p>パソコン市民講座 <?=$room[$id][name]?>教室内で開講中の<strong>「スタープログラミングスクール 遠鉄百貨店教室」</strong>では、この春スタート生の募集に伴い、無料体験イベントを開催いたします。</p>
+			<p><strong>無料体験イベント日程<br>■3月28日（水）10:30～12:00　タブレット＆Scratch体験コース<br>■3月28日（水）13:30～15:00　タブレット＆Scratch体験コース<br>■3月28日（水）16:00～17:30　Scratch体験コース</strong></p>
+			<p>2020年に小学校での「プログラミング教育」必修化が決まり、注目の高まっている「プログラミング」を今から体験していただけるチャンスです！<br>「スタープログラミングスクール」では、少人数制で段階的にステップアップしていけるカリキュラムをご提案しています。</p>
+			<p>プログラミング未経験の方でもご参加いただける内容となっておりますので、この機会にぜひご参加いただき、プログラミング教室での学習についてご検討ください。</p>
+			<p>無料体験イベントは先着順の予約制となっており、各回限定８名までのご参加となりますので、お早めにお問い合わせの上、参加希望をお伝えください。</p>
+			<p>お問い合わせ電話番号：<strong>06-6263-4123</strong>（受付時間：平日9:30～18:00）<br>スタープログラミングスクール運営本部まで</p>
+			<p>「スタープログラミングスクール」ホームページからもメールでご予約いただけます。<br><a href="https://www.star-programming-school.com/event/" target="_blank">お申し込みはこちらから</a></p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+
+	<?php
+	}
+	?>
+		<div class="box_a clearfix">
+		<div class="room_info_lft">
+		<dl>
+<?php
+if( $room[$id][sps] == "1" ) {
+//SPS実施校
+?>
+			<dt><a href="../images/201803cp1.pdf" target="_blank"><img src="../images/201803cp1.jpg" width="180" alt="「早割」キャンペーン開催！"></a><a href="../images/201803cp1_ura_sps.pdf" target="_blank"><img src="../images/201803cp1_ura_sps.jpg" width="180" alt="全ての世代で役立つスキル"></a></dt>
+<?php
+}elseif( $room[$id][sps] == "0" ) {
+?>
+			<dt><a href="../images/201803cp1.pdf" target="_blank"><img src="../images/201803cp1.jpg" width="180" alt="「早割」キャンペーン開催！"></a><a href="../images/201803cp1_ura.pdf" target="_blank"><img src="../images/201803cp1_ura.jpg" width="180" alt="全ての世代で役立つパソコンスキル"></a></dt>
+<?php
+}
+?>
+			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
+		</dl>
+		</div>
+		<div class="room_info_rgt">
+		<dl>
+			<dt class="tk-kozuka-gothic-pr6n">はじめるなら3月が断然お得！「早割」キャンペーン！</dt>
+			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「早割」キャンペーン</strong>を<strong>3月24日（土）まで実施中</strong>です！<br>今だけの総額最大12,000円(税別)OFFでスタートいただけるお得なキャンペーンとなります。この機会にぜひお申込みください！</p>
+			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
+			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
+			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
+			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
+			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
+			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
+			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
+			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
+			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
+			<dd><?=$room_info[01]?></dd>
+		</dl>
+		</div>
+		</div>
+		</div>
+	</div>
+	</section>
+<?php
+}
+?>
+      <?php endif; ?>
+
+      <?php if (date("Ymd") <= 20180224) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
 <section>
 	<div class="room_info">
 		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
@@ -217,188 +900,20 @@ if( $id == "6015000" ) {
 	</div>
 	</section>
       <?php endif; ?>
-      <?php if (date("Ymd") >= 20180122) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
-<?php
-if ( $id == "1001062" ) {
-	//海老名
-?>
-<section>
-	<div class="room_info">
-		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
-		<div class="inner">
-		<div class="box_a clearfix">
-		<div class="room_info_lft">
-		<dl>
-			<dt><a href="../images/201802cp_ebina.pdf" target="_blank"><img src="../images/201802cp_ebina.jpg" width="180" alt="リニューアルオープンキャンペーン！"></a></dt>
-			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
-		</dl>
-		</div>
-		<div class="room_info_rgt">
-		<dl>
-			<dt class="tk-kozuka-gothic-pr6n">「リニューアルオープンキャンペーン」実施中！</dt>
-			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
-			<p>パソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「リニューアルオープンキャンペーン」</strong>を<strong>2月17日（土）まで実施中</strong>です！<br>通常受講料1時間あたり1,500円（税別）のところ、受講スタート初月に限り最大12時間までスタート応援価格1,000円（税別）で受講ができるお得なキャンペーンですので、この機会にぜひお申込みください！</p>
-			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
-			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
-			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
-			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
-			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
-			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
-			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
-			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
-			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
-			<dd><?=$room_info[01]?></dd>
-		</dl>
-		</div>
-		</div>
-		</div>
-	</div>
-	</section>
-<?php
-} elseif ($id == "6015116" || $id == "1001006" ) {
-	//③北千里・流山_月謝半額2/17まで
-?>
-<section>
-	<div class="room_info">
-		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
-		<div class="inner">
-		<div class="box_a clearfix">
-		<div class="room_info_lft">
-		<dl>
-			<dt><a href="../images/201802cp2.jpg" target="_blank"><img src="../images/201802cp2.jpg" width="180" alt="LINE体験イベント開催！"></a></dt>
-			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
-		</dl>
-		</div>
-		<div class="room_info_rgt">
-		<dl>
-			<dt class="tk-kozuka-gothic-pr6n">「無料LINE体験イベント」開催！</dt>
-			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
-			<p>パソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「無料LINE体験イベント」</strong>を開催！<br>シニアの方やスマホ初心者の方もこの機会にぜひお申込みください！</p>
-			<p>スマホアプリでも利用率の最も高い「LINE」アプリ。その便利な機能やお得な使い方を実際に体験してみませんか？<br>写真やスタンプを使って家族や友人とのやり取りが楽しくなること間違いなしです！</p>
-			<p>各回、定員10名様限定での開催となりますので、詳しい開催日程などは教室までお問い合わせいただき、イベント参加予約をお申し出ください。</p>
-			<p>パソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「初回月謝半額」キャンペーン</strong>を<strong>2月17日（土）まで実施中</strong>です！<br>受講初月に限り月謝半額（6,000円お得）でスタートいただけます。この機会にぜひお申込みください！</p>
-			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
-			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
-			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
-			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
-			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
-			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
-			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
-			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
-			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
-			<dd><?=$room_info[01]?></dd>
-		</dl>
-		</div>
-		</div>
-		</div>
-	</div>
-	</section>
-<?php
-} elseif ($id == "6015128" || $id == "1001116" ) {
-	//④新茨木・柏_月謝半額2/24まで
-?>
-<section>
-	<div class="room_info">
-		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
-		<div class="inner">
-		<div class="box_a clearfix">
-		<div class="room_info_lft">
-		<dl>
-			<dt><a href="../images/201802cp2_0224.jpg" target="_blank"><img src="../images/201802cp2_0224.jpg" width="180" alt="LINE体験イベント開催！"></a></dt>
-			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
-		</dl>
-		</div>
-		<div class="room_info_rgt">
-		<dl>
-			<dt class="tk-kozuka-gothic-pr6n">「無料LINE体験イベント」開催！</dt>
-			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
-			<p>パソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「無料LINE体験イベント」</strong>を開催！<br>シニアの方やスマホ初心者の方もこの機会にぜひお申込みください！</p>
-			<p>スマホアプリでも利用率の最も高い「LINE」アプリ。その便利な機能やお得な使い方を実際に体験してみませんか？<br>写真やスタンプを使って家族や友人とのやり取りが楽しくなること間違いなしです！</p>
-			<p>各回、定員10名様限定での開催となりますので、詳しい開催日程などは教室までお問い合わせいただき、イベント参加予約をお申し出ください。</p>
-			<p>パソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「初回月謝半額」キャンペーン</strong>を<strong>2月24日（土）まで実施中</strong>です！<br>受講初月に限り月謝半額（6,000円お得）でスタートいただけます。この機会にぜひお申込みください！</p>
-			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
-			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
-			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
-			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
-			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
-			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
-			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
-			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
-			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
-			<dd><?=$room_info[01]?></dd>
-		</dl>
-		</div>
-		</div>
-		</div>
-	</div>
-	</section>
-<?php
-}else{
-?>
-<section>
-	<div class="room_info">
-		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室からのお知らせ</span></h2>
-		<div class="inner">
-		<div class="box_a clearfix">
-		<div class="room_info_lft">
-		<dl>
-	<?php
-	if ($id == "6015083" || $id == "1001085" || $id == "1001095" || $id == "1001108" || $id == "1001118" ) {
-		//②京橋・深谷・船橋・津田沼・上尾_1000円2/24まで
-	?>
-			<dt><a href="../images/201802cp1_0224.pdf" target="_blank"><img src="../images/201802cp1_0224.jpg" width="180" alt="「スタート応援キャンペーン！」"></a></dt>
-	<?php
-	}else{
-	?>
-			<dt><a href="../images/201802cp1.pdf" target="_blank"><img src="../images/201802cp1.jpg" width="180" alt="「スタート応援キャンペーン！」"></a></dt>
-	<?php
-	}
-	?>
-			<dd><div class="inst_info"><a href="/<?=$room[$id][dir]?>/instructor.php">インストラクター情報</a></div></dd>
-		</dl>
-		</div>
-		<div class="room_info_rgt">
-		<dl>
-			<dt class="tk-kozuka-gothic-pr6n">「スタート応援キャンペーン！」実施中！</dt>
-			<dd><p>「やってみたい」が「できた！」に変わる！幅広い年齢層の方々が楽しく学ばれています。</p>
-			<p>パソコン市民講座 <?=$room[$id][name]?>教室では、<strong>「スタート応援キャンペーン！」</strong>を<strong>
-	<?php
-	if ($id == "6015083" || $id == "1001085" || $id == "1001095" || $id == "1001108" || $id == "1001118" ) {
-		//②京橋・深谷・船橋・津田沼・上尾_1000円2/24まで
-	?>
-				2月24日（土）
-	<?php
-	}else{
-	?>
-				2月17日（土）
-	<?php
-	}
-	?>
-				まで実施中</strong>です！<br>通常受講料1時間あたり1,500円（税別）のところ、受講スタート初月に限り最大12時間までスタート応援価格1,000円（税別）で受講ができるお得なキャンペーンですので、この機会にぜひお申込みください！</p>
-			<p>パソコン市民講座 <?=$room[$id][name]?>教室で学ばれる皆さんは、人それぞれに様々な目標を持って学んでいらっしゃいます。<br>きっかけは「やってみたい！」という気持ちから、まずは無料体験にお申し込みすることです！あなたの「やってみたい」を「できた！」に変えましょう！<?=$room[$id][name]?>教室のインストラクターがあなたに合わせたカリキュラムをご提案させていただきます。</p>
-			<p>初めてパソコンを学ばれる方はもちろん、普段使っているけれどもう一歩使いこなせるようになりたい方にも、あなたに合った様々なご提案をさせていただきます。</p>
-			<p>新社会人になる方は春の入社に向けて今から始めればまだまだ間に合う！オフィスで活躍するパソコンスキルを身に付けておけば、仕事で有利に！<br>ビジネススキルが向上できる、ビジネス実践講座や資格対策講座も、<?=$room[$id][name]?>教室のインストラクターが安心のサポート体制であなたをバックアップいたします！</p>
-			<p><strong>「学割制度」</strong>もご用意していますので、学校でパソコンを使う必要がある学生の皆さんも、お得な学割料金で受講していただけます。</p>
-			<p>新たな趣味を始めたい方には、写真をピックアップした新講座「デジタル写真マスター講座」が大人気です！<br>プロの写真家によるワンランク上の写真撮影術が学べる内容や、撮った写真を活用してパソコンで編集する方法など、写真をとことん楽しめる講座となっています！<br><?=$room[$id][name]?>教室のインストラクターがオススメするのは、この写真講座で学習した内容を活用してフォトブックを作成！撮りためた写真を様々な形でお友達にプレゼントもできますよ！</p>
-			<p>趣味で楽しめるパソコン講座・iPad/iPhone講座も充実！デジカメで撮影した写真と、ワードやパワーポイントを組み合わせれば、あなたのオリジナルのフォトブックや作品集も作れます！<br>また、「脳トレ」を目的にした新講座も好評開講中！楽しく学びながら「頭の体操」になる「脳トレおとなプログラミング講座」がオススメ！<br>是非この機会に新しい学びを始めましょう！</p>
-			<p>パソコンだけじゃなくiPadやiPhoneといったタブレットやスマートフォンも使いこなせるようになる講座もご用意しています！</p>
-			<p>まずは、お気軽にお問い合わせください。<?=$room[$id][name]?>教室インストラクター一同、皆様からのお電話、ご来校を心よりお待ち申し上げております。</p></dd>
-			<dt class="tk-kozuka-gothic-pr6n"><?=$room_info[00]?></dt>
-			<dd><?=$room_info[01]?></dd>
-		</dl>
-		</div>
-		</div>
-		</div>
-	</div>
-	</section>
-<?php
-}
-?>
-      <?php endif; ?>
 
 <section>
 	<div class="voice_list">
+<?php
+if ($id == "1076000") {
+?>
+		<h2 class="tk-kozuka-gothic-pr6n"><span>全国の受講生の声</span></h2>
+<?php
+}else{
+?>
 		<h2 class="tk-kozuka-gothic-pr6n"><span><?=$room[$id][name]?>教室の受講生の声</span></h2>
+<?php
+}
+?>
 		<div class="inner">
 		<ul class="clearfix">
 <?php
@@ -540,7 +1055,7 @@ if ($id == "1001126") {
 	</ul>
 
 <?php
-if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001" && $id !== "6015129") {
+if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001" && $id !== "1076000") {
 ?>
 	<ul class="blog">
 	<li>
@@ -557,8 +1072,14 @@ if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001" && $id !== "6015
 <?php
 }
 ?>
+<?php
+if ($id !== "1076000") {
+?>
 	<a href="/<?=$room[$id][dir]?>/recruit.php"><img class="pc-only" src="../images/bnr-inst_saiyou.png" width="240" alt="インストラクター募集中" />
 		<img class="sp-only" src="../images/bnr-inst_saiyou_sp.png" width="100%" alt="インストラクター募集中" /></a>
+<?php
+}
+?>
 	</div>
 
 </div>

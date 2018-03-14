@@ -4,6 +4,7 @@
     <div class="p-mos1 c-wrap">
 
         <h2><img src="/mos/images/mos1_img1.jpg" width="1000" height="498" alt="MOS資格コースなら最短10日で取得可能！" /></h2>
+            <p class="u-right">※合格率は2018年1月現在の数字です。</p>
 
         <div class="p-mos1__block1 clearfix">
             <h3><span>MOSで周りと差をつけよう！</span></h3>
@@ -142,7 +143,7 @@
                     </li>
                 </ul>
 
-            <p class="u-right">※合格率は2016年8月現在の数字です。</p>
+            <p class="u-right">※合格率は2018年1月現在の数字です。</p>
 
             </div><!-- /.p-mos3__block1 -->
 
@@ -190,7 +191,7 @@
                 </table>
 
 			<p>※時間数および受講期間の目安は個人差がございます。<br />
-			※テキスト代、月会費2,000円（税別）、資格試験料が別途かかります。</p>
+			※テキスト代、月会費、資格試験料が別途かかります。</p>
 
             </div><!-- /.p-mos3__block1 -->
 

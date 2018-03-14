@@ -517,6 +517,21 @@ dl.footer-locus {
 	padding: 10px;
 	font-size: 18px;
 }
+#contents #kasou .c-title1 {
+	background: url(/common/img/common/title1_bg1.png) no-repeat left center !important;
+	padding: 3px 0 3px 20px !important;
+	font-size: 150% !important;
+	font-weight: bold !important;
+	height: auto !important;
+	margin: 10px 0 !important;
+}
+#contents #kasou .c-title3 {
+	font-size: 130% !important;
+	padding: 0 0 5px 5px !important;
+	margin: 0 0 20px !important;
+	border-bottom: 2px solid #6191cc !important;
+	background: none !important;
+}
 #contents .notice {
 	background: #F4DEDE;
 	margin-bottom:8px;

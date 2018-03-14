@@ -17,23 +17,99 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/school/tohoku.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/fukushima.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/kanto.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/tokyo.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/kanagawa.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/chiba.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/saitama.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/ibaraki.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/chubu.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/aichi.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/gifu.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/shizuoka.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/niigata.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/kansai.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/osaka.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/hyogo.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/kyoto.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/nara.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/shiga.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/seibu.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/okayama.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/tokushima.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/school/fukuoka.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/course/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/shikaku/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/voice/works.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/premiere.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/gakuwari/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -57,6 +133,38 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/shikaku/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/certify/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/mos/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/voice/works.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/voice/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/voice/senior.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/premiere.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/gakuwari/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/instructor/</loc>
 	<priority>0.8</priority>
 </url>
@@ -73,95 +181,7 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/school/seibu.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/kansai.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/tohoku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/kanto.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/chubu.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/fukuoka.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/okayama.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/tokushima.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/osaka.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/nara.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/hyogo.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/shiga.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/kyoto.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/fukushima.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/tokyo.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/saitama.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/kanagawa.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/ibaraki.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/chiba.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/aichi.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/gifu.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/school/shizuoka.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/voice/</loc>
+	<loc>https://www.pc4353.net/blog/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -169,23 +189,31 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=188</loc>
+	<loc>https://www.pc4353.net/news/20171228/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=177</loc>
+	<loc>https://www.pc4353.net/news/20171222/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=167</loc>
+	<loc>https://www.pc4353.net/news/20171204b/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=164</loc>
+	<loc>https://www.pc4353.net/news/20171204a/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=157</loc>
+	<loc>https://www.pc4353.net/news/20171201/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e4%bc%8a%e4%b8%b9%e9%a7%85%e5%89%8d%e6%95%99%e5%ae%a4-%e5%b9%b4%e8%b3%80%e7%8a%b6%e4%bd%9c%e5%93%81%e5%b1%95%e7%a4%ba%e4%bc%9a/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%80%8c%e3%82%a4%e3%82%aa%e3%83%b3%e6%a9%8b%e6%9c%ac%e6%95%99%e5%ae%a4%e3%80%8d%e5%8f%97%e8%ac%9b%e7%94%9f%e4%bd%9c%e5%93%81%e5%b1%95%e8%a6%a7%e4%bc%9a-%e9%96%8b%e5%82%ac%e5%a0%b1%e5%91%8a/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -194,6 +222,10 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/about.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -329,10 +361,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/magome/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/tsudanuma/</loc>
 	<priority>0.8</priority>
 </url>
@@ -449,6 +477,10 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/keyaki/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/shinibaraki/</loc>
 	<priority>0.8</priority>
 </url>
@@ -494,10 +526,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/higashiosaka/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -597,10 +625,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/chikushino/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/sasaoka/</loc>
 	<priority>0.8</priority>
 </url>
@@ -617,39 +641,107 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/certify/</loc>
+	<loc>https://www.pc4353.net/date/2018/01/?post_type=blog</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/mos/</loc>
+	<loc>https://www.pc4353.net/blog/?category=event</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/voice/senior.php</loc>
+	<loc>https://www.pc4353.net/blog/?category=campaign</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=115</loc>
+	<loc>https://www.pc4353.net/blog/?category=school</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=131</loc>
+	<loc>https://www.pc4353.net/news/20171026/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=100</loc>
+	<loc>https://www.pc4353.net/news/20170908/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=96</loc>
+	<loc>https://www.pc4353.net/news/20170906/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=90</loc>
+	<loc>https://www.pc4353.net/news/20170809/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?paged=2</loc>
+	<loc>https://www.pc4353.net/news/20170807/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/page/2/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/page/3/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/qa.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/about.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/contact.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/course.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/voice.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/apply.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/doc_contact.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/certify.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/mos.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/win10.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/junior.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/recruit.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -701,15 +793,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/images/201802cp1.pdf</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/nakano/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nakano/iphone.php</loc>
+	<loc>https://www.pc4353.net/nakano/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nakano/recruit.php</loc>
+	<loc>https://www.pc4353.net/nakano/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -765,11 +861,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/jiyugaoka/iphone.php</loc>
+	<loc>https://www.pc4353.net/jiyugaoka/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/jiyugaoka/recruit.php</loc>
+	<loc>https://www.pc4353.net/jiyugaoka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -825,11 +921,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/jinbocho/iphone.php</loc>
+	<loc>https://www.pc4353.net/jinbocho/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/jinbocho/recruit.php</loc>
+	<loc>https://www.pc4353.net/jinbocho/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -885,11 +981,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/takenotsuka/iphone.php</loc>
+	<loc>https://www.pc4353.net/takenotsuka/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/takenotsuka/recruit.php</loc>
+	<loc>https://www.pc4353.net/takenotsuka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -945,11 +1041,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kanamati/iphone.php</loc>
+	<loc>https://www.pc4353.net/kanamati/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kanamati/recruit.php</loc>
+	<loc>https://www.pc4353.net/kanamati/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1005,11 +1101,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kameari/iphone.php</loc>
+	<loc>https://www.pc4353.net/kameari/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kameari/recruit.php</loc>
+	<loc>https://www.pc4353.net/kameari/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1065,11 +1161,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kameariario/iphone.php</loc>
+	<loc>https://www.pc4353.net/kameariario/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kameariario/recruit.php</loc>
+	<loc>https://www.pc4353.net/kameariario/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1125,11 +1221,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kasai/iphone.php</loc>
+	<loc>https://www.pc4353.net/kasai/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kasai/recruit.php</loc>
+	<loc>https://www.pc4353.net/kasai/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1185,11 +1281,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/higashiojima/iphone.php</loc>
+	<loc>https://www.pc4353.net/higashiojima/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/higashiojima/recruit.php</loc>
+	<loc>https://www.pc4353.net/higashiojima/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1229,10 +1325,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/oizumi/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/oizumi/win10.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -1245,19 +1337,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/shikaku/biz-online.html</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/oizumi/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/oizumi/iphone.php</loc>
+	<loc>https://www.pc4353.net/oizumi/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/oizumi/recruit.php</loc>
+	<loc>https://www.pc4353.net/oizumi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1313,11 +1401,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nishihachiouji/iphone.php</loc>
+	<loc>https://www.pc4353.net/nishihachiouji/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nishihachiouji/recruit.php</loc>
+	<loc>https://www.pc4353.net/nishihachiouji/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1373,11 +1461,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/fussa/iphone.php</loc>
+	<loc>https://www.pc4353.net/fussa/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/fussa/recruit.php</loc>
+	<loc>https://www.pc4353.net/fussa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1433,11 +1521,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/aitai/iphone.php</loc>
+	<loc>https://www.pc4353.net/aitai/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/aitai/recruit.php</loc>
+	<loc>https://www.pc4353.net/aitai/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1493,11 +1581,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kawasaki/iphone.php</loc>
+	<loc>https://www.pc4353.net/kawasaki/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kawasaki/recruit.php</loc>
+	<loc>https://www.pc4353.net/kawasaki/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1553,11 +1641,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/higashikanagawa/iphone.php</loc>
+	<loc>https://www.pc4353.net/higashikanagawa/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/higashikanagawa/recruit.php</loc>
+	<loc>https://www.pc4353.net/higashikanagawa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1613,11 +1701,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/susukino/iphone.php</loc>
+	<loc>https://www.pc4353.net/susukino/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/susukino/recruit.php</loc>
+	<loc>https://www.pc4353.net/susukino/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1657,10 +1745,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/sagamihara/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/sagamihara/win10.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -1677,11 +1761,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/sagamihara/iphone.php</loc>
+	<loc>https://www.pc4353.net/sagamihara/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/sagamihara/recruit.php</loc>
+	<loc>https://www.pc4353.net/sagamihara/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1733,15 +1817,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/images/201802cp3-2.pdf</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kobuchi/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kobuchi/iphone.php</loc>
+	<loc>https://www.pc4353.net/kobuchi/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kobuchi/recruit.php</loc>
+	<loc>https://www.pc4353.net/kobuchi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1797,11 +1885,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/hashimoto/iphone.php</loc>
+	<loc>https://www.pc4353.net/hashimoto/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/hashimoto/recruit.php</loc>
+	<loc>https://www.pc4353.net/hashimoto/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1853,15 +1941,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/images/201802cp_ebina.pdf</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/ebina/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ebina/iphone.php</loc>
+	<loc>https://www.pc4353.net/ebina/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ebina/recruit.php</loc>
+	<loc>https://www.pc4353.net/ebina/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1917,11 +2009,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/iy-chigasaki/iphone.php</loc>
+	<loc>https://www.pc4353.net/iy-chigasaki/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/iy-chigasaki/recruit.php</loc>
+	<loc>https://www.pc4353.net/iy-chigasaki/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1977,11 +2069,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/isehara/iphone.php</loc>
+	<loc>https://www.pc4353.net/isehara/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/isehara/recruit.php</loc>
+	<loc>https://www.pc4353.net/isehara/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2037,11 +2129,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/njmkamonomiya/iphone.php</loc>
+	<loc>https://www.pc4353.net/njmkamonomiya/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/njmkamonomiya/recruit.php</loc>
+	<loc>https://www.pc4353.net/njmkamonomiya/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2081,10 +2173,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ariokashiwa/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/ariokashiwa/win10.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -2101,11 +2189,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ariokashiwa/iphone.php</loc>
+	<loc>https://www.pc4353.net/ariokashiwa/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ariokashiwa/recruit.php</loc>
+	<loc>https://www.pc4353.net/ariokashiwa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2161,11 +2249,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kamatori/iphone.php</loc>
+	<loc>https://www.pc4353.net/kamatori/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kamatori/recruit.php</loc>
+	<loc>https://www.pc4353.net/kamatori/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2221,11 +2309,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/myoden/iphone.php</loc>
+	<loc>https://www.pc4353.net/myoden/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/myoden/recruit.php</loc>
+	<loc>https://www.pc4353.net/myoden/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2281,11 +2369,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/narita/iphone.php</loc>
+	<loc>https://www.pc4353.net/narita/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/narita/recruit.php</loc>
+	<loc>https://www.pc4353.net/narita/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2341,11 +2429,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kitakogane/iphone.php</loc>
+	<loc>https://www.pc4353.net/kitakogane/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kitakogane/recruit.php</loc>
+	<loc>https://www.pc4353.net/kitakogane/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2401,11 +2489,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ootaka/iphone.php</loc>
+	<loc>https://www.pc4353.net/ootaka/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ootaka/recruit.php</loc>
+	<loc>https://www.pc4353.net/ootaka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2457,15 +2545,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/images/201802cp3-3.pdf</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/nagareyama/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nagareyama/iphone.php</loc>
+	<loc>https://www.pc4353.net/nagareyama/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nagareyama/recruit.php</loc>
+	<loc>https://www.pc4353.net/nagareyama/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2521,11 +2613,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/tokiwadaira/iphone.php</loc>
+	<loc>https://www.pc4353.net/tokiwadaira/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/tokiwadaira/recruit.php</loc>
+	<loc>https://www.pc4353.net/tokiwadaira/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2581,11 +2673,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/matudo/iphone.php</loc>
+	<loc>https://www.pc4353.net/matudo/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/matudo/recruit.php</loc>
+	<loc>https://www.pc4353.net/matudo/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2641,71 +2733,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/funabashi/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/funabashi/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/magome/qa.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/about.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/course.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/voice.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/apply.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/doc_contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/certify.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/mos.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/win10.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/tablet.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/junior.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/magome/recruit.php</loc>
+	<loc>https://www.pc4353.net/funabashi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2761,11 +2793,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/tsudanuma/iphone.php</loc>
+	<loc>https://www.pc4353.net/tsudanuma/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/tsudanuma/recruit.php</loc>
+	<loc>https://www.pc4353.net/tsudanuma/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2821,11 +2853,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/yukari/iphone.php</loc>
+	<loc>https://www.pc4353.net/yukari/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/yukari/recruit.php</loc>
+	<loc>https://www.pc4353.net/yukari/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2881,11 +2913,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/mobara/iphone.php</loc>
+	<loc>https://www.pc4353.net/mobara/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/mobara/recruit.php</loc>
+	<loc>https://www.pc4353.net/mobara/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2937,15 +2969,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/images/201802cp3-1.pdf</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kashiwa/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kashiwa/iphone.php</loc>
+	<loc>https://www.pc4353.net/kashiwa/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kashiwa/recruit.php</loc>
+	<loc>https://www.pc4353.net/kashiwa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3001,11 +3037,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/abiko/iphone.php</loc>
+	<loc>https://www.pc4353.net/abiko/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/abiko/recruit.php</loc>
+	<loc>https://www.pc4353.net/abiko/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3061,11 +3097,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/higashimatsuyama/iphone.php</loc>
+	<loc>https://www.pc4353.net/higashimatsuyama/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/higashimatsuyama/recruit.php</loc>
+	<loc>https://www.pc4353.net/higashimatsuyama/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3121,11 +3157,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/yono/iphone.php</loc>
+	<loc>https://www.pc4353.net/yono/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/yono/recruit.php</loc>
+	<loc>https://www.pc4353.net/yono/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3181,11 +3217,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/iruma/iphone.php</loc>
+	<loc>https://www.pc4353.net/iruma/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/iruma/recruit.php</loc>
+	<loc>https://www.pc4353.net/iruma/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3241,11 +3277,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/minamiurawa/iphone.php</loc>
+	<loc>https://www.pc4353.net/minamiurawa/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/minamiurawa/recruit.php</loc>
+	<loc>https://www.pc4353.net/minamiurawa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3301,11 +3337,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ageo/iphone.php</loc>
+	<loc>https://www.pc4353.net/ageo/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ageo/recruit.php</loc>
+	<loc>https://www.pc4353.net/ageo/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3361,11 +3397,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kawaguchi/iphone.php</loc>
+	<loc>https://www.pc4353.net/kawaguchi/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kawaguchi/recruit.php</loc>
+	<loc>https://www.pc4353.net/kawaguchi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3421,11 +3457,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nishikicho/iphone.php</loc>
+	<loc>https://www.pc4353.net/nishikicho/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nishikicho/recruit.php</loc>
+	<loc>https://www.pc4353.net/nishikicho/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3481,11 +3517,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/misato/iphone.php</loc>
+	<loc>https://www.pc4353.net/misato/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/misato/recruit.php</loc>
+	<loc>https://www.pc4353.net/misato/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3541,11 +3577,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nankoshi/iphone.php</loc>
+	<loc>https://www.pc4353.net/nankoshi/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nankoshi/recruit.php</loc>
+	<loc>https://www.pc4353.net/nankoshi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3601,11 +3637,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kasukabe/iphone.php</loc>
+	<loc>https://www.pc4353.net/kasukabe/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kasukabe/recruit.php</loc>
+	<loc>https://www.pc4353.net/kasukabe/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3661,11 +3697,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/moro/iphone.php</loc>
+	<loc>https://www.pc4353.net/moro/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/moro/recruit.php</loc>
+	<loc>https://www.pc4353.net/moro/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3721,11 +3757,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/tokorozawa/iphone.php</loc>
+	<loc>https://www.pc4353.net/tokorozawa/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/tokorozawa/recruit.php</loc>
+	<loc>https://www.pc4353.net/tokorozawa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3781,11 +3817,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/fukaya/iphone.php</loc>
+	<loc>https://www.pc4353.net/fukaya/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/fukaya/recruit.php</loc>
+	<loc>https://www.pc4353.net/fukaya/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3869,11 +3905,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ryugasaki/iphone.php</loc>
+	<loc>https://www.pc4353.net/ryugasaki/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ryugasaki/recruit.php</loc>
+	<loc>https://www.pc4353.net/ryugasaki/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3925,15 +3961,15 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/akaike/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/akaike/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/akaike/recruit.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/akaike/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3989,11 +4025,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/toyohashi/iphone.php</loc>
+	<loc>https://www.pc4353.net/toyohashi/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/toyohashi/recruit.php</loc>
+	<loc>https://www.pc4353.net/toyohashi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4049,11 +4085,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kamiiida/iphone.php</loc>
+	<loc>https://www.pc4353.net/kamiiida/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kamiiida/recruit.php</loc>
+	<loc>https://www.pc4353.net/kamiiida/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4093,10 +4129,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/owariasahi/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/owariasahi/win10.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -4113,11 +4145,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/owariasahi/iphone.php</loc>
+	<loc>https://www.pc4353.net/owariasahi/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/owariasahi/recruit.php</loc>
+	<loc>https://www.pc4353.net/owariasahi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4173,11 +4205,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/tsushima/iphone.php</loc>
+	<loc>https://www.pc4353.net/tsushima/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/tsushima/recruit.php</loc>
+	<loc>https://www.pc4353.net/tsushima/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4261,11 +4293,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/numadu/iphone.php</loc>
+	<loc>https://www.pc4353.net/numadu/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/numadu/recruit.php</loc>
+	<loc>https://www.pc4353.net/numadu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4305,10 +4337,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/hamamatsu/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/hamamatsu/win10.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -4325,11 +4353,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/hamamatsu/iphone.php</loc>
+	<loc>https://www.pc4353.net/hamamatsu/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/hamamatsu/recruit.php</loc>
+	<loc>https://www.pc4353.net/hamamatsu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4385,11 +4413,71 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/entetsu/recruit.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/entetsu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/entetsu/recruit.php</loc>
+	<loc>https://www.pc4353.net/keyaki/qa.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/about.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/contact.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/course.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/voice.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/apply.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/doc_contact.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/certify.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/mos.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/win10.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/junior.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/instructor.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/keyaki/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4445,11 +4533,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/shinibaraki/iphone.php</loc>
+	<loc>https://www.pc4353.net/shinibaraki/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/shinibaraki/recruit.php</loc>
+	<loc>https://www.pc4353.net/shinibaraki/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4505,11 +4593,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kitasenri/iphone.php</loc>
+	<loc>https://www.pc4353.net/kitasenri/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kitasenri/recruit.php</loc>
+	<loc>https://www.pc4353.net/kitasenri/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4561,15 +4649,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/images/201802cp1_0224.pdf</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kyobashi/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kyobashi/iphone.php</loc>
+	<loc>https://www.pc4353.net/kyobashi/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kyobashi/recruit.php</loc>
+	<loc>https://www.pc4353.net/kyobashi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4625,11 +4717,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/takami/iphone.php</loc>
+	<loc>https://www.pc4353.net/takami/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/takami/recruit.php</loc>
+	<loc>https://www.pc4353.net/takami/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4685,11 +4777,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ohwada/iphone.php</loc>
+	<loc>https://www.pc4353.net/ohwada/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ohwada/recruit.php</loc>
+	<loc>https://www.pc4353.net/ohwada/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4745,11 +4837,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/suita/iphone.php</loc>
+	<loc>https://www.pc4353.net/suita/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/suita/recruit.php</loc>
+	<loc>https://www.pc4353.net/suita/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4805,11 +4897,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/senrioka/iphone.php</loc>
+	<loc>https://www.pc4353.net/senrioka/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/senrioka/recruit.php</loc>
+	<loc>https://www.pc4353.net/senrioka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4869,6 +4961,10 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kadoma/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/koori/qa.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -4921,11 +5017,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/koori/iphone.php</loc>
+	<loc>https://www.pc4353.net/koori/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/koori/recruit.php</loc>
+	<loc>https://www.pc4353.net/koori/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4981,11 +5077,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/higashineyagawa/iphone.php</loc>
+	<loc>https://www.pc4353.net/higashineyagawa/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/higashineyagawa/recruit.php</loc>
+	<loc>https://www.pc4353.net/higashineyagawa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5041,11 +5137,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/wakae/iphone.php</loc>
+	<loc>https://www.pc4353.net/wakae/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/wakae/recruit.php</loc>
+	<loc>https://www.pc4353.net/wakae/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5101,71 +5197,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/higashiosaka/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/higashiosaka/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/yamamoto/qa.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/about.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/course.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/voice.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/apply.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/doc_contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/certify.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/mos.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/win10.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/tablet.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/junior.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/yamamoto/recruit.php</loc>
+	<loc>https://www.pc4353.net/higashiosaka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5221,11 +5257,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/iy-yao/iphone.php</loc>
+	<loc>https://www.pc4353.net/iy-yao/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/iy-yao/recruit.php</loc>
+	<loc>https://www.pc4353.net/iy-yao/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5281,11 +5317,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kokubu/iphone.php</loc>
+	<loc>https://www.pc4353.net/kokubu/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kokubu/recruit.php</loc>
+	<loc>https://www.pc4353.net/kokubu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5341,11 +5377,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ecoll-roze/iphone.php</loc>
+	<loc>https://www.pc4353.net/ecoll-roze/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ecoll-roze/recruit.php</loc>
+	<loc>https://www.pc4353.net/ecoll-roze/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5401,11 +5437,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/koumyouike/iphone.php</loc>
+	<loc>https://www.pc4353.net/koumyouike/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/koumyouike/recruit.php</loc>
+	<loc>https://www.pc4353.net/koumyouike/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5461,11 +5497,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/izumisano/iphone.php</loc>
+	<loc>https://www.pc4353.net/izumisano/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/izumisano/recruit.php</loc>
+	<loc>https://www.pc4353.net/izumisano/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5521,11 +5557,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kitanoda/iphone.php</loc>
+	<loc>https://www.pc4353.net/kitanoda/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kitanoda/recruit.php</loc>
+	<loc>https://www.pc4353.net/kitanoda/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5581,11 +5617,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/abeno/iphone.php</loc>
+	<loc>https://www.pc4353.net/abeno/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/abeno/recruit.php</loc>
+	<loc>https://www.pc4353.net/abeno/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5653,10 +5689,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kawanishi/shikaku.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/kawanishi/win10.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -5673,11 +5705,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kawanishi/iphone.php</loc>
+	<loc>https://www.pc4353.net/kawanishi/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kawanishi/recruit.php</loc>
+	<loc>https://www.pc4353.net/kawanishi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5733,11 +5765,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nishinomiya/iphone.php</loc>
+	<loc>https://www.pc4353.net/nishinomiya/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nishinomiya/recruit.php</loc>
+	<loc>https://www.pc4353.net/nishinomiya/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5793,11 +5825,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/sannomiya/iphone.php</loc>
+	<loc>https://www.pc4353.net/sannomiya/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/sannomiya/recruit.php</loc>
+	<loc>https://www.pc4353.net/sannomiya/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5853,11 +5885,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nishikobe/iphone.php</loc>
+	<loc>https://www.pc4353.net/nishikobe/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nishikobe/recruit.php</loc>
+	<loc>https://www.pc4353.net/nishikobe/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5913,11 +5945,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/koushien/iphone.php</loc>
+	<loc>https://www.pc4353.net/koushien/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/koushien/recruit.php</loc>
+	<loc>https://www.pc4353.net/koushien/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5973,11 +6005,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/itami/iphone.php</loc>
+	<loc>https://www.pc4353.net/itami/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/itami/recruit.php</loc>
+	<loc>https://www.pc4353.net/itami/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6033,11 +6065,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/sakiland/iphone.php</loc>
+	<loc>https://www.pc4353.net/sakiland/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/sakiland/recruit.php</loc>
+	<loc>https://www.pc4353.net/sakiland/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6093,11 +6125,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/akashi/iphone.php</loc>
+	<loc>https://www.pc4353.net/akashi/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/akashi/recruit.php</loc>
+	<loc>https://www.pc4353.net/akashi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6153,11 +6185,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/s-yamashina/iphone.php</loc>
+	<loc>https://www.pc4353.net/s-yamashina/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/s-yamashina/recruit.php</loc>
+	<loc>https://www.pc4353.net/s-yamashina/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6213,11 +6245,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/uzumasa/iphone.php</loc>
+	<loc>https://www.pc4353.net/uzumasa/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/uzumasa/recruit.php</loc>
+	<loc>https://www.pc4353.net/uzumasa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6273,11 +6305,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/naratomigaoka/iphone.php</loc>
+	<loc>https://www.pc4353.net/naratomigaoka/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/naratomigaoka/recruit.php</loc>
+	<loc>https://www.pc4353.net/naratomigaoka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6333,11 +6365,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/narafa/iphone.php</loc>
+	<loc>https://www.pc4353.net/narafa/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/narafa/recruit.php</loc>
+	<loc>https://www.pc4353.net/narafa/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6393,11 +6425,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ecoll-mami/iphone.php</loc>
+	<loc>https://www.pc4353.net/ecoll-mami/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/ecoll-mami/recruit.php</loc>
+	<loc>https://www.pc4353.net/ecoll-mami/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6453,11 +6485,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/minamikusatsu/iphone.php</loc>
+	<loc>https://www.pc4353.net/minamikusatsu/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/minamikusatsu/recruit.php</loc>
+	<loc>https://www.pc4353.net/minamikusatsu/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6513,11 +6545,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/hachiman/iphone.php</loc>
+	<loc>https://www.pc4353.net/hachiman/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/hachiman/recruit.php</loc>
+	<loc>https://www.pc4353.net/hachiman/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6573,71 +6605,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/kitajima/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/kitajima/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/chikushino/qa.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/about.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/course.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/voice.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/apply.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/doc_contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/certify.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/mos.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/win10.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/tablet.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/junior.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/chikushino/recruit.php</loc>
+	<loc>https://www.pc4353.net/kitajima/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6693,11 +6665,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/sasaoka/iphone.php</loc>
+	<loc>https://www.pc4353.net/sasaoka/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/sasaoka/recruit.php</loc>
+	<loc>https://www.pc4353.net/sasaoka/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6753,43 +6725,67 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/nakai/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/nakai/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=55</loc>
+	<loc>https://www.pc4353.net/nakai/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=65</loc>
+	<loc>https://www.pc4353.net/date/2017/12/?post_type=blog</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=58</loc>
+	<loc>https://www.pc4353.net/date/2018/01/22/?post_type=blog</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=68</loc>
+	<loc>https://www.pc4353.net/news/20170622/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=73</loc>
+	<loc>https://www.pc4353.net/news/20170529/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=76</loc>
+	<loc>https://www.pc4353.net/news/20170518/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/?p=78</loc>
+	<loc>https://www.pc4353.net/news/20170516/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/shikaku/biz-online_contact.php</loc>
+	<loc>https://www.pc4353.net/news/20170417/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20170216b/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20170216a/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20170105/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20161227/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20161101/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20160829/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2017/12/06/?post_type=blog</loc>
 	<priority>0.8</priority>
 </url>
 </urlset>

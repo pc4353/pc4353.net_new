@@ -4,7 +4,7 @@
 						
 						<div class="subject clearfix mT10">
 							<p class="mB10"><img src="/images/junior/merit.png" width="632" height="77" alt="お子さまがパソコンを学ぶと、こんなにいいこと" /></p>
-							<h3 class="mB10 mT10"><img src="/images/junior/h3_01.png" width="632" height="30" alt="将来に役立ちます！" /></h3>
+							<h3 class="c-title1">将来に役立ちます！</h3>
 							<div class="section-lv3 clearfix">
 								<div class="box-a">
 									<img class="mB10" src="/images/junior/img_02.jpg" width="200" height="155" alt="将来に役立ちます！" />
@@ -17,7 +17,7 @@
 						</div><!-- /#subject1 -->
 
 						<div class="subject clearfix mT10">
-							<h3 class="mB10 mT10"><img src="/images/junior/h3_02.png" width="632" height="30" alt="自信がつきます！" /></h3>
+							<h3 class="c-title1">自信がつきます！</h3>
 							<div class="section-lv3 clearfix">
 								<div class="box-a">
 									<img class="mB10" src="/images/junior/img_03.jpg" width="200" height="155" alt="自信がつきます！" />
@@ -31,7 +31,7 @@
 
 
 						<div class="subject clearfix mT10">
-							<h3 class="mB10 mT10"><img src="/images/junior/h3_03.png" width="632" height="30" alt="考える力がアップ！" /></h3>
+							<h3 class="c-title1">考える力がアップ！</h3>
 							<div class="section-lv3 clearfix">
 								<div class="box-a">
 									<img class="mB10" src="/images/junior/img_04.jpg" width="200" height="155" alt="考える力がアップ！" />
