@@ -178,11 +178,11 @@ img, .bx-wrapper img { max-width: 100%; height: auto; }
 グローバルメニュー
 =========================================*/
 .l-nav { background: #144288; text-align: center; border-bottom: 4px solid #6191cc; }
-.l-nav li { float: left; width: 190px; font-size: 106.2% !important; }
+.l-nav li { float: left; width: 166px; font-size: 106.2% !important; }
 .l-nav li a { display: block; text-align: center; font-weight: bold; text-decoration: none; border-left: 1px solid #6191cc; color: #fff; padding: 16px 0; position: relative; }
 .l-nav li a:hover { background: #10356d; }
 .l-nav li:last-child a { border-right: 1px solid #6191cc; }
-.l-nav li.li1 { width: 240px; }
+.l-nav li.li1 { width: 170px;	font-size: 93.7% !important; line-height: 1; }
 .l-nav li.active a { background: #10356d; }
 .l-nav li.active a:after { display: block; content: ""; position: absolute; bottom: -4px; left: 50%; margin-left: -10px; background: url(../img/common/nav1_bg1.png) no-repeat center; width: 20px; height: 4px; }
 
@@ -192,7 +192,7 @@ img, .bx-wrapper img { max-width: 100%; height: auto; }
 .accordion li.active ul li a {padding: 0;	font-weight: normal;	font-size: 75% !important;	border-right: 1px solid #6191cc;	border-bottom: 1px solid #6191cc;background: #144288;}
 .accordion li.active ul li a:hover {background: #10356d;}
 .accordion li.active ul li a:after {background: none;}
-.accordion li ul li ul {position: absolute;	left:190px;}
+.accordion li ul li ul {position: absolute;	left:166px;}
 .accordion li ul li ul.tohoku {top:0;}
 .accordion li ul li ul.kanto {top:30px;}
 .accordion li ul li ul.chubu {top:60px;}
@@ -425,8 +425,8 @@ img, .bx-wrapper img { max-width: 100%; height: auto; }
 .p-side1__block1 table td a { color: #333; text-decoration: none; }
 .p-side1__block1 table thead td.current_month { font-size: 100%; font-weight: bold; text-align: center; }
 .p-side1__block1 table thead th { color: #333; background: #C0D3E9; }
-.p-side1__block1 table thead th:nth-child(1) { background: #FF4D4D; color: #fff; }
-.p-side1__block1 table thead th:nth-child(7) { background: #6693CC; color: #fff; }
+.p-side1__block1 table thead th:nth-child(6) { background: #6693CC; color: #fff; }
+.p-side1__block1 table thead th:nth-child(7) { background: #FF4D4D; color: #fff; }
 .p-side1__block1 table tbody th,
 .p-side1__block1 table tbody td { background: #eee; text-align: center; }
 .p-side1__block1 table tbody th span,

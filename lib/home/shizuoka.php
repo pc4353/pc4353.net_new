@@ -1,4 +1,4 @@
-<h3 id="shizuoka" class="c-title1">静岡県</h3>
+<h3 id="shizuoka" class="c-title1"><a href="/school/shizuoka.php">静岡県</a></h3>
 <ul class="clearfix">
 	<li><img src="images/numadu.jpg" width="80" alt="沼津イシバシプラザ教室" />
 	<h4><a href="/numadu/">沼津イシバシプラザ教室</a></h4>

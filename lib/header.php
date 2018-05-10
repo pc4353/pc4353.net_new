@@ -170,9 +170,32 @@ $(document).ready(function(){
 		pager: true,
 		buildPager: function(slideIndex){
       switch (slideIndex){
-      <?php if (date("Ymd") <= 20180224) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
+      <?php if (date("Ymd") >= 20180422) : ?>
 <?php
-if ($id == "6015083" || $id == "1001005" || $id == "1001085" || $id == "1001095" || $id == "1001108" || $id == "1001118" || $id == "6015128" || $id == "1001116" ) {
+if ($id == "1001058" ) {
+	//川口
+?>
+        case 0:
+          return '<img src="/images/img-new_thumb.png" width="150" />';
+        case 1:
+          return '<img src="/images/img-web_wari_thumb.jpg" width="150" />';
+        case 2:
+          return '<img src="/images/img-main_thumb01.png" width="150" />';
+        case 3:
+          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
+<?php
+}elseif ($id == "6015130" ){
+?>
+        case 0:
+          return '<img src="/images/img-new_thumb.png" width="150" />';
+        case 1:
+          return '<img src="/images/img-main_thumb01.png" width="150" />';
+        case 2:
+          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
+        case 3:
+          return '<img src="/images/img-main_thumb02.png" width="150" />';
+<?php
+}else{
 ?>
         case 0:
           return '<img src="/images/img-web_wari_thumb.jpg" width="150" />';
@@ -183,75 +206,19 @@ if ($id == "6015083" || $id == "1001005" || $id == "1001085" || $id == "1001095"
         case 3:
           return '<img src="/images/img-main_thumb02.png" width="150" />';
 <?php
-}else{
+}
 ?>
+      <?php endif; ?>
+
+      <?php if (date("Ymd") >= 20180520) : ?>
         case 0:
           return '<img src="/images/img-main_thumb01.png" width="150" />';
         case 1:
           return '<img src="/images/img-main_thumb05.jpg" width="150" />';
         case 2:
           return '<img src="/images/img-main_thumb02.png" width="150" />';
-<?php
-}
-?>
       <?php endif; ?>
-      <?php if (date("Ymd") <= 20180317) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
-<?php
-if ($id == "1001134" ) {
-	//錦糸町3/17まで
-?>
-        case 0:
-          return '<img src="/images/img-new_thumb.png" width="150" />';
-        case 1:
-          return '<img src="/images/img-hayawari_thumb.jpg" width="150" />';
-        case 2:
-          return '<img src="/images/img-main_thumb01.png" width="150" />';
-        case 3:
-          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
-<?php
-}else{
-?>
-        case 0:
-          return '<img src="/images/img-hayawari_thumb.jpg" width="150" />';
-        case 1:
-          return '<img src="/images/img-main_thumb01.png" width="150" />';
-        case 2:
-          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
-        case 3:
-          return '<img src="/images/img-main_thumb02.png" width="150" />';
-<?php
-}
-?>
-      <?php endif; ?>
-      <?php if (date("Ymd") >= 20180318) : ?> <!-- 表示するまでの期間をyyyymmddで記載　-->
-<?php
-if ($id == "1001134" ) {
-	//錦糸町3/31まで
-?>
-        case 0:
-          return '<img src="/images/img-new_thumb.png" width="150" />';
-        case 1:
-          return '<img src="/images/img-oenwari_thumb.jpg" width="150" />';
-        case 2:
-          return '<img src="/images/img-main_thumb01.png" width="150" />';
-        case 3:
-          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
-<?php
-}else{
-?>
-        case 0:
-          return '<img src="/images/img-hayawari_thumb.jpg" width="150" />';
-        case 1:
-          return '<img src="/images/img-main_thumb01.png" width="150" />';
-        case 2:
-          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
-        case 3:
-          return '<img src="/images/img-main_thumb02.png" width="150" />';
-<?php
-}
-?>
-      <?php endif; ?>
-      }
+	  }
     }
 	});
 });

@@ -1,6 +1,6 @@
-<h3 id="tokyo" class="c-title1">東京都</h3>
+<h3 id="tokyo" class="c-title1"><a href="/school/tokyo.php">東京都</a></h3>
 <ul class="clearfix">
-	<li><img src="images/no_img.jpg" width="80" alt="丸井錦糸町教室" />
+	<li><img src="images/kinshicho.jpg" width="80" alt="丸井錦糸町教室" />
 	<h4><a href="/kinshicho/">丸井錦糸町教室</a></h4>
 	<span class="small">〒130-0022　東京都墨田区江東橋3-9-10<br />丸井錦糸町店 5F</span><br /><span class="bold">TEL：03-6659-4345<br />エリア：墨田区</span>
 	<span class="certify_sc2">サーティファイ</span></li>

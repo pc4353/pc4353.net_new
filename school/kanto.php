@@ -12,7 +12,7 @@ include_once('../lib/home/header.php');
 <div class="l-breadcrumb">
 	<ul class="c-wrap">
 		<li><a href="/">パソコン教室なら「パソコン市民講座」</a></li>
-		<li><a href="/school/">全国の教室</a></li>
+		<li><a href="/school/">全国のパソコン教室</a></li>
 		<li><?=$title?></li>
 	</ul>
 </div><!-- /.l-breadcrumb -->
@@ -27,7 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
-	<p>関東エリアには神保町駅前教室や東神奈川教室、柏教室など59件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
+	<p>関東エリアには神保町駅前教室や東神奈川教室、柏教室など57件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="kanto" class="c-title2">関東エリア</h2>
 
 <?php

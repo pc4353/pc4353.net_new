@@ -6,4 +6,6 @@
 <file name="voice.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131580609172727405" remote="131580618600000000" Dst="0" />
 <file name="certify.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131576260989143638" remote="131576266200000000" Dst="0" />
 <file name="mos.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131576268918467169" remote="131576273400000000" Dst="0" />
+<file name="certify_contact_complete.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131690270962369753" remote="131690277000000000" Dst="0" />
+<file name="certify_contact_confirm.php" server="elephant-red-9cf3243993ed3f6f.znlc.jp//pc4353.net/" local="131690270964939900" remote="131690277000000000" Dst="0" />
 </dwsync>

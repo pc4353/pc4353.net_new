@@ -1,4 +1,4 @@
-<h3 id="aichi" class="c-title1">愛知県</h3>
+<h3 id="aichi" class="c-title1"><a href="/school/aichi.php">愛知県</a></h3>
 <ul class="clearfix">
 	<li><img src="images/akaike.jpg" width="80" alt="プライムツリー赤池教室" />
 	<h4><a href="/akaike/">プライムツリー赤池教室</a></h4>

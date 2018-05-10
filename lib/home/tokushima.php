@@ -1,4 +1,4 @@
-<h3 id="tokushima" class="c-title1">徳島県</h3>
+<h3 id="tokushima" class="c-title1"><a href="/school/tokushima.php">徳島県</a></h3>
 <ul class="clearfix">
 	<li><img src="images/kitajima.jpg" width="80" alt="フジグラン北島教室" />
 	<h4><a href="/kitajima/">フジグラン北島教室</a></h4>

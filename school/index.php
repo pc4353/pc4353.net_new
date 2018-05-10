@@ -33,7 +33,7 @@ include_once('../lib/home/header.php');
 <div class="school_list">
 <h2 id="kanto" class="c-title2 ">関東エリア</h2>
 
-<h3 id="tokyo" class="c-title1">東京都</h3>
+<h3 id="tokyo" class="c-title1"><a href="/school/tokyo.php">東京都</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/kinshicho/">丸井錦糸町教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/nakano/">中野マルイ教室</a></h4><span class="certify_sc">サーティファイ</span></li>
@@ -50,7 +50,7 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/fussa/">西友福生教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 </ul>
 
-<h3 id="kanagawa" class="c-title1">神奈川県</h3>
+<h3 id="kanagawa" class="c-title1"><a href="/school/kanagawa.php">神奈川県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/aitai/">センター北あいたい教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/kawasaki/">イトーヨーカドー川崎教室</a></h4><span class="certify_sc">サーティファイ</span></li>
@@ -61,7 +61,6 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/hashimoto/">イオン橋本教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/ebina/">マルイファミリー海老名教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/iy-chigasaki/">イトーヨーカドー茅ヶ崎教室</a></h4><span class="certify_sc">サーティファイ</span></li>
-	<li><h4><a href="/isehara/">いせはらcoma教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/njmkamonomiya/">ノジマ鴨宮教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li class="none"><h4>そうてつローゼン湘南台教室</h4></li>
 	<li class="none"><h4>二俣川教室</h4></li>
@@ -69,9 +68,8 @@ include_once('../lib/home/header.php');
 	<li class="none"><h4>瀬谷教室</h4></li>
 </ul>
 
-<h3 id="chiba" class="c-title1">千葉県</h3>
+<h3 id="chiba" class="c-title1"><a href="/school/chiba.php">千葉県</a></h3>
 <ul class="clearfix">
-	<li><h4><a href="/ariokashiwa/">イトーヨーカドーアリオ柏教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/kamatori/">イオン鎌取教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/myoden/">イオン市川妙典教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/narita/">ボンベルタ成田教室</a></h4><span class="certify_sc">サーティファイ</span></li>
@@ -88,14 +86,14 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/abiko/">アビイクオーレ我孫子教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 </ul>
 
-<h3 id="saitama" class="c-title1">埼玉県</h3>
+<h3 id="saitama" class="c-title1"><a href="/school/saitama.php">埼玉県</a></h3>
 <ul class="clearfix">
+	<li><h4><a href="/kawaguchi/">そごう川口教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/higashimatsuyama/">まるひろ東松山教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/yono/">イオンモール与野教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/iruma/">まるひろ入間教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/minamiurawa/">まるひろ南浦和教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/ageo/">まるひろ上尾教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
-	<li><h4><a href="/kawaguchi/">ザ・プライス川口教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/nishikicho/">イトーヨーカドー錦町教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/misato/">イトーヨーカドー三郷教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/nankoshi/">越谷サンシティ教室</a></h4><span class="certify_sc">サーティファイ</span></li>
@@ -107,7 +105,7 @@ include_once('../lib/home/header.php');
 	<li class="none"><h4>東松山教室</h4></li>
 </ul>
 
-<h3 id="ibaraki" class="c-title1">茨城県</h3>
+<h3 id="ibaraki" class="c-title1"><a href="/school/ibaraki.php">茨城県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/ryugasaki/">イトーヨーカドー竜ヶ崎教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 </ul>
@@ -115,7 +113,7 @@ include_once('../lib/home/header.php');
 
 <h2 id="tohoku" class="c-title2">東北エリア</h2>
 
-<h3 id="fukushima" class="c-title1">福島県</h3>
+<h3 id="fukushima" class="c-title1"><a href="/school/fukushima.php">福島県</a></h3>
 <ul class="clearfix">
 	<li class="none"><h4>会津若松ひのき町教室</h4></li>
 </ul>
@@ -123,7 +121,7 @@ include_once('../lib/home/header.php');
 
 <h2 id="chubu" class="c-title2">中部エリア</h2>
 
-<h3 id="aichi" class="c-title1">愛知県</h3>
+<h3 id="aichi" class="c-title1"><a href="/school/aichi.php">愛知県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/akaike/">プライムツリー赤池教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/toyohashi/">バロー豊橋教室</a></h4><span class="certify_sc">サーティファイ</span></li>
@@ -133,19 +131,19 @@ include_once('../lib/home/header.php');
 	<li class="none"><h4>豊田フランテ館教室</h4></li>
 </ul>
 
-<h3 id="gifu" class="c-title1">岐阜県</h3>
+<h3 id="gifu" class="c-title1"><a href="/school/gifu.php">岐阜県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/tajimi/">ピアゴ多治見教室</a></h4></li>
 </ul>
 
-<h3 id="shizuoka" class="c-title1">静岡県</h3>
+<h3 id="shizuoka" class="c-title1"><a href="/school/shizuoka.php">静岡県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/numadu/">沼津イシバシプラザ教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/hamamatsu/">浜松プラザフレスポ教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/entetsu/">遠鉄百貨店教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 </ul>
 
-<h3 id="niigata" class="c-title1">新潟県</h3>
+<h3 id="niigata" class="c-title1"><a href="/school/niigata.php">新潟県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/keyaki/">NSGけやき通り教室</a></h4></li>
 </ul>
@@ -153,8 +151,9 @@ include_once('../lib/home/header.php');
 
 <h2 id="kansai" class="c-title2">関西エリア</h2>
 
-<h3 id="osaka" class="c-title1">大阪府</h3>
+<h3 id="osaka" class="c-title1"><a href="/school/osaka.php">大阪府</a></h3>
 <ul class="clearfix">
+	<li><h4><a href="/senrichuou/">千里中央駅前教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/shinibaraki/">イオンスタイル新茨木教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/kitasenri/">イオン北千里教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/kyobashi/">イオン京橋教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
@@ -171,17 +170,14 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/kokubu/">ライフ国分教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/ecoll-roze/">エコール・ロゼ教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/koumyouike/">ダイエー光明池教室</a></h4><span class="certify_sc">サーティファイ</span></li>
-	<li><h4><a href="/izumisano/">イズミヤ泉佐野教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/kitanoda/">ダイエー北野田教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/abeno/">イトーヨーカドーあべの教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
-	<li><h4><a href="/senrichuou/">千里中央教室</a></h4></li>
 	<li class="none"><h4>新大阪リビング教室</h4></li>
 	<li class="none"><h4>箕面教室</h4></li>
 	<li class="none"><h4>豊中リビング教室</h4></li>
-	<li class="none"><h4>ベルマージュ堺教室</h4></li>
 </ul>
 
-<h3 id="hyogo" class="c-title1">兵庫県</h3>
+<h3 id="hyogo" class="c-title1"><a href="/school/hyogo.php">兵庫県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/kawanishi/">アステ川西教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/nishinomiya/">イオン西宮教室</a></h4><span class="certify_sc">サーティファイ</span></li>
@@ -193,20 +189,20 @@ include_once('../lib/home/header.php');
 	<li><h4><a href="/akashi/">イトーヨーカドー明石教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 </ul>
 
-<h3 id="kyoto" class="c-title1">京都府</h3>
+<h3 id="kyoto" class="c-title1"><a href="/school/kyoto.php">京都府</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/s-yamashina/">西友山科教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/uzumasa/">ライフ太秦教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 </ul>
 
-<h3 id="nara" class="c-title1">奈良県</h3>
+<h3 id="nara" class="c-title1"><a href="/school/nara.php">奈良県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/naratomigaoka/">イオンモール奈良登美ヶ丘教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/narafa/">ならファミリー教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/ecoll-mami/">エコール・マミ教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 </ul>
 
-<h3 id="shiga" class="c-title1">滋賀県</h3>
+<h3 id="shiga" class="c-title1"><a href="/school/shiga.php">滋賀県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/minamikusatsu/">フェリエ南草津教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>
 	<li><h4><a href="/hachiman/">アル・プラザ近江八幡教室</a></h4><span class="certify_sc">サーティファイ</span></li>
@@ -215,17 +211,17 @@ include_once('../lib/home/header.php');
 
 <h2 id="seibu" class="c-title2">中国・四国・九州エリア</h2>
 
-<h3 id="okayama" class="c-title1">岡山県</h3>
+<h3 id="okayama" class="c-title1"><a href="/school/okayama.php">岡山県</a></h3>
 <ul class="clearfix">
 	<li class="none"><h4>高梁教室</h4></li>
 </ul>
 
-<h3 id="tokushima" class="c-title1">徳島県</h3>
+<h3 id="tokushima" class="c-title1"><a href="/school/tokushima.php">徳島県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/kitajima/">フジグラン北島教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 </ul>
 
-<h3 id="fukuoka" class="c-title1">福岡県</h3>
+<h3 id="fukuoka" class="c-title1"><a href="/school/fukuoka.php">福岡県</a></h3>
 <ul class="clearfix">
 	<li><h4><a href="/sasaoka/">イオンスタイル笹丘教室</a></h4><span class="certify_sc">サーティファイ</span></li>
 	<li><h4><a href="/nakai/">スピナマート中井教室</a></h4><span class="certify_sc">サーティファイ</span><span class="mos_sc">MOS</span></li>

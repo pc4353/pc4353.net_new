@@ -1,4 +1,4 @@
-<h3 id="shiga" class="c-title1">滋賀県</h3>
+<h3 id="shiga" class="c-title1"><a href="/school/shiga.php">滋賀県</a></h3>
 <ul class="clearfix">
 	<li><img src="images/minamikusatsu.jpg" width="80" alt="フェリエ南草津教室" />
 	<h4><a href="/minamikusatsu/">フェリエ南草津教室</a></h4>

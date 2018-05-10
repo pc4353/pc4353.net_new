@@ -31,13 +31,11 @@ $body .= "[メ ー ル]　" . $mail . "\n";
 $body .= "[年　　代]　" . $old . "\n";
 $body .= "[無料説明会希望日]　" . $nichiji_1 . "月" . $nichiji_2 . "日　" . $nichiji_3 . "\n";
 $body .= "[ご質問等]\n" . $question . "\n";
-if (date("Ymd") <= 20180224){
-	if ($rid == "6015083" || $rid == "1001005" || $rid == "1001085" || $rid == "1001095" || $rid == "1001108" || $rid == "1001118" || $rid == "6015128" || $rid == "1001116" ) {
+if (date("Ymd") <= 20180519){
 $body .= "\n■ウェブ申込み特典対象■\n";
-$body .= "2018年1月22日から2月キャンペーン終了期間までの間\n";
+$body .= "2018年4月22日から5月キャンペーン終了期間までの間\n";
 $body .= "ウェブサイトのメールフォームよりお問い合わせいただいた方には\n";
 $body .= "ウェブ申込み特典として、2時間分の無料受講券を進呈してください\n";
-	}
 }
 $ua=$_SERVER['HTTP_USER_AGENT'];
   if((strpos($ua,'iPhone')!==false)||(strpos($ua,'iPod')!==false)||(strpos($ua,'Android')!==false)) {
@@ -72,6 +70,22 @@ include_once("../lib/header_contact.php");
                 </div><!-- /#toiawase_form -->
 				</div><!-- /.block -->
 				</div><!-- /#kasou -->
+
+<!-- Google Code for &#28961;&#26009;&#20307;&#39443; Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 811459992;
+var google_conversion_label = "ObaJCMaaoH8QmMv3ggM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/811459992/?label=ObaJCMaaoH8QmMv3ggM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 
 <!-- Yahoo Code for &#28961;&#26009;&#20307;&#39443;&#30003;&#36796; Conversion Page -->
 <script type="text/javascript">

@@ -1,5 +1,10 @@
-<h3 id="osaka" class="c-title1">大阪府</h3>
+<h3 id="osaka" class="c-title1"><a href="/school/osaka.php">大阪府</a></h3>
 <ul class="clearfix">
+	<li><img src="images/senrichuou.jpg" width="80" alt="千里中央駅前教室" />
+	<h4><a href="/senrichuou/">千里中央駅前教室</a></h4>
+	<span class="small">〒560-0082　大阪府豊中市新千里東町1-1-1<br />オトカリテ 3F 315</span><br /><span class="bold">TEL：06-6170-7480<br />エリア：豊中市</span>
+	<span class="certify_sc2">サーティファイ</span></li>
+
 	<li><img src="images/shinibaraki.jpg" width="80" alt="イオンスタイル新茨木教室" />
 	<h4><a href="/shinibaraki/">イオンスタイル新茨木教室</a></h4>
 	<span class="small">〒567-0824　大阪府茨木市中津町18-1<br />イオンスタイル新茨木店 3F</span><br /><span class="bold">TEL：072-646-7997<br />エリア：茨木市</span>
@@ -80,11 +85,6 @@
 	<span class="small">〒594-1101　大阪府和泉市室堂町841-1<br />ダイエー光明池店　3F</span><br /><span class="bold">TEL：0725-56-4355<br />エリア：和泉市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
-	<li><img src="images/izumisano.jpg" width="80" alt="イズミヤ泉佐野教室" />
-	<h4><a href="/izumisano/">イズミヤ泉佐野教室</a></h4>
-	<span class="small">〒598-0033　大阪府泉佐野市南中安松774<br />イズミヤ泉佐野店　1F</span><br /><span class="bold">TEL：072-465-5911<br />エリア：泉佐野市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
 	<li><img src="images/kitanoda.jpg" width="80" alt="ダイエー北野田教室" />
 	<h4><a href="/kitanoda/">ダイエー北野田教室</a></h4>
 	<span class="small">〒599-8122　大阪府堺市東区丈六183-18<br />ダイエー北野田店　2F</span><br /><span class="bold">TEL：072-236-1730<br />エリア：堺市</span>
@@ -94,10 +94,6 @@
 	<h4><a href="/abeno/">イトーヨーカドーあべの教室</a></h4>
 	<span class="small">〒545-0052　大阪府大阪市阿倍野区阿倍野筋1-6-1<br />イトーヨーカドーあべの店　2F</span><br /><span class="bold">TEL：06-6556-7555<br />エリア：大阪市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
-
-	<li><img src="images/senrichuou.jpg" width="80" alt="千里中央教室" />
-	<h4><a href="/senrichuou/">千里中央教室</a></h4>
-	<span class="small">〒560-0082　大阪府豊中市新千里東町1-1-1<br />オトカリテ 315</span><br /><span class="bold">TEL：06-6873-0003<br />エリア：豊中市</span></li>
 
 	<li class="none"><img src="images/no_img.jpg" width="80" alt="写真準備中" />
 	<h4>新大阪リビング教室</h4>
@@ -110,9 +106,5 @@
 	<li class="none"><img src="images/no_img.jpg" width="80" alt="写真準備中" />
 	<h4>豊中リビング教室</h4>
 	<span class="small">〒560-0001　大阪府豊中市北緑ヶ丘2-1-22棟101号<br />関西スーパー専門店街</span><br /><span class="bold">TEL：06-6854-2468<br />エリア：豊中市</span></li>
-
-	<li class="none"><img src="images/no_img.jpg" width="80" alt="写真準備中" />
-	<h4>ベルマージュ堺教室</h4>
-	<span class="small">〒590-0014　大阪府堺市堺区田出井町1-1-100<br />ベルマージュ堺 1F　109号</span><br /><span class="bold">TEL：072-225-3770<br />エリア：堺市</span></li>
 </ul>
 

@@ -58,7 +58,7 @@ if( ereg( "cp2", $_SERVER["SCRIPT_NAME"])){
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
-<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="description" content="初心者のための個別学習型パソコン教室。パソコン市民講座 <?=$room[$id][name]?>教室。" />
 <meta name="keywords" content="パソコン市民講座,<?=$room[$id][name]?>教室,pc4353,日本パソコン普及協会,パソコン教室,パソコンスクール,PC教室,初心者,パソコン検定,P検,パソコン資格" />
 <title><?=$title.$sep?>パソコン市民講座 <?=$room[$id][name]?>教室</title>

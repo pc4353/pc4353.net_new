@@ -286,7 +286,7 @@
 <ul>
 	<li class="first01"><a href="/">トップページ</a></li>
 	<li><a href="/merit.php">パソコン市民講座の特長</a></li>
-	<li><a href="/school/">全国の教室</a></li>
+	<li><a href="/school/">全国のパソコン教室</a></li>
 	<li><a href="/premiere.php">プレミア倶楽部の紹介</a></li>
 </ul>
 </div>

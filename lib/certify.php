@@ -139,7 +139,7 @@
 
 
     <div class="cert_btn1 u-center">
-        <a href="/<?=$room[$id][dir]?>/contact.php"><img src="/certify/images/btn1.png" width="689" height="70" alt="教室へのお問合わせはコチラ" /></a>
+        <a href="#toiawase_form"><img src="/certify/images/btn1.png" width="689" height="70" alt="教室へのお問合わせはコチラ" /></a>
     </div>
 
 
@@ -211,7 +211,7 @@
 
 
         <div class="cert_btn1 u-center">
-            <a href="/<?=$room[$id][dir]?>/contact.php"><img src="/certify/images/btn1.png" width="689" height="70" alt="教室へのお問合わせはコチラ" /></a>
+            <a href="#toiawase_form"><img src="/certify/images/btn1.png" width="689" height="70" alt="教室へのお問合わせはコチラ" /></a>
         </div>
 
     </div><!-- /.p-mos3 -->
@@ -255,7 +255,7 @@
 
 
             <div class="cert_btn1 u-center">
-                <a href="/<?=$room[$id][dir]?>/contact.php"><img src="/certify/images/btn1.png" width="689" height="70" alt="教室へのお問合わせはコチラ" /></a>
+                <a href="#toiawase_form"><img src="/certify/images/btn1.png" width="689" height="70" alt="教室へのお問合わせはコチラ" /></a>
             </div>
 
         </div>
@@ -369,12 +369,154 @@
 
 
     <div class="cert_btn1 u-center">
-        <a href="/<?=$room[$id][dir]?>/contact.php"><img src="/certify/images/btn1.png" width="689" height="70" alt="教室へのお問合わせはコチラ" /></a>
+        <a href="#toiawase_form"><img src="/certify/images/btn1.png" width="689" height="70" alt="教室へのお問合わせはコチラ" /></a>
     </div>
 
 
 
 </div><!-- /.p-cert -->
+
+                <div id="toiawase_form">
+					<div class="i-pt clearfix mR10">
+						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料説明会のお申し込みフォーム</h2>
+                        <div class="mB20"><img src="/images/img-form_step1.jpg" width="810" height="55" alt="お客様情報入力" /></div>
+						<p><span class="red">必須</span>項目は必ずご入力お願いいたします。</p>
+						<div class="section-lv2 contact">
+						<form action="/<?=$room[$id][dir]?>/certify_contact_confirm.php" method="post">
+<table class="inq_form">
+<tr>
+	<th>お申込教室</th>
+	<td><?=$room[$id][name]?>教室</td>
+</tr>
+<tr>
+	<th>お名前　<span class="red">必須</span></th>
+	<td>例）市民花子<br /><input type="text" value="" name="name" maxlength="20" size="40" class="form_input01"></td>
+</tr>
+<tr>
+	<th>フリガナ　<span class="red">必須</span></th>
+	<td>例）シミンハナコ<br /><input type="text" value="" name="kana" maxlength="20" size="40" class="form_input01"></td>
+</tr>
+<tr>
+	<th>電話番号（携帯可）　<span class="red">必須</span></th>
+	<td>例）09012345678<br /><input type="text" value="" name="phone" maxlength="15" size="30" class="form_input02"></td>
+</tr>
+<tr>
+	<th>メールアドレス</th>
+	<td>例）example@pc4353.com<br /><input type="text" value="" name="mail" maxlength="100" size="40">
+	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
+	</td>
+</tr>
+<tr>
+	<th>年代</th>
+	<td><ul class="old clearfix">
+    <li><label><input type="radio" class="nBn" value="10代" name="old"> 10代</label></li>
+	<li><label><input type="radio" class="nBn" value="20代" name="old"> 20代</label></li>
+	<li><label><input type="radio" class="nBn" value="30代" name="old"> 30代</label></li>
+    <li><label><input type="radio" class="nBn" value="40代" name="old"> 40代</label></li>
+	<li><label><input type="radio" class="nBn" value="50代" name="old"> 50代</label></li>
+	<li><label><input type="radio" class="nBn" value="60代" name="old"> 60代</label></li>
+    <li><label><input type="radio" class="nBn" value="70代" name="old"> 70代</label></li>
+	<li><label><input type="radio" class="nBn" value="80代" name="old"> 80代</label></li>
+	</ul></td>
+</tr>
+<tr>
+	<th>無料説明会希望日　<span class="red">必須</span></th>
+    <td><select name="nichiji_1">
+    	<option value="">&nbsp;</option>
+    	<option value="1">1</option>
+    	<option value="2">2</option>
+    	<option value="3">3</option>
+    	<option value="4">4</option>
+    	<option value="5">5</option>
+    	<option value="6">6</option>
+    	<option value="7">7</option>
+    	<option value="8">8</option>
+    	<option value="9">9</option>
+    	<option value="10">10</option>
+    	<option value="11">11</option>
+    	<option value="12">12</option>
+        </select>月&nbsp;
+        <select name="nichiji_2">
+    	<option value="">&nbsp;</option>
+    	<option value="1">1</option>
+    	<option value="2">2</option>
+    	<option value="3">3</option>
+    	<option value="4">4</option>
+    	<option value="5">5</option>
+    	<option value="6">6</option>
+    	<option value="7">7</option>
+    	<option value="8">8</option>
+    	<option value="9">9</option>
+    	<option value="10">10</option>
+    	<option value="11">11</option>
+    	<option value="12">12</option>
+    	<option value="13">13</option>
+    	<option value="14">14</option>
+    	<option value="15">15</option>
+    	<option value="16">16</option>
+    	<option value="17">17</option>
+    	<option value="18">18</option>
+    	<option value="19">19</option>
+    	<option value="20">20</option>
+    	<option value="21">21</option>
+    	<option value="22">22</option>
+    	<option value="23">23</option>
+    	<option value="24">24</option>
+    	<option value="25">25</option>
+    	<option value="26">26</option>
+    	<option value="27">27</option>
+    	<option value="28">28</option>
+    	<option value="29">29</option>
+    	<option value="30">30</option>
+    	<option value="31">31</option>
+        </select>日&nbsp;
+        <select name="nichiji_3">
+    	<option value="">&nbsp;</option>
+    	<option value="午前">午前</option>
+    	<option value="午後">午後</option>
+        </select>
+	<?php
+	if( $room[$rid][close] == "0" ) {
+    ?>
+        <p class="red">※後程、お電話にてお時間の確認をさせていただきます。<br />
+		なお、ご連絡には少々お時間をいただく場合がありますので、お急ぎの方は直接、お電話でお申し込みください。</p>
+	<?php
+	} else {
+    //休校日ありver
+    ?>
+        <p class="red"><strong>※希望日は本日から2日後以降としてください。</strong><br />
+        ※後程、お電話にてお時間の確認をさせていただきます。<br />
+        ※お急ぎの方は直接、お電話でお申し込みください。</p>
+	<?php
+	}
+    ?>
+        </td>
+</tr>
+<tr>
+	<th id="timetable">開講時間</th>
+	<td><?=$room[$id][open]?></td>
+</tr>
+<tr>
+	<th>ご質問など</th>
+	<td><textarea name="question" rows="8" cols="44" class="form_input01"></textarea></td>
+</tr>
+</table>
+						<p class="sp3 center mT10"><input class="file over1" type="image" src="/images/btn-inq_confirm.jpg" width="500" height="70"/></p>
+						<input type="hidden" value="1" name="step" />
+						</form>
+<table width="135" border="0" cellpadding="2" cellspacing="0" title="このマークは、ウェブサイトを安心してご利用いただける安全の証です。">
+<tr>
+<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.websecurity.norton.com/getseal?host_name=www.pc4353.net&amp;size=M&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script><br /> <a href="http://www.symantec.com/ja/jp/ssl-certificates/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSL/TLSとは？</a></td>
+</tr>
+</table>
+						</div><!-- /.section-lv2 -->
+						<p class="mT25 mB20">当社の<a href="https://www.pc4353.net/privacy.php" target="_blank">プライバシーポリシー</a>を十分にご確認いただいた上で、お問い合わせください。</p>
+					</div><!-- /.i-pt -->
+                </div><!-- /#toiawase_form -->
+					
+
+					<?php /*<div class="back-top mR20"><a class="moz2" href="#header">ページトップへ</a></div>*/?>
+
 				</div><!-- /#.block -->
 				</div><!-- /#kasou -->
           </div><!-- #main-->

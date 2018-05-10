@@ -1,4 +1,4 @@
-<h3 id="hyogo" class="c-title1">兵庫県</h3>
+<h3 id="hyogo" class="c-title1"><a href="/school/hyogo.php">兵庫県</a></h3>
 <ul class="clearfix">
 	<li><img src="images/kawanishi.jpg" width="80" alt="アステ川西教室" />
 	<h4><a href="/kawanishi/">アステ川西教室</a></h4>

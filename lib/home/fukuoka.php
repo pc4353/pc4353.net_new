@@ -1,4 +1,4 @@
-<h3 id="fukuoka" class="c-title1">福岡県</h3>
+<h3 id="fukuoka" class="c-title1"><a href="/school/fukuoka.php">福岡県</a></h3>
 <ul class="clearfix">
 	<li><img src="images/sasaoka.jpg" width="80" alt="イオンスタイル笹丘教室" />
 	<h4><a href="/sasaoka/">イオンスタイル笹丘教室</a></h4>

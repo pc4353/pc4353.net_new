@@ -67,18 +67,21 @@ if (!$home) {
 						<li class="c-link2"><a href="/tablet/">タブレット・スマートフォン</a></li>
 					</ul>
 				</li>
+				<li class="c-link1"><a href="/shikaku/">資格対策講座</a></li>
 			</ul>
 			<ul>
-				<li class="c-link1"><a href="/school/">全国の教室</a></li>
+				<li class="c-link1"><a href="/school/">全国のパソコン教室</a></li>
 				<li class="c-link1"><a href="/contact/">無料体験のお申込み</a></li>
 				<li class="c-link1"><a href="/contact/">資料請求</a></li>
 			</ul>
 			<ul>
 				<li class="c-link1"><a href="/voice/works.php">受講生の声</a></li>
+				<li class="c-link1"><a href="/blog/">教室ブログ</a></li>
 				<?php /*<li class="c-link1"><a href="/">受講生作品</a></li>
 				<li class="c-link1"><a href="/">授業風景</a></li>*/?>
 				<li class="c-link1"><a href="/instructor/">インストラクターインタビュー</a></li>
 				<li class="c-link1"><a href="/qa.php">よくあるご質問</a></li>
+				<li class="c-link1"><a href="https://www.facebook.com/pc4353/" target="_blank">公式Facebookページ</a></li>
 				<li class="c-link1"><a href="/contact/">お問い合わせ</a></li>
 			</ul>
 		</div><!-- /.l-footer2__block1 -->
@@ -94,7 +97,7 @@ if (!$home) {
 						<li class="c-link2"><a href="/gakuwari/">学生割引制度について</a></li>
 					</ul>
 				</li>
-				<li class="c-link1"><a href="/school/">全国の教室</a></li>
+				<li class="c-link1"><a href="/school/">全国のパソコン教室</a></li>
 				<li class="c-link1">
 					<a href="/course/">講座一覧</a>
 					<ul>
@@ -108,10 +111,12 @@ if (!$home) {
 				</li>
                 <li class="c-link1"><a href="/shikaku/">資格対策講座</a></li>
 				<li class="c-link1"><a href="/voice/works.php">受講生の声</a></li>
+				<li class="c-link1"><a href="/blog/">教室ブログ</a></li>
 				<?php /*<li class="c-link1"><a href="/">受講生作品</a></li>
 				<li class="c-link1"><a href="/">授業風景</a></li>*/?>
 				<li class="c-link1"><a href="/instructor/">インストラクターインタビュー</a></li>
 				<li class="c-link1"><a href="/qa.php">よくあるご質問</a></li>
+				<li class="c-link1"><a href="https://www.facebook.com/pc4353/" target="_blank">公式Facebookページ</a></li>
 			</ul>
 		</div><!-- /.l-footer2__block1 -->
 

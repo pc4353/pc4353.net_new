@@ -1,4 +1,4 @@
-<h3 id="okayama" class="c-title1">岡山県</h3>
+<h3 id="okayama" class="c-title1"><a href="/school/okayama.php">岡山県</a></h3>
 <ul class="clearfix">
 	<li class="none"><img src="images/no_img.jpg" width="80" alt="写真準備中" />
 	<h4>高梁教室</h4>

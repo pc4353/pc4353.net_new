@@ -1,4 +1,4 @@
-<h3 id="ibaraki" class="c-title1">茨城県</h3>
+<h3 id="ibaraki" class="c-title1"><a href="/school/ibaraki.php">茨城県</a></h3>
 <ul class="clearfix">
 	<li><img src="images/ryugasaki.jpg" width="80" alt="イトーヨーカドー竜ヶ崎教室" />
 	<h4><a href="/ryugasaki/">イトーヨーカドー竜ヶ崎教室</a></h4>

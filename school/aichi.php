@@ -12,7 +12,7 @@ include_once('../lib/home/header.php');
 <div class="l-breadcrumb">
 	<ul class="c-wrap">
 		<li><a href="/">パソコン教室なら「パソコン市民講座」</a></li>
-		<li><a href="/school/">全国の教室</a></li>
+		<li><a href="/school/">全国のパソコン教室</a></li>
 		<li><?=$title?></li>
 	</ul>
 </div><!-- /.l-breadcrumb -->

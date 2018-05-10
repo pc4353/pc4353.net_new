@@ -1,4 +1,4 @@
-<h3 id="kanagawa" class="c-title1">神奈川県</h3>
+<h3 id="kanagawa" class="c-title1"><a href="/school/kanagawa.php">神奈川県</a></h3>
 <ul class="clearfix">
 	<li><img src="images/aitai.jpg" width="80" alt="センター北あいたい教室" />
 	<h4><a href="/aitai/">センター北あいたい教室</a></h4>
@@ -43,11 +43,6 @@
 	<li><img src="images/iy-chigasaki.jpg" width="80" alt="イトーヨーカドー茅ヶ崎教室" />
 	<h4><a href="/iy-chigasaki/">イトーヨーカドー茅ヶ崎教室</a></h4>
 	<span class="small">〒253-0044　神奈川県茅ヶ崎市新栄町11-8<br />イトーヨーカドー茅ヶ崎店　5F</span><br /><span class="bold">TEL：0467-87-5544<br />エリア：茅ヶ崎市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
-	<li><img src="images/isehara.jpg" width="80" alt="いせはらcoma教室" />
-	<h4><a href="/isehara/">いせはらcoma教室</a></h4>
-	<span class="small">〒259-1132　神奈川県伊勢原市桜台1-3-3<br />いせはらcoma 4階</span><br /><span class="bold">TEL：0463-92-9555<br />エリア：伊勢原市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/njmkamonomiya.jpg" width="80" alt="ノジマ鴨宮教室" />

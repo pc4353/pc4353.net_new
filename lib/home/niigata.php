@@ -1,4 +1,4 @@
-<h3 id="niigata" class="c-title1">新潟県</h3>
+<h3 id="niigata" class="c-title1"><a href="/school/niigata.php">新潟県</a></h3>
 <ul class="clearfix">
 	<li><img src="images/no_img.jpg" width="80" alt="NSGけやき通り教室" />
 	<h4><a href="/keyaki/">NSGけやき通り教室</a></h4>

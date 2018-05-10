@@ -1,6 +1,6 @@
 ﻿
 function dispgmap() {
-    var latlng = new google.maps.LatLng(35.8028803,139.7208077);
+    var latlng = new google.maps.LatLng(35.803060,139.718569);
     var myOptions = {
       zoom: 15,
       center: latlng,

@@ -1,10 +1,5 @@
-<h3 id="chiba" class="c-title1">千葉県</h3>
+<h3 id="chiba" class="c-title1"><a href="/school/chiba.php">千葉県</a></h3>
 <ul class="clearfix">
-	<li><img src="images/ariokashiwa.jpg" width="80" alt="イトーヨーカドーアリオ柏教室" />
-	<h4><a href="/ariokashiwa/">イトーヨーカドーアリオ柏教室</a></h4>
-	<span class="small">〒277-0922　千葉県柏市大島田1丁目6番地1<br />イトーヨーカドーアリオ柏店 2階</span><br /><span class="bold">TEL：04-7179-5432<br />エリア：柏市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
 	<li><img src="images/kamatori.jpg" width="80" alt="イオン鎌取教室" />
 	<h4><a href="/kamatori/">イオン鎌取教室</a></h4>
 	<span class="small">〒266-0031　千葉県千葉市緑区おゆみ野3-16-1<br />イオン鎌取店　5階</span><br /><span class="bold">TEL：043-312-6257<br />エリア：千葉市</span>

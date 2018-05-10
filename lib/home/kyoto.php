@@ -1,4 +1,4 @@
-<h3 id="kyoto" class="c-title1">京都府</h3>
+<h3 id="kyoto" class="c-title1"><a href="/school/kyoto.php">京都府</a></h3>
 <ul class="clearfix">
 	<li><img src="images/s-yamashina.jpg" width="80" alt="西友山科教室" />
 	<h4><a href="/s-yamashina/">西友山科教室</a></h4>

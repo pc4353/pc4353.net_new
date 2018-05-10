@@ -35,7 +35,7 @@ include_once('lib/home/header.php');
 		<li><a href="/course/hobby.php">趣味で楽しみたい！</a></li>
 		<li><a href="/course/qualification.php">資格を習得したい！</a></li>
 	</ul></li>
-	<li><a href="/school/">全国の教室</a></li>
+	<li><a href="/school/">全国のパソコン教室</a></li>
 	<li><a href="/voice/">受講生の声</a></li>
 	<li><a href="/instructor/">インストラクター紹介</a></li>
 	<li><a href="/merit.php">パソコン市民講座の特長</a></li>

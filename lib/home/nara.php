@@ -1,4 +1,4 @@
-<h3 id="nara" class="c-title1">奈良県</h3>
+<h3 id="nara" class="c-title1"><a href="/school/nara.php">奈良県</a></h3>
 <ul class="clearfix">
 	<li><img src="images/naratomigaoka.jpg" width="80" alt="イオンモール奈良登美ヶ丘教室" />
 	<h4><a href="/naratomigaoka/">イオンモール奈良登美ヶ丘教室</a></h4>

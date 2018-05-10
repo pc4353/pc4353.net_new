@@ -136,8 +136,8 @@ if ($home) {
 		<li<?php if($pageId=="voice"){echo ' class="active"';} ?>><a href="/voice/works.php">受講生の声</a></li>
 	</ul> -->
 <ul class="accordion c-wrap pc-only">
-		<li class="li1<?php if($pageId=="overview"){echo ' active';} ?>"><a href="/overview.php">パソコン市民講座について</a></li>
-		<li<?php if($pageId=="school"){echo ' class="active"';} ?>><a href="/school/">全国の教室</a>
+		<li class="li1<?php if($pageId=="overview"){echo ' active';} ?>"><a href="/overview.php">パソコン市民講座<br>について</a></li>
+		<li<?php if($pageId=="school"){echo ' class="active"';} ?>><a href="/school/">全国のパソコン教室</a>
       <ul>
          <li><a href="/school/tohoku.php">東北エリア</a>
 			   <ul class="tohoku">
@@ -185,7 +185,7 @@ if ($home) {
          <li><a href="/course/qualification.php">資格を取得したい</a></li>
          <li><a href="/course/first.php">基本操作を覚えたい</a></li>
          <li><a href="/course/hobby.php">趣味で楽しみたい</a></li>
-         <li><a href="/tablet/">タブレット・スマートフォン</a></li>
+         <li><a href="/tablet/">タブレット</a></li>
       </ul>
    </li>
 		<li<?php if($pageId=="shikaku"){echo ' class="active"';} ?>><a href="/shikaku/">資格対策講座</a>
@@ -201,6 +201,7 @@ if ($home) {
          <li><a href="/voice/senior.php">シニアこそパソコンを</a></li>
       </ul>
    </li>
+		<li<?php if($pageId=="blog"){echo ' class="active"';} ?>><a href="/blog/">教室ブログ</a></li>
 </ul>
 </div><!-- /.l-nav -->
 
@@ -223,7 +224,7 @@ if ($home) {
 					<li class="c-link2"><a href="/gakuwari/">学生割引制度について</a></li>
 				</ul>
 			</li>
-			<li class="c-link1"><a href="/school/">全国の教室</a></li>
+			<li class="c-link1"><a href="/school/">全国のパソコン教室</a></li>
 			<li class="c-link1">
 				<a href="/course/">講座一覧</a>
 				<ul>
@@ -237,10 +238,12 @@ if ($home) {
 			</li>
             <li class="c-link1"><a href="/shikaku/">資格対策講座</a></li>
 			<li class="c-link1"><a href="/voice/works.php">受講生の声</a></li>
+			<li class="c-link1"><a href="/blog/">教室ブログ</a></li>
 			<?php /*<li class="c-link1"><a href="/">受講生作品</a></li>
 			<li class="c-link1"><a href="/">授業風景</a></li>*/?>
 			<li class="c-link1"><a href="/instructor/">インストラクターインタビュー</a></li>
 			<li class="c-link1"><a href="/qa.php">よくあるご質問</a></li>
+			<li class="c-link1"><a href="https://www.facebook.com/pc4353/" target="_blank">公式Facebookページ</a></li>
 		</ul>
 	</div><!-- /.l-nav2__block1 -->
 

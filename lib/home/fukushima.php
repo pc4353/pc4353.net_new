@@ -1,4 +1,4 @@
-<h3 id="fukushima" class="c-title1">福島県</h3>
+<h3 id="fukushima" class="c-title1"><a href="/school/fukushima.php">福島県</a></h3>
 <ul class="clearfix">
 	<li class="none"><img src="images/no_img.jpg" width="80" alt="写真準備中" />
 	<h4>会津若松ひのき町教室</h4>

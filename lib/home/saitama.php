@@ -1,5 +1,10 @@
-<h3 id="saitama" class="c-title1">埼玉県</h3>
+<h3 id="saitama" class="c-title1"><a href="/school/saitama.php">埼玉県</a></h3>
 <ul class="clearfix">
+	<li><img src="images/no_img.jpg" width="80" alt="そごう川口教室" />
+	<h4><a href="/kawaguchi/">そごう川口教室</a></h4>
+	<span class="small">〒332-8511　埼玉県川口市栄町3-5-1<br />そごう川口店 2階</span><br /><span class="bold">TEL：048-251-3366<br />エリア：川口市</span>
+	<span class="certify_sc2">サーティファイ</span></li>
+
 	<li><img src="images/higashimatsuyama.jpg" width="80" alt="まるひろ東松山教室" />
 	<h4><a href="/higashimatsuyama/">まるひろ東松山教室</a></h4>
 	<span class="small">〒355-0016　埼玉県東松山市材木町19-30<br />丸広東松山店 5階</span><br /><span class="bold">TEL：0493-53-4463<br />エリア：東松山市</span>
@@ -24,11 +29,6 @@
 	<h4><a href="/ageo/">まるひろ上尾教室</a></h4>
 	<span class="small">〒362-0036　埼玉県上尾市宮本町1-1<br />丸広上尾東口店　6F</span><br /><span class="bold">TEL：048-871-8706<br />エリア：上尾市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
-
-	<li><img src="images/kawaguchi.jpg" width="80" alt="ザ・プライス川口教室" />
-	<h4><a href="/kawaguchi/">ザ・プライス川口教室</a></h4>
-	<span class="small">〒332-0017　埼玉県川口市栄町3-14-15<br />ザ・プライス川口店　5F</span><br /><span class="bold">TEL：048-251-3366<br />エリア：川口市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/nishikicho.jpg" width="80" alt="イトーヨーカドー錦町教室" />
 	<h4><a href="/nishikicho/">イトーヨーカドー錦町教室</a></h4>

@@ -12,7 +12,7 @@ include_once('../lib/home/header.php');
 <div class="l-breadcrumb">
 	<ul class="c-wrap">
 		<li><a href="/">パソコン教室なら「パソコン市民講座」</a></li>
-		<li><a href="/school/">全国の教室</a></li>
+		<li><a href="/school/">全国のパソコン教室</a></li>
 		<li><?=$title?></li>
 	</ul>
 </div><!-- /.l-breadcrumb -->
@@ -27,7 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
-	<p>大阪府には京橋教室やあべの教室、八尾教室など24件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
+	<p>大阪府には京橋教室やあべの教室、八尾教室など22件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="kansai" class="c-title2">関西エリア</h2>
 
 <?php
