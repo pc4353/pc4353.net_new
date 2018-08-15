@@ -157,6 +157,10 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/blog/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/premiere.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -181,11 +185,23 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/blog/</loc>
+	<loc>https://www.pc4353.net/news/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/</loc>
+	<loc>https://www.pc4353.net/news/20180503/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20180404/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20180228/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20180221/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -193,27 +209,19 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/20171222/</loc>
+	<loc>https://www.pc4353.net/blog/%e3%83%91%e3%82%bd%e3%82%b3%e3%83%b3%e3%81%8c%e4%bd%bf%e3%81%84%e3%81%93%e3%81%aa%e3%81%9b%e3%82%8b%e3%82%88%e3%81%86%e3%81%ab%e3%81%aa%e3%82%8a%e3%81%be%e3%81%97%e3%82%87%e3%81%86%ef%bc%81/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/20171204b/</loc>
+	<loc>https://www.pc4353.net/blog/%e7%9b%ae%e6%a8%99%e3%83%bb%e7%9b%ae%e7%9a%84%e3%81%af%e4%bd%95%e3%81%a7%e3%81%97%e3%82%87%e3%81%86%ef%bc%9f/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/20171204a/</loc>
+	<loc>https://www.pc4353.net/blog/%e3%80%8c%e3%83%af%e3%83%bc%e3%83%89%e3%83%bb%e3%82%a8%e3%82%af%e3%82%bb%e3%83%ab%e5%87%ba%e6%9d%a5%e3%82%8b%e6%96%b9%e3%80%8d%e3%81%ab%e3%81%aa%e3%82%8d%e3%81%86%ef%bc%81/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/news/20171201/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/blog/%e4%bc%8a%e4%b8%b9%e9%a7%85%e5%89%8d%e6%95%99%e5%ae%a4-%e5%b9%b4%e8%b3%80%e7%8a%b6%e4%bd%9c%e5%93%81%e5%b1%95%e7%a4%ba%e4%bc%9a/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/blog/%e3%80%8c%e3%82%a4%e3%82%aa%e3%83%b3%e6%a9%8b%e6%9c%ac%e6%95%99%e5%ae%a4%e3%80%8d%e5%8f%97%e8%ac%9b%e7%94%9f%e4%bd%9c%e5%93%81%e5%b1%95%e8%a6%a7%e4%bc%9a-%e9%96%8b%e5%82%ac%e5%a0%b1%e5%91%8a/</loc>
+	<loc>https://www.pc4353.net/blog/%e3%83%91%e3%82%bd%e3%82%b3%e3%83%b3%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e8%ba%ab%e3%81%ab%e4%bb%98%e3%81%91%e3%81%a6%e3%80%81%e8%b2%b4%e6%96%b9%e3%81%ae%e8%87%aa%e4%bf%a1%e3%81%ab%e3%81%97%e3%81%a6/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -373,6 +381,10 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/kawaguchi/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/higashimatsuyama/</loc>
 	<priority>0.8</priority>
 </url>
@@ -390,10 +402,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/ageo/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -473,6 +481,10 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/senrichuou/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/shinibaraki/</loc>
 	<priority>0.8</priority>
 </url>
@@ -537,19 +549,11 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/izumisano/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/kitanoda/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/abeno/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/senrichuou/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -633,7 +637,63 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/date/2018/01/?post_type=blog</loc>
+	<loc>https://www.pc4353.net/blog/531/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab%ef%bc%9a%e8%b3%87%e6%a0%bc%e5%8f%96%e5%be%97%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%a2%e3%83%83%e3%83%97%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%81%a9%e3%82%93%e3%81%aa%e6%96%b9%e3%81%a7%e3%82%82%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%81%a7%e3%81%8d%e3%82%8b%e3%82%a2%e3%83%83%e3%83%88%e3%83%9b%e3%83%bc%e3%83%a0%e3%81%aa%e6%95%99%e5%ae%a4/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%83%91%e3%82%bd%e3%82%b3%e3%83%b3%e3%82%b9%e3%82%ad%e3%83%ab%e3%81%8c%e6%ad%a6%e5%99%a8%e3%81%ab%e3%81%aa%e3%82%8b/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e8%b3%87%e6%a0%bc%e5%8f%96%e5%be%97%e3%81%a7%e4%bb%95%e4%ba%8b%e5%8a%b9%e7%8e%87%e3%82%82%e3%82%a2%e3%83%83%e3%83%97%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%80%8e%e5%83%8d%e3%81%8d%e6%96%b9%e6%94%b9%e9%9d%a9%e3%80%8f%e3%81%a7%e3%83%93%e3%82%b8%e3%83%8d%e3%82%b9%e3%81%ae%e6%96%b9%e3%80%81%e6%80%a5%e5%a2%97%e4%b8%ad%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e4%bb%8a%e6%9c%88%e3%81%ae%e9%a0%91%e5%bc%b5%e3%81%a3%e3%81%9f%e5%8f%97%e8%ac%9b%e7%94%9f%e3%81%95%e3%82%93%e3%81%9f%e3%81%a1/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e7%9b%ae%e6%a8%99%e9%81%94%e6%88%90%ef%bc%81%e6%ac%a1%e3%81%ae%e7%9b%ae%e6%a8%99%e3%81%b8/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/06/01/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/06/02/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/06/03/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/06/04/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/06/05/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/06/06/?post_type=blog</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -649,23 +709,39 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/blog/page/2/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/page/3/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/page/4/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/page/5/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20171222/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20171204b/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20171204a/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20171201/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/news/20171026/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/20170908/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/20170906/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/20170809/</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/news/20170807/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -725,15 +801,23 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://www.pc4353.net/images/201806cp1.pdf</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/images/201806cp1_ura_sps.pdf</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kinshicho/instructor.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.pc4353.net/kinshicho/recruit.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://www.pc4353.net/kinshicho/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kinshicho/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -782,10 +866,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/nakano/junior.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/images/201802cp1.pdf</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -846,6 +926,10 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/jiyugaoka/junior.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/images/201806cp1_ura.pdf</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -1809,10 +1893,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/images/201802cp3-2.pdf</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/kobuchi/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -1930,10 +2010,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/ebina/junior.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/images/201802cp_ebina.pdf</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2417,7 +2493,7 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/images/201802cp3-3.pdf</loc>
+	<loc>https://www.pc4353.net/images/201806cp2.pdf</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -2841,10 +2917,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/images/201802cp3-1.pdf</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/kashiwa/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -2914,6 +2986,66 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/abiko/iphone.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/qa.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/about.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/contact.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/course.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/voice.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/apply.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/doc_contact.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/certify.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/mos.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/win10.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/junior.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/instructor.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/recruit.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/kawaguchi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -3214,66 +3346,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/ageo/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/qa.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/about.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/course.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/voice.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/apply.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/doc_contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/certify.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/mos.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/win10.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/tablet.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/junior.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/recruit.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/kawaguchi/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4349,7 +4421,71 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/keyaki/recruit.php</loc>
+	<loc>https://www.pc4353.net/senrichuou/qa.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/about.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/contact.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/course.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/voice.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/apply.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/doc_contact.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/certify.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/mos.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/win10.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/tablet.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/junior.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/images/201806cp_senchu.pdf</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/images/201806cp_senchu_ura.pdf</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/instructor.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/recruit.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/senrichuou/iphone.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4398,6 +4534,10 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/shinibaraki/junior.php</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/images/201806cp2_ura_sps.pdf</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -4518,10 +4658,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/kyobashi/junior.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/images/201802cp1_0224.pdf</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -5317,66 +5453,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/izumisano/qa.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/about.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/course.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/voice.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/apply.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/doc_contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/certify.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/mos.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/win10.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/tablet.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/junior.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/instructor.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/recruit.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/izumisano/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://www.pc4353.net/kitanoda/qa.php</loc>
 	<priority>0.8</priority>
 </url>
@@ -5494,34 +5570,6 @@
 </url>
 <url>
 	<loc>https://www.pc4353.net/abeno/iphone.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/senrichuou/about.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/senrichuou/voice.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/senrichuou/apply.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/senrichuou/qa.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/senrichuou/contact.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/senrichuou/course.php</loc>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.pc4353.net/senrichuou/instructor.php</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6605,11 +6653,303 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/date/2017/12/?post_type=blog</loc>
+	<loc>https://www.pc4353.net/blog/%e5%84%aa%e3%81%97%e3%81%84%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%a9%e3%82%af%e3%82%bf%e3%83%bc%e3%81%8c%e3%81%8a%e5%be%85%e3%81%a1%e3%81%97%e3%81%a6%e3%81%8a%e3%82%8a%e3%81%be%e3%81%99%e2%99%aa/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/date/2018/01/22/?post_type=blog</loc>
+	<loc>https://www.pc4353.net/blog/%e3%83%91%e3%82%bd%e3%82%b3%e3%83%b3%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e9%ab%98%e3%82%81%e3%81%be%e3%81%97%e3%82%87%e3%81%86%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e4%bb%8a%e3%80%81%e5%bf%85%e8%a6%81%e3%81%aa%e3%82%b9%e3%82%ad%e3%83%ab%e3%81%8c%e8%ba%ab%e3%81%ab%e3%81%a4%e3%81%8f%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%80%8c%e5%bc%b7%e3%81%bf%e3%80%8d%e3%81%a8%e3%80%8c%e8%87%aa%e4%bf%a1%e3%80%8d%e3%82%92%e5%a2%97%e3%82%84%e3%81%97%e3%81%be%e3%81%97%e3%82%87%e3%81%86%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/06/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/02/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/03/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/04/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/05/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/06/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/07/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/08/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/09/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/10/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/11/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/13/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/14/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/15/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/16/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/17/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/18/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/21/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/22/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/23/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/24/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/25/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/26/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/27/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/28/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/29/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/30/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/31/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/page/2/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/05/page/3/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e9%80%9a%e3%81%84%e3%82%84%e3%81%99%e3%81%84%e9%a7%85%e5%89%8d%e5%ba%97%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%81%8a%e4%b8%80%e4%ba%ba%e3%81%8a%e4%b8%80%e4%ba%ba%e3%80%81%e3%81%9d%e3%81%ae%e6%96%b9%e3%81%ab%e5%90%88%e3%81%a3%e3%81%9f%e3%82%ab%e3%83%aa%e3%82%ad%e3%83%a5%e3%83%a9%e3%83%a0%e3%82%92%e3%81%94/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e4%bc%8a%e4%b8%b9%e9%a7%85%e5%89%8d%e6%95%99%e5%ae%a4-%e5%b9%b4%e8%b3%80%e7%8a%b6%e4%bd%9c%e5%93%81%e5%b1%95%e7%a4%ba%e4%bc%9a/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%80%8c%e3%82%a4%e3%82%aa%e3%83%b3%e6%a9%8b%e6%9c%ac%e6%95%99%e5%ae%a4%e3%80%8d%e5%8f%97%e8%ac%9b%e7%94%9f%e4%bd%9c%e5%93%81%e5%b1%95%e8%a6%a7%e4%bc%9a-%e9%96%8b%e5%82%ac%e5%a0%b1%e5%91%8a/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/page/2/?category=school</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/page/3/?category=school</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/page/4/?category=school</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%81%9d%e3%82%8c%e3%81%9e%e3%82%8c%e3%81%ae%e7%9b%ae%e6%a8%99%e3%81%ab%e5%90%91%e3%81%8b%e3%81%a3%e3%81%a6%ef%bc%81%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e6%83%85%e5%a0%b1/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e8%b3%87%e6%a0%bc%e5%8f%96%e5%be%97%e3%81%b8%e3%81%ae%e9%81%93%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e9%a7%85%e8%bf%91%ef%bc%81%e5%9c%9f%e6%97%a5%e7%a5%9d%e3%83%bb%e5%a4%9c%ef%bd%8f%ef%bd%8b%ef%bc%81%e8%87%aa%e7%94%b1%e4%ba%88%e7%b4%84%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e4%bd%bf%e3%81%84%e3%81%93%e3%81%aa%e3%81%97%e3%83%ac%e3%83%83%e3%82%b9%e3%83%b3%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%a2%e3%83%83%e3%83%97%ef%bc%81%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e8%87%aa%e4%bf%a1%e3%81%8c%e3%81%82%e3%81%aa%e3%81%9f%e3%82%92%e5%be%8c%e6%8a%bc%e3%81%97%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e7%9b%ae%e6%a8%99%e9%81%94%e6%88%90%ef%bc%81%e7%b5%90%e6%9e%9c%e3%82%92%e5%87%ba%e3%81%95%e3%82%8c%e3%81%a6%e3%81%84%e3%81%be%e3%81%99/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e5%8c%97%e5%b0%8f%e9%87%91%e6%95%99%e5%ae%a4-%e5%8f%97%e8%ac%9b%e7%94%9f%e3%81%ae%e7%86%b1%e6%84%8f/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e8%87%aa%e5%88%86%e3%81%ae%e5%8a%9b%e3%81%a7%e5%87%ba%e6%9d%a5%e3%82%8b%ef%bc%81%e3%82%92%e5%a4%a7%e5%88%87%e3%81%ab%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e4%bb%95%e4%ba%8b%e6%b4%bb%e7%94%a8%e3%83%bb%e8%b3%87%e6%a0%bc%e5%8f%96%e5%be%97%e3%82%92%e7%9b%ae%e6%a8%99%e3%81%ab%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e8%b3%87%e6%a0%bc%e5%8f%96%e5%be%97%e3%81%a7%e4%bb%95%e4%ba%8b%e3%81%ae%e5%8a%b9%e7%8e%87%ef%bd%95%ef%bd%90%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%81%8a%e4%bb%95%e4%ba%8b%e5%b8%b0%e3%82%8a%e3%81%ab%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%a2%e3%83%83%e3%83%97%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e8%b3%87%e6%a0%bc%e5%8f%96%e5%be%97%e3%81%a7%e4%bb%95%e4%ba%8b%e3%81%ab%e3%82%82%e9%ab%98%e8%a9%95%e4%be%a1/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%81%a7%e3%81%8d%e3%82%8b%e3%81%93%e3%81%a8%e3%81%8c%e4%b8%80%e3%81%a4%e3%81%9a%e3%81%a4%e5%a2%97%e3%81%88%e3%82%8b%e5%96%9c%e3%81%b3/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e9%87%91%e7%94%ba%e6%95%99%e5%ae%a4%e3%80%80%e4%bd%bf%e3%81%84%e3%81%93%e3%81%aa%e3%81%97%e3%83%ac%e3%83%83%e3%82%b9%e3%83%b3/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e4%b8%87%e5%85%a8%e3%81%ae%e3%81%94%e8%87%aa%e5%ae%85%e3%81%a7%e3%81%ae%e5%be%a9%e7%bf%92%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%82%92%e3%81%94%e7%94%a8%e6%84%8f%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e5%8f%97%e8%ac%9b%e7%94%9f%e3%81%95%e3%82%93%e3%81%ae%e4%bd%9c%e5%93%81%e3%82%92%e7%b4%b9%e4%bb%8b%e3%81%97%e3%81%be%e3%81%99%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%81%8a%e4%bb%95%e4%ba%8b%e7%9b%ae%e7%9a%84%e6%80%a5%e5%a2%97%e4%b8%ad%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%83%91%e3%82%bd%e3%82%b3%e3%83%b3%e5%ad%a6%e7%bf%92%e3%81%8c%e3%82%93%e3%81%b0%e3%81%a3%e3%81%a6%e3%81%be%e3%81%99%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e8%a4%87%e6%95%b0%e8%b3%87%e6%a0%bc%e5%8f%96%e5%be%97%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%a2%e3%83%83%e3%83%97%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e4%b8%89%e5%ae%ae%e9%a7%85%e5%89%8d%e6%95%99%e5%ae%a4%e8%87%aa%e6%85%a2%e3%81%ae%e5%8f%97%e8%ac%9b%e7%94%9f%e6%a7%98%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e5%8a%b9%e7%8e%87%e3%81%ae%e8%89%af%e3%81%84%e4%bb%95%e4%ba%8b%e3%82%92%e7%9b%ae%e6%8c%87%e3%81%9d%e3%81%86%ef%bc%81%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%82%bf%e3%82%a4%e3%83%94%e3%83%b3%e3%82%b0%e3%82%b3%e3%83%b3%e3%83%86%e3%82%b9%e3%83%88%e5%8f%97%e8%ac%9b%e9%a2%a8%e6%99%af%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e6%b5%81%e5%b1%b1%e6%95%99%e5%ae%a4%e3%80%80%ef%bc%97%ef%bc%90%e6%ad%b3%e4%bb%a3%e3%82%82%e5%90%88%e6%a0%bc%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e5%b0%b1%e8%81%b7%e3%83%bb%e8%bb%a2%e8%81%b7%e3%82%92%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%81%97%e3%81%be%e3%81%99%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e5%8f%a4%e6%b7%b5%e6%95%99%e5%ae%a4-%e6%9c%80%e6%96%b0%e3%81%aeos%e3%81%a7%e8%b3%87%e6%a0%bc%e5%8f%96%e5%be%97/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%a2%e3%83%83%e3%83%97%ef%bc%86%e8%b3%87%e6%a0%bc%e5%8f%96%e5%be%97/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/%e3%83%a6%e3%83%bc%e3%82%ab%e3%83%aa%e3%81%8c%e4%b8%98%e6%95%99%e5%ae%a4-%e5%90%88%e6%a0%bc%e3%83%a9%e3%83%83%e3%82%b7%e3%83%a5%ef%bc%81/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/blog/314/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20170908/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20170906/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20170809/</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/news/20170807/</loc>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -6657,7 +6997,59 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://www.pc4353.net/date/2017/12/06/?post_type=blog</loc>
+	<loc>https://www.pc4353.net/date/2018/03/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/19/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/20/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/21/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/22/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/23/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/24/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/25/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/26/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/27/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/28/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/29/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/30/?post_type=blog</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.pc4353.net/date/2018/04/page/2/?post_type=blog</loc>
 	<priority>0.8</priority>
 </url>
 </urlset>

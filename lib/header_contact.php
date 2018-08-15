@@ -108,7 +108,7 @@ $(document).ready(function(){
 <header class="header">
 <div id="hd_wrap" class="clearfix tk-kozuka-gothic-pr6n">
 <div id="hd_lft">
-<<?=$logo_tag?> class="hd_txt"><?=$room[$id][area]?>で資格が取れるパソコン教室　パソコン市民講座 <?=$room[$id][name]?>教室</<?=$logo_tag?>>
+<<?=$logo_tag?> class="hd_txt"><?=$room[$id][area]?>で資格が取れるパソコン教室　<br class="sp-only" />パソコン市民講座 <?=$room[$id][name]?>教室</<?=$logo_tag?>>
 	<div id="hd_logo">
 		<img class="pc-only" src="/images/img-hd_logo.png" width="211" height="34" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">
 		<img class="sp-only" src="/common/img/common/logo1.png" width="156" height="68" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">

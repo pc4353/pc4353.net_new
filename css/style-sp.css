@@ -137,13 +137,14 @@ a:hover {
 
 
 /* header */
-header{border-top:7px solid #0064be; background:#e5eff8; z-index: 9999;}
+header{border-top:7px solid #0064be; background:#e5eff8; z-index: 9999; position: fixed; top: 0; left: 0; width: 100%; transition: .3s;}
 header.certify nav,
 header.mos nav{padding-bottom: 0;}
 header.certify nav #nav_wrap,
 header.mos nav #nav_wrap{padding-bottom: 10px;}
+.is-animation #hd_lft{display: none; transition: .3s;}
 #hd_wrap{padding: 0 10px 5px;}
-#hd_lft{text-align: center;}
+#hd_lft{text-align: left;}
 #hd_lft:after{display: block;content: "";clear: both;}
 #hd_rgt{text-align: center;padding-bottom: 10px;}
 .hd_txt {color:#6d3238; font-size:11px; font-weight:normal; padding-top:10px;margin-bottom:10px; line-height:1;}
@@ -194,7 +195,7 @@ main {padding: 0 10px;}
 
 /* main */
 /*main{position: relative; top:152px; padding-bottom:240px;}*/
-main #main_contents{}
+main #main_contents{padding-top: 169px;}
 main #main_contents .main_vi{
 	margin:0 auto 20px;
 }
@@ -616,7 +617,7 @@ main .room_info .inner .room_info_rgt dt{
 	margin-bottom: 10px;
 }
 main .room_info .inner .room_info_rgt dd p{
-	font-size: 12px;
+	font-size: 14px;
 	margin-bottom: 10px;
 }
 
@@ -977,6 +978,11 @@ footer{background:#dfdfdf; border-top:1px solid #beb381;padding: 0 10px;margin-b
 #ft_btm ul li{display: inline;line-height: 1;margin-right: 10px;}
 #ft_btm ul li a{color:#fff; text-decoration: none;}
 #ft_btm address{padding: 20px 0; font-style: normal;}
+
+/*=======================================
+ページトップへ
+=========================================*/
+.l-pagetop { position: fixed; right: 15px; bottom: 15px; z-index: 999; width: 30px; }
 
 /* toiawase */
 #contents_wrap{border-top:10px solid #2662a3; margin-top:15px;}

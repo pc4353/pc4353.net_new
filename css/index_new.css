@@ -336,22 +336,6 @@ div.big-submit {
   visibility: hidden!important;
 }
 
-/* @group floating-clear */
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  width: 100%;
-  height: 0;
-  line-height: 0;
-  overflow: hidden;
-  visibility: hidden;
-}
-
-.clearfix {
-  display: inline-block;
-}
-
 /* Hides from IE-mac Hack \*/
 * html .clearfix {
   height: 1%;
@@ -456,7 +440,7 @@ div.big-submit {
 /* パンくずリスト */
 #locus-area {
 	background: #f6f5ef;
-	padding: 6px 0;
+	padding: 160px 0 6px;
 	line-height: 1.8em;
 }
 #locus-area dl.locus {
@@ -490,14 +474,8 @@ dl.footer-locus {
 #contents {
 	margin: 0 auto;
 	padding:0;
-	width: 860px;
+	width: 1000px;
 	position: relative;
-  color: #333;
-  font: 13px/1.231 'Lucida Grande', Verdana, Arial, 'Hiragino Kaku Gothic Pro', Meiryo, 'メイリオ', sans-serif;
-  *font-family:Meiryo;
-  *font-size: small;
-  *font: x-small;
-  line-height: 1.41;
 }
 #contents #kasou {
 	padding:5px 0 0 15px
@@ -641,7 +619,7 @@ ul.search-ul li a:hover {
 /* メインエリア */
 #main {
 	float: left;
-	width: 650px;
+	width: 740px;
 	overflow:hidden;
 }
 #key-visual {
@@ -897,6 +875,7 @@ a.banner:hover{ color:#333333!important}
 	width: 810px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 100px 0 6px;
 }
 #toiawase_form .section-lv2 {
 	font-size:14px;
@@ -938,7 +917,7 @@ a.banner:hover{ color:#333333!important}
 /* サイドエリア */
 #sub {
 	float: right;
-	width: 180px;
+	width: 240px;
 	padding-top: 5px;
 	overflow: hidden;
 }
@@ -975,30 +954,30 @@ a.banner:hover{ color:#333333!important}
 
 
 /* @group 教室紹介ページ body.about */
-#about1 .section-lv3{ border:1px solid #cccccc; border-top:none; margin:0 4px 20px 0; width:630px; font-size:14px;}
+#about1 .section-lv2 h3{ background: #00a0e9; color: #fff; padding: 15px 30px; font-size: 18px;}
+#about1 .section-lv3{ border:1px solid #cccccc; border-top:none; margin:0 4px 20px 0; width:723px; font-size:14px;}
 #about1 .section-lv3.pt1 p,
 #about1 .section-lv3.pt3 p,
 #about1 .section-lv3.pt5 p{ padding:10px 140px 5px 10px;}
 #about1 .section-lv3.pt2 p,
 #about1 .section-lv3.pt4 p{ padding:10px 10px 5px 140px;}
 #about1 .section-lv3.pt6 p{ padding:10px 10px 10px 10px;}
-#about1 .section-lv3.pt1 p{ background:url(../images/aboutbg_13.png) no-repeat 0px 0px; padding-bottom:45px;}
+#about1 .section-lv3.pt1 p{ background:url(../images/aboutbg_13.png) no-repeat right 0px; padding-bottom:45px;}
 #about1 .section-lv3.pt2 p{ background:url(../images/aboutbg_16.png) no-repeat -20px 0px; padding-bottom:55px;}
-#about1 .section-lv3.pt3 p{ background:url(../images/aboutbg_19.png) no-repeat 0px 0px; padding-bottom:55px;}
+#about1 .section-lv3.pt3 p{ background:url(../images/aboutbg_19.png) no-repeat right 0px; padding-bottom:55px;}
 #about1 .section-lv3.pt4 p{ background:url(../images/aboutbg_22.png) no-repeat -20px 0px; padding-bottom:55px;}
-#about1 .section-lv3.pt5 p{ background:url(../images/aboutbg_25.png) no-repeat 0px 0px; padding-bottom:40px;}
+#about1 .section-lv3.pt5 p{ background:url(../images/aboutbg_25.png) no-repeat right 0px; padding-bottom:40px;}
 
 #about2.block h2{ *display:block; *width:100%; *height:49px;}
 #about2 .section-lv2{ *width:632px!important; *overflow:hidden!important}
 
-#about3 .table1 { width:628px;}
+#about3 .table1 { width:723px;}
 
 .shop-area{
-	width:620px;
-	background:#f4f4f4;
-	font-size:13px;
-	margin-left:7px;
+	width:100%;
 	padding:15px 0;
+	background:#f4f4f4;
+	font-size:14px;
 }
 
 .shop-area h3{ padding:10px;}
@@ -1007,12 +986,12 @@ a.banner:hover{ color:#333333!important}
 }
 
 .shop-box1-l{
-	width:300px;
+	width:320px;
 	float:left;
 }
 
 .shop-box1-l dl{
-	width:315px;
+	width:100%;
 	float:left;
 	border-top:1px solid #fff;
 	padding-left:10px;
@@ -1020,18 +999,17 @@ a.banner:hover{ color:#333333!important}
 .shop-box1-l dl dt{
 	width:80px;
 	float:left;
-	line-height:24px;
-	color:#000;
+	font-weight: bold;
+	padding:5px 0;
 }
 .shop-box1-l dl dd{
 	width:225px;
 	float:right;
-	line-height:20px;
-	padding:2px 0;
+	padding:5px 0;
 }
 
 .shop-box1-r{
-	width:280px;
+	width:370px;
 	float:right;
 	display:inline;
 }
@@ -1150,7 +1128,7 @@ dy.course */
 .local-nav2 li.nav5 a:hover {	background-position: -380px -14px;	}
 
 .i-voice .section-lv2{ padding:10px 10px 20px 10px; border:2px solid #FDB000; margin-right:4px;}
-.i-voice .box-b{ width:370px; float:right;}
+.i-voice .box-b{ width:450px; float:right;}
 .i-voice .box-b h2{ margin-bottom:15px; font-size:16px;}
 .i-voice .box-b dl dt{ font-weight:bold; background-color:#FF9900; color:#FFFFFF; padding:2px 5px; width:100px; text-align:center; border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px; font-size:12px}
 .i-voice .box-b dl dd{ margin:2px 0 7px 0;}
@@ -1213,6 +1191,7 @@ dy.course */
 .contact span {color:#990000 ;font-weight:normal;}
 .contact textarea {width:99%;border:1px solid #999;font-size:12px;}
 .contact .file{ border:none} 
+.contact form input.over1:hover{ opacity: 0.5;} 
 
 
 .graybox {background:#F0F0F0;padding:16px 20px;margin-bottom:20px;}

@@ -336,11 +336,63 @@ img.fr { 	/*padding-left:15px;*/mb	15 }
 .tablet_section3 .section3_box1 .txt1 {}
 .tablet_section3 .section3_box1 .c-title3 {font-size: 108% !important;}
 
-img.fl {
-	margin: 0 auto;
+.wdlc_section3 {margin-top: 30px;}
+.wdlc_section3 p {margin-bottom: 30px;}
+.wdlc_section3 .section3_box1 {margin-bottom: 40px;}
+.wdlc_section3 .section3_box1 .img1 {text-align: center; margin-bottom: 10px;}
+.wdlc_section3 .section3_box1 .dl_scratch_app {width: 100%; text-align: center;}
+.wdlc_section3 .section3_box1 .wdlc_call_lead {
+	margin: 20px 0 0;
+}
+.wdlc_section3 .section3_box1 .wdlc_call {
+	margin: 50px auto;
+	background: #e7473f;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.wdlc_section3 .section3_box1 .wdlc_call dt {
+}
+.wdlc_section3 .section3_box1 .wdlc_call dd {
+	margin: 10px 0;
+	font-size: 280%;
+}
+.wdlc_section3 .section3_box1 .wdlc_call dd a {
+	color: #fff;
+	text-decoration: none;
+}
+.wdlc_section3 .section3_box1 .wdlc_call_info {
+	padding: 10px;
+	background: #6191cc;
+	color: #fff;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.wdlc_section3 .section3_box1 .wdlc_call_info dd {
+	margin: 0;
+}
+.wdlc_section3 .section3_box2 {margin-bottom: 40px;}
+.wdlc_section3 .section3_box2_center {margin-bottom: 40px;}
+.wdlc_section3 .section3_box3 {border-left: 10px solid #aaa; padding-left: 10px; margin-top: 15px;}
+.wdlc_section3 .section3_box3 .txt1 {font-size: 22px; line-height: 1.8;}
+#btn_wdlc {
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	border-bottom: 5px solid #eee;
+}
+
+.section3 span.fl {
 	display: block;
 	float: none;
-	padding-right: 0;
+}
+.section3 span.fl img {
+	margin: 0 auto;
+	display: block;
 }
 
 table.about {

@@ -458,7 +458,7 @@ img.mL20 {margin-left: 0 !important;}
 /* パンくずリスト */
 #locus-area {
 	background: #f6f5ef;
-	padding: 6px 0;
+	padding: 170px 0 6px;
 	line-height: 1em;
 }
 #locus-area dl.locus {
@@ -930,6 +930,7 @@ a.banner:hover{ color:#333333!important}
 	width: 98%;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 130px 0 6px;
 }
 #toiawase_form .section-lv2 {
 	font-size:14px;
@@ -1013,8 +1014,8 @@ a.banner:hover{ color:#333333!important}
 
 
 /* @group 教室紹介ページ body.about */
-#about1 .section-lv3{ border:1px solid #cccccc; border-top:none; margin:0 0 20px 0; font-size:12px;
-background-size: 120px auto;}
+#about1 .section-lv2 h3{ background: #00a0e9; color: #fff; padding: 8px 5px 8px 15px;}
+#about1 .section-lv3{ border:1px solid #cccccc; border-top:none; margin:0 0 20px 0; font-size:12px; background-size: 120px auto;}
 #about1 .section-lv3.pt1 p,
 #about1 .section-lv3.pt3 p,
 #about1 .section-lv3.pt5 p{ padding:10px 130px 5px 10px;}

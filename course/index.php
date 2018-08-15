@@ -38,6 +38,8 @@ include_once('../lib/home/header.php');
 <h2 class="c-title2">パソコンでインターネットをしたい！</h2>
 <h2 class="c-title2">パソコンを趣味で楽しみたい！</h2>
 <h2 class="c-title2">パソコン資格を習得したい！</h2> -->
+<a href="/course/junior_pc.php"><img src="images/junior_pc/img-main.jpg" alt="子どもパソコン講座開講！" width="1000" height="320" class="pc-only" />
+<img src="images/junior_pc/img-main_sp.jpg" alt="子どもパソコン講座開講！" width="100%" class="sp-only" /></a>
 <ul class="course_bnr clearfix">
 	<li><a href="/course/first.php"><img src="/img/btn_course01.jpg" class="alpha" alt="はじめてのパソコン　メールやインターネットの使い方、デジカメ写真の活用、作品制作を通じ、パソコンを初歩から学べます。" width="240" height="150" /></a></li>
 	<li><a href="/course/works.php"><img src="/img/btn_course02.jpg" class="alpha" alt="パソコンをもっと仕事で役立てたい！　マイクロソフトオフィスのワード、エクセル、パワーポイントを基礎から習得し、仕事に活かせるよう、スキルアップします。" width="240" height="150" /></a></li>

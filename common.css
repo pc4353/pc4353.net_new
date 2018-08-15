@@ -322,6 +322,12 @@ img.fr { 	padding-left:15px; }
 	text-align: center;
 	border-top: 5px solid #eee;
 }
+#btn_wdlc {
+	margin: 30px 30px 100px 30px;
+	padding-bottom: 50px;
+	text-align: center;
+	border-bottom: 5px solid #eee;
+}
 
 .section2 {
 	/*margin: 0px 50px;*/
@@ -338,6 +344,53 @@ img.fr { 	padding-left:15px; }
 .tablet_section3 .section3_box1 {margin-bottom: 40px;}
 .tablet_section3 .section3_box1 .img1 {float: left;width: 200px;}
 .tablet_section3 .section3_box1 .txt1 {margin-left: 250px;}
+
+.wdlc_section3 {margin-top: 30px;}
+.wdlc_section3 p {margin-bottom: 30px;}
+.wdlc_section3 .section3_box1 {margin-bottom: 40px;}
+.wdlc_section3 .section3_box1 .img1 {float: left;width: 300px;margin-right: 50px; text-align: center;}
+.wdlc_section3 .section3_box1 .txt1 {float: left;width: 620px;}
+.wdlc_section3 .section3_box1 .txt2 {float: left;width: 400px;}
+.wdlc_section3 .section3_box1 .dl_scratch_app {float: right;width: 200px;}
+.wdlc_section3 .section3_box1 .wdlc_call_lead {
+	margin: 20px 0 0;
+}
+.wdlc_section3 .section3_box1 .wdlc_call {
+	width: 700px;
+	margin: 50px auto;
+	background: #e7473f;
+	color: #fff;
+	padding: 50px 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.wdlc_section3 .section3_box1 .wdlc_call dt {
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+}
+.wdlc_section3 .section3_box1 .wdlc_call dd {
+	font-size: 48px;
+	font-weight: bold;
+	float: right;
+}
+.wdlc_section3 .section3_box1 .wdlc_call_info {
+	font-weight: bold;
+	margin: 50px auto;
+	background: #6191cc;
+	color: #fff;
+	padding: 30px 120px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.wdlc_section3 .section3_box2 {float: left; width: 300px;}
+.wdlc_section3 .section3_box2_center {float: left; width: 300px; margin: 0 50px;}
+.wdlc_section3 .section3_box3 {border-left: 10px solid #aaa; padding-left: 10px; margin-top: 15px;}
+.wdlc_section3 .section3_box3 .txt1 {font-size: 22px; line-height: 1.8;}
+.u-center_wdlc {margin-top: 50px; text-align: center; background: #fff;}
+.u-center_wdlc img {margin-top: -65px;}
 
 .section3 .course_list {margin-bottom: 30px;}
 .section3 .course_list li {margin-bottom: 30px;}

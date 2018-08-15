@@ -44,19 +44,19 @@ global $name, $kana, $old, $phone, $mail, $purpose, $event, $other, $free, $mont
 </tr>
 <tr>
 	<th>お名前<span class="red">必須</span></th>
-	<td<?= $erName ?>>例）市民花子<br /><input type="text" value="<?= $name ?>" name="name" maxlength="20" size="40"></td>
+	<td<?= $erName ?>>例）市民花子<br /><input type="text" value="<?= $name ?>" name="name" maxlength="20"></td>
 </tr>
 <tr>
 	<th>フリガナ<span class="red">必須</span></th>
-	<td<?= $erKana ?>>例）シミンハナコ<br /><input type="text" value="<?= $kana ?>" name="kana" maxlength="20" size="40"></td>
+	<td<?= $erKana ?>>例）シミンハナコ<br /><input type="text" value="<?= $kana ?>" name="kana" maxlength="20"></td>
 </tr>
 <tr>
 	<th>電話番号（携帯可）<span class="red">必須</span></th>
-	<td<?= $erPhone ?>>例）09012345678<br /><input type="text" value="<?= $phone ?>" name="phone" maxlength="15" size="30"></td>
+	<td<?= $erPhone ?>>例）09012345678<br /><input type="text" value="<?= $phone ?>" name="phone" maxlength="15"></td>
 </tr>
 <tr>
 	<th>メールアドレス</th>
-	<td>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100" size="40">
+	<td>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100">
 	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
 	</td>
 </tr>
@@ -93,7 +93,7 @@ foreach( $purpose as $key => $value ) {
 <?php
 }
 ?>
-<li><input type="text" value="<?= $other ?>" name="other" maxlength="100" size="40" /></li>
+<li><input type="text" value="<?= $other ?>" name="other" maxlength="100" /></li>
 	</ul></td>
 </tr>
 <tr>

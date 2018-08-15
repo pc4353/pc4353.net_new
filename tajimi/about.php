@@ -38,6 +38,6 @@ include_once("../lib/header-fc.php");
 					</div><!-- /.block -->
 				</div><!-- /.block -->
 <?php
-include_once("../lib/about.php");
+include_once("../lib/about-fc.php");
 include_once("../lib/footer-fc.php");
 ?>

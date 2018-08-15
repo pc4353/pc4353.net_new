@@ -137,7 +137,7 @@ if( $certify ) {
 <link rel="shortcut icon" href="/favicon.ico">
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/js/jquery-page-scroller.js"></script>
+<!--<script src="/js/jquery-page-scroller.js"></script>-->
 <script src="//maps.google.com/maps/api/js?sensor=false"></script>
 <script src="js/map.js"></script>
 <script type="text/javascript" src="/common/js/jquery.maphilight.js" charset="utf-8"></script>
@@ -147,12 +147,17 @@ if( $certify ) {
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <script>
- $(function() {
-  $(window).on('scroll', function() {
-    if ($(this).scrollTop() > 0) {
-      $('.header').addClass('fixed');
+$(function() {
+  var $win = $(window),
+      $header = $('header'),
+      animationClass = 'is-animation';
+
+  $win.on('load scroll', function() {
+    var value = $(this).scrollTop();
+    if ( value > 300 ) {
+      $header.addClass(animationClass);
     } else {
-      $('.header').removeClass('fixed');
+      $header.removeClass(animationClass);
     }
   });
 });
@@ -170,39 +175,26 @@ $(document).ready(function(){
 		pager: true,
 		buildPager: function(slideIndex){
       switch (slideIndex){
-      <?php if (date("Ymd") >= 20180422) : ?>
+      <?php if (date("Ymd") <= 20180831) : ?>
 <?php
-if ($id == "1001058" ) {
-	//川口
+if ($id == "1076000") {
+	//けやき
 ?>
         case 0:
-          return '<img src="/images/img-new_thumb.png" width="150" />';
-        case 1:
-          return '<img src="/images/img-web_wari_thumb.jpg" width="150" />';
-        case 2:
           return '<img src="/images/img-main_thumb01.png" width="150" />';
-        case 3:
-          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
-<?php
-}elseif ($id == "6015130" ){
-?>
-        case 0:
-          return '<img src="/images/img-new_thumb.png" width="150" />';
         case 1:
-          return '<img src="/images/img-main_thumb01.png" width="150" />';
-        case 2:
           return '<img src="/images/img-main_thumb05.jpg" width="150" />';
-        case 3:
+        case 2:
           return '<img src="/images/img-main_thumb02.png" width="150" />';
 <?php
 }else{
 ?>
         case 0:
-          return '<img src="/images/img-web_wari_thumb.jpg" width="150" />';
+          return '<img src="/images/img-hayawari_thumb.jpg" width="150" />';
         case 1:
-          return '<img src="/images/img-main_thumb01.png" width="150" />';
+          return '<img src="/images/img-junior_pc_thumb.jpg" width="150" />';
         case 2:
-          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
+          return '<img src="/images/img-main_thumb01.png" width="150" />';
         case 3:
           return '<img src="/images/img-main_thumb02.png" width="150" />';
 <?php
@@ -210,13 +202,31 @@ if ($id == "1001058" ) {
 ?>
       <?php endif; ?>
 
-      <?php if (date("Ymd") >= 20180520) : ?>
+      <?php if (date("Ymd") >= 20180901) : ?>
+<?php
+if ($id == "1076000") {
+	//けやき
+?>
         case 0:
           return '<img src="/images/img-main_thumb01.png" width="150" />';
         case 1:
           return '<img src="/images/img-main_thumb05.jpg" width="150" />';
         case 2:
           return '<img src="/images/img-main_thumb02.png" width="150" />';
+<?php
+}else{
+?>
+        case 0:
+          return '<img src="/images/img-main_thumb01.png" width="150" />';
+        case 1:
+          return '<img src="/images/img-junior_pc_thumb.jpg" width="150" />';
+        case 2:
+          return '<img src="/images/img-main_thumb02.png" width="150" />';
+        case 3:
+          return '<img src="/images/img-main_thumb05.png" width="150" />';
+<?php
+}
+?>
       <?php endif; ?>
 	  }
     }
@@ -272,7 +282,7 @@ if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('i
 <header id="header">
 <div id="hd_wrap" class="clearfix tk-kozuka-gothic-pr6n">
 <div id="hd_lft">
-<<?=$logo_tag?> class="hd_txt"><?=$room[$id][area]?>で資格が取れるパソコン教室　パソコン市民講座 <?=$room[$id][name]?>教室</<?=$logo_tag?>>
+<<?=$logo_tag?> class="hd_txt"><?=$room[$id][area]?>で資格が取れるパソコン教室　<br class="sp-only" />パソコン市民講座 <?=$room[$id][name]?>教室</<?=$logo_tag?>>
 	<div id="hd_logo"><a href="/<?=$room[$id][dir]?>/">
 		<img class="pc-only" src="/images/img-hd_logo.png" width="211" height="34" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">
 		<img class="sp-only" src="/common/img/common/logo1.png" width="156" height="68" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">

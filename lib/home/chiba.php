@@ -8,7 +8,7 @@
 	<li><img src="images/myoden.jpg" width="80" alt="イオン市川妙典教室" />
 	<h4><a href="/myoden/">イオン市川妙典教室</a></h4>
 	<span class="small">〒272-0111　千葉県市川市妙典5-3-1<br />イオン市川妙典店　3階</span><br /><span class="bold">TEL：047-711-0022<br />エリア：市川市</span>
-	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
+	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/narita.jpg" width="80" alt="ボンベルタ成田教室" />
 	<h4><a href="/narita/">ボンベルタ成田教室</a></h4>

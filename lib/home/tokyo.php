@@ -3,7 +3,7 @@
 	<li><img src="images/kinshicho.jpg" width="80" alt="丸井錦糸町教室" />
 	<h4><a href="/kinshicho/">丸井錦糸町教室</a></h4>
 	<span class="small">〒130-0022　東京都墨田区江東橋3-9-10<br />丸井錦糸町店 5F</span><br /><span class="bold">TEL：03-6659-4345<br />エリア：墨田区</span>
-	<span class="certify_sc2">サーティファイ</span></li>
+	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 
 	<li><img src="images/nakano.jpg" width="80" alt="中野マルイ教室" />
 	<h4><a href="/nakano/">中野マルイ教室</a></h4>
@@ -43,12 +43,12 @@
 	<li><img src="images/kasai.jpg" width="80" alt="イトーヨーカドー葛西教室" />
 	<h4><a href="/kasai/">イトーヨーカドー葛西教室</a></h4>
 	<span class="small">〒134-0084　東京都江戸川区東葛西9-3-3<br />イトーヨーカドー葛西店　3F</span><br /><span class="bold">TEL：03-5659-7212<br />エリア：江戸川区</span>
-	<span class="certify_sc2">サーティファイ</span></li>
+	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 
 	<li><img src="images/higashiojima.jpg" width="80" alt="ダイエー東大島教室" />
 	<h4><a href="/higashiojima/">ダイエー東大島教室</a></h4>
 	<span class="small">〒136-0072　東京都江東区大島7-38-30<br />ダイエー東大島店　4F</span><br /><span class="bold">TEL：03-3636-3181<br />エリア：江東区</span>
-	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
+	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/oizumi.jpg" width="80" alt="大泉学園ゆめりあ教室" />
 	<h4><a href="/oizumi/">大泉学園ゆめりあ教室</a></h4>

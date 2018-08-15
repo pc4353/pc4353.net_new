@@ -39,9 +39,9 @@ $body .= "ウェブ申込み特典として、2時間分の無料受講券を進
 }
 $ua=$_SERVER['HTTP_USER_AGENT'];
   if((strpos($ua,'iPhone')!==false)||(strpos($ua,'iPod')!==false)||(strpos($ua,'Android')!==false)) {
-$body .= "\nスマホサイトから送信\n";
+$body .= "\nスマホサイト（MOS資格対策講座ページ）から送信\n";
   } else {
-$body .= "\nパソコンサイトから送信\n";
+$body .= "\nパソコンサイト（MOS資格対策講座ページ）から送信\n";
   }
 
 mb_language( "ja" );

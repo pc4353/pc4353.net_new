@@ -291,10 +291,13 @@ img, .bx-wrapper img { max-width: 100%; height: auto; }
 .p-top3__block1 .c-wrap { margin: 0; }
 .p-top3__block1 li { border-bottom: 1px solid #dedccd; }
 .p-top3__block1 li a { display: block; background: #fff; padding: 10px; text-align: center; text-decoration: none; }
+.p-top3__block1 li a:after { content: "."; display: block; clear: both; width: 100%; height: 0; line-height: 0; overflow: hidden; visibility: hidden;}
 .p-top3__block1 li.gakusei{ display: block; background: #fff; padding: 10px; text-align: center; text-decoration: none; color: #222d82; }
-.p-top3__block1 li span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
-.p-top3__block1 li span.txt1 { width: 78%; text-align: left; background: url(../img/common/icon1_alt2.png) no-repeat center left; background-size: 18px; padding-left: 25px; font-weight: bold; font-size: 112.5% !important; line-height: 150%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-.p-top3__block1 li span.img1 { width: 19%; }
+/*.p-top3__block1 li span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }*/
+.p-top3__block1 li .txt_block { width: 71%; text-align: left; background: url(../img/common/icon1_alt2.png) no-repeat center left; padding-left: 34px; float: left;}
+.p-top3__block1 li span.txt1 { font-weight: bold; font-size: 100% !important; line-height: 150%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; margin-bottom: 3px; }
+.p-top3__block1 li span.txt2 { display: block; font-size: 87.5% !important;}
+.p-top3__block1 li span.img1 { width: 19%; float: right;}
 .p-top3__tit1 { background: url(../img/top/top3_bg1.jpg) repeat-x center bottom; background-size: auto 88%; }
 .p-top3__tit1 h2 { background: url(../img/top/top3_icon1.png) no-repeat left top; background-size: 60px; padding: 22px 0 16px 65px; }
 .p-top3__block2 .c-wrap { margin: 0; }
@@ -369,7 +372,7 @@ background-size: contain;*/ /*padding: 12px 15px 15px;*/ }
 
 .p-top5 h2 { background: url(../img/top/top5_bg1.png) repeat-x center bottom; padding: 10px 10px 15px; }
 .p-top5__block1 { background: url(../img/top/top5_bg2.png) center top; padding-top: 10px; padding-bottom: 1px; }
-.p-top5__block1 li { margin: 0 0 10px 0; text-align: center; }
+.p-top5__block1 li { margin: 0 0 10px 0; text-align: left; }
 .p-top5__block1 li.premium { position: relative; }
 .p-top5__block1 li.premium span { position: absolute;display: block;width: 100%;padding: 0 10px;text-align: center;bottom: 3%;box-sizing: border-box;-webkit-box-sizing: border-box; }
 .p-top5__block2 { margin-bottom: 50px; }

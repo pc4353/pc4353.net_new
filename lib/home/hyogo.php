@@ -12,7 +12,7 @@
 	
 	<li><img src="images/sannomiya.jpg" width="80" alt="ダイエー三宮駅前教室" />
 	<h4><a href="/sannomiya/">ダイエー三宮駅前教室</a></h4>
-	<span class="small">〒651-0096　兵庫県神戸市中央区雲井通6-1-15<br />ダイエー三宮駅前店 B2F</span><br /><span class="bold">TEL：078-262-0525<br />エリア：神戸市</span>
+	<span class="small">〒651-0096　兵庫県神戸市中央区雲井通6-1-15<br />ダイエー神戸三宮店 B2F</span><br /><span class="bold">TEL：078-262-0525<br />エリア：神戸市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 	
 	<li><img src="images/nishikobe.jpg" width="80" alt="イズミヤ西神戸教室" />

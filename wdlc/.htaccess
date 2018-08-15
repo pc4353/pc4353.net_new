@@ -1,0 +1,26 @@
+<Files basic.php>
+AuthUserFile /virtual/htdocs/default/pc4353.net/wdlc/.htpasswd1
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
+order deny,allow
+</Files>
+
+<Files office.php>
+AuthUserFile /virtual/htdocs/default/pc4353.net/wdlc/.htpasswd2
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
+order deny,allow
+</Files>
+
+<Files programming.php>
+AuthUserFile /virtual/htdocs/default/pc4353.net/wdlc/.htpasswd3
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
+order deny,allow
+</Files>

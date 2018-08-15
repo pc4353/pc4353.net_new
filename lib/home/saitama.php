@@ -1,6 +1,6 @@
 <h3 id="saitama" class="c-title1"><a href="/school/saitama.php">埼玉県</a></h3>
 <ul class="clearfix">
-	<li><img src="images/no_img.jpg" width="80" alt="そごう川口教室" />
+	<li><img src="images/kawaguchi.jpg" width="80" alt="そごう川口教室" />
 	<h4><a href="/kawaguchi/">そごう川口教室</a></h4>
 	<span class="small">〒332-8511　埼玉県川口市栄町3-5-1<br />そごう川口店 2階</span><br /><span class="bold">TEL：048-251-3366<br />エリア：川口市</span>
 	<span class="certify_sc2">サーティファイ</span></li>

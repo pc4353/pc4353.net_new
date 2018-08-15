@@ -67,7 +67,7 @@
 							</p>
 							<div class="clearfix mT10">
 							<p class="course_tel"><?=$room[$id][phone]?></p>
-							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
+							<a href=""><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
 <?php
 if ($id == "6117001") {
 ?>
@@ -120,7 +120,7 @@ if ($id == "6117001") {
 							</p>
 							<div class="clearfix mT10">
 							<p class="course_tel"><?=$room[$id][phone]?></p>
-							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
+							<a href=""><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
 <?php
 if ($id == "6117001") {
 ?>
@@ -179,7 +179,7 @@ if ($id == "6117001") {
 							</p>
 							<div class="clearfix mT10">
 							<p class="course_tel"><?=$room[$id][phone]?></p>
-							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
+							<a href=""><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
 <?php
 if ($id == "6117001") {
 ?>
@@ -239,7 +239,7 @@ if ($id == "6117001") {
 														</p>
 							<div class="clearfix mT10">
 							<p class="course_tel"><?=$room[$id][phone]?></p>
-							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
+							<a href=""><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
 <?php
 if ($id == "6117001") {
 ?>
@@ -304,7 +304,7 @@ if ($id == "6117001") {
 							</p>
 							<div class="clearfix mT10">
 							<p class="course_tel"><?=$room[$id][phone]?></p>
-							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
+							<a href=""><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
 <?php
 if ($id == "6117001") {
 ?>

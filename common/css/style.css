@@ -290,13 +290,16 @@ img, .bx-wrapper img { max-width: 100%; height: auto; }
 .p-top3__block1 { background: url(../img/common/bg1.png) center top; }
 .p-top3__block1 ul { position: relative; margin-left: -10px; padding: 28px 0 66px; }
 .p-top3__block1 li { float: left;  margin: 0 0 10px 10px; }
-.p-top3__block1 li:nth-child(3n+1) { clear: both; }
+.p-top3__block1 li:nth-child(2n+1) { clear: both; }
 .p-top3__block1 li a { display: block; background: #fff; border-radius: 10px; border: 3px solid #6191cc; text-align: center; padding: 10px; text-decoration: none; }
+.p-top3__block1 li a:after { content: "."; display: block; clear: both; width: 100%; height: 0; line-height: 0; overflow: hidden; visibility: hidden;}
 .p-top3__block1 li.gakusei {display: block; background: #fff; border-radius: 10px; border: 3px solid #6191cc; text-align: center; padding: 10px; text-decoration: none; color:#222d82;}
 .p-top3__block1 li a:hover { text-decoration: none; }
-.p-top3__block1 li span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
-.p-top3__block1 li span.txt1 { width: 160px; text-align: left; background: url(../img/common/icon1_alt2.png) no-repeat center left; padding-left: 34px; font-weight: bold; font-size: 118.7% !important; line-height: 160%; }
-.p-top3__block1 li span.img1 { width: 100px; }
+/*.p-top3__block1 li span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }*/
+.p-top3__block1 li .txt_block { width: 330px; text-align: left; background: url(../img/common/icon1_alt2.png) no-repeat center left; padding-left: 34px; float: left;}
+.p-top3__block1 li span.txt1 { font-weight: bold; font-size: 118.7% !important; line-height: 160%; display: block; margin-bottom: 3px;}
+.p-top3__block1 li span.txt2 { display: block;}
+.p-top3__block1 li span.img1 { width: 100px; float: right;}
 .p-top3__tit1 { background: url(../img/top/top3_bg1.jpg) repeat-x center bottom; }
 .p-top3__tit1 h2 { background: url(../img/top/top3_icon1.png) no-repeat left top; padding: 31px 0 23px 105px; }
 .p-top3__tit1.tit2 { position: relative; margin-top: -18px; }

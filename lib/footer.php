@@ -183,14 +183,20 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 </div>
 <div id="ft_top_link">
 <div id="ft_top_link_wrap">
-<p><a href="https://www.pc4353.net/" target="_blank">初心者からスキルアップ・資格取得まで安心のパソコン教室 [パソコン市民講座]</a></p>
+<p><a href="https://www.pc4353.net/" target="_blank">初心者からスキルアップ・資格取得まで安心の<br class="sp-only">パソコン教室 [パソコン市民講座]</a></p>
 </div>
 </div>
 <div id="ft_btm">
 <div id="ft_btm_wrap" class="clearfix">
 <ul id="ft_link">
 <li><a href="/about.php" target="_blank">会社概要</a></li>
+<?php
+if ($id !== "1076000") {
+?>
 <li><a href="/<?=$room[$id][dir]?>/recruit.php">採用情報</a></li>
+<?php
+}
+?>
 <li><a href="/privacy.php" target="_blank">プライバシーポリシー</a></li>
 <!--<li><a href="/<?=$room[$id][dir]?>/sitemap.php">サイトマップ</a></li>-->
 </ul>
