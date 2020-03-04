@@ -1,6 +1,5 @@
 <?php
 
-
 /*===================================
 WP更新通知を消す
 ===================================*/
@@ -13,10 +12,6 @@ add_filter('pre_site_transient_update_plugins', create_function('$a', "return nu
 // テーマ更新通知非表示
 remove_action('load-update-core.php', 'wp_update_themes');
 add_filter('pre_site_transient_update_themes', create_function('$a', "return null;"));
-
-
-
-
 
 // generatorを非表示にする
 remove_action('wp_head', 'wp_generator');
@@ -34,7 +29,30 @@ add_image_size( '235-180', 235, 180, true ); // ブログ
 
 
 
+/*===================================
+titleタグの自動生成
+===================================*/
+//titleタグの追加
+function setup_theme() {
+	add_theme_support( 'title-tag' );
+}
+add_action( 'after_setup_theme', 'setup_theme' );
 
+//タイトルからキャッチフレーズを削除する
+function remove_tagline($title) {
+	if ( isset($title['tagline']) ) {
+		unset( $title['tagline'] );
+	}
+	return $title;
+}
+add_filter( 'document_title_parts', 'remove_tagline' );
+
+//セパレータを任意のものに変更する
+function custom_title_separator($sep) {
+	$sep = '|';
+	return $sep;
+}
+add_filter( 'document_title_separator', 'custom_title_separator' );
 
 /*===================================
 自動整形をはずす
@@ -359,6 +377,36 @@ add_action('admin_print_footer_scripts', 'my_print_footer_scripts', 21);
 ===================================*/
 add_action( 'init', 'create_post_type' );
 function create_post_type() {
+
+
+	// お知らせ
+	register_post_type( 'news',
+		array(
+			'labels' => array(
+			'name' => __( 'お知らせ' ),
+			'singular_name' => __( 'お知らせ' )
+			),
+			'public' => true,
+			'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'custom-fields' ,'comments' ),
+			'menu_position' =>5,
+			'has_archive' => true
+		)
+	);
+
+	// お知らせ カテゴリ
+	register_taxonomy(
+		'news-category',
+		'news',
+		array(
+			'hierarchical' => true,
+			'update_count_callback' => '_update_post_term_count',
+			'label' => 'カテゴリ',
+			'singular_label' => 'カテゴリ',
+			'public' => true,
+			'show_ui' => true
+		)
+	);
+
 
 	// 受講生の声
 	register_post_type( 'voice',

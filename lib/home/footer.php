@@ -64,7 +64,8 @@ if (!$home) {
 						<?php /*<li class="c-link2"><a href="">学生の方へ</a></li>*/?>
 						<li class="c-link2"><a href="/course/first.php">パソコンの基本操作を覚えたい</a></li>
 						<li class="c-link2"><a href="/course/hobby.php">パソコンを趣味で楽しみたい</a></li>
-						<li class="c-link2"><a href="/tablet/">タブレット・スマートフォン</a></li>
+						<li class="c-link2"><a href="/course/smartphone.php">スマートフォン</a></li>
+						<li class="c-link2"><a href="/course/tablet.php">タブレット</a></li>
 					</ul>
 				</li>
 				<li class="c-link1"><a href="/shikaku/">資格対策講座</a></li>
@@ -106,7 +107,8 @@ if (!$home) {
 						<?php /*<li class="c-link2"><a href="">学生の方へ</a></li>*/?>
 						<li class="c-link2"><a href="/course/first.php">パソコンの基本操作を覚えたい</a></li>
 						<li class="c-link2"><a href="/course/hobby.php">パソコンを趣味で楽しみたい</a></li>
-						<li class="c-link2"><a href="/tablet/">タブレット・スマートフォン</a></li>
+						<li class="c-link2"><a href="/course/smartphone.php">スマートフォン</a></li>
+						<li class="c-link2"><a href="/course/tablet.php">タブレット</a></li>
 					</ul>
 				</li>
                 <li class="c-link1"><a href="/shikaku/">資格対策講座</a></li>
@@ -189,7 +191,7 @@ if (!$home) {
 			<ul>
 				<li><a href="http://www.nsgac.co.jp/" target="_blank">株式会社NSGアカデミー</a></li>
 				<li><a href="https://www.crear-ac.co.jp/" target="_blank">株式会社クレアール</a></li>
-				<li><a href="http://www.dreamadvance.jp/" target="_blank">株式会社ドリームアドバンス</a></li>
+				<li><a href="http://dreamadvance.co.jp/" target="_blank">株式会社ドリームアドバンス</a></li>
 				<li><a href="http://www.illinois-academy.com/"  target="_blank">英会話スクール イリノイアカデミー</a></li>
 				<li><a href="http://www.star-programming-school.com/" target="_blank">STAR Programming SCHOOL</a></li>
 			</ul>

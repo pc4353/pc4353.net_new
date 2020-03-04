@@ -5,7 +5,7 @@ $description = "My First PC プレゼントキャンペーン「はじめての�
 $keywords = "WDLC,";
 $pageId = 'wdlc';
 include_once('../lib/home/config.php');
-include_once('../lib/home/header.php');
+include_once('../lib/home/header-wdlc.php');
 
 ?>
 
@@ -52,7 +52,7 @@ function openwin3() {
 
 			<div class="section3_box1">
 				<h4 class="c-title3">第1回　Scratchをさわってみよう</h4>
-				<div class="img1"><a href="javascript:openwin1();"><img src="/images/gakuwari/img_02.jpg" width="100%" alt="Scratchをさわってみよう" /></a><br>↑クリックで映像再生画面</div>
+				<div class="img1"><a href="javascript:openwin1();"><img src="/images/wdlc/img-thumb_program01.jpg" width="100%" alt="Scratchをさわってみよう" /></a><br>↑クリックで映像再生画面</div>
 				<div class="txt2">
 					<p>世界中で使われているプログラミング学習ツール「Scratch」</p>
 					<p>Scratchの基本的な操作と知識を習得。</p>
@@ -66,7 +66,7 @@ function openwin3() {
 
 			<div class="section3_box1">
 				<h4 class="c-title3">第2回　オリジナルのアニメを作ろう</h4>
-				<div class="img1"><a href="javascript:openwin2();"><img src="/images/gakuwari/img_03.jpg" width="100%" alt="オリジナルのアニメを作ろう" /></a><br>↑クリックで映像再生画面</div>
+				<div class="img1"><a href="javascript:openwin2();"><img src="/images/wdlc/img-thumb_program02.jpg" width="100%" alt="オリジナルのアニメを作ろう" /></a><br>↑クリックで映像再生画面</div>
 				<div class="txt1">
 					<p>Scratchの基本操作を踏まえて、キャラクターの位置（座標）を設定したり、メッセージ機能を使ったプログラミングをしてみよう。</p>
 					<p>自分だけのオリジナルアニメーションを作り出そう！</p>
@@ -75,7 +75,7 @@ function openwin3() {
 
 			<div class="section3_box1">
 				<h4 class="c-title3">第3回　ゲームを作ってみよう</h4>
-				<div class="img1"><a href="javascript:openwin3();"><img src="/images/gakuwari/img_04.jpg" width="100%" alt="ゲームを作ってみよう" /></a><br>↑クリックで映像再生画面</div>
+				<div class="img1"><a href="javascript:openwin3();"><img src="/images/wdlc/img-thumb_program03.jpg" width="100%" alt="ゲームを作ってみよう" /></a><br>↑クリックで映像再生画面</div>
 				<div class="txt1">
 					<p>キャラクター同士がぶつかったらプログラムを実行するあたり判定。</p>
 					<p>キャラクターをランダムな動きにしたり、キーボードで動きを指令するプログラミングをしてみよう。</p>
@@ -111,6 +111,6 @@ function openwin3() {
 <div class="u-center_wdlc"><a href="http://advertising.aolp.jp/tieup/msn2016/mfpc/" target="_blank"><img src="/images/wdlc/img-ft.png" alt="My First PC" width="1000" /></a></div>
 <?php
 
-include_once('../lib/home/footer.php');
+include_once('../lib/home/footer-wdlc.php');
 
 ?>

@@ -27,7 +27,7 @@ include_once('../lib/home/header.php');
 <div id="contents">
 
 <div class="school">
-	<p>千葉県には船橋教室や津田沼教室、松戸教室など14件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
+	<p>千葉県には船橋教室や津田沼教室、松戸教室など12件の教室が存在しています。ぜひお近くの教室をお探しください。</p>
 <h2 id="kanto" class="c-title2">関東エリア</h2>
 
 <?php

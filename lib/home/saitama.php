@@ -1,28 +1,33 @@
 <h3 id="saitama" class="c-title1"><a href="/school/saitama.php">埼玉県</a></h3>
 <ul class="clearfix">
+	<li><img src="images/no_img.jpg" width="80" alt="西武所沢教室" />
+	<h4><a href="/tokorozawa/">西武所沢教室</a></h4>
+	<span class="small">〒359-1198　埼玉県所沢市日吉町12-1<br />西武所沢店　7F</span><br /><span class="bold">TEL：04-2936-9855<br />エリア：所沢市</span>
+	<span class="certify_sc2">サーティファイ</span></li>
+
 	<li><img src="images/kawaguchi.jpg" width="80" alt="そごう川口教室" />
 	<h4><a href="/kawaguchi/">そごう川口教室</a></h4>
-	<span class="small">〒332-8511　埼玉県川口市栄町3-5-1<br />そごう川口店 2階</span><br /><span class="bold">TEL：048-251-3366<br />エリア：川口市</span>
+	<span class="small">〒332-8511　埼玉県川口市栄町3-5-1<br />そごう川口店　2階</span><br /><span class="bold">TEL：048-251-3366<br />エリア：川口市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/higashimatsuyama.jpg" width="80" alt="まるひろ東松山教室" />
 	<h4><a href="/higashimatsuyama/">まるひろ東松山教室</a></h4>
-	<span class="small">〒355-0016　埼玉県東松山市材木町19-30<br />丸広東松山店 5階</span><br /><span class="bold">TEL：0493-53-4463<br />エリア：東松山市</span>
+	<span class="small">〒355-0016　埼玉県東松山市材木町19-30<br />丸広東松山店　5階</span><br /><span class="bold">TEL：0493-53-4463<br />エリア：東松山市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/yono.jpg" width="80" alt="イオンモール与野教室" />
 	<h4><a href="/yono/">イオンモール与野教室</a></h4>
-	<span class="small">〒338-0004　埼玉県さいたま市中央区本町西5-2-9<br />イオンモール与野 1F</span><br /><span class="bold">TEL：048-859-3200<br />エリア：さいたま市</span>
+	<span class="small">〒338-0004　埼玉県さいたま市中央区本町西5-2-9<br />イオンモール与野　1F</span><br /><span class="bold">TEL：048-859-3200<br />エリア：さいたま市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/iruma.jpg" width="80" alt="まるひろ入間教室" />
 	<h4><a href="/iruma/">まるひろ入間教室</a></h4>
-	<span class="small">〒358-0003　埼玉県入間市豊岡1-6-12<br />丸広入間店 6階</span><br /><span class="bold">TEL：04-2936-7206<br />エリア：入間市</span>
+	<span class="small">〒358-0003　埼玉県入間市豊岡1-6-12<br />丸広入間店　6階</span><br /><span class="bold">TEL：04-2936-7206<br />エリア：入間市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/minamiurawa.jpg" width="80" alt="まるひろ南浦和教室" />
 	<h4><a href="/minamiurawa/">まるひろ南浦和教室</a></h4>
-	<span class="small">〒336-0018　埼玉県さいたま市南区南本町1-7-4<br />まるひろ南浦和店 2階</span><br /><span class="bold">TEL：048-711-1432<br />エリア：さいたま市</span>
+	<span class="small">〒336-0018　埼玉県さいたま市南区南本町1-7-4<br />まるひろ南浦和店　2階</span><br /><span class="bold">TEL：048-711-1432<br />エリア：さいたま市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 
 	<li><img src="images/ageo.jpg" width="80" alt="まるひろ上尾教室" />
@@ -55,19 +60,10 @@
 	<span class="small">〒350-0441　埼玉県入間郡毛呂山町岩井1498-2<br />いなげや毛呂店　2F</span><br /><span class="bold">TEL：049-295-0260<br />エリア：毛呂山町</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
-	<li><img src="images/tokorozawa.jpg" width="80" alt="イオン所沢教室" />
-	<h4><a href="/tokorozawa/">イオン所沢教室</a></h4>
-	<span class="small">〒359-1116　埼玉県所沢市東町5-22<br />イオン所沢店　7F</span><br /><span class="bold">TEL：04-2924-5858<br />エリア：所沢市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
 	<li><img src="images/fukaya.jpg" width="80" alt="イトーヨーカドー深谷教室" />
 	<h4><a href="/fukaya/">イトーヨーカドー深谷教室</a></h4>
 	<span class="small">〒366-0052　埼玉県深谷市上柴町西4-2-14<br />イトーヨーカドー深谷店　2F</span><br /><span class="bold">TEL：048-572-6646<br />エリア：深谷市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
-
-	<li><img src="images/hibarigaoka.jpg" width="80" alt="ひばりが丘教室" />
-	<h4><a href="/hibarigaoka/">ひばりが丘教室</a></h4>
-	<span class="small">〒352-0035　埼玉県新座市栗原5-12-3</span><br /><span class="bold">TEL：0424-23-3376<br />エリア：新座市</span><br />&nbsp;</li>
 
 	<li class="none"><img src="images/no_img.jpg" width="80" alt="写真準備中" />
 	<h4>東松山教室</h4>

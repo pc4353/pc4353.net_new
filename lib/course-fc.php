@@ -68,16 +68,7 @@
 							<div class="clearfix mT10">
 							<p class="course_tel"><?=$room[$id][phone]?></p>
 							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
 								<p class="align-c mT10"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-inq_contact.jpg" width="500" height="70" alt="無料説明会のお申込みはこちら" class="alpha" /></a></p>
-<?php
-}
-?>
 							</div>
 						</div><!-- /#subject1 -->
 
@@ -121,16 +112,7 @@ if ($id == "6117001") {
 							<div class="clearfix mT10">
 							<p class="course_tel"><?=$room[$id][phone]?></p>
 							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
 								<p class="align-c mT10"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-inq_contact.jpg" width="500" height="70" alt="無料説明会のお申込みはこちら" class="alpha" /></a></p>
-<?php
-}
-?>
 							</div>
 						</div><!-- /#subject1 -->
 
@@ -180,16 +162,7 @@ if ($id == "6117001") {
 							<div class="clearfix mT10">
 							<p class="course_tel"><?=$room[$id][phone]?></p>
 							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
 								<p class="align-c mT10"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-inq_contact.jpg" width="500" height="70" alt="無料説明会のお申込みはこちら" class="alpha" /></a></p>
-<?php
-}
-?>
 							</div>
 						</div><!-- /#subject1 -->
 						
@@ -240,16 +213,7 @@ if ($id == "6117001") {
 							<div class="clearfix mT10">
 							<p class="course_tel"><?=$room[$id][phone]?></p>
 							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
 								<p class="align-c mT10"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-inq_contact.jpg" width="500" height="70" alt="無料説明会のお申込みはこちら" class="alpha" /></a></p>
-<?php
-}
-?>
 							</div>
 						</div><!-- /#subject2 -->
 						
@@ -305,16 +269,7 @@ if ($id == "6117001") {
 							<div class="clearfix mT10">
 							<p class="course_tel"><?=$room[$id][phone]?></p>
 							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
 								<p class="align-c mT10"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-inq_contact.jpg" width="500" height="70" alt="無料説明会のお申込みはこちら" class="alpha" /></a></p>
-<?php
-}
-?>
 							</div>
 						</div><!-- /#subject1 -->
 

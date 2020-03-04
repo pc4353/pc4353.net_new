@@ -1,8 +1,13 @@
 <h3 id="kanagawa" class="c-title1"><a href="/school/kanagawa.php">神奈川県</a></h3>
 <ul class="clearfix">
+	<li><img src="images/mizonokuchi.jpg" width="80" alt="マルイファミリー溝口教室" />
+	<h4><a href="/mizonokuchi/">マルイファミリー溝口教室</a></h4>
+	<span class="small">〒213-0001　神奈川県川崎市高津区溝口1-4-1<br />マルイファミリー溝口　8階</span><br /><span class="bold">TEL：044-299-8301<br />エリア：川崎市</span>
+	<span class="certify_sc2">サーティファイ</span></li>
+
 	<li><img src="images/aitai.jpg" width="80" alt="センター北あいたい教室" />
 	<h4><a href="/aitai/">センター北あいたい教室</a></h4>
-	<span class="small">〒224-0003　神奈川県横浜市都筑区中川中央1-1-3<br />ショッピングタウンあいたい 5F</span><br /><span class="bold">TEL：045-530-3838<br />エリア：横浜市</span>
+	<span class="small">〒224-0003　神奈川県横浜市都筑区中川中央1-1-3<br />ショッピングタウンあいたい　5F</span><br /><span class="bold">TEL：045-530-3838<br />エリア：横浜市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 
 	<li><img src="images/kawasaki.jpg" width="80" alt="イトーヨーカドー川崎教室" />
@@ -52,11 +57,11 @@
 
 	<li class="none"><img src="images/no_img.jpg" width="80" alt="写真準備中" />
 	<h4>そうてつローゼン湘南台教室</h4>
-	<span class="small">〒252-0804　神奈川県藤沢市湘南台1丁目10-1<br />そうてつローゼン湘南台店 1F</span><br /><span class="bold">TEL：0466-52-6009<br />エリア：藤沢市</span></li>
+	<span class="small">〒252-0804　神奈川県藤沢市湘南台1丁目10-1<br />そうてつローゼン湘南台店　1F</span><br /><span class="bold">TEL：0466-52-6009<br />エリア：藤沢市</span></li>
 
 	<li class="none"><img src="images/no_img.jpg" width="80" alt="写真準備中" />
 	<h4>二俣川教室</h4>
-	<span class="small">〒241-0821　神奈川県横浜市旭区二俣川2-58<br />第1清水ハーモニービル 204号室</span><br /><span class="bold">TEL：045-363-0945<br />エリア：横浜市</span></li>
+	<span class="small">〒241-0821　神奈川県横浜市旭区二俣川2-58<br />第1清水ハーモニービル　204号室</span><br /><span class="bold">TEL：045-363-0945<br />エリア：横浜市</span></li>
 
 	<li class="none"><img src="images/no_img.jpg" width="80" alt="写真準備中" />
 	<h4>ダイエー向ヶ丘教室</h4>

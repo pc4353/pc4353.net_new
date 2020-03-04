@@ -28,7 +28,7 @@ if( !$name ) {
 	$erName = $erBg;
 }
 if( !$kana ) {
-	$errormsg .= "<label for=\"kana\">■フリガナ" . $msg1 . "</label><br />\n" ;
+	$errormsg .= "<label for=\"kana\">■ふりがな" . $msg1 . "</label><br />\n" ;
 	$erKana = $erBg;
 }
 if( !$phone ) {
@@ -57,7 +57,7 @@ include_once("../lib/header_contact.php");
 if( $step == 1 ) {
 ?>
                 <div id="toiawase_form">
-					<div class="i-pt clearfix mB20 mR10">
+					<div class="i-pt clearfix">
 						<h2 class="mB20 bg-check blue"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料体験のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step1.jpg" width="810" height="55" alt="お客様情報入力" /></div>
 						<p><span class="red">必須</span>項目は、必ずご入力お願いいたします。</p>
@@ -68,9 +68,9 @@ if( $step == 1 ) {
 						<p class="sp3 center mT10"><input class="file over1" type="image" src="/images/btn-inq_confirm.jpg" width="500" height="70"/></p>
 						<input type="hidden" value="1" name="step" />
 						</form>
-<table width="135" border="0" cellpadding="2" cellspacing="0" title="このマークは、ウェブサイトを安心してご利用いただける安全の証です。">
+<table width="100%" border="0" cellpadding="2" cellspacing="0" title="このマークは、ウェブサイトを安心してご利用いただける安全の証です。">
 <tr>
-<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.websecurity.norton.com/getseal?host_name=www.pc4353.net&amp;size=M&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script><br /> <a href="http://www.symantec.com/ja/jp/ssl-certificates/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSL/TLSとは？</a></td>
+<td width="100%" align="center" valign="top"><script type="text/javascript" src="https://seal.websecurity.norton.com/getseal?host_name=www.pc4353.net&amp;size=M&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script><br /> <a href="http://www.symantec.com/ja/jp/ssl-certificates/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSL/TLSとは？</a></td>
 </tr>
 </table>
 						</div><!-- /.section-lv2 -->
@@ -86,7 +86,7 @@ if( $step == 1 ) {
 
 ?>
                 <div id="toiawase_form">
-					<div class="i-pt clearfix mB20 mR10">
+					<div class="i-pt clearfix">
 						<h2 class="mB20 bg-check blue"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料体験のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step2.jpg" width="810" height="55" alt="入力内容確認" /></div>
 						<p>入力内容をご確認ください。</p>
@@ -120,24 +120,29 @@ if( $step == 1 ) {
 							<td><? textConf( $old, old ) ?>	</td>
 						</tr>
 						<tr>
+							<th>学生種別</th>
+							<td><? textConf( $student, student ) ?>	</td>
+						</tr>
+						<tr>
 							<th>あなたの目的は？<br class="pc-only">（複数選択可）</th>
 							<td><? checkboxConf( $_POST[pur], "purpose" ); ?>
 							<? textConf( $other, other, "(", ")" ) ?>
 							</td>
 						</tr>
 						<tr>
-							<th>無料体験のお申し込み</th>
-							<td><? textConf( $free, free ) ?>
-<!--
-							<? textConf( $month, month, "", "月" ) ?>
-							<? textConf( $day, day, "", "日" ) ?>
-							<? textConf( $time, time, "", "時頃" ) ?>
--->
+							<th>市民講座を何で知りましたか？<br>（複数選択可）</th>
+							<td><? checkboxConf( $_POST[tri], "trigger" ); ?>
+							<? textConf( $trigger_other, trigger_other, "(", ")" ) ?>
 							</td>
 						</tr>
 						<tr>
+							<th>無料体験のお申し込み</th>
+							<td><? textConf( $free, free ) ?> </td>
+						</tr>
+						<tr>
 							<th>無料体験希望日</th>
-							<td><? textConf( $nichiji_1, nichiji_1 ) ?>月 <? textConf( $nichiji_2, nichiji_2 ) ?>日　<? textConf( $nichiji_3, nichiji_3 ) ?>
+							<td>【第1希望】　<? textConf( $month_1, month_1, "", "月" ) ?>　<? textConf( $day_1, day_1, "", "日" ) ?>　<? textConf( $time_1, time_1, "", "時頃" ) ?><br />
+								【第2希望】　<? textConf( $month_2, month_2, "", "月" ) ?>　<? textConf( $day_2, day_2, "", "日" ) ?>　<? textConf( $time_2, time_2, "", "時頃" ) ?>
                             </td>
 						</tr>
 						<tr>
@@ -149,9 +154,9 @@ if( $step == 1 ) {
 						<p class="sp3 center mT10"><input class="file over1" type="image" src="/images/btn-inq_complete.jpg" width="500" height="70"/></p>
 						<input type="hidden" value="2" name="step" />
 						</form>
-<table width="135" border="0" cellpadding="2" cellspacing="0" title="このマークは、ウェブサイトを安心してご利用いただける安全の証です。">
+<table width="100%" border="0" cellpadding="2" cellspacing="0" title="このマークは、ウェブサイトを安心してご利用いただける安全の証です。">
 <tr>
-<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.websecurity.norton.com/getseal?host_name=www.pc4353.net&amp;size=M&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script><br /> <a href="http://www.symantec.com/ja/jp/ssl-certificates/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSL/TLSとは？</a></td>
+<td width="100%" align="center" valign="top"><script type="text/javascript" src="https://seal.websecurity.norton.com/getseal?host_name=www.pc4353.net&amp;size=M&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script><br /> <a href="http://www.symantec.com/ja/jp/ssl-certificates/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSL/TLSとは？</a></td>
 </tr>
 </table>
 						</div><!-- /.section-lv2 -->

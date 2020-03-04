@@ -1,14 +1,6 @@
 				<p class="mB10 mL5">【12月20日（月）まで】HP限定のキャンペーンですので、必ず「ホームページを見た」とお伝えください。</p>
 				-->
 				
-				<?php
-				if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001" && $id !== "1001102" && $id !== "1001098") {
-				?>
-
-				<?php
-				}
-				?>
-								
 				<div id="search-course" class="block">
 					<h2 class="mB15 clearfix"><img src="/images/title_31.png" width="650" height="52" alt="あなたの目的に合わせた学習スタイルのご紹介" /><span><a href="/<?=$room[$id][dir]?>/course.php">詳しい内容を見る</a></span></h2>
 					<div class="section-lv2 clearfix mB30">

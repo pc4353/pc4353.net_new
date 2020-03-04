@@ -6,6 +6,7 @@
 function getOptionHTML( $i, $end, $value, $firststring = FALSE, $reverse = FALSE ) {
 	if( $firststring !== FALSE ) {
 		$html .= "<option value=\"\">" . $firststring . "</option>\n";
+//		$html .= "<option value=\"" . "--" . "\">" . $firststring . "</option>\n";
 	}
 	if( $reverse !== FALSE ) {
 		while ( $i >= $end ) {

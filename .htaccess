@@ -232,6 +232,10 @@ RewriteEngine on
 RewriteCond %{THE_REQUEST} ^.*/sp/profile.html
 RewriteRule ^(.*)sp/profile.html$ https://www.pc4353.net/about.php$1 [R=301,L]
 
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/tablet/
+RewriteRule ^(.*)tablet/$ https://www.pc4353.net/course/tablet.php$1 [R=301,L]
+
 ExpiresActive On
 ExpiresByType text/css "access plus 1 days"
 ExpiresByType image/gif "access plus 10 days"

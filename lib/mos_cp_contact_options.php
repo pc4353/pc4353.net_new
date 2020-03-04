@@ -15,7 +15,7 @@ $script_path = "/" . $room[$id][dir] . "/mos.php";
 function inputHTML() {
 global $room, $rid;
 global $erName, $erKana, $erPhone, $erNichiji;
-global $name, $kana, $phone, $mail, $old, $nichiji, $nichiji_1, $nichiji_2, $nichiji_3, $course, $question;
+global $name, $kana, $phone, $mail, $old, $student, $nichiji, $nichiji_1, $nichiji_2, $nichiji_3, $course, $question;
 ?>
 <table class="inq_form">
 <tr>
@@ -24,20 +24,20 @@ global $name, $kana, $phone, $mail, $old, $nichiji, $nichiji_1, $nichiji_2, $nic
 </tr>
 <tr>
 	<th>お名前　<span class="red">必須</span></th>
-	<td<?= $erName ?>>例）市民花子<br /><input type="text" value="<?= $name ?>" name="name" maxlength="20" class="form_input01"></td>
+	<td<?= $erName ?>><input type="text" value="<?= $name ?>" name="name" maxlength="20" class="form_input01"><br />例）市民花子</td>
 </tr>
 <tr>
-	<th>フリガナ　<span class="red">必須</span></th>
-	<td<?= $erKana ?>>例）シミンハナコ<br /><input type="text" value="<?= $kana ?>" name="kana" maxlength="20" class="form_input01"></td>
+	<th>ふりがな　<span class="red">必須</span></th>
+	<td<?= $erKana ?>><input type="text" value="<?= $kana ?>" name="kana" maxlength="20" class="form_input01"><br />例）しみんはなこ</td>
 </tr>
 <tr>
 	<th>電話番号（携帯可）　<span class="red">必須</span></th>
-	<td<?= $erPhone ?>>例）09000000000<br /><input type="text" value="<?= $phone ?>" name="phone" maxlength="15" class="form_input02"></td>
+	<td<?= $erPhone ?>><input type="tel" value="<?= $phone ?>" name="phone" maxlength="15" class="form_input02"><br />例）09012345678（ハイフンなし）</td>
 </tr>
 <tr>
 	<th>メールアドレス</th>
-	<td>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100">
-	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
+	<td><input type="email" value="<?= $mail ?>" name="mail" maxlength="100"><br />例）example@pc4353.com
+	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【@pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
 	</td>
 </tr>
 <tr>
@@ -54,9 +54,19 @@ global $name, $kana, $phone, $mail, $old, $nichiji, $nichiji_1, $nichiji_2, $nic
 	</ul></td>
 </tr>
 <tr>
+	<th>学生種別</th>
+	<td><ul class="old clearfix">
+    <li><label><input type="radio" class="nBn" value="小学生" name="student"<? if( $student == "小学生" ) { echo " checked"; } ?>> 小学生</label></li>
+    <li><label><input type="radio" class="nBn" value="中学生" name="student"<? if( $student == "中学生" ) { echo " checked"; } ?>> 中学生</label></li>
+    <li><label><input type="radio" class="nBn" value="高校生" name="student"<? if( $student == "高校生" ) { echo " checked"; } ?>> 高校生</label></li>
+    <li><label><input type="radio" class="nBn" value="大学生" name="student"<? if( $student == "大学生" ) { echo " checked"; } ?>> 大学生</label></li>
+    <li><label><input type="radio" class="nBn" value="専門学生" name="student"<? if( $student == "専門学生" ) { echo " checked"; } ?>> 専門学生</label></li>
+	</ul></td>
+</tr>
+<tr>
 	<th>無料説明会希望日　<span class="red">必須</span></th>
     <td<?= $erNichiji ?>><select name="nichiji_1">
-    	<option value=""<? if( $nichiji_1 == "" ) { echo " selected"; } ?>>&nbsp;</option>
+    	<option value=""<? if( $nichiji_1 == "" ) { echo " selected"; } ?>>--</option>
     	<option value="1"<? if( $nichiji_1 == "1" ) { echo " selected"; } ?>>1</option>
     	<option value="2"<? if( $nichiji_1 == "2" ) { echo " selected"; } ?>>2</option>
     	<option value="3"<? if( $nichiji_1 == "3" ) { echo " selected"; } ?>>3</option>
@@ -71,7 +81,7 @@ global $name, $kana, $phone, $mail, $old, $nichiji, $nichiji_1, $nichiji_2, $nic
     	<option value="12"<? if( $nichiji_1 == "12" ) { echo " selected"; } ?>>12</option>
         </select>月&nbsp;
         <select name="nichiji_2">
-    	<option value=""<? if( $nichiji_2 == "" ) { echo " selected"; } ?>>&nbsp;</option>
+    	<option value=""<? if( $nichiji_2 == "" ) { echo " selected"; } ?>>--</option>
     	<option value="1"<? if( $nichiji_2 == "1" ) { echo " selected"; } ?>>1</option>
     	<option value="2"<? if( $nichiji_2 == "2" ) { echo " selected"; } ?>>2</option>
     	<option value="3"<? if( $nichiji_2 == "3" ) { echo " selected"; } ?>>3</option>
@@ -105,7 +115,7 @@ global $name, $kana, $phone, $mail, $old, $nichiji, $nichiji_1, $nichiji_2, $nic
     	<option value="31"<? if( $nichiji_2 == "31" ) { echo " selected"; } ?>>31</option>
         </select>日&nbsp;
         <select name="nichiji_3">
-    	<option value=""<? if( $nichiji_3 == "" ) { echo " selected"; } ?>>&nbsp;</option>
+    	<option value=""<? if( $nichiji_3 == "" ) { echo " selected"; } ?>>--</option>
     	<option value="午前"<? if( $nichiji_3 == "午前" ) { echo " selected"; } ?>>午前</option>
     	<option value="午後"<? if( $nichiji_3 == "午後" ) { echo " selected"; } ?>>午後</option>
         </select>

@@ -1,13 +1,6 @@
 <?php
 if( !$form ) {
 ?>
-
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
 				<div id="contact" class="block mB20">
 					<h2 class="mB15"><img src="/images/title_50.png" width="650" height="71" alt="興味を持ったらまずはお問い合わせ" /></h2>
 					<div class="section-lv2 clearfix moz2">
@@ -32,10 +25,6 @@ if ($id == "6117001") {
 <?php
 }
 ?>
-
-<?php
-}
-?>
 			</div><!-- #main-->
 
 			<div id="sub">
@@ -52,63 +41,12 @@ if ($id == "6117001") {
 				<div class="mB10">
 					<h3><a href="/<?=$room[$id][dir]?>/instructor.php"><img class="alpha" src="/images/inst.png" width="180" height="57" alt="インストラクターのご紹介" /></a></h3>
 				</div><!-- .section-->
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
 				<div class="mB10">
 					<h3><a href="/<?=$room[$id][dir]?>/contact.php"><img class="alpha" src="/images/contact.png" width="180" height="67" alt="無料体験のお申し込み" /></a></h3>
 				</div><!-- .section-->
-<?php
-}
-?>
 				<!-- <div class="mB10">
 					<h3><a href="/<?=$room[$id][dir]?>/recruit.php"><img class="alpha" src="/images/inst2.png" width="180" height="62" alt="インストラクター募集中" /></a></h3>
 				</div> -->
-
-<?php
-if ($id !== "6114001" && id !== "6117001" && $id !== "1076001") {
-?>
-				<div class="section2">
-					<h3 class="blog">ブログで紹介(最新5件)<br />教室からのお知らせ</h3>
-					<ul class="news">
-<?php
-$blog = simplexml_load_file('http://www.4353p-club.com/community/rss.php?fc=' . substr($id, 0, 4) . '&room=' . substr($id, 4, 3));
-$i = 0;
-$loop = 5;
-foreach ($blog->channel->item as $item) {
-$date = date('Y.m.d', strtotime($item->pubDate));
-if( $i < $loop ) {
-?>
-						<li<? if ($i == $loop - 1){ echo ' class="list-end"';}?>>
-							<dl>
-								<dt><?=$date?></dt>
-								<dd><a href="<?=$item->link;?>" target="_blank"><?=$item->title;?></a></dd>
-							</dl>
-						</li>
-<?php
-}
-$i++;
-}
-?>
-					</ul>
-				</div>
-<?php
-}
-?>
-
-<?php
-if ($id !== "6114001" && $id !== "6117001" && $id !== "1076001") {
-?>
-				<div class="mB10">
-					<h3><a href="http://www.4353p-club.com" target="_blank"><img class="alpha" src="/images/menu_premire.jpg" width="180" height="378" alt="パソコン市民講座だけの会員専用学べるサイト「プレミア倶楽部」" /></a></h3>
-				</div><!-- .section-->
-
-<?php
-}
-?>
 
 			</div><!-- #sub-->
 		</div><!-- #contents -->
@@ -124,33 +62,15 @@ if ($id !== "6114001" && $id !== "6117001" && $id !== "1076001") {
                 	<dt>無料体験のご予約、ご質問やご相談など、お気軽にお電話ください</dt>
 					<dd><?=$room[$id][phone]?></dd>
                 </dl>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
                 <div id="ft_inq">
                 	<a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-ft_inq.jpg" width="252" height="54" alt="無料体験予約はこちら" class="alpha" /></a>
                 </div>
-<?php
-}
-?>
                 <dl id="ft_link" class="clearfix">
                 	<dd class="ft_list01">
 					<ul>
 						<li><a href="/<?=$room[$id][dir]?>/about.php">教室紹介</a></li>
 						<li><a href="/<?=$room[$id][dir]?>/course.php">コース紹介</a></li>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
 						<li><a href="/<?=$room[$id][dir]?>/contact.php">お問い合わせ</a></li>
-<?php
-}
-?>
 					</ul>
                     </dd>
                 	<dd class="ft_list02">

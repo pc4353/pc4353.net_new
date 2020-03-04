@@ -122,7 +122,7 @@ table td {
 }
 
 p {
-  line-height: 1.51;
+  line-height: 1.65;
 }
 
 dt {
@@ -440,7 +440,7 @@ div.big-submit {
 /* パンくずリスト */
 #locus-area {
 	background: #f6f5ef;
-	padding: 160px 0 6px;
+	padding: 6px 0;
 	line-height: 1.8em;
 }
 #locus-area dl.locus {
@@ -478,7 +478,7 @@ dl.footer-locus {
 	position: relative;
 }
 #contents #kasou {
-	padding:5px 0 0 15px
+	padding:5px 0 0
 }
 #contents #kasou h1 {
 	color:#0064be;
@@ -486,6 +486,7 @@ dl.footer-locus {
 	border-bottom: 3px solid #0064be;
 	padding-left: 10px;
 	font-size: 22px;
+	margin-bottom: 20px;
 }
 #contents #kasou h2,
 #contents #contact h2 {
@@ -495,21 +496,12 @@ dl.footer-locus {
 	padding: 10px;
 	font-size: 18px;
 }
-#contents #kasou .c-title1 {
-	background: url(/common/img/common/title1_bg1.png) no-repeat left center !important;
-	padding: 3px 0 3px 20px !important;
-	font-size: 150% !important;
-	font-weight: bold !important;
-	height: auto !important;
-	margin: 10px 0 !important;
-}
-#contents #kasou .c-title3 {
-	font-size: 130% !important;
-	padding: 0 0 5px 5px !important;
-	margin: 0 0 20px !important;
-	border-bottom: 2px solid #6191cc !important;
-	background: none !important;
-}
+#contents #kasou .c-title1 { background: url(../common/img/common/title1_bg1.png) no-repeat left center !important; padding: 3px 0 3px 20px !important; font-size: 150% !important; font-weight: bold !important; height: auto !important; margin: 10px 0 !important; }
+#contents #kasou .c-title1 h2 { float: left; font-size: 100%; }
+#contents #kasou .c-title1__txt1 { float: right; padding-top: 6px; }
+#contents #kasou .c-title2 { background: #4075b7 !important; padding: 10px 15px !important; border-bottom: 3px solid #ffdc00 !important; margin: 70px 0 15px !important; font-size: 162.5% !important; font-weight: bold !important; color: #fff !important; height: auto !important; line-height: 160% !important; }
+#contents #kasou .c-title3 { font-size: 137.5% !important; padding: 0 0 5px 5px !important; margin: 10px 0 15px !important; border-bottom: 2px solid #6191cc !important; background: none !important; }
+
 #contents .notice {
 	background: #F4DEDE;
 	margin-bottom:8px;
@@ -619,7 +611,7 @@ ul.search-ul li a:hover {
 /* メインエリア */
 #main {
 	float: left;
-	width: 740px;
+	width: 800px;
 	overflow:hidden;
 }
 #key-visual {
@@ -711,7 +703,7 @@ a.banner:hover{ color:#333333!important}
 #main .lead_txt {
 	font-size: 18px;
 	color: #2aabe4;
-	padding: 20px;
+	padding: 20px 10px;
 }
 
 /* 講座紹介*/
@@ -872,10 +864,10 @@ a.banner:hover{ color:#333333!important}
 	line-height:1em
 }
 #toiawase_form {
+	font-family: "游ゴシック体", "Yu Gothic", "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ　Ｐゴシック", "MS PGothic", sans-serif;
 	width: 810px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 100px 0 6px;
+	margin: 0 auto 30px;
+	padding: 0 20px 6px;
 }
 #toiawase_form .section-lv2 {
 	font-size:14px;
@@ -917,7 +909,7 @@ a.banner:hover{ color:#333333!important}
 /* サイドエリア */
 #sub {
 	float: right;
-	width: 240px;
+	width: 180px;
 	padding-top: 5px;
 	overflow: hidden;
 }
@@ -955,23 +947,27 @@ a.banner:hover{ color:#333333!important}
 
 /* @group 教室紹介ページ body.about */
 #about1 .section-lv2 h3{ background: #00a0e9; color: #fff; padding: 15px 30px; font-size: 18px;}
-#about1 .section-lv3{ border:1px solid #cccccc; border-top:none; margin:0 4px 20px 0; width:723px; font-size:14px;}
+#about1 .section-lv2 p.lead_txt{ font-size: 16px; margin-bottom: 20px;}
+#about1 .section-lv3{ background: #fff; margin:0 4px 20px 0; width:100%; font-size:16px;}
 #about1 .section-lv3.pt1 p,
 #about1 .section-lv3.pt3 p,
-#about1 .section-lv3.pt5 p{ padding:10px 140px 5px 10px;}
+#about1 .section-lv3.pt5 p{ padding:10px 160px 5px 10px; line-height: 2;}
 #about1 .section-lv3.pt2 p,
-#about1 .section-lv3.pt4 p{ padding:10px 10px 5px 140px;}
-#about1 .section-lv3.pt6 p{ padding:10px 10px 10px 10px;}
+#about1 .section-lv3.pt4 p{ padding:10px 10px 5px 160px; line-height: 2;}
+#about1 .section-lv3.pt6 p{ padding:10px 10px 10px 10px; line-height: 2;}
 #about1 .section-lv3.pt1 p{ background:url(../images/aboutbg_13.png) no-repeat right 0px; padding-bottom:45px;}
 #about1 .section-lv3.pt2 p{ background:url(../images/aboutbg_16.png) no-repeat -20px 0px; padding-bottom:55px;}
 #about1 .section-lv3.pt3 p{ background:url(../images/aboutbg_19.png) no-repeat right 0px; padding-bottom:55px;}
 #about1 .section-lv3.pt4 p{ background:url(../images/aboutbg_22.png) no-repeat -20px 0px; padding-bottom:55px;}
 #about1 .section-lv3.pt5 p{ background:url(../images/aboutbg_25.png) no-repeat right 0px; padding-bottom:40px;}
 
+#about2 { margin-bottom: 20px;}
 #about2.block h2{ *display:block; *width:100%; *height:49px;}
 #about2 .section-lv2{ *width:632px!important; *overflow:hidden!important}
 
-#about3 .table1 { width:723px;}
+#about3 .table1 { width: 100%; margin-bottom: 30px; }
+
+#about4 { margin-bottom: 20px;}
 
 .shop-area{
 	width:100%;
@@ -982,36 +978,47 @@ a.banner:hover{ color:#333333!important}
 
 .shop-area h3{ padding:10px;}
 
-.shop-box1{
+.shop-map{
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 .shop-box1-l{
-	width:320px;
-	float:left;
+	float: left;
+	width:390px;
 }
-
 .shop-box1-l dl{
 	width:100%;
-	float:left;
 	border-top:1px solid #fff;
 	padding-left:10px;
 }
 .shop-box1-l dl dt{
-	width:80px;
-	float:left;
+	width:90%;
 	font-weight: bold;
-	padding:5px 0;
+	padding:5px 0 0;
 }
 .shop-box1-l dl dd{
-	width:225px;
-	float:right;
-	padding:5px 0;
+	width:90%;
+	padding:0 5px 10px;
 }
 
 .shop-box1-r{
-	width:370px;
-	float:right;
-	display:inline;
+	float: right;
+	width:380px;
+}
+.shop-box1-r dl{
+	width:100%;
+	border-top:1px solid #fff;
+	padding-left:10px;
+}
+.shop-box1-r dl dt{
+	width:90%;
+	font-weight: bold;
+	padding:5px 0 0;
+}
+.shop-box1-r dl dd{
+	width:90%;
+	padding:0 5px 10px;
 }
 
 
@@ -1128,7 +1135,7 @@ dy.course */
 .local-nav2 li.nav5 a:hover {	background-position: -380px -14px;	}
 
 .i-voice .section-lv2{ padding:10px 10px 20px 10px; border:2px solid #FDB000; margin-right:4px;}
-.i-voice .box-b{ width:450px; float:right;}
+.i-voice .box-b{ width:500px; float:right;}
 .i-voice .box-b h2{ margin-bottom:15px; font-size:16px;}
 .i-voice .box-b dl dt{ font-weight:bold; background-color:#FF9900; color:#FFFFFF; padding:2px 5px; width:100px; text-align:center; border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px; font-size:12px}
 .i-voice .box-b dl dd{ margin:2px 0 7px 0;}
@@ -1179,12 +1186,16 @@ dy.course */
 .i-pt .box-b{ float:right; margin-right:10px;}
 .i-pt .thanks_msg{ text-align:center; font-size:16px; padding:50px 20px;}
 
-.table1{ margin:0 5px 0 2px;}
+.table1{ }
 .table1 tr td{ padding:5px 10px; border:1px solid #cccccc; }
 .table1 tr td.item{ background-color:#f1f1f1; width:100px; text-align:center;}
 
 
-.contact { background-color:#f9f9f9; padding:10px 20px;}
+.contact { 
+	background:#f9f9f9;
+	/*background: #fef2e5;*/
+	padding:10px 20px;
+}
 .contact table{ width:100%!important;}
 .contact tr th {padding:12px 8px 12px 0;border-bottom:1px dotted #ccc;vertical-align:top; width:30%!important }
 .contact td {padding:12px 8px 12px 20px;border-bottom:1px dotted #ccc;vertical-align:top;}
@@ -1250,9 +1261,10 @@ dy.course */
 
 .about_tel {
 	background: url("/images/about_tel.jpg") no-repeat 0 0;
-	width: 506px;
+	width: 446px;
 	height: 75px;
 	padding: 90px 0 0 180px;
+	margin: 0 auto;
 	color: red;
 	font-size: 20px;
 	font-weight: bold;

@@ -1,10 +1,13 @@
 <?php
-if( !$index && !$mos && !$certify) {
+if( !$index ) {
 ?>
 			</div><!-- #main-->
+<?php
+if( !$mos && !$certify && !$start_check && !$sokudoku) {
+?>
 			<div id="sub">
 				<div><a href="/<?=$room[$id][dir]?>/course.php"><img class="alpha" src="/images/side_07.png" width="180" height="52" alt="あなたの目的は？" /></a></div>
-				<div id="sub-menu" class="mB10">
+				<!--<div id="sub-menu" class="mB10">
 					<ul>
 						<li id="sub-menu4"><a href="/<?=$room[$id][dir]?>/course.php#subject4" onclick="javascript:_gaq.push(['_trackPageview', '/click/course/4/']);">仕事に役立てたい</a></li>
 						<li id="sub-menu5"><a href="/<?=$room[$id][dir]?>/course.php#subject5" onclick="javascript:_gaq.push(['_trackPageview', '/click/course/5/']);">資格を取得したい</a></li>
@@ -12,7 +15,7 @@ if( !$index && !$mos && !$certify) {
 						<li id="sub-menu2"><a href="/<?=$room[$id][dir]?>/course.php#subject2" onclick="javascript:_gaq.push(['_trackPageview', '/click/course/2/']);">インターネットをしたい</a></li>
 						<li id="sub-menu3"><a href="/<?=$room[$id][dir]?>/course.php#subject3" onclick="javascript:_gaq.push(['_trackPageview', '/click/course/3/']);">趣味で楽しみたい</a></li>
 					</ul>
-				</div>
+				</div>-->
 
 				<div class="mB10">
 					<h3><a href="/<?=$room[$id][dir]?>/mos.php"><img class="alpha" src="/images/mos_bnr.jpg" width="180" height="180" alt="MOS資格対策講座" /></a></h3>
@@ -30,7 +33,7 @@ if( !$index && !$mos && !$certify) {
 					<h3><a href="/<?=$room[$id][dir]?>/tablet.php"><img class="alpha" src="/images/tablet_bnr.jpg" width="180" height="150" alt="タブレット講座（iPad対応）" /></a></h3>
 				</div><!-- .section-->
 				<div class="mB10">
-					<h3><a href="/<?=$room[$id][dir]?>/iphone.php"><img class="alpha" src="/images/bnr-iphone.jpg" width="180" height="150" alt="iPhone講座" /></a></h3>
+					<h3><a href="/<?=$room[$id][dir]?>/smartphone.php"><img class="alpha" src="/images/bnr-iphone.jpg" width="180" height="150" alt="iPhone講座" /></a></h3>
 				</div><!-- .section-->
 				<!--<div class="mB10">
 					<h3><a href="/<?=$room[$id][dir]?>/business.php"><img class="alpha" src="/images/business.jpg" width="180" height="200" alt="仕事に活かす！" /></a></h3>
@@ -42,7 +45,7 @@ if( !$index && !$mos && !$certify) {
 					<h3><a href="/<?=$room[$id][dir]?>/instructor.php"><img class="alpha" src="/images/inst.png" width="180" height="57" alt="インストラクターのご紹介" /></a></h3>
 				</div><!-- .section-->
 <?php
-if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001" && $id !== "1076000") {
+if ($id !== "1076000") {
 ?>
 				<div class="mB10">
 					<h3><a href="http://www.4353p-club.com/blog/?member_id=<?=$room[$id][blog]?>" target="_blank" rel="nofollow"><img class="alpha" src="/images/blog.jpg" alt="教室のブログ紹介" /></a></h3>
@@ -50,15 +53,9 @@ if ($id !== "6117001" && $id !== "1076001" && $id !== "6114001" && $id !== "1076
 <?php
 }
 ?>
-<?php
-if ($id !== "6117001" && $id !== "1076001") {
-?>
 				<div class="mB10">
 					<h3><a href="http://www.4353p-club.com" target="_blank" rel="nofollow"><img class="alpha" src="/images/menu_premire.jpg" width="180" height="378" alt="パソコン市民講座だけの会員専用学べるサイト「プレミア倶楽部」" /></a></h3>
 				</div><!-- .section-->
-<?php
-}
-?>
 				<div class="mB10">
 					<h3><a href="/school/" target="_blank"><img class="alpha" src="/images/school.png" width="180" height="62" alt="お近くの教室を探す 全国の教室一覧" /></a></h3>
 				</div><!-- .section-->
@@ -69,13 +66,13 @@ if ($id !== "6117001" && $id !== "1076001") {
 if ($id !== "1076000") {
 ?>
 				<div class="mB10">
-					<h3><a href="/<?=$room[$id][dir]?>/recruit.php"><img class="alpha" src="/images/inst2.png" width="180" height="62" alt="インストラクター募集中" /></a></h3>
+					<h3><a href="https://www.cheery.co.jp/saiyou/" target="_blank"><img class="alpha" src="/images/inst2.png" width="180" height="62" alt="インストラクター募集中" /></a></h3>
 				</div><!-- .section-->
 <?php
 }
 ?>
 <?php
-if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029" || $id == "6015030" || $id == "6015037" || $id == "6015043" || $id == "6015083" || $id == "6015085" || $id == "6015107" || $id == "6015114" || $id == "6015116" || $id == "6015118") {
+if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029" || $id == "6015030" || $id == "6015043" || $id == "6015083" || $id == "6015085" || $id == "6015107" || $id == "6015114" || $id == "6015116" || $id == "6015118") {
 ?>
 				<div class="mB10">
 					<h3><a href="http://www.juku-osaka.com/" target="_blank"><img class="alpha" src="/images/bnr-osaka_city_josei.gif" width="120" height="60" alt="大阪市塾代助成事業" /></a></h3>
@@ -86,6 +83,9 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 ?>
 
 			</div><!-- #sub-->
+<?php
+}
+?>
 		</div><!-- #contents -->
 <?php
 }
@@ -104,7 +104,7 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 <dd><a href="/<?=$room[$id][dir]?>/win10.php">Windows10講座</a></dd>
 <dd><a href="/<?=$room[$id][dir]?>/course.php#subject3">パソコン趣味講座</a></dd>
 <dd><a href="/<?=$room[$id][dir]?>/tablet.php">iPad講座</a></dd>
-<dd><a href="/<?=$room[$id][dir]?>/iphone.php">iPhone講座</a></dd>
+<dd><a href="/<?=$room[$id][dir]?>/smartphone.php">iPhone講座</a></dd>
 </dl>
 <dl class="ft_about clearfix">
 <dt>教室概要</dt>
@@ -193,7 +193,7 @@ if ($id == "6015014" || $id == "6015016" || $id == "6015022" || $id == "6015029"
 <?php
 if ($id !== "1076000") {
 ?>
-<li><a href="/<?=$room[$id][dir]?>/recruit.php">採用情報</a></li>
+<li><a href="https://www.cheery.co.jp/saiyou/" target="_blank">採用情報</a></li>
 <?php
 }
 ?>

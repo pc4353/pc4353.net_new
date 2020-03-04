@@ -5,7 +5,7 @@ $description = "My First PC プレゼントキャンペーン「はじめての�
 $keywords = "WDLC,";
 $pageId = 'wdlc';
 include_once('../lib/home/config.php');
-include_once('../lib/home/header.php');
+include_once('../lib/home/header-wdlc.php');
 
 ?>
 
@@ -52,7 +52,7 @@ function openwin3() {
 
 			<div class="section3_box1">
 				<h4 class="c-title3">第1回　パソコンを使ってみよう</h4>
-				<div class="img1"><a href="javascript:openwin1();"><img src="/images/gakuwari/img_02.jpg" width="100%" alt="パソコンを使ってみよう" /></a><br>↑クリックで映像再生画面</div>
+				<div class="img1"><a href="javascript:openwin1();"><img src="/images/wdlc/img-thumb_basic01.jpg" width="100%" alt="パソコンを使ってみよう" /></a><br>↑クリックで映像再生画面</div>
 				<div class="txt1">
 					<p>パソコンはうまく起動できたかな？</p>
 					<p>この回では、パソコンを使ってなにができるか、どのように動かしていくかなどを、先生がくわしく説明していくよ。</p>
@@ -62,7 +62,7 @@ function openwin3() {
 
 			<div class="section3_box1">
 				<h4 class="c-title3">第2回　文字を入力しよう</h4>
-				<div class="img1"><a href="javascript:openwin2();"><img src="/images/gakuwari/img_03.jpg" width="100%" alt="文字を入力しよう" /></a><br>↑クリックで映像再生画面</div>
+				<div class="img1"><a href="javascript:openwin2();"><img src="/images/wdlc/img-thumb_basic02.jpg" width="100%" alt="文字を入力しよう" /></a><br>↑クリックで映像再生画面</div>
 				<div class="txt1">
 					<p>みんな文字の入力はできるかな？</p>
 					<p>この回ではパソコンにキーボードから文字や記号を入力する方法を紹介するよ。</p>
@@ -72,7 +72,7 @@ function openwin3() {
 
 			<div class="section3_box1">
 				<h4 class="c-title3">第3回　タッチタイピングをマスターしよう</h4>
-				<div class="img1"><a href="javascript:openwin3();"><img src="/images/gakuwari/img_04.jpg" width="100%" alt="タッチタイピングをマスターしよう" /></a><br>↑クリックで映像再生画面</div>
+				<div class="img1"><a href="javascript:openwin3();"><img src="/images/wdlc/img-thumb_basic03.jpg" width="100%" alt="タッチタイピングをマスターしよう" /></a><br>↑クリックで映像再生画面</div>
 				<div class="txt1">
 					<p>タイピングが楽にできたらいいよね？</p>
 					<p>この回ではパソコンに文字や記号を入力するときに、楽に、すばやく入力するための「タッチタイピング」について紹介するよ。</p>
@@ -112,6 +112,6 @@ function openwin3() {
 <div class="u-center_wdlc"><a href="http://advertising.aolp.jp/tieup/msn2016/mfpc/" target="_blank"><img src="/images/wdlc/img-ft.png" alt="My First PC" width="1000" /></a></div>
 <?php
 
-include_once('../lib/home/footer.php');
+include_once('../lib/home/footer-wdlc.php');
 
 ?>

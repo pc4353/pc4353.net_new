@@ -340,6 +340,7 @@ img.fr { 	/*padding-left:15px;*/mb	15 }
 .wdlc_section3 p {margin-bottom: 30px;}
 .wdlc_section3 .section3_box1 {margin-bottom: 40px;}
 .wdlc_section3 .section3_box1 .img1 {text-align: center; margin-bottom: 10px;}
+.wdlc_section3 .section3_box1 .img1 img {border: 1px solid #666;}
 .wdlc_section3 .section3_box1 .dl_scratch_app {width: 100%; text-align: center;}
 .wdlc_section3 .section3_box1 .wdlc_call_lead {
 	margin: 20px 0 0;
@@ -386,6 +387,123 @@ img.fr { 	/*padding-left:15px;*/mb	15 }
 	border-bottom: 5px solid #eee;
 }
 
+.mamasq_section3 {margin-top: 30px;}
+.mamasq_section3 p {margin-bottom: 30px;}
+.mamasq_section3 .section3_box1 {margin-bottom: 40px;}
+.mamasq_section3 .section3_box2 {margin: 40px auto; padding: 5px 0; background: #fff; text-align: center; font-size: 16px;}
+.mamasq_section3 .section3_box2_center {margin: 40px auto; padding: 5px 0; background: #fff; text-align: center; font-size: 16px;}
+.mamasq_section3 .section3_box2 dt {font-weight: bold;}
+.mamasq_section3 .section3_box2_center dt {font-weight: bold;}
+.mamasq_section3 .section3_box2 dd {margin: 0;}
+.mamasq_section3 .section3_box2_center dd {margin: 0;}
+.mamasq_section3 .section3_box2_course {background: #fff; text-align: center; padding: 15px;}
+.mamasq_section3 .section3_box2_course table th {border: 1px solid #ccc; width: 20%; padding: 5px 0;}
+.mamasq_section3 .section3_box2_course table td {border: 1px solid #ccc; width: 60%; padding: 5px 0;}
+
+.mamasq .inq_btn {
+	width: 90%;
+	text-align: center;
+	background-color: #f60;
+	margin: 0 auto 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.mamasq .inq_btn a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.mamasq .inq_btn a:hover {opacity: 0.5;}
+
+.mamasq .inq_btn1 {
+	width: 90%;
+	text-align: center;
+	background-color: #f60;
+	margin: 0 auto 20px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.mamasq .inq_btn1 a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.mamasq .inq_btn1 a:hover {opacity: 0.5;}
+
+.mamasq .inq_btn2 {
+	width: 90%;
+	text-align: center;
+	background-color: #05c5a0;
+	margin: 0 auto 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.mamasq .inq_btn2 a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.mamasq .inq_btn2 a:hover {opacity: 0.5;}
+
+.corp_customer_section2a {margin-bottom: 30px;}
+.corp_customer_section2b {margin-bottom: 30px;}
+.corp_customer_section2c {margin-bottom: 30px;}
+
+.corp_customer_section3 {margin-top: 30px;}
+.corp_customer_section3 p {margin-bottom: 30px;}
+.corp_customer_section3 .section3_box1 {margin-bottom: 40px;}
+.corp_customer_section3 .section3_box2 {margin: 40px auto; padding: 5px 0; background: #fff; text-align: center; font-size: 16px;}
+.corp_customer_section3 .section3_box2_center {margin: 40px auto; padding: 5px 0; background: #fff; text-align: center; font-size: 16px;}
+.corp_customer_section3 .section3_box2 dt {font-weight: bold;}
+.corp_customer_section3 .section3_box2_center dt {font-weight: bold;}
+.corp_customer_section3 .section3_box2 dd {margin: 0;}
+.corp_customer_section3 .section3_box2_center dd {margin: 0;}
+.corp_customer_section3 .section3_box2_course {background: #fff; text-align: center; padding: 15px;}
+.corp_customer_section3 .section3_box2_course table th {border: 1px solid #ccc; width: 20%; padding: 5px 0;}
+.corp_customer_section3 .section3_box2_course table td {border: 1px solid #ccc; width: 60%; padding: 5px 0;}
+
+.corp_customer_section3 .section3_box2_course2a {background: #fff; padding: 15px; margin: 0 auto 30px;}
+.corp_customer_section3 .section3_box2_course2a p{font-size: 14px;}
+.corp_customer_section3 .section3_box2_course2a table {width: 100%;}
+.corp_customer_section3 .section3_box2_course2a table th {padding: 5px 0;background: #91b2de;color: #fff;}
+.corp_customer_section3 .section3_box2_course2a table th.th1 {width: 60%;}
+.corp_customer_section3 .section3_box2_course2a table th.th2 {width: 40%;}
+.corp_customer_section3 .section3_box2_course2a table td {text-align: center; border-bottom: 1px solid #ccc; padding: 5px 0;}
+.corp_customer_section3 .section3_box2_course2b {background: #fff; padding: 15px; margin: 0 auto 30px;}
+.corp_customer_section3 .section3_box2_course2b p{font-size: 14px;}
+.corp_customer_section3 .section3_box2_course2b table {width: 100%;}
+.corp_customer_section3 .section3_box2_course2b table th {padding: 5px 0;background: #91b2de;color: #fff;}
+.corp_customer_section3 .section3_box2_course2b table th.th1 {width: 60%;}
+.corp_customer_section3 .section3_box2_course2b table th.th2 {width: 40%;}
+.corp_customer_section3 .section3_box2_course2b table td {text-align: center; border-bottom: 1px solid #ccc; padding: 5px 0;}
+
+.corp_customer .inq_btn {
+	width: 90%;
+	text-align: center;
+	background-color: #f60;
+	margin: 0 auto 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.corp_customer .inq_btn a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.corp_customer .inq_btn a:hover {opacity: 0.5;}
+
+.corp_customer .inq_btn1 {
+	width: 90%;
+	text-align: center;
+	background-color: #f60;
+	margin: 0 auto 20px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.corp_customer .inq_btn1 a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.corp_customer .inq_btn1 a:hover {opacity: 0.5;}
+
+.corp_customer .inq_btn2 {
+	width: 90%;
+	text-align: center;
+	background-color: #05c5a0;
+	margin: 0 auto 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.corp_customer .inq_btn2 a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.corp_customer .inq_btn2 a:hover {opacity: 0.5;}
+
 .section3 span.fl {
 	display: block;
 	float: none;
@@ -413,6 +531,9 @@ table.about td{
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+table.about td ul li{
+	padding-bottom: 20px;
+}
 
 table.about th {
 	font-weight:bold;
@@ -421,7 +542,7 @@ table.about th {
 }
 
 table.about th .red{
-	background:#f00;
+	background:#FF4B4B;
 	color:#fff;
 	font-size:12px;
 	font-weight:bold;
@@ -429,9 +550,17 @@ table.about th .red{
 	padding:0 8px;
 	border-radius: 5px;
 }
-table.about td input[type="text"],
 table.about td textarea{
 	width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+table.about td input[type="text"],
+table.about td input[type="tel"],
+table.about td input[type="email"]{
+	font-size:16px;
+	width: 100%;
+	padding: 15px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -453,7 +582,7 @@ table.about td input[name="room2"] {width: 110px;}
 
 .qa dl dt {
 	background: url("img/q.gif") no-repeat 0 0;
-	/*height: 25px;*/
+	min-height: 25px;
 	padding: 5px 0 0 40px;
 	margin: 10px;
 	font-weight: bold;

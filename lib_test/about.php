@@ -26,7 +26,8 @@
                                     </dl>
 									</div><!-- .shop-box1-l -->
 									<div class="shop-box1-r"> 
-									<div id="gmap" style="margin-bottom: 5px;width:270px; height:240px;"></div> 
+									<div class="googlemap"><iframe src="https://www.google.com/maps/embed?<?=$room[$id][g_map]?>" width="720" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+									<!--<div id="gmap" style="margin-bottom: 5px;width:270px; height:240px;"></div>--> 
 									<p class="ali_right"><a href="http://maps.google.co.jp/maps?q=%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E5%B8%82%E6%B0%91%E8%AC%9B%E5%BA%A7<?=urlencode($room[$id][name])?>%E6%95%99%E5%AE%A4&ie=UTF-8&oe=utf-8" target="_blank">大きな地図でみる</a></p> 
 									</div><!-- .shop-box1-r -->
 								</div><!-- .shop-area -->

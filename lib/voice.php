@@ -25,7 +25,7 @@ $voice_id++;
                     <div class="i-voice clearfix mB20">
                         <div id="voice<?=$voice_id?>" class="section-lv2 moz2 clearfix">
                             <div class="box-a">
-                                <img class="mB10" src="<?=$img?>" width="224" height="221" alt="受講生 ‐ <?=$value[01]?>" />
+                                <img class="mB10" src="<?=$img?>" width="224" alt="受講生 ‐ <?=$value[01]?>" />
                                 <div><?=$value[01]?></div>
                             </div><!-- /.box-a -->
                             <div class="box-b">

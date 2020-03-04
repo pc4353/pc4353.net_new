@@ -24,7 +24,8 @@ include_once('../lib/home/header.php');
 
 <div id="contents">
 
-<div class="u-center"><img src="/images/gakuwari/top1.png" alt="進学・就職・資格取得 パソコン教室の学割制度" width="690" /></div>
+<img src="/images/gakuwari/top1.jpg" alt="進学・就職・資格取得 パソコン教室の学割制度" width="1000" height="200" class="pc-only" />
+<img src="/images/gakuwari/top1_sp.jpg" alt="進学・就職・資格取得 パソコン教室の学割制度" width="100%" class="sp-only" />
 
 	<h2 class="c-title2">パソコン市民講座の学割制度</h2>
 	<div class="section3 clearfix tablet_section3">
@@ -53,7 +54,7 @@ include_once('../lib/home/header.php');
 				<div class="img1"><img src="/images/gakuwari/img_04.jpg" width="400" alt="学生ならではの特典！" /></div>
 				<div class="txt1">
 					<p class="mB20">
-					パソコン市民講座の学割は、安心の月謝制で1か月8時間の定額受講料が9,800円（税込）<br>通常料金と比べて1時間あたり395円お得に受講ができます！<br>進学・就職・資格取得など、学生の間にパソコンスキルを高めるためにも、パソコン市民講座の「学割」制度を使って、お得に受講しましょう！</p>
+					パソコン市民講座の学割は、安心の月謝制で1か月8時間の定額受講料が9,091円（税別）<br>通常料金と比べて1時間あたり363円お得に受講ができます！<br>進学・就職・資格取得など、学生の間にパソコンスキルを高めるためにも、パソコン市民講座の「学割」制度を使って、お得に受講しましょう！</p>
 					<p class="mB20">
 					教室では指導実績の豊富なインストラクターが安心のサポート！わからないところは教室で直接聞けるだけでなく、使い方のコツや効率の良い使い方、資格試験対策のアドバイスも受けられます。</p>
 				</div>

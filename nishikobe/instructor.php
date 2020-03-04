@@ -51,27 +51,6 @@ include_once("../lib/header.php");
                         <div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div> 
                     </div><!-- /.i-voice --> 				
 
-                    <div class="i-voice clearfix mB20"> 
-                        <div class="section-lv2 moz2 clearfix"> 
-                            <div class="box-a"> 
-                                <img class="mB10" src="/nishikobe/images/nagao.jpg" width="214" height="221" alt="インストラクター写真" /> 
-                                <h2>長尾 先生</h2>
-                            </div><!-- /.box-a --> 
-                            <div class="box-b">
-                                <dl> 
-                                    <dt>○○日本一</dt> 
-                                    <dd>親しみやすいインスト日本一</dd> 
-                                </dl> 
-                                <dl> 
-                                    <dt>ひとこと</dt> 
-                                    <dd>皆さんと楽しく学べる環境作りを心掛けています。パソコンでどんどん世界を広げましょう！</dd> 
-                                </dl> 
-                                <p><span class="option2">受講生から見た長尾先生</span><br />質問の仕方が分からなくて、上手に質問出来ない時も、丁寧に内容をくみ取って対応してくれます。根気強く聞いてくれて、親しみやすい先生です。</p> 
-                            </div><!-- /.box-b --> 
-                        </div><!-- /.section-lv2 --> 
-                        <div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div> 
-                    </div><!-- /.i-voice --> 				
-
 				   
                    </div><!-- /.inst_detail --> 				
 				

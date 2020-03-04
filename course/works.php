@@ -25,9 +25,8 @@ include_once('../lib/home/header.php');
 
 <div id="contents">
 
-<div class="u-center"><img src="/img/kv_works.jpg" alt="どこよりも実践力がＵＰする教室です。" width="858" height="195" /></div>
-
 <div class="section2 large mgnT20">
+<p class="mgnB20"><strong>お仕事をもっと効率よく、より快適に。<br class="sp-only">どこよりも実践力がＵＰする講座です！</strong></p>
 <p>仕事で役立つワード・エクセル・パワーポイントの演習講座を豊富にご用意。<br />
 タイピングもしっかりマスターできる教室です。職場のパソコン博士としてヒーローになれるかも？</p>
 </div>
@@ -46,20 +45,27 @@ include_once('../lib/home/header.php');
 	<li>●様々な書類作成に対応できるスキルを付けたい！</li>
 </ul>
 <h5>主な対象アプリケーション</h5>
-<p class="mgnL10"><img src="../img/word.jpg" class="icon"> Word 2013/2010　　<img src="../img/excel.jpg" class="icon"> Excel 2013/2010　　　<img src="../img/ppt.jpg" class="icon"> Power Point 2010</p>
+<p class="mgnL10"><img src="../img/word.jpg" class="icon"> Word 2016/2013/2010　　<br class="sp-only"><img src="../img/excel.jpg" class="icon"> Excel 2016/2013/2010　　　<br class="sp-only"><img src="../img/ppt.jpg" class="icon"> PowerPoint 2016/2013/2010</p>
 </div>
 
-<h3 class="c-title1">「もっと仕事で役立てたい」コース内容</h3>
+<h3 class="c-title1">おすすめの講座をご紹介</h3>
 <div class="section3">
-<h4>ワードコース</h4>
+<h4><a href="word.php">Word（ワード）講座</a></h4>
 <p class="mgnL20">仕事で必須のワードをより実践的に活用できるよう、基礎～応用まで学べるコースです。</p>
-<h4>エクセルコース</h4>
+<h4><a href="excel.php">Excel（エクセル）講座</a></h4>
 <p class="mgnL20">仕事で必須のエクセルをより実践的に活用できるよう、基礎～応用まで学べるコースです。</p>
-<h4>パワーポイントコース</h4>
+<h4><a href="powerpoint.php">PowerPoint（パワーポイント）講座</a></h4>
 <p class="mgnL20">基本操作から、グラフや写真を入れた複雑なアニメーション、プレゼンのノウハウまで学べるコースです。</p>
-<h4>タイピングマスター</h4>
-<p class="mgnL20">自社開発のタイピングソフトでタッチタイピングが必ずマスターできます！<br />
-段位認定コンテストも有。</p>
+<h4><a href="outlook_mail.php">Outlook（アウトルック）メール講座</a></h4>
+<p class="mgnL20">メールの送受信、メールの検索や仕分け、連絡先の管理など、お仕事でのOutlook活用を学べるコースです。</p>
+<h4><a href="typing.php">タッチタイピング習得</a></h4>
+<p class="mgnL20">自社開発のタイピングソフトでタッチタイピングが必ずマスターできます！段位認定コンテストも有。</p>
+<h4><a href="bb_word.php">ビジネスベーシック Word（ワード）</a></h4>
+<p class="mgnL20">初めてワードを学習される方や独学で習得されてきた方など、どなたでも簡単に文書作成ができるようになります。</p>
+<h4><a href="bb_excel.php">ビジネスベーシック Excel（エクセル）</a></h4>
+<p class="mgnL20">Excel2016の基本操作を学習。簡単に分析資料や会議書類を作成できるようになります。</p>
+<h4><a href="bb_powerpoint.php">ビジネスベーシック PowerPoint（パワーポイント）</a></h4>
+<p class="mgnL20">PowerPoint2016の基本操作を学習。簡単に見た目の良いプレゼンテーションを作成できるようになります。</p>
 <h4>演習講座・ドリル講座各種</h4>
 <p class="mgnL20">作品をどこまで自力で作れるか、力試しには最適の講座です。<br />
 仕事で役立つ実践力が高まりますよ！</p>

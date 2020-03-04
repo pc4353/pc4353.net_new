@@ -1,4 +1,7 @@
 User-Agent:*
 Disallow:
 
+Noindex: */feed/$
+Noindex: /*.pdf$
+
 Sitemap:https://www.pc4353.net/sitemap.xml

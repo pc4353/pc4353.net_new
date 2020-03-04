@@ -31,17 +31,21 @@ $body .= "[ご 住 所]　" . $addr . $addrs . "\n";
 $body .= "[電話番号]　" . $phone . "\n";
 $body .= "[メ ー ル]　" . $mail . "\n";
 $body .= "[年　　代]　" . $old . "\n";
+$body .= "[学生種別]　" . $student . "\n";
 $body .= "[目　　的]　" . checkboxComp( $_POST[purpose] ) . "\n";
 $body .= "[そ の 他]　" . $other . "\n";
+$body .= "[何で知りましたか]　" . checkboxComp( $_POST[trigger] ) . "\n";
+$body .= $trigger_other . "\n";
 $body .= "[無料体験]　" . $free . "\n";
-//$body .= "[希望日時]　" . $month . "月" . $day . "日" . $time . "時頃\n";
-$body .= "[無料体験希望日]　" . $nichiji_1 . "月 " . $nichiji_2 . "日　" . $nichiji_3 . "\n";
+$body .= "[第1希望日時]　" . $month_1 . "月　" . $day_1 . "日　" . $time_1 . "時頃\n";
+$body .= "[第2希望日時]　" . $month_2 . "月　" . $day_2 . "日　" . $time_2 . "時頃\n";
 $body .= "[ご質問等]\n" . $question . "\n";
-if (date("Ymd") <= 20180519){
+if (date("Ymd") <= 20200222){
 $body .= "\n■ウェブ申込み特典対象■\n";
-$body .= "2018年4月22日から5月キャンペーン終了期間までの間\n";
+$body .= "2020年1月27日から2月キャンペーン終了期間までの間\n";
 $body .= "ウェブサイトのメールフォームよりお問い合わせいただいた方には\n";
-$body .= "ウェブ申込み特典として、2時間分の無料受講券を進呈してください\n";
+$body .= "ウェブ申込み特典として、1時間分の無料受講券を進呈してください\n";
+$body .= "※ジュニアPC生・速読生は対象外となります\n";
 }
 $ua=$_SERVER['HTTP_USER_AGENT'];
   if((strpos($ua,'iPhone')!==false)||(strpos($ua,'iPod')!==false)||(strpos($ua,'Android')!==false)) {
@@ -65,7 +69,7 @@ $message .= "<a href=/" . $room[$rid][dir] . "/>トップページへ戻る</a><
 include_once("../lib/header_contact.php");
 ?>
                 <div id="toiawase_form">
-					<div class="i-pt clearfix mB20 mR10">
+					<div class="i-pt clearfix">
 						<h2 class="mB20 bg-check blue"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お申し込み完了のお知らせ</h2>
                         <div class="mB20"><img src="/images/img-form_step3.jpg" width="810" height="55" alt="申込完了" /></div>
 						<div class="section-lv2 contact thanks_msg">

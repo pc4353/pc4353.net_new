@@ -4,14 +4,13 @@ if( ereg( "index", $_SERVER["SCRIPT_NAME"])){
 	$index = 1;
 	$body_class = " class=\"top\"";
 	$logo_tag = "h1";
-	$onload = " onload=\"dispgmap();\"";
 } else {
 	$sep = "｜";
 	$logo_tag = "p";
 }
 
 // form判定
-if( ereg( "contact", $_SERVER["SCRIPT_NAME"]) || ereg( "recruit", $_SERVER["SCRIPT_NAME"]) || ereg( "biz-online", $_SERVER["SCRIPT_NAME"])){
+if( ereg( "contact", $_SERVER["SCRIPT_NAME"]) || ereg( "recruit", $_SERVER["SCRIPT_NAME"]) || ereg( "mos", $_SERVER["SCRIPT_NAME"])){
 	$form = 1;
 }
 
@@ -28,7 +27,6 @@ if( ereg( "recruit", $_SERVER["SCRIPT_NAME"])){
 if( ereg( "about", $_SERVER["SCRIPT_NAME"])){
 	$menu1 = " class=\"here\"";
 	$title = "当パソコン教室のご紹介";
-	$onload = " onload=\"dispgmap();\"";
 }
 if( ereg( "voice", $_SERVER["SCRIPT_NAME"])){
 	$menu2 = " class=\"here\"";
@@ -70,15 +68,29 @@ if( ereg( "iphone", $_SERVER["SCRIPT_NAME"])){
 if( ereg( "win10", $_SERVER["SCRIPT_NAME"])){
 	$title = "Windows10講座";
 }
+if( ereg( "gakuwari", $_SERVER["SCRIPT_NAME"])){
+	$title = "学割";
+}
+if( ereg( "senior", $_SERVER["SCRIPT_NAME"])){
+	$title = "シニア割";
+}
 if( ereg( "summer_lesson", $_SERVER["SCRIPT_NAME"])){
 	$title = "夏休みパソコン教室 小中学生対象特別講座";
 }
+if( ereg( "sokudoku", $_SERVER["SCRIPT_NAME"])){
+	$title = "みんなの速読";
+	$sokudoku = 1;
+	$contents_class = " sokudoku";
+}
 if( ereg( "mos", $_SERVER["SCRIPT_NAME"])){
 	$title = "MOS（マイクロソフトオフィススペシャリスト）資格取得講座";
+	$mos = 1;
+	$contents_class = " mos";
 }
-if( ereg( "biz-online", $_SERVER["SCRIPT_NAME"])){
-	$title = "ビジネスオンライン";
-	$biz_online = 1;
+if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
+	$title = "サーティファイ ビジネス実践講座";
+	$certify = 1;
+	$contents_class = " certify";
 }
 if( ereg( "shikaku", $_SERVER["SCRIPT_NAME"])){
 	$title = "ビジネス向け資格取得講座";
@@ -92,6 +104,64 @@ if( ereg( "recruit", $_SERVER["SCRIPT_NAME"])){
 if( ereg( "win10", $_SERVER["SCRIPT_NAME"])){
 	$body_class = " class=\"win10\"";
 }
+if( ereg( "brain_training", $_SERVER["SCRIPT_NAME"])){
+	$title = "脳トレおとなプログラミング講座";
+}
+if( ereg( "d_photo_master", $_SERVER["SCRIPT_NAME"])){
+	$title = "デジタル写真マスター講座";
+}
+if( ereg( "word", $_SERVER["SCRIPT_NAME"])){
+	$title = "ワード講座";
+}
+if( ereg( "excel", $_SERVER["SCRIPT_NAME"])){
+	$title = "エクセル講座";
+}
+if( ereg( "powerpoint", $_SERVER["SCRIPT_NAME"])){
+	$title = "パワーポイント講座";
+}
+if( ereg( "bb_basic", $_SERVER["SCRIPT_NAME"])){
+	$title = "ビジネスベーシック パソコン基礎";
+}
+if( ereg( "bb_word", $_SERVER["SCRIPT_NAME"])){
+	$title = "ビジネスベーシックWord（ワード）講座";
+}
+if( ereg( "bb_excel", $_SERVER["SCRIPT_NAME"])){
+	$title = "ビジネスベーシックExcel（エクセル）講座";
+}
+if( ereg( "bb_powerpoint", $_SERVER["SCRIPT_NAME"])){
+	$title = "ビジネスベーシックPowerPoint（パワーポイント）講座";
+}
+if( ereg( "outlook_mail", $_SERVER["SCRIPT_NAME"])){
+	$title = "Outlook（アウトルック）メール講座";
+}
+if( ereg( "pc_basic", $_SERVER["SCRIPT_NAME"])){
+	$title = "パソコン基礎講座";
+}
+if( ereg( "digital_basic", $_SERVER["SCRIPT_NAME"])){
+	$title = "デジタル基礎知識講座";
+}
+if( ereg( "typing", $_SERVER["SCRIPT_NAME"])){
+	$title = "タッチタイピング習得";
+}
+if( ereg( "word_craft", $_SERVER["SCRIPT_NAME"])){
+	$title = "ワードで作ろう講座";
+}
+if( ereg( "internet_master", $_SERVER["SCRIPT_NAME"])){
+	$title = "インターネットマスター講座";
+}
+if( ereg( "smartphone", $_SERVER["SCRIPT_NAME"])){
+	$title = "スマートフォン（スマホ）講座";
+}
+if( ereg( "line", $_SERVER["SCRIPT_NAME"])){
+	$title = "LINE講座";
+}
+if( ereg( "nenga", $_SERVER["SCRIPT_NAME"])){
+	$title = "かんたん年賀状講座";
+}
+if( ereg( "start_check", $_SERVER["SCRIPT_NAME"])){
+	$title = "スタートチェック";
+	$start_check = 1;
+}
 
 
 ?>
@@ -104,8 +174,10 @@ if( ereg( "win10", $_SERVER["SCRIPT_NAME"])){
 <meta name="keywords" content="パソコン教室,<?=$room[$id][keywords]?><?=$room[$id][name]?>教室,パソコンスクール,資格,検定,MOS,サーティファイ,ビジネスオンライン,PC教室,初心者">
 <meta name="description" content="<?=$title.$sep?>初心者からスキルアップ・資格取得まで安心のパソコン教室。<?=$room[$id][area]?>のパソコン市民講座 <?=$room[$id][name]?>教室。MOS資格・サーティファイ技能検定などエクセル・ワード・パワーポイントの資格取得やビジネススキルアップを教室インストラクターがしっかりとサポート！">
 
-<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($root.'/css/style.css'); ?>" media="screen and (min-width: 768px), print" />
-<link rel="stylesheet" type="text/css" href="/css/style-sp.css?<?php echo filemtime($root.'/css/style-sp.css'); ?>" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/style-test.css?<?php echo filemtime($root.'/css/style-test.css'); ?>" media="screen and (min-width: 768px), print" />
+<link rel="stylesheet" type="text/css" href="/css/style-sp-test.css?<?php echo filemtime($root.'/css/style-sp-test.css'); ?>" media="only screen and (max-width: 767px)" />
+<script src="https://kit.fontawesome.com/048a2152ad.js" crossorigin="anonymous"></script>
+	
 <?php
 if( !$index ) {
 ?>
@@ -114,13 +186,44 @@ if( !$index ) {
 <?php
 }
 ?>
+<?php
+if( $sokudoku ) {
+?>
+<link rel="stylesheet" type="text/css" href="/common/css/sokudoku.css?<?php echo filemtime($root.'/common/css/sokudoku.css'); ?>" media="screen and (min-width: 767px), print" />
+<link rel="stylesheet" type="text/css" href="/common/css/sokudoku_sp.css?<?php echo filemtime($root.'/common/css/sokudoku_sp.css'); ?>" media="only screen and (max-width: 768px)" />
+<?php
+}
+?>
+<?php
+if( $mos ) {
+?>
+<link rel="stylesheet" type="text/css" href="/common/css/mos.css?<?php echo filemtime($root.'/common/css/mos.css'); ?>" media="screen and (min-width: 767px), print" />
+<link rel="stylesheet" type="text/css" href="/common/css/mos-sp.css?<?php echo filemtime($root.'/common/css/mos-sp.css'); ?>" media="only screen and (max-width: 768px)" />
+<?php
+}
+?>
+<?php
+if( $certify ) {
+?>
+<link rel="stylesheet" type="text/css" href="/common/css/certify-test.css?<?php echo filemtime($root.'/common/css/certify-test.css'); ?>" media="screen and (min-width: 768px), print" />
+<link rel="stylesheet" type="text/css" href="/common/css/certify-sp-test.css?<?php echo filemtime($root.'/common/css/certify-sp-test.css'); ?>" media="only screen and (max-width: 767px)" />
+<?php
+}
+?>
+<?php
+if( $start_check ) {
+?>
+<link rel="stylesheet" type="text/css" href="/common/css/start_check.css?<?php echo filemtime($root.'/common/css/start_check.css'); ?>" media="screen and (min-width: 767px), print" />
+<link rel="stylesheet" type="text/css" href="/common/css/start_check-sp.css?<?php echo filemtime($root.'/common/css/start_check-sp.css'); ?>" media="only screen and (max-width: 768px)" />
+<?php
+}
+?>
 
 <link rel="shortcut icon" href="/favicon.ico">
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/js/jquery-page-scroller.js"></script>
+<!--<script src="/js/jquery-page-scroller.js"></script>-->
 <script src="//maps.google.com/maps/api/js?sensor=false"></script>
-<script src="js/map.js"></script>
 <script type="text/javascript" src="/common/js/jquery.maphilight.js" charset="utf-8"></script>
 <script src="/common/js/function.js"></script>
 
@@ -128,14 +231,16 @@ if( !$index ) {
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <script>
- $(function() {
-  $(window).on('scroll', function() {
-    if ($(this).scrollTop() > 0) {
-      $('.header').addClass('fixed');
-    } else {
-      $('.header').removeClass('fixed');
-    }
-  });
+$(function() {
+var navPos = jQuery( '#header' ).offset().top; // グローバルメニューの位置
+var navHeight = jQuery( '#header' ).outerHeight(); // グローバルメニューの高さ
+jQuery( window ).on( 'scroll', function() {
+  if ( 100 < jQuery( this ).scrollTop() ) { // 100px以上スクロールしたら
+    jQuery( '#header' ).addClass( 'm_fixed' );
+  } else {
+    jQuery( '#header' ).removeClass( 'm_fixed' );
+  }
+});
 });
 </script>
 
@@ -151,32 +256,88 @@ $(document).ready(function(){
 		pager: true,
 		buildPager: function(slideIndex){
       switch (slideIndex){
+      <?php if (date("Ymd") <= 20190120) : ?>
 <?php
-if ($id == "1001111") {
+if ($id == "1076000") {
+	//けやき
 ?>
         case 0:
-          return '<img src="/images/img-new_thumb.png" width="150" />';
+          return '<img src="/images/img-thumb_certify.png" width="150" />';
         case 1:
-          return '<img src="/images/img-main_thumb01.png" width="150" />';
+          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
         case 2:
-          return '<img src="/images/img-main_thumb03.png" width="150" />';
-        case 3:
-          return '<img src="/images/img-main_thumb02.png" width="150" />';
+          return '<img src="/images/img-thumb_mos.png" width="150" />';
 <?php
 }else{
+	//通常
 ?>
         case 0:
-          return '<img src="/images/img-main_thumb01.png" width="150" />';
+          return '<img src="/images/img-thumb_certify.png" width="150" />';
         case 1:
-          return '<img src="/images/img-main_thumb03.png" width="150" />';
+          return '<img src="/images/img-thumb_junior_pc.png" width="150" />';
         case 2:
-          return '<img src="/images/img-main_thumb02.png" width="150" />';
+          return '<img src="/images/img-thumb_mos.png" width="150" />';
         case 3:
-          return '<img src="/images/img-main_thumb04.png" width="150" />';
+          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
 <?php
 }
 ?>
-      }
+      <?php endif; ?>
+
+      <?php if (date("Ymd") >= 20190121) : ?>
+<?php
+if ($id == "1076000") {
+	//けやき
+?>
+        case 0:
+          return '<img src="/images/img-thumb_certify.png" width="150" />';
+        case 1:
+          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
+        case 2:
+          return '<img src="/images/img-thumb_mos.png" width="150" />';
+<?php
+} elseif ($id == "6015000") {
+	//test
+?>
+        case 0:
+          return '<img src="/images/img-thumb_sokudoku.png" width="130" />';
+        case 1:
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
+        case 2:
+          return '<img src="/images/img-thumb_mos.png" width="130" />';
+        case 3:
+          return '<img src="/images/img-thumb_gakuwari.png" width="130" />';
+        case 4:
+          return '<img src="/images/img-thumb_seniorwari.png" width="130" />';
+<?php
+} elseif ($id == "6015090" || $id == "1001136" || $id == "6015000" ) {
+	//東寝屋川・吉祥寺
+?>
+        case 0:
+          return '<img src="/images/img-thumb_certify.png" width="150" />';
+        case 1:
+          return '<img src="/images/img-thumb_junior_pc.png" width="150" />';
+        case 2:
+          return '<img src="/images/img-thumb_mos.png" width="150" />';
+        case 3:
+          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
+<?php
+}else{
+	//通常
+?>
+        case 0:
+          return '<img src="/images/img-thumb_webwari" width="150" />';
+        case 1:
+          return '<img src="/images/img-thumb_junior_pc.png" width="150" />';
+        case 2:
+          return '<img src="/images/img-thumb_certify.png" width="150" />';
+        case 3:
+          return '<img src="/images/img-thumb_mos.png" width="150" />';
+<?php
+}
+?>
+      <?php endif; ?>
+	  }
     }
 	});
 });
@@ -210,11 +371,11 @@ if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('i
 ?>
 </head>
 
-<body<?=$body_class?><?=$onload?>>
+<body<?=$body_class?>>
 <header id="header">
 <div id="hd_wrap" class="clearfix tk-kozuka-gothic-pr6n">
 <div id="hd_lft">
-<<?=$logo_tag?> class="hd_txt"><?=$room[$id][area]?>で資格が取れるパソコン教室　パソコン市民講座 <?=$room[$id][name]?>教室</<?=$logo_tag?>>
+<<?=$logo_tag?> class="hd_txt"><?=$room[$id][area]?>で資格が取れるパソコン教室　<br class="sp-only" />パソコン市民講座 <?=$room[$id][name]?>教室</<?=$logo_tag?>>
 	<div id="hd_logo"><a href="/<?=$room[$id][dir]?>/">
 		<img class="pc-only" src="/images/img-hd_logo.png" width="211" height="34" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">
 		<img class="sp-only" src="/common/img/common/logo1.png" width="156" height="68" alt="<?=$room[$id][area]?>の資格が取れるパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室">
@@ -259,21 +420,23 @@ if( $index ) {
 <?php
 } else {
 ?>
-		<div id="contents" class="clearfix">
-			<div id="main">
-				<div id="kasou" class="clearfix">
-
 				<div id="locus-area" class="clearfix">
 				  <dl class="locus">
 					<dt>現在のページ</dt>
 					<dd>
 					  <ul>
+						<li><a href="/">パソコン教室なら「パソコン市民講座」</a> ＞</li>
+						<li><a href="/school/<?=$room[$id][pref]?>.php"><?=$room[$id][pref_name]?>のパソコン教室を探す</a> ＞</li>
 						<li><a href="/<?=$room[$id][dir]?>/"><?=$room[$id][area]?>のパソコン教室・講座TOP</a> ＞</li>
 						<li><?=$title?></li>
 					  </ul>
 					</dd>
 				  </dl><!-- /.locus -->
 				</div><!-- /#locus-area -->
+
+		<div id="contents" class="clearfix<?=$contents_class?>">
+			<div id="main">
+				<div id="kasou" class="clearfix">
 
 				<div class="block">
 <?php

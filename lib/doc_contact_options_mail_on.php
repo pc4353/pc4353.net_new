@@ -35,7 +35,7 @@ global $room, $id;
 function inputHTML() {
 global $room, $rid;
 global $erName, $erKana, $erZip, $erAddrs, $erPhone, $erMail;
-global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event, $other, $free, $month, $day, $time, $nichiji, $nichiji_1, $nichiji_2, $nichiji_3, $question;
+global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $student, $purpose, $trigger, $other, $trigger_other, $free, $month_1, $day_1, $time_1, $month_2, $day_2, $time_2, $question;
 ?>
 <table class="inq_form">
 <tr>
@@ -44,15 +44,15 @@ global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event,
 </tr>
 <tr>
 	<th>お名前<span class="red">必須</span></th>
-	<td<?= $erName ?>>例）市民花子<br /><input type="text" value="<?= $name ?>" name="name" maxlength="20"></td>
+	<td<?= $erName ?>><input type="text" value="<?= $name ?>" name="name" maxlength="20"><br />例）市民花子</td>
 </tr>
 <tr>
-	<th>フリガナ<span class="red">必須</span></th>
-	<td<?= $erKana ?>>例）シミンハナコ<br /><input type="text" value="<?= $kana ?>" name="kana" maxlength="20"></td>
+	<th>ふりがな<span class="red">必須</span></th>
+	<td<?= $erKana ?>><input type="text" value="<?= $kana ?>" name="kana" maxlength="20"><br />例）しみんはなこ</td>
 </tr>
 <tr>
 	<th>郵便番号<span class="red">必須</span></th>
-	<td<?= $erZip ?>>例）1000001<br /><input type="text" name="zip" value="<?= $zip ?>" placeholder="　" maxlength="15" size="8">　<br class="sp-only">【入力すると住所が自動入力されます】</td>
+	<td<?= $erZip ?>><input type="tel" name="zip" value="<?= $zip ?>" placeholder="　" maxlength="15" size="8">　<br class="sp-only">【入力すると住所が自動入力されます】<br />例）1000001（ハイフンなし）</td>
 </tr>
 <tr>
 	<th>住所<span class="red">必須</span></th>
@@ -60,12 +60,12 @@ global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event,
 </tr>
 <tr>
 	<th>電話番号（携帯可）<span class="red">必須</span></th>
-	<td<?= $erPhone ?>>例）09012345678<br /><input type="text" value="<?= $phone ?>" name="phone" maxlength="15"></td>
+	<td<?= $erPhone ?>><input type="tel" value="<?= $phone ?>" name="phone" maxlength="15"><br />例）09012345678（ハイフンなし）</td>
 </tr>
 <tr>
 	<th>メールアドレス<span class="red">必須</span></th>
-	<td<?= $erMail ?>>例）example@pc4353.com<br /><input type="text" value="<?= $mail ?>" name="mail" maxlength="100">
-	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
+	<td<?= $erMail ?>><input type="email" value="<?= $mail ?>" name="mail" maxlength="100"><br />例）example@pc4353.com
+	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【@pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
 	</td>
 </tr>
 <tr>
@@ -82,22 +82,61 @@ global $name, $kana, $zip, $addr, $addrs, $phone, $mail, $old, $purpose, $event,
 	</ul></td>
 </tr>
 <tr>
+	<th>学生種別</th>
+	<td><ul class="old clearfix">
+    <li><label><input type="radio" class="nBn" value="小学生" name="student"<? if( $student == "小学生" ) { echo " checked"; } ?>> 小学生</label></li>
+    <li><label><input type="radio" class="nBn" value="中学生" name="student"<? if( $student == "中学生" ) { echo " checked"; } ?>> 中学生</label></li>
+    <li><label><input type="radio" class="nBn" value="高校生" name="student"<? if( $student == "高校生" ) { echo " checked"; } ?>> 高校生</label></li>
+    <li><label><input type="radio" class="nBn" value="大学生" name="student"<? if( $student == "大学生" ) { echo " checked"; } ?>> 大学生</label></li>
+    <li><label><input type="radio" class="nBn" value="専門学生" name="student"<? if( $student == "専門学生" ) { echo " checked"; } ?>> 専門学生</label></li>
+	</ul></td>
+</tr>
+<tr>
 	<th>あなたの目的は？<br class="pc-only">（複数選択可）</th>
 	<td><ul>
 <?php
-$purpose[0] = "はじめてのパソコン！";
-$purpose[1] = "インターネットがしたい！";
-$purpose[2] = "趣味で楽しみたい！";
-$purpose[3] = "仕事に活かしたい！";
-$purpose[4] = "学校で必要となった！";
-$purpose[5] = "転職・就活に役立てたい！";
-$purpose[6] = "資格（サーティファイ・MOS）を取得したい！";
-$purpose[7] = "タブレット・スマホを使いこなしたい！";
-$purpose[8] = "その他";
-
-foreach( $purpose as $key => $value ) {
+if( $room[$rid][spp] == "1" ) {
+//SPP実施校
 ?>
-		<li><label><input type="checkbox" class="nBn" value="<?= $purpose[$key] ?>" name="pur[<?=$key?>]"<? if( $_POST[pur][$key] ) { echo " checked=checked"; } ?>> <?= $value ?></label></li>
+	<?php
+	$purpose[0] = "はじめてのパソコン！";
+	$purpose[1] = "インターネットがしたい！";
+	$purpose[2] = "趣味で楽しみたい！";
+	$purpose[3] = "仕事に活かしたい！";
+	$purpose[4] = "学校で必要となった！";
+	$purpose[5] = "転職・就活に役立てたい！";
+	$purpose[6] = "資格（サーティファイ・MOS）を取得したい！";
+	$purpose[7] = "タブレット・スマホを使いこなしたい！";
+	$purpose[8] = "スタープログラミング個別（プログラミング講座）";
+	$purpose[9] = "その他";
+
+	foreach( $purpose as $key => $value ) {
+	?>
+			<li><label><input type="checkbox" class="nBn" value="<?= $purpose[$key] ?>" name="pur[<?=$key?>]"<? if( $_POST[pur][$key] ) { echo " checked=checked"; } ?>> <?= $value ?></label></li>
+	<?php
+	}
+	?>
+<?php
+} else {
+//SPPなし
+?>
+	<?php
+	$purpose[0] = "はじめてのパソコン！";
+	$purpose[1] = "インターネットがしたい！";
+	$purpose[2] = "趣味で楽しみたい！";
+	$purpose[3] = "仕事に活かしたい！";
+	$purpose[4] = "学校で必要となった！";
+	$purpose[5] = "転職・就活に役立てたい！";
+	$purpose[6] = "資格（サーティファイ・MOS）を取得したい！";
+	$purpose[7] = "タブレット・スマホを使いこなしたい！";
+	$purpose[8] = "その他";
+
+	foreach( $purpose as $key => $value ) {
+	?>
+			<li><label><input type="checkbox" class="nBn" value="<?= $purpose[$key] ?>" name="pur[<?=$key?>]"<? if( $_POST[pur][$key] ) { echo " checked=checked"; } ?>> <?= $value ?></label></li>
+	<?php
+	}
+	?>
 <?php
 }
 ?>
@@ -105,79 +144,52 @@ foreach( $purpose as $key => $value ) {
 	</ul></td>
 </tr>
 <tr>
+	<th>市民講座を何で知りましたか？<br>（複数選択可）</th>
+	<td><ul>
+<?php
+$trigger[0] = "インターネット検索";
+$trigger[1] = "手配りチラシ";
+$trigger[2] = "折込チラシ";
+$trigger[3] = "その他";
+
+foreach( $trigger as $key => $value ) {
+?>
+		<li><label><input type="checkbox" class="nBn" value="<?= $trigger[$key] ?>" name="tri[<?=$key?>]"<? if( $_POST[tri][$key] ) { echo " checked=checked"; } ?>> <?= $value ?></label></li>
+<?php
+}
+?>
+<li><input type="text" value="<?= $trigger_other ?>" name="trigger_other" maxlength="100" /></li>
+	</ul></td>
+</tr>
+<tr>
 	<th>無料体験のお申し込み</th>
 	<td><ul class="old clearfix">
     <li><label><input type="radio" class="nBn" value="する" name="free"<? if( $free == "する" ) { echo " checked"; } ?>> する</label></li>
     <li><label><input type="radio" class="nBn" value="しない" name="free"<? if( $free == "しない" ) { echo " checked"; } ?>> しない</label></li>
-<?/*
-		<select name="month">
-<?= getOptionHTML( 1, 12, $month, "--" ) ?>
-		</select>月
-		<select name="day">
-<?= getOptionHTML( 1, 31, $day, "--" ) ?>
-		</select>日
-		<select name="time">
-<?= getOptionHTML( 9, 20, $time, "--" ) ?>
-		</select>時頃の訪問
-*/?>
 </ul></td>
 </tr>
 <tr>
 	<th>無料体験希望日</th>
-    <td><select name="nichiji_1">
-    	<option value="--"<? if( $nichiji_1 == "--" ) { echo " selected"; } ?>>--</option>
-    	<option value="1"<? if( $nichiji_1 == "1" ) { echo " selected"; } ?>>1</option>
-    	<option value="2"<? if( $nichiji_1 == "2" ) { echo " selected"; } ?>>2</option>
-    	<option value="3"<? if( $nichiji_1 == "3" ) { echo " selected"; } ?>>3</option>
-    	<option value="4"<? if( $nichiji_1 == "4" ) { echo " selected"; } ?>>4</option>
-    	<option value="5"<? if( $nichiji_1 == "5" ) { echo " selected"; } ?>>5</option>
-    	<option value="6"<? if( $nichiji_1 == "6" ) { echo " selected"; } ?>>6</option>
-    	<option value="7"<? if( $nichiji_1 == "7" ) { echo " selected"; } ?>>7</option>
-    	<option value="8"<? if( $nichiji_1 == "8" ) { echo " selected"; } ?>>8</option>
-    	<option value="9"<? if( $nichiji_1 == "9" ) { echo " selected"; } ?>>9</option>
-    	<option value="10"<? if( $nichiji_1 == "10" ) { echo " selected"; } ?>>10</option>
-    	<option value="11"<? if( $nichiji_1 == "11" ) { echo " selected"; } ?>>11</option>
-    	<option value="12"<? if( $nichiji_1 == "12" ) { echo " selected"; } ?>>12</option>
-        </select>月&nbsp;
-        <select name="nichiji_2">
-    	<option value="--"<? if( $nichiji_2 == "--" ) { echo " selected"; } ?>>--</option>
-    	<option value="1"<? if( $nichiji_2 == "1" ) { echo " selected"; } ?>>1</option>
-    	<option value="2"<? if( $nichiji_2 == "2" ) { echo " selected"; } ?>>2</option>
-    	<option value="3"<? if( $nichiji_2 == "3" ) { echo " selected"; } ?>>3</option>
-    	<option value="4"<? if( $nichiji_2 == "4" ) { echo " selected"; } ?>>4</option>
-    	<option value="5"<? if( $nichiji_2 == "5" ) { echo " selected"; } ?>>5</option>
-    	<option value="6"<? if( $nichiji_2 == "6" ) { echo " selected"; } ?>>6</option>
-    	<option value="7"<? if( $nichiji_2 == "7" ) { echo " selected"; } ?>>7</option>
-    	<option value="8"<? if( $nichiji_2 == "8" ) { echo " selected"; } ?>>8</option>
-    	<option value="9"<? if( $nichiji_2 == "9" ) { echo " selected"; } ?>>9</option>
-    	<option value="10"<? if( $nichiji_2 == "10" ) { echo " selected"; } ?>>10</option>
-    	<option value="11"<? if( $nichiji_2 == "11" ) { echo " selected"; } ?>>11</option>
-    	<option value="12"<? if( $nichiji_2 == "12" ) { echo " selected"; } ?>>12</option>
-    	<option value="13"<? if( $nichiji_2 == "13" ) { echo " selected"; } ?>>13</option>
-    	<option value="14"<? if( $nichiji_2 == "14" ) { echo " selected"; } ?>>14</option>
-    	<option value="15"<? if( $nichiji_2 == "15" ) { echo " selected"; } ?>>15</option>
-    	<option value="16"<? if( $nichiji_2 == "16" ) { echo " selected"; } ?>>16</option>
-    	<option value="17"<? if( $nichiji_2 == "17" ) { echo " selected"; } ?>>17</option>
-    	<option value="18"<? if( $nichiji_2 == "18" ) { echo " selected"; } ?>>18</option>
-    	<option value="19"<? if( $nichiji_2 == "19" ) { echo " selected"; } ?>>19</option>
-    	<option value="20"<? if( $nichiji_2 == "20" ) { echo " selected"; } ?>>20</option>
-    	<option value="21"<? if( $nichiji_2 == "21" ) { echo " selected"; } ?>>21</option>
-    	<option value="22"<? if( $nichiji_2 == "22" ) { echo " selected"; } ?>>22</option>
-    	<option value="23"<? if( $nichiji_2 == "23" ) { echo " selected"; } ?>>23</option>
-    	<option value="24"<? if( $nichiji_2 == "24" ) { echo " selected"; } ?>>24</option>
-    	<option value="25"<? if( $nichiji_2 == "25" ) { echo " selected"; } ?>>25</option>
-    	<option value="26"<? if( $nichiji_2 == "26" ) { echo " selected"; } ?>>26</option>
-    	<option value="27"<? if( $nichiji_2 == "27" ) { echo " selected"; } ?>>27</option>
-    	<option value="28"<? if( $nichiji_2 == "28" ) { echo " selected"; } ?>>28</option>
-    	<option value="29"<? if( $nichiji_2 == "29" ) { echo " selected"; } ?>>29</option>
-    	<option value="30"<? if( $nichiji_2 == "30" ) { echo " selected"; } ?>>30</option>
-    	<option value="31"<? if( $nichiji_2 == "31" ) { echo " selected"; } ?>>31</option>
-        </select>日&nbsp;
-        <select name="nichiji_3">
-    	<option value="--"<? if( $nichiji_3 == "--" ) { echo " selected"; } ?>>--</option>
-    	<option value="午前"<? if( $nichiji_3 == "午前" ) { echo " selected"; } ?>>午前</option>
-    	<option value="午後"<? if( $nichiji_3 == "午後" ) { echo " selected"; } ?>>午後</option>
-        </select>
+    <td>第1希望&nbsp;&nbsp;<br class="sp-only">
+		<select name="month_1">
+<?= getOptionHTML( 1, 12, $month_1, "--" ) ?>
+		</select>月&nbsp;&nbsp;
+		<select name="day_1">
+<?= getOptionHTML( 1, 31, $day_1, "--" ) ?>
+		</select>日&nbsp;&nbsp;
+		<select name="time_1">
+<?= getOptionHTML( 9, 19, $time_1, "--" ) ?>
+		</select>時頃<br /><br class="sp-only">
+		第2希望&nbsp;&nbsp;<br class="sp-only">
+		<select name="month_2">
+<?= getOptionHTML( 1, 12, $month_2, "--" ) ?>
+		</select>月&nbsp;&nbsp;
+		<select name="day_2">
+<?= getOptionHTML( 1, 31, $day_2, "--" ) ?>
+		</select>日&nbsp;&nbsp;
+		<select name="time_2">
+<?= getOptionHTML( 9, 19, $time_2, "--" ) ?>
+		</select>時頃<br class="sp-only"><br class="sp-only">
 	<?php
 	if( $room[$rid]["close"] == "0" ) {
     ?>

@@ -1,23 +1,28 @@
 <h3 id="tokyo" class="c-title1"><a href="/school/tokyo.php">東京都</a></h3>
 <ul class="clearfix">
+	<li><img src="images/kichijoji.jpg" width="80" alt="丸井吉祥寺教室" />
+	<h4><a href="/kichijoji/">丸井吉祥寺教室</a></h4>
+	<span class="small">〒180-8552　東京都武蔵野市吉祥寺南町1-7-1<br />丸井吉祥寺店　3階</span><br /><span class="bold">TEL：0422-24-6234<br />エリア：武蔵野市</span>
+	<span class="certify_sc2">サーティファイ</span></li>
+
+	<li><img src="images/ueno.jpg" width="80" alt="上野マルイ教室" />
+	<h4><a href="/ueno/">上野マルイ教室</a></h4>
+	<span class="small">〒110-8502　東京都台東区上野6-15-1<br />上野マルイ　7階</span><br /><span class="bold">TEL：03-6240-1256<br />エリア：台東区</span>
+	<span class="certify_sc2">サーティファイ</span></li>
+
 	<li><img src="images/kinshicho.jpg" width="80" alt="丸井錦糸町教室" />
 	<h4><a href="/kinshicho/">丸井錦糸町教室</a></h4>
-	<span class="small">〒130-0022　東京都墨田区江東橋3-9-10<br />丸井錦糸町店 5F</span><br /><span class="bold">TEL：03-6659-4345<br />エリア：墨田区</span>
+	<span class="small">〒130-0022　東京都墨田区江東橋3-9-10<br />丸井錦糸町店　5F</span><br /><span class="bold">TEL：03-6659-4345<br />エリア：墨田区</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 
 	<li><img src="images/nakano.jpg" width="80" alt="中野マルイ教室" />
 	<h4><a href="/nakano/">中野マルイ教室</a></h4>
-	<span class="small">〒164-0001　東京都中野区中野3-34-28<br />中野マルイ 3F</span><br /><span class="bold">TEL：03-6382-5878<br />エリア：中野区</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
-	<li><img src="images/jiyugaoka.jpg" width="80" alt="自由が丘教室" />
-	<h4><a href="/jiyugaoka/">自由が丘教室</a></h4>
-	<span class="small">〒158-0083　東京都世田谷区奥沢5-41-13<br />サウスウィング自由が丘 5F</span><br /><span class="bold">TEL：03-3721-5100<br />エリア：世田谷区</span>
+	<span class="small">〒164-0001　東京都中野区中野3-34-28<br />中野マルイ　3F</span><br /><span class="bold">TEL：03-6382-5878<br />エリア：中野区</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/jinbocho.jpg" width="80" alt="神保町駅前教室" />
 	<h4><a href="/jinbocho/">神保町駅前教室</a></h4>
-	<span class="small">〒101-0051　東京都千代田区神田神保町2-14<br />SP神保町ビル 5F</span><br /><span class="bold">TEL：03-3230-7693<br />エリア：千代田区</span>
+	<span class="small">〒101-0051　東京都千代田区神田神保町2-14<br />SP神保町ビル　5F</span><br /><span class="bold">TEL：03-3230-7693<br />エリア：千代田区</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/takenotsuka.jpg" width="80" alt="イトーヨーカドー竹の塚教室" />
@@ -57,7 +62,7 @@
 
 	<li><img src="images/nishihachiouji.jpg" width="80" alt="ダイエー西八王子教室" />
 	<h4><a href="/nishihachiouji/">ダイエー西八王子教室</a></h4>
-	<span class="small">〒193-0835　東京都八王子市千人町2-1-9<br />ダイエー西八王子店 中3F</span><br /><span class="bold">TEL：042-667-2229<br />エリア：八王子市</span>
+	<span class="small">〒193-0835　東京都八王子市千人町2-1-9<br />ダイエー西八王子店　中3F</span><br /><span class="bold">TEL：042-667-2229<br />エリア：八王子市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/fussa.jpg" width="80" alt="西友福生教室" />

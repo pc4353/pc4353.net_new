@@ -1,335 +1,411 @@
-					<h1>あなたの目的は？（コース紹介）</h1>
-					<div class="section-lv2 clearfix">
-						<p><img src="/images/course_05.png" width="632" height="93" alt="あなたの「やりたい気持ち」をパソコン市民講座が叶えます！すべての人に「できた」の感動を！" /></p>
-						<p class="mB20 mL20 mR20">全く初めての方、趣味で楽しみたい方、仕事で役立てたい方、資格を取得したい方など、<br>様々なあなたの目的やご要望に合わせて、800講座以上の豊富なカリキュラムの中から、インストラクターが最適なコースをご提案します。パソコンも「Windows 7」から最新の「Windows 10」まで対応、さらにはiPad講座もご用意し、最新のiPadで受講ができるので安心ですね。
-                        <br />また、スマートフォンの普及に伴い、ニーズの増えているiPhone講座も開講いたしております！
-						<br />今後も日々進化するパソコンの楽しさをお伝えする新教材が、続々と登場しますのでお楽しみに！</p>
-						<ul class="c-menu mB20 clearfix">
-							<li class="c-menu4"><a href="#subject4">仕事に役立てたい</a></li>
-							<li class="c-menu5"><a href="#subject5">資格を取得したい</a></li>
-							<li class="c-menu1"><a href="#subject1">初心者なので初めから</a></li>
-							<li class="c-menu2"><a href="#subject2">インターネットをしたい</a></li>
-							<li class="c-menu3"><a href="#subject3">趣味で楽しみたい</a></li>
-						</ul>
-						
-						<div id="subject4" class="subject clearfix">
-							<h3 class="mB10"><img src="/images/course_39.png" width="632" height="30" alt="仕事で役立てたい" /></h3>
-							<p class="mB20">どこよりも実践力がＵＰする教室です。仕事で役立つワード・エクセル・パワーポイントの演習講座を豊富にご用意。タイピングもしっかりマスターできる教室です。職場のパソコン博士としてヒーローになれるかも？</p>
-							<div class="section-lv3 clearfix">
-								<div class="box-a">
-									<img class="mB10" src="/images/course_42.jpg" width="200" height="155" alt="*" />
-								</div><!-- /.box-a -->
-								<div class="box-b">
-									<table>
-										<tr>
-											<td class="item table-top">こんな方に<br />オススメ！</td>
-											<td class="table-top">
-												<ul>
-													<li>エクセルで素早く計算</li>
-													<li>ワードで書類をつくりたい</li>
-													<li>パワーポイントで<br />ワンランク上のプレゼンテーション</li>
-												  <li>タッチタイピング習得で<br />仕事の効率をＵＰしたい</li>
-												  <li>様々な書類作成に対応できるスキルを付けたい！</li>
-												</ul>
-											</td>
-										</tr>
-										<tr>
-											<td class="item">主な対象アプリケーション
-											</td>
-											<td>
-											<img src="../images/word.jpg" class="icon">Microsoft Word 2013 / 2010<br />
-											<img src="../images/excel.jpg" class="icon">Microsoft Excel 2013 / 2010<br />
-											<img src="../images/ppt.jpg" class="icon">Microsoft PowerPoint 2010
-											</td>
-										</tr>
-									</table>
-								</div><!-- /.box-b -->
-							</div><!-- /.section-lv3 -->
-							<h4 class="mT25"><img src="/images/course_17.png" width="242" height="23" alt="この目的に適したコースは？" /></h4>
-							<p class="detail mR15">
-・ワードコース<br />
-　仕事で必須のワードをより実践的に活用できるよう、基礎～応用まで学べるコースです。<br />
-<br />
-・エクセルコース<br />
-　仕事で必須のエクセルをより実践的に活用できるよう、基礎～応用まで学べるコースです。<br />
-<br />
-・パワーポイントコース<br />
-　基本操作から、グラフや写真を入れた複雑なアニメーション、<br />　プレゼンのノウハウまで学べるコースです。<br />
-<br />
-・タイピングマスター<br />
-　自社開発のタイピングソフトでタッチタイピングが必ずマスターできます！<br />　段位認定コンテストも有。<br />
-<br />
-・演習講座・ドリル講座各種<br />
-　作品をどこまで自力で作れるか、力試しには最適の講座です。<br />　仕事で役立つ実践力が高まりますよ！<br />
+<div class="section-lv2 clearfix">	
+	<div class="mainimg">
+		<img src="/course/images/kv_course2.jpg" alt="kv_course2"/>
+	 <p>あなたの「やりたい」を叶えます！<br>すべての人に「できた！」の感動を</p>
+	</div>
+	<p class="u-mt10">パソコン市民講座では、「今すぐ仕事で役立てたい！」「就職や再就職のために資格を取得したい」「授業についていけるようにパソコンスキルを磨きたい」「趣味でパソコンを楽しみたい」など、さまざまな目的に合わせた800以上の豊富な講座をご用意。あなたのご希望に添った最適なコースプランをご提案します。また、最新のOSやアプリに対応した新講座も続々と登場しています！</p>
+	
+
+<!--コースリスト-->
+<h2 class="c-title2 u-mt10">目的から探す</h2>
+<div class="section-lv2 clearfix u-mt20">
+<ul id="course_indlist">
+    <li class="course_box cb_a"><a href="mos.php"><p class="course_boxttl">MOS資格対策講座</p>
+		<img src="/course/images/bnr-corse01.jpg" alt="MOS資格対策講座"><p class="course_boxtx">Microsoftの公認試験で知名度No.1！</p></a></li>
+    <li class="course_box cb_b"><a href="certify.php"><p class="course_boxttl">サーティファイ講座</p>
+		<img src="/course/images/bnr-corse02.jpg" alt="サーティファイ講座"><p class="course_boxtx">ビジネスシーンに特化した実践的な資格！</p></a></li>
+	<li class="course_box cb_c"><a href="#works"><p class="course_boxttl">今すぐ仕事で役立てたい</p>
+		<img src="/course/images/bnr-corse03.jpg" alt="仕事でパソコンを使いたい"><p class="course_boxtx">独学で習得されてきた方に最適！</p></a></li>
+		<li class="course_box cb_c"><a href="#lisence"><p class="course_boxttl">資格を取得したい</p>
+		<img src="/course/images/bnr-corse04.jpg" alt="資格を取得したい"><p class="course_boxtx">仕事に活かせるさらに上のスキルを身につける</p></a></li>
+	<li class="course_box cb_c"><a href="#first"><p class="course_boxttl">基本操作を覚えたい</p>	
+		<img src="/course/images/bnr-corse05.jpg" alt="基本操作を覚えたい"><p class="course_boxtx">パソコンを使ったことがない超初心者も大歓迎！</p></a></li>
+	<li class="course_box cb_c"><a href="#tb-smp"><p class="course_boxttl">タブレット・スマホ</p>
+		<img src="/course/images/bnr-corse06.jpg" alt="タブレット・スマホ"><p class="course_boxtx">家でも外でもシーンに合わせて便利に使おう！</p></a></li>
+	<li class="course_box cb_c"><a href="#net"><p class="course_boxttl">インターネットをしたい</p>
+		<img src="/course/images/bnr-corse07.jpg" alt="インターネットをしたい"><p class="course_boxtx">検索のコツやショッピング<br class="pc-only">便利なサイトのご紹介</p></a></li>
+	<li class="course_box cb_c"><a href="#hobby"><p class="course_boxttl">趣味を楽しみたい</p>
+		<img src="/course/images/bnr-corse08.jpg" alt="趣味を楽しみたい"><p class="course_boxtx">デジカメ写真の活用や年賀状作成など</p></a></li>
+	<li class="course_box cb_c"><a href="junior.php"><p class="course_boxttl">小中学生のPC学習</p>
+		<img src="/course/images/bnr-corse09.jpg" alt="小中学生コース"><p class="course_boxtx">タッチタイピングを取得して差をつけよう！</p></a></li>
+</ul>
+</div>
+
+	
+<h2 class="c-title2 u-mt10">講座名から探す</h2>
+<div class="section-lv2 clearfix u-mt20">
+	
+<ul id="course_indlist3">
+<li class="course_box">
+		<h3 class="tit">資格取得講座</h3>
+</li><li class="course_box">
+		<a href="mos.php"><p>MOS資格対策講座</p></a>
+		<a href="certify.php"><p>サーティファイ資格対策講座</p></a>
+</li></ul>
+
+	
+<ul id="course_indlist2">
+<li class="course_box">
+	<h3 class="tit b"><div>Office講座</div></h3>
+	<dl>
+		<dd><a href="word.php">Word（ワード）講座</a></dd>
+		<dd><a href="excel.php">Excel（エクセル）講座</a></dd>
+		<dd><a href="powerpoint.php">PowerPoint（パワーポイント）講座</a></dd>
+		<dd><a href="bb_word.php">ビジネスベーシック Word</a></dd>
+		<dd><a href="bb_excel.php">ビジネスベーシック Excel</a></dd>
+		<dd><a href="bb_powerpoint.php">ビジネスベーシック PowerPoint</a></dd>
+		<dd><a href="outlook_mail.php">Outlookメール講座</a></dd>
+	</dl>
+</li><li class="course_box">
+	<dl>
+		<dt class="tit c"><div>パソコン基本操作</div></dt>
+		<dd><a href="pc_basic.php">パソコン基礎講座</a></dd>
+		<dd><a href="bb_basic.php">ビジネスベーシック パソコン基礎</a></dd>
+		<dd><a href="typing.php">タッチタイピング習得</a></dd>
+		<dd><a href="digital_basic.php">デジタル基礎知識講座</a></dd>
+		<dd><a href="junior.php">小中学生コース</a></dd>
+	</dl>
+</li><li class="course_box">
+	<dl>
+		<dt class="tit d"><div>趣味で楽しむパソコン</div></dt>
+		<dd><a href="internet_master.php">インターネットマスター講座</a></dd>
+		<dd><a href="d_photo_master.php">デジタル写真マスター講座</a></dd>
+		<dd><a href="word_craft.php">ワードで作ろう</a></dd>
+		<dd><a href="nenga.php">年賀状講座</a></dd>
+			</dl>
+</li><li class="course_box">
+	<dl>
+		<dt class="tit e"><div>タブレット・スマホ</div></dt>
+		<dd><a href="tablet.php">タブレット（iPad）講座</a></dd>
+		<dd><a href="smartphone.php">スマートフォン（iPhone）講座</a></dd>
+		<dd><a href="line.php">LINE講座</a></dd>
+	</dl>
+</li></ul>
+</div>
 
 
-<img class="mL20 mT10" src="/images/course_21.png" width="572" height="33" alt="実際はインストラクターのカウンセリングであなたに最適なコースをご案内しますので、安心です。" />
-							</p>
-							<div class="clearfix mT10">
-							<p class="course_tel"><?=$room[$id][phone]?></p>
-							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
-								<p class="align-c mT10"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-inq_contact.jpg" width="500" height="70" alt="無料説明会のお申込みはこちら" class="alpha" /></a></p>
-<?php
-}
-?>
-							</div>
-						</div><!-- /#subject1 -->
 
-						<div id="subject5" class="subject clearfix">
-							<h3 class="mB10"><img src="/images/course_47.png" width="632" height="30" alt="資格を取得したい" /></h3>
-							<div class="section-lv3 clearfix">
-								<div class="box-a">
-									<img class="mB10" src="/images/course_50.jpg" width="200" height="155" alt="*" />
-								</div><!-- /.box-a -->
-								<div class="box-b">
-									<table>
-										<tr>
-											<td class="item table-top">こんな方に<br />オススメ！</td>
-											<td class="table-top">
-												<ul>
-												  <li>パソコンの資格を取って、就職や復職に役立てたい</li>
-												  <li>基礎から、ワード・エクセル・タイピングなど総合的に使えるようになりたい</li>
-												  <li>自分のパソコンスキルの腕試しをしてみたい</li>
-												  <li>パソコンを習った努力の証が欲しい</li>
-												  <li>仕事でのスキルアップへ向けて、資格を取って自信を付けたい</li>
-												</ul>
-											</td>
-										</tr>
-										
-									</table>
-								</div><!-- /.box-b -->
-							</div><!-- /.section-lv3 -->
-							<h4 class="mT25"><img src="/images/course_17.png" width="242" height="23" alt="この目的に適したコースは？" /></h4>
-							<p class="detail mR15">
-							教室で資格対策の講座をしっかり学べることはもちろん、慣れた教室のパソコンで、いつもの先生の指導の元で模擬試験・本試験を受験していただくことができますので安心ですね！<br /><br />
-							・サーティファイ　ビジネス実践講座<br />
-                            　<img src="../images/word.jpg" class="icon">Microsoft Word 2013　（3級・2級）<br />
-                            　<img src="../images/excel.jpg" class="icon">Microsoft Excel 2013　（3級・2級）<br />
-                            　<img src="../images/ppt.jpg" class="icon">Microsoft PowerPoint 2013　（初級・上級）<br />
-							　当教室は「サーティファイ認定試験会場」です。<br /><br />
-							・MOS（マイクロソフトオフィススペシャリスト）資格取得講座<br />
-                            　<img src="../images/word.jpg" class="icon">Microsoft Word 2013 / 2010<br />
-                            　<img src="../images/excel.jpg" class="icon">Microsoft Excel 2013 / 2010<br /><br />
-							<img class="mL20 mT10" src="/images/course_21.png" width="572" height="33" alt="実際はインストラクターのカウンセリングであなたに最適なコースをご案内しますので、安心です。" />
-							</p>
-							<div class="clearfix mT10">
-							<p class="course_tel"><?=$room[$id][phone]?></p>
-							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
-								<p class="align-c mT10"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-inq_contact.jpg" width="500" height="70" alt="無料説明会のお申込みはこちら" class="alpha" /></a></p>
-<?php
-}
-?>
-							</div>
-						</div><!-- /#subject1 -->
+<div class="section-lv2 clearfix u-mt20">
+<h2 class="c-title2 anchor" id="works">今すぐ仕事で役立てたい</h2>
+<p>パソコン操作が苦手な方、もっと効率よく使いたいという方に最適な講座をご用意。<br>パソコンの基本操作や入力、仕事で必須とも言えるワード・エクセル・パワーポイントの使い方を習得して、実践力アップを目指します。</p><br>
+	<div class="osusumelist">
+	<div class="osusumelist_a">
+		<h3>こんな方にオススメ</h3>
+		<ul>
+		<li>エクセルで素早く計算</li>
+		<li>ワードで書類をつくりたい</li>
+		<li>パワーポイントでワンランク上のプレゼンテーション</li>
+		<li>タッチタイピング習得で仕事の効率をＵＰしたい</li>
+		<li>様々な書類作成に対応できるスキルを付けたい！</li>
+		</ul>
+		</div>
+	<div class="osusumelist_b"><img src="/course/images/bnr-corse03.jpg" alt="今すぐ仕事で役立てたい" class="pc-only"></div>
+	</div>
+	<a href="bb_basic.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/100-bizbasic.jpg" alt="ビジネスベーシック Windows10基礎講座"></div><div class="kouzalist_b"><h3>ビジネスベーシック Windows10基礎講座</h3>ウィンドウ操作や入力の練習、ファイルとフォルダ―の違いや、書類の上書き保存の仕方など、お仕事で役立つパソコンの基本スキルを短期間で習得することができます。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="bb_word.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/office-word.jpg" alt="ビジネスベーシック Word（ワード）"></div><div class="kouzalist_b"><h3>ビジネスベーシック Word（ワード）</h3>仕事で必須のワードをより実践的に活用できるよう、文字入力・編集、印刷、表の作成といった基本スキルから、文書の校正やファイルの保護などの応用まで身に付けることができます。<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="bb_excel.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/office-excel.jpg" alt="ビジネスベーシック Excel（エクセル）"></div><div class="kouzalist_b"><h3>ビジネスベーシック Excel（エクセル）</h3>仕事で必須のエクセルをより実践的に活用できるよう、印刷、グラフの作成といった基本スキルから、入力補助機能や関数、データ分析などの応用まで身に付けることができます。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="bb_powerpoint.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/office-pp.jpg" alt="ビジネスベーシック PowerPoint（パワーポイント）"></div><div class="kouzalist_b"><h3>ビジネスベーシック PowerPoint<br class="sp-only">（パワーポイント）</h3>基本操作から、グラフや写真を入れた複雑なアニメーション、プレゼンのノウハウなど、「お仕事で使える」レベルまで身に付けることができます。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="outlook_mail.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/101-outlook.jpg" alt="Outlook（アウトルック）メール講座"></div><div class="kouzalist_b"><h3>Outlook（アウトルック）メール講座</h3>メールの送受信、メールの検索や仕分け、連絡先の管理など、お仕事でのOutlook活用を学べます。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+</div>
+<div class="u-mt10 u-mb100 u-center">
+		<b>パソコン市民講座では、他にもあなたに最適な講座をご用意しております。<br>
+		実際のコースなどは、ぜひお気軽に教室までお問い合わせください。<br></b>
+	<div class="c-btn2">
+		<a href="/<?=$room[$id][dir]?>/contact.php"><span>無料体験予約をする</span></a>
+	</div>
+	<div class="c-btn3">
+		<a href="#"><span>他のコースを見る</span></a>
+	</div>
+</div><!-- /. -->
 
-						<div id="subject1" class="subject clearfix">
-							<h3 class="mB10"><img src="/images/course_06.png" width="632" height="30" alt="はじめてのパソコン" /></h3>
-							<p class="mB20">超初心者の方大歓迎！の教室です。<br />初心者の方がパソコンの楽しみ方を効率よくマスターできるよう、バラエティに富んだコースをご用意しています！</p>
-							<div class="section-lv3 clearfix">
-								<div class="box-a">
-									<img class="mB10" src="/images/course_09.jpg" width="200" height="155" alt="*" />
-								</div><!-- /.box-a -->
-							<div class="box-b">
-									<table>
-										<tr>
-											<td class="item table-top">こんな方に<br />オススメ！</td>
-											<td class="table-top">
-												<ul>
-													<li>初めてパソコンを買った</li>
-													<li>マウス操作やキーボード入力などの基礎を身につけたい</li>
-													<li>パソコンでどんなことができるのか知りたい</li>
-													<li>タッチタイピングを身につけたい</li>
-													<li>電子メールでやりとりしたい</li>
-												</ul>
-											</td>
-										</tr>
-										<tr>
-											<td class="item">対象OS</td>
-											<td>
-												<img src="../images/win10.jpg" class="icon">Windows10<br />
-												<img src="../images/win8.jpg" class="icon">Windows8.1<br />
-												<img src="../images/win7.jpg" class="icon">Windows 7
-											</td>
-										</tr>
-									</table>
-								</div><!-- /.box-b -->
-							</div><!-- /.section-lv3 -->
-							<h4 class="mT25"><img src="/images/course_17.png" width="242" height="23" alt="この目的に適したコースは？" /></h4>
-							<p class="detail mR15">							
-							・Windows10　はじめてのパソコン講座 / パソコン基礎講座<br />
-							・Windows8.1　はじめてのパソコン講座 / パソコン基礎講座<br />
-							・Windows7　初心者/初級者コース<br />
-							　基礎からインターネット・メールやワード・デジカメまで総合的にパソコンを楽しめるコースです<br />
-							<br />
-							・パソコン使いこなし術<br />
-							　日々のパソコン操作の？？？を解消する講座です。<br />　便利な機能を知ればますます楽しくなりますよ！<br />
-							<img class="mL20 mT10" src="/images/course_21.png" width="572" height="33" alt="実際はインストラクターのカウンセリングであなたに最適なコースをご案内しますので、安心です。" />
-							</p>
-							<div class="clearfix mT10">
-							<p class="course_tel"><?=$room[$id][phone]?></p>
-							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
-								<p class="align-c mT10"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-inq_contact.jpg" width="500" height="70" alt="無料説明会のお申込みはこちら" class="alpha" /></a></p>
-<?php
-}
-?>
-							</div>
-						</div><!-- /#subject1 -->
-						
-						<div id="subject2" class="subject clearfix">
-							<h3 class="mB10"><img src="/images/course_25.png" width="632" height="30" alt="インターネットをしたい" /></h3>
-							<p class="mB20">初めての方でも、十分にインターネットが楽しめるようになります。楽しさや発見がいっぱいのインターネットを活用する授業内容で、お店検索やショッピング、友人との交流などインターネットの無限に広がる楽しさをお伝えし、日常でしっかり使いこなせるようになります。
-</p>
-							<div class="section-lv3 clearfix">
-								<div class="box-a">
-									<img class="mB10" src="/images/course_28.jpg" width="200" height="155" alt="*" />
-								</div><!-- /.box-a -->
-								<div class="box-b">
-									<table>
-										<tr>
-											<td class="item table-top">こんな方に<br />オススメ！</td>
-											<td class="table-top">
-												<ul>
-													<li>インターネットって何？</li>
-													<li>ネットショッピングをしたい</li>
-													<li>ネットで宿泊先の予約をしたい</li>
-													<li>ブログをやってみたい</li>
-													<li>インターネットのルールなどを知りたい</li>
-													<li>便利な使い方やいろんなサイトを知りたい</li>
-												</ul>
-											</td>
-										</tr>
-										<tr>
-											<td class="item">対象ブラウザ</td>
-											<td>
-											<img src="../images/ie.jpg" class="icon">Internet Explorer 11<br />
-											<img src="../images/ie.jpg" class="icon">Internet Explorer 10<br />
-											<img src="../images/ie.jpg" class="icon">Internet Explorer 9
-											</td>
-										</tr>
-									</table>
-								</div><!-- /.box-b -->
-							</div><!-- /.section-lv3 -->
-							<h4 class="mT25"><img src="/images/course_17.png" width="242" height="23" alt="この目的に適したコースは？" /></h4>
-							<p class="detail mR15">
-							・インターネット活用講座<br />
-							　お店検索やショッピング、友人との交流など<br />　インターネットの無限に広がる楽しさを全てお伝えします。<br />
-							<br />
-							・わくわくパソコン活用（旅行編)<br />
-							　パソコンを使って、旅行の計画を立てよう！i<br />　インターネットやワープロソフトを使えば、あなたの旅行がさらに充実！
-							<br />
-							<img class="mL20 mT10" src="/images/course_21.png" width="572" height="33" alt="実際はインストラクターのカウンセリングであなたに最適なコースをご案内しますので、安心です。" />
-														</p>
-							<div class="clearfix mT10">
-							<p class="course_tel"><?=$room[$id][phone]?></p>
-							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
-								<p class="align-c mT10"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-inq_contact.jpg" width="500" height="70" alt="無料説明会のお申込みはこちら" class="alpha" /></a></p>
-<?php
-}
-?>
-							</div>
-						</div><!-- /#subject2 -->
-						
 
-						<div id="subject3" class="subject clearfix">
-							<h3 class="mB10"><img src="/images/course_33.png" width="632" height="30" alt="趣味で楽しみたい" /></h3>
-							<p class="mB20">デジカメ・絵はがきなど生活に彩りを添えるコースを多数ご用意しています！ワープロソフトの「ワード」や表計算ソフトの「エクセル」を使った、料理レシピやはがきづくりなどの応用術も満載！！</p>
-							<div class="section-lv3 clearfix">
-								<div class="box-a">
-									<img class="mB10" src="/images/course_36.jpg" width="200" height="155" alt="*" />
-								</div><!-- /.box-a -->
-								<div class="box-b">
-									<table>
-										<tr>
-											<td class="item table-top">こんな方に<br />オススメ！</td>
-											<td class="table-top">
-												<ul>
-													<li>デジカメ写真をパソコンで管理したい</li>
-													<li>下調べ、しおり、予約…<br />パソコンを旅行に活かしたい。</li>
-													<li>パソコンで年賀状をつくりたい</li>
-													<!--<li>パソコンで水彩画！？</li>-->
-													<li>自分好みのCD作り</li>
-													<li>パソコンで世界にひとつだけのオリジナル作品をつくりたい。</li>
-													<li>パソコンでゲームをしたい</li>　　　　　　　　　　　　などなど
-												</ul>
-											</td>
-										</tr>
-										
-									</table>
-								</div><!-- /.box-b -->
-							</div><!-- /.section-lv3 -->
-							<h4 class="mT25"><img src="/images/course_17.png" width="242" height="23" alt="この目的に適したコースは？" /></h4>
-							<p class="detail mR15">
-							・デジカメ活用講座<br />
-							　デジカメで撮った写真をパソコンに取り込み、加工・編集など基本的な活用方法をご紹介します。
-							<br />
-							<br />
-							<!--・水彩画入門講座<br />
-							　絵の苦手な人でも簡単に、綺麗な水彩画がパソコンで描けます！趣味で人気ＮＯ１の講座をぜひ！
-							<br />
-							<br />-->
-							・年賀状作成講座<br />
-							　毎年の年賀状をパソコンで。新年のご挨拶で相手をびっくりさせられるかも！？
-							<br />
-							<!-- <br />
-							 ・簡単ホームページ講座<br />
-							　日々のパソコン操作の？？？を解消する講座です。<br />　便利な機能を知ればますます楽しくなりますよ！
-							<br /> -->
-							<br />※エクセルコース / ワードコース　の応用や演習問題、インターネット活用講座、<br />　うちわやカレンダー作成イベントなど、あらゆる講座にパソコンで広げる趣味の可能性は<br />　秘められていますよ。教室のインストラクターにもご相談ください。
 
-							<img class="mL20 mT10" src="/images/course_21.png" width="572" height="33" alt="実際はインストラクターのカウンセリングであなたに最適なコースをご案内しますので、安心です。" />
-							</p>
-							<div class="clearfix mT10">
-							<p class="course_tel"><?=$room[$id][phone]?></p>
-							<a href="#header"><img src="/images/course_btn.jpg" class="alpha" alt="他のコースも見る" width="300" height="70" /></a>
-<?php
-if ($id == "6117001") {
-?>
-<?php
-} else {
-?>
-								<p class="align-c mT10"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="/images/btn-inq_contact.jpg" width="500" height="70" alt="無料説明会のお申込みはこちら" class="alpha" /></a></p>
-<?php
-}
-?>
-							</div>
-						</div><!-- /#subject1 -->
 
-						
 
-					</div><!-- /.section-lv2 -->
-				</div><!-- /.block -->
-				<div class="block subject6 mB40">
-					<h2 class="mB20">「市民講座なら、こんなものが作れる！」作品の一部をご紹介</h2>
+<div class="section-lv2 clearfix u-mt20">
+<h2 class="c-title2" id="lisence">資格を取得したい</h2>
+<p>パソコンスキルを証明するのに「資格取得」は非常に有効です。あなたの価値を高めてアピールすることができます。就職や転職、再就職にも役立つパソコン資格の数々をご用意しています。</p><br>
+	<div class="osusumelist">
+	<div class="osusumelist_a">
+		<h3>こんな方にオススメ</h3>
+		<ul>
+		<li>パソコンの資格を取って、就職や復職に役立てたい</li>
+		<li>基礎から、ワード・エクセル・タイピングなど<br>総合的に使えるようになりたい</li>
+		<li>自分のパソコンスキルの腕試しをしてみたい</li>
+		<li>パソコンを習った努力の証が欲しい</li>
+		<li>仕事でのスキルアップに</li>
+		<li>資格を取って自信を付けたい</li>
+		</ul>
+	</div>
+	<div class="osusumelist_b"><img src="/course/images/bnr-corse04.jpg" alt="資格を取得したい" class="pc-only"></div>
+	</div>
+	<a href="start_check.php"><img src="/course/images/bnr-kiriwake.jpg" width="100%" border="1" alt="切り分け" class="pc-only"></a>
+	<a href="start_check.php"><img src="/course/images/bnr-kiriwake-sp.jpg" width="100%" border="1" alt="切り分け" class="sp-only"></a>
+	<a href="mos.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/mos.jpg" alt="MOS資格対策講座"></div><div class="kouzalist_b"><h3>MOS資格対策講座</h3>抜群の知名度を誇るパソコン資格MOS（マイクロソフトオフィススペシャリスト）を取得できます。就職や再就職・転職をお考えの方にオススメです。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="certify.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/certify.jpg" alt="サーティファイ資格対策講座"></div><div class="kouzalist_b"><h3>サーティファイ 資格対策講座</h3>「仕事に活かせる実用的な資格が欲しい！」という方に最適！パソコン操作の自信に繋がります。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+</div>
+<div class="c-toiawase"><!-- /.問合せ -->
+		<b>パソコン市民講座では、他にもあなたに最適な講座をご用意しております。<br>
+		実際のコースなどは、ぜひお気軽に教室までお問い合わせください。<br></b>
+	<div class="c-btn2">
+		<a href="/<?=$room[$id][dir]?>/contact.php"><span>無料体験予約をする</span></a>
+	</div>
+	<div class="c-btn3">
+		<a href="#"><span>他のコースを見る</span></a>
+	</div>
+</div><!-- /. -->
+
+
+
+
+
+<div class="section-lv2 clearfix u-mt20">
+<h2 class="c-title2" id="first">基本操作を覚えたい</h2>
+<p>「超初心者です」という方も大歓迎！の教室です。パソコンを「楽しい」と思ってもらえる、バラエティに富んだコースをご用意しています。</p><br>
+	<div class="osusumelist">
+	<div class="osusumelist_a">
+		<h3>こんな方にオススメ</h3>
+		<ul>
+		<li>初めてパソコンを買った</li>
+		<li>マウス操作やキーボード入力などの基礎を身につけたい</li>
+		<li>パソコンでどんなことができるのか知りたい</li>
+		<li>タッチタイピングを身につけたい</li>
+		<li>電子メールでやりとりしたい</li>
+		</ul>
+	</div>
+	<div class="osusumelist_b"><img src="/course/images/bnr-corse05.jpg" alt="基本操作を覚えたい" class="pc-only"></div>
+	</div>
+	<a href="pc_basic.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/91-pckiso.jpg" alt="パソコン基礎講座"></div><div class="kouzalist_b"><h3>パソコン基礎講座</h3>パソコンの基礎から、インターネット、メールやワードの使い方、写真活用まで、パソコンの初歩を総合的に楽しめるコースです。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="bb_basic.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/100-bizbasic.jpg" alt="ビジネスベーシック Windows10基礎講座"></div><div class="kouzalist_b"><h3>ビジネスベーシック Windows10基礎講座</h3>ウィンドウ操作や入力の練習、ファイルとフォルダ―の違いや、書類の上書き保存の仕方など、お仕事で役立つ基本スキルを短期間で習得することができます。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="digital_basic.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/82-02-dejikiso.jpg" alt="デジタル基礎知識講座"></div><div class="kouzalist_b"><h3>デジタル基礎知識講座</h3>パソコンの仕組みやWi-Fiやインターネットなど、パソコンの知識を学習します。パソコンを知って、もっと活用しよう！
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="word.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/office-word.jpg" alt="ワード講座"></div><div class="kouzalist_b"><h3>ワード講座</h3>仕事で必須のワードをより実践的に活用できるよう、基礎～応用まで学べるコースです。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="excel.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/office-excel.jpg" alt="エクセル講座"></div><div class="kouzalist_b"><h3>エクセル講座</h3>仕事で必須のエクセルをより実践的に活用できるよう、基礎～応用まで学べるコースです。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="powerpoint.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/office-pp.jpg" alt="パワーポイント講座"></div><div class="kouzalist_b"><h3>パワーポイント講座</h3>基本操作から、グラフや写真を入れた複雑なアニメーション、プレゼンのノウハウまで学べるコースです。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="typing.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/typing.jpg" alt="タッチタイピング習得"></div><div class="kouzalist_b"><h3>タッチタイピング習得</h3>入力の時間はできるだけ短く効率よく行えたら、もっとパソコンを活用できます。どなたでも確実にタッチタイピングマスターに！
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="junior.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/typing-junior.jpg" alt="子ども向けPC講座"></div><div class="kouzalist_b"><h3>子ども向けPC講座</h3>小学生から学べる講座で初めてのパソコンを楽しく学習！「何ができるか」を、実際にパソコンを触りながら学習できるのでわかりやすく、身に付きやすくなっています。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+</div>
+<div class="u-mt10 u-mb100 u-center">
+		<b>パソコン市民講座では、他にもあなたに最適な講座をご用意しております。<br>
+		実際のコースなどは、ぜひお気軽に教室までお問い合わせください。<br></b>
+	<div class="c-btn2">
+		<a href="/<?=$room[$id][dir]?>/contact.php"><span>無料体験予約をする</span></a>
+	</div>
+	<div class="c-btn3">
+		<a href="#"><span>他のコースを見る</span></a>
+	</div>
+</div><!-- /. -->
+
+
+
+
+
+<div class="section-lv2 clearfix u-mt20">
+<h2 class="c-title2" id="tb-smp">タブレット・スマホをはじめたい</h2>
+<p>基本操作から、自宅や外出先での便利な使い方はもちろんのこと、困ったときのトラブル対応まで、もっともっと楽しく使う方法をご紹介しています。大人気のLINE講座もございます。</p><br>
+	<div class="osusumelist">
+	<div class="osusumelist_a">
+		<h3>こんな方にオススメ</h3>
+		<ul>
+		<li>買おうかどうしようか悩んでいる。</li>
+		<li>買ったばかりで操作が分からない。</li>
+		<li>もっと便利に使える方法を知りたい。</li>
+		<li>外出先で便利に使いたい。</li>
+		<li>設定方法が分からない。</li>
+		</ul>
+	</div>
+	<div class="osusumelist_b"><img src="/course/images/bnr-corse06.jpg" alt="タブレット・スマホをはじめたい" class="pc-only"></div>
+	</div>
+
+	<a href="tablet.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/109-01-iPadlife.jpg" alt="タブレット（iPad）講座"></div><div class="kouzalist_b"><h3>タブレット（iPad）講座</h3>電源の入れ方やタッチ操作など初歩の操作練習から、カメラやインターネット、トラブル対応など、これからiPadを使っていく上で必要な基本操作から便利な活用まで、総合的にご紹介。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="smartphone.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/108-iphonelife.jpg" alt="スマートフォン（スマホ）講座"></div><div class="kouzalist_b"><h3>スマートフォン（スマホ）講座</h3>iPhoneを購入したあなたに。電源の入れ方や電話の使い方、スマートフォンの醍醐味「アプリ」の使い方まで、総合的にご紹介。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="line.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/115-line.jpg" alt="LINE講座"></div><div class="kouzalist_b"><h3>LINE講座</h3>これからLINEを使い始めたい方や、イマイチ使いこなせていないという方に、メッセージのやり取りや、スタンプの使い方など基本操作から便利な操作まで幅広くご紹介しています。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="nenga.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/nengasp.jpg" alt="かんたん年賀状講座"></div><div class="kouzalist_b"><h3>かんたん年賀状講座</h3>毎年の年賀状を、アプリを使って手軽に作成しましょう。デザインやスタンプ、写真を使ってあなただけのオリジナル作品に仕上げましょう。直観的な操作でかんたんにオシャレな年賀状が作れますよ。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+</div>
+
+<div class="u-mt10 u-mb100 u-center">
+		<b>パソコン市民講座では、他にもあなたに最適な講座をご用意しております。<br>
+		実際のコースなどは、ぜひお気軽に教室までお問い合わせください。<br></b>
+	<div class="c-btn2">
+		<a href="/<?=$room[$id][dir]?>/contact.php"><span>無料体験予約をする</span></a>
+	</div>
+	<div class="c-btn3">
+		<a href="#"><span>他のコースを見る</span></a>
+	</div>
+</div><!-- /. -->
+
+
+
+
+
+<div class="section-lv2 clearfix u-mt20">
+<h2 class="c-title2" id="net">インターネットをしたい</h2>
+<p>楽しさや発見がいっぱいのインターネットを活用していきます。検索のコツやネットショッピング、　便利なサイトのご紹介など、日常に役立つ使い方をお伝えしていきます。</p><br>
+	<div class="osusumelist">
+	<div class="osusumelist_a">
+		<h3>こんな方にオススメ</h3>
+		<ul>
+		<li>インターネットって何？</li>
+		<li>ネットショッピングをしたい</li>
+		<li>ネットで宿泊先の予約をしたい</li>
+		<li>ブログをやってみたい</li>
+		<li>インターネットのルールなどを知りたい</li>
+		<li>便利な使い方やいろんなサイトを知りたい</li>
+		</ul>
+	</div>
+	<div class="osusumelist_b"><img src="/course/images/bnr-corse07.jpg" alt="インターネットをしたい" class="pc-only"></div>
+	</div>
+	<a href="internet_master.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/102-08-net.jpg" alt="インターネットマスター講座"></div><div class="kouzalist_b"><h3>インターネットマスター講座</h3>初心者の方はもちろん、「もっと便利な使い方を知りたい」という方にもピッタリ！インターネットの基本操作からYahoo!やAmazonやGoogleなど、便利な使い方をさまざまなウェブサイトを見ながら楽しく学べます。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="digital_basic.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/82-03-dejikiso.png" alt="デジタル基礎知識講座"></div><div class="kouzalist_b"><h3>デジタル基礎知識講座</h3>パソコン操作はできるけれども、パソコンのことをちゃんと知りたい方に最適です。仕組みや回線、Wi-Fi、SNSとは？など、パソコンでインターネットを使うからには知っておきたい内容が盛り沢山です。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="tablet.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/109-01-iPadlife.jpg" alt="iPad講座"></div><div class="kouzalist_b"><h3>iPad講座</h3>タブレットで、自宅で、移動時に、場所を問わずに手軽にインターネットが楽しめます。タッチ操作の練習から、インターネットの基本的な使い方、ネットショッピング、ニュースや天気の調べ方など、iPadを使ったインターネットの楽しみ方を惜しみなくご紹介。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="smartphone.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/108-iphonelife.jpg" alt="iPhone講座"></div><div class="kouzalist_b"><h3>iPhone講座</h3>スマートフォンで、自宅で、移動時に、場所を問わずに手軽にインターネットが楽しめます。基本的な使い方はもちろんのこと、ネットショッピングや音楽や映画を購入する方法など、iPhoneを使ったインターネットの楽しみ方を惜しみなくご紹介。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+</div>
+
+<div class="c-toiawase"><!-- /.問合せ -->
+		<b>パソコン市民講座では、他にもあなたに最適な講座をご用意しております。<br>
+		実際のコースなどは、ぜひお気軽に教室までお問い合わせください。<br></b>
+	<div class="c-btn2">
+		<a href="/<?=$room[$id][dir]?>/contact.php"><span>無料体験予約をする</span></a>
+	</div>
+	<div class="c-btn3">
+		<a href="#"><span>他のコースを見る</span></a>
+	</div>
+</div><!-- /. -->
+
+
+
+
+
+<div class="section-lv2 clearfix u-mt20">
+<h2 class="c-title2" id="hobby">趣味を楽しみたい</h2>
+<p>デジカメ写真の保存・整理や、年賀状作成やワードで物作りなど、日々の生活に彩りを添える講座を多数ご用意しています。</p><br>
+	<div class="osusumelist">
+	<div class="osusumelist_a">
+		<h3>こんな方にオススメ</h3>
+		<ul>
+		<li>デジタル写真をパソコンで管理・活用したい</li>
+		<li>インターネットを使って生活を豊かにしたい</li>
+		<li>年賀状をつくりたい</li>
+		<li>音楽を管理したり自分好みのCDを作りたい</li>
+		<li>世界にひとつだけのオリジナル作品をつくりたい</li>
+		<li>パソコンで様々な世界を覗いてみたい</li>
+		</ul>
+	</div>
+	<div class="osusumelist_b"><img src="/course/images/bnr-corse08.jpg" alt="趣味を楽しみたい" class="pc-only"></div>
+	</div>
+
+	<a href="d_photo_master.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/90-02-digitalp.jpg" alt="デジタル写真マスター講座"></div><div class="kouzalist_b"><h3>デジタル写真マスター講座</h3>デジカメやスマホで撮った写真をパソコンに取り込み、加工・編集など基本的な活用方法をご紹介します。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="internet_master.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/102-08-net.jpg" alt="インターネットマスター講座"></div><div class="kouzalist_b"><h3>インターネットマスター講座</h3>初心者の方はもちろん、「もっと便利な使い方を知りたい」という方にもピッタリ！インターネットの基本操作からYahoo!やAmazonやGoogleなど、便利な使い方をさまざまなウェブサイトを見ながら楽しく学べます。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="word_craft.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/99-06-worddetukuro.jpg" alt="ワードで作ろう"></div><div class="kouzalist_b"><h3>ワードで作ろう</h3>文書作成ソフトとして有名なワードですが、文書作成以外にも日常的な使い方ができ、特にモノづくりに活躍します。
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="nenga.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/nengapc.jpg" alt="かんたん年賀状講座"></div><div class="kouzalist_b"><h3>かんたん年賀状講座</h3>毎年の年賀状を、アプリを使って手軽に作成しましょう。デザインの作成から宛先の入力や、今まで大変だった宛名書きもかんたんにできます。短時間で年賀状を完成することができます。パソコンで作った年賀状と知ったら、相手も驚くかもしれませんね！
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+	<a href="brain_training.php" class="kouzalist">
+		<div class="kouzalist_a"><img src="/images/textimg/87-01-otona.jpg" alt="おとなプログラミング講座"></div><div class="kouzalist_b"><h3>脳トレおとなプログラミング講座</h3>パソコンでプログラミングしながら「脳をトレーニング」する講座です。今子どもの教育に必須化されるほど注目を集めているプログラミング。専門的な知識が無くても大丈夫！直感的に使える簡単なアプリ「Scratch（スクラッチ）」を使ってパズル感覚でチャレンジ！
+		<div class="more-detail">詳細を見る</div></div>
+	</a>
+</div>
+
+<div class="c-toiawase"><!-- /.問合せ -->
+		<b>パソコン市民講座では、他にもあなたに最適な講座をご用意しております。<br>
+		実際のコースなどは、ぜひお気軽に教室までお問い合わせください。<br></b>
+	<div class="c-btn2">
+		<a href="/<?=$room[$id][dir]?>/contact.php"><span>無料体験予約をする</span></a>
+	</div>
+	<div class="c-btn3">
+		<a href="#"><span>他のコースを見る</span></a>
+	</div>
+</div><!-- /. -->
+
+
+
+<h2 class="c-title2 u-mt10">「市民講座なら、こんなものが作れる！」作品の一部をご紹介</h2>
 					<div class="clearfix mB5 section-lv2">
-						<a class="box-a" href="/images/word-sample.gif" target="_blank"><img src="/images/word-samples.gif" width="280" height="206" /></a>
-						<a class="box-b" href="/images/excel-samples.gif" target="_blank"><img src="/images/excel-sampless.gif" width="280" height="200" /></a>
+						<a class="box-a" href="/images/word-sample.gif" target="_blank"><img src="/images/word-samples.gif" width="280" height="206" alt="word-sample"/></a>
+						<a class="box-b" href="/images/excel-samples.gif" target="_blank"><img src="/images/excel-sampless.gif" width="280" height="200" alt="excel-sample" /></a>
 					</div>
 					<p>クリックすると大きい画像が見られます。</p>
 					<div class="back-top mR15"><a class="moz2" href="#header">ページトップへ</a></div>
-				</div>
-				
-				</div><!-- /#kasou -->
+
+<br><br>
+
+</div><!-- /.section-lv2 -->			
+</div><!-- /#kasou -->
+</div>

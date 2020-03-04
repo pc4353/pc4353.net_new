@@ -1,6 +1,6 @@
 <?php
 
-$title = "MOS（マイクロソフトオフィススペシャリスト）取得講座";
+$title = "MOS資格とは？難易度や対策方法、取得コース・講座のご紹介";
 $description = "パソコン市民講座のMOS取得講座";
 $keywords = "MOS,Microsoft,マイクロソフトオフィススペシャリスト,パソコンスクール,求人,就職,";
 $pageId = 'shikaku';
@@ -81,11 +81,12 @@ include_once('../lib/home/header.php');
 						<h4>MOSワード対策講座</h4>
 						<p>Microsoft Word スペシャリスト 資格試験対応</p>
 						<ul>
-							<li>2010</li>
+							<li>2016</li>
 							<li>2013</li>
+							<li>2010</li>
 						</ul>
 					</div>
-					<?php /*?><div class="btn1"><a class="mos_btn2" href="##">詳しくはコチラ</a></div><?php */?>
+					<div class="btn1"><a class="mos_btn2" href="/course/mos_word.php">詳しくはコチラ</a></div>
 				</div><!-- /.box1 -->
 
 				<div class="box2">
@@ -95,11 +96,12 @@ include_once('../lib/home/header.php');
 						<h4>MOSエクセル対策講座</h4>
 						<p>Microsoft Excel スペシャリスト 資格試験対応</p>
 						<ul>
-							<li>2010</li>
+							<li>2016</li>
 							<li>2013</li>
+							<li>2010</li>
 						</ul>
 					</div>
-					<?php /*?><div class="btn1"><a class="mos_btn2" href="##">詳しくはコチラ</a></div><?php */?>
+					<div class="btn1"><a class="mos_btn2" href="/course/mos_excel.php">詳しくはコチラ</a></div>
 				</div><!-- /.box1 -->
 
 			</div>
@@ -294,8 +296,9 @@ include_once('../lib/home/header.php');
 			<div class="box1">
 				<div class="img1"><img src="/mos/images/mos5_txt1.png" width="91" height="91" alt="Word" /></div>
 				<div class="txt1">
-					<h4>Word2010 スペシャリスト コース<br />
-					Word2013 スペシャリスト コース</h4>
+					<h4>Word2016 スペシャリスト コース<br />
+						Word2013 スペシャリスト コース<br />
+					Word2010 スペシャリスト コース</h4>
 				</div>
 			</div><!-- /.box1 -->
 			<div class="box2">
@@ -317,8 +320,9 @@ include_once('../lib/home/header.php');
 			<div class="box1">
 				<div class="img1"><img src="/mos/images/mos5_txt2.png" width="91" height="91" alt="Excel" /></div>
 				<div class="txt1">
-					<h4>Excel2010 スペシャリスト コース<br />
-					Excel2013 スペシャリスト コース</h4>
+					<h4>Excel2016 スペシャリスト コース<br />
+						Excel2013 スペシャリスト コース<br />
+					Excel2010 スペシャリスト コース</h4>
 				</div>
 			</div><!-- /.box1 -->
 			<div class="box2">

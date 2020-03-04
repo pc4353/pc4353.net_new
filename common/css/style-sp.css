@@ -309,7 +309,7 @@ img, .bx-wrapper img { max-width: 100%; height: auto; }
 .p-top3__block2 .box ol { list-style: none; }
 .p-top3__block2 .box li { border-bottom: 1px solid #dedccd; }
 .p-top3__block2 .box li span { display: block; padding: 18px 12px; padding-left: 26px; background-repeat: no-repeat; background-position: 10px center;font-size:16px; }
-/*.p-top3__block2 .box li a { display: block; padding: 18px 12px; padding-left: 26px; background-repeat: no-repeat; background-position: 10px center; }*/
+.p-top3__block2 .box li a { display: block; padding: 18px 12px; padding-left: 26px; background-repeat: no-repeat; background-position: 10px center; }
 .p-top3__block2 .box.box1 .tit1 { background: #2893a6; }
 .p-top3__block2 .box.box1 li a { background-image: url(../img/common/icon2_alt1.png);font-size:16px; }
 .p-top3__block2 .box.box2 .tit1 { background: #144288; }
@@ -686,7 +686,319 @@ overview
 
 #__bs_notify__ { display: none !important; }
 
+/*=======================================
+講座一覧 
+=========================================*/
+.wrap1 p { display: inline; }
+.wrap1 { margin-left: 10px; margin-right: 10px; position: relative; margin-left: -2%; margin-bottom: 30px; }
+.section2 .wrap1 .box1 { border-radius: 15px; background: #fff; margin-bottom: 30px; width: 100%; margin-left: 2%; }
+.section2 .wrap1 .box1 h4 {text-align: center; background: #191970; color: #fff; font-size: 100% !important; font-weight: bold; padding: 5px 0; }
+.section2 .wrap1 .box1 ul {padding: 20px; zoom: 1; list-style-type: none;}
+.section2 .wrap1 .box1 li {font-size: 100% !important; padding-bottom: 4px; }
+.clearfix:after { display: block; clear: both; content: "" }
+.section2 .wrap1 .box2 { border-radius: 15px; background: #fff; margin-bottom: 10px; margin-top: 25px; width: 100%; margin-left: 2%; }
+.section2 .wrap1 .box2 h4 {text-align: left; background: #191970; color: #fff; font-size: 100% !important; font-weight: bold; padding: 5px 0 0 10px; }
+.section2 .wrap1 .box2 ul {padding: 20px; zoom: 1; list-style-type: none;}
+.section2 .wrap1 .box2 li {font-size: 100% !important; padding-left: 23px; padding-bottom: 4px; display: inline-block; }
+.section2 .wrap1 .box2 ul li a{ background: url("../img/common/icon1.png") 0px 5px no-repeat; padding: 3px 0 3px 20px; background-size: 15px; } 
+.section2 .box3 { width:98%; margin-left: 2%; margin-bottom: 10%; text-align: center; }
+.section2 .box3 .box3-b1{ text-align: center; }
+.section2 .box3 h4 {text-align: center; font-size: 100% !important; font-weight: bold; margin-top:10px; }
+.section2 .box3 img { max-width: 100%; max-height: 300px; }
+.section2 .box4 { border-radius: 15px; background: #fff; margin-bottom: 30px; width: 100%; margin-left: 2%; }
+.section2 .box4 h4 {text-align: center; background: #191970; color: #fff; font-size: 100% !important; font-weight: bold; padding: 5px 0; }
+.section2 .box4 ul {padding: 20px; zoom: 1; list-style-type: none;}
+.section2 .box4 li {font-size: 100% !important; padding-bottom: 4px; }
 
+/*=======================================
+夏期講習 
+=========================================*/
+.summer .l-pagetitle {display: none;}
+.summer .catch {background: url("../../course/images/summer/img-catch.png") no-repeat;margin: 15px 0 50px;}
+.summer .catch h2 {font-size: 137.5% !important;line-height: 160% !important; padding: 25px 50px;font-weight: normal !important;}
+.summer .kids01 {text-align: center;font-size: 125% !important;font-weight: bold;padding:10px 0;}
+.summer .kids02 {text-align: center;font-size: 125% !important;font-weight: bold;padding:10px 0;}
+.summer .skill_wrap {
+	margin: 15px 0 50px;
+	padding: 2px;
+	border: dashed 2px #97a8cb;/*点線*/
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.summer .skill {
+	position: relative;
+	text-align: center;
+	padding: 20px 10px;
+	background: #f6d8d3;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.summer .skill h3 {
+	color:#18499d;
+	font-size: 125% !important;
+	margin-bottom: 20px;
+}
+.summer .skill li {
+	font-weight: bold;
+	font-size: 162.5% !important;
+	margin-bottom: 10px;
+	background: #3face2;
+	border: 1px solid #fff;
+	padding: 10px;
+	color: #fff;
+	border-radius: 10px;        /* CSS3草案 */
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;   /* Firefox用 */
+}
+.summer .jt {
+	position: relative;
+	margin-top: 20px;
+}
+.summer .jt .jt01 {
+}
+.summer .jt .jt02 {
+}
+.summer .jt .jt01 dt {
+	text-align: center;
+	font-weight: bold;
+	font-size: 150% !important;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	background: #0085b4;
+	color: #fff;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.summer .jt .jt01 dd {
+	font-size: 125% !important;
+	margin: 0 0 15px;
+}
+.summer .jt .jt02 dt {
+	text-align: center;
+	font-weight: bold;
+	font-size: 150% !important;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	background: #3db3d2;
+	color: #fff;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.summer .jt .jt02 dd {
+	margin: 0;
+}
+.summer .jt .jt02 dd ul li {
+	border-bottom: 1px solid #7fc2d9;
+	margin-top: 5px;
+}
+.summer .jt .jt02 dd ul li h4 {
+	font-size: 150% !important;
+	color: #3db3d2;
+}
+.summer .jt .abc {
+	position: absolute;
+	top:495px;
+	left: 50%;
+}
+.summer .jt .keybord {
+	position: absolute;
+	top:655px;
+	left: 50%;
+}
+.summer .voice_wrap {
+	margin: 30px 0 50px;
+	padding: 2px;
+	border: dashed 2px #97a8cb;/*点線*/
+	border-radius: 10px;        /* CSS3草案 */
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;   /* Firefox用 */
+}
+.summer .voice_wrap h3 {
+	font-size: 100% !important;
+	font-weight: normal !important;
+	margin: 10px;
+}
+.summer .voice_wrap h3 span {
+	font-size: 125% !important;
+	padding-right: 15px;
+}
+.summer .voice {
+	font-size: 125% !important;
+	padding: 20px;
+	background: #cbe1e9;
+	border-radius: 10px;        /* CSS3草案 */
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;   /* Firefox用 */
+}
+.summer .voice .img_left {text-align: center; margin-bottom: 20px;}
+.summer .voice p {}
+.summer .new-cs {
+	margin-bottom: 70px;
+}
+.summer .new-cs h3 {
+	text-align: center;
+	font-size: 137.5% !important;
+	margin-bottom: 20px;
+}
+.summer .new-cs p {
+	font-size: 125% !important;
+	margin-bottom: 20px;
+}
+.summer h3.bg_liner {
+  background: linear-gradient(transparent 50%, #ffef00 50%);
+}
+.summer .tp_ttl {
+	margin-top: 15px;
+}
+.summer .tp_ttl img {
+	display: block;
+	float: left;
+	margin-right: 30px;
+}
+.summer .tp_ttl h3 {
+	float: left;
+	text-align: center;
+	font-size: 125% !important;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+.summer .think_wrap {
+	margin: 15px 0 50px;
+	padding: 2px;
+	border: dashed 2px #97a8cb;/*点線*/
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.summer .think {
+	text-align: center;
+	padding: 20px;
+	background: #cbe1e9;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.summer .think h3 {
+	color:#18499d;
+	font-size: 137.5% !important;
+	margin-bottom: 20px;
+}
+.summer .think li {
+	margin: 0 10px;
+}
+.summer .think li dl dt {
+	font-weight: bold;
+	font-size: 162.5% !important;
+	background: #3face2;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;        /* CSS3草案 */
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;   /* Firefox用 */
+}
+.summer .think li dl dd {
+	text-align: left;
+	margin: 0;
+}
+.summer .tp_block {
+	margin: 15px auto;
+}
+.summer .tp_point2 {
+}
+.summer .tp_point2 p {
+	padding: 10px 10px 50px 0;
+}
+.summer .tp_point3 {
+}
+.summer .tp_point3 p {
+	padding: 10px 10px 50px 0;
+}
+.summer .tp_ttl_b img {
+	display: block;
+	float: left;
+	margin-right: 30px;
+}
+.summer .tp_ttl_b h3 {
+	float: left;
+	font-size: 137.5% !important;
+	line-height: 1.8;
+	margin-bottom: 10px;
+}
+.summer .tp_ttl_b h3 span {
+	display: block;
+}
+.summer .tp_ttl_b h3 span.bg_liner {
+  background: linear-gradient(transparent 50%, #ffef00 50%);
+}
+.summer .exam {
+	background: #f6d8d3;
+	margin-bottom: 50px;
+}
+.summer .exam .img_left {
+}
+.summer .exam .txt_right {
+	padding: 15px 0;
+}
+.summer .exam .txt_right .exam_ttl {
+	background: url("../../course/images/summer/ico-check.png") no-repeat;
+	padding: 70px 10px 0;
+}
+.summer .exam h3 {
+	color: #a30b5e;
+	font-size: 150% !important;
+	padding: 10px 0;
+}
+.summer .exam .txt_right p {
+	font-weight: bold;
+	font-size: 93.7% !important;
+	padding-bottom: 10px;
+}
+.summer .exam .txt_right dt {
+	background: #c06b7a;
+	color: #fff;
+	font-weight: bold;
+	font-size: 137.5% !important;
+	padding: 5px 20px;
+	margin-top: 15px;
+}
+.summer .exam .txt_right dd {
+	font-size: 125% !important;
+	padding: 5px 20px;
+	margin-left: 0;
+}
+.summer .txt_ft {
+	text-align: center;
+	font-size: 137.5% !important;
+	font-weight: bold;
+	line-height: 1.5;
+}
+.summer .gakuwari {
+	text-align: center;
+	font-size: 100% !important;
+	font-weight: bold;
+	margin: 10px 0 50px;
+}
+.summer .inq_btn {
+	text-align: center;
+	margin-bottom: 70px;
+}
+.summer .sps_link {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	z-index:6;
+	width: 100%;
+	padding-bottom: env(safe-area-inset-bottom);
+}
+.summer .sps_link a {
+	display: block;
+}
 
 
 

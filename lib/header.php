@@ -4,7 +4,6 @@ if( ereg( "index", $_SERVER["SCRIPT_NAME"])){
 	$index = 1;
 	$body_class = " class=\"top\"";
 	$logo_tag = "h1";
-	$onload = " onload=\"dispgmap();\"";
 } else {
 	$sep = "｜";
 	$logo_tag = "p";
@@ -28,7 +27,6 @@ if( ereg( "recruit", $_SERVER["SCRIPT_NAME"])){
 if( ereg( "about", $_SERVER["SCRIPT_NAME"])){
 	$menu1 = " class=\"here\"";
 	$title = "当パソコン教室のご紹介";
-	$onload = " onload=\"dispgmap();\"";
 }
 if( ereg( "voice", $_SERVER["SCRIPT_NAME"])){
 	$menu2 = " class=\"here\"";
@@ -57,31 +55,59 @@ if( ereg( "business", $_SERVER["SCRIPT_NAME"])){
 }
 if( ereg( "junior", $_SERVER["SCRIPT_NAME"])){
 	$title = "小中学生のパソコン学習";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/junior.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/junior.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/junior.php";
 }
 if( ereg( "yousei", $_SERVER["SCRIPT_NAME"])){
 	$title = "パソコンインストラクター養成講座";
 }
 if( ereg( "tablet", $_SERVER["SCRIPT_NAME"])){
 	$title = "タブレット講座（iPad対応）";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/tablet.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/tablet.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/tablet.php";
 }
 if( ereg( "iphone", $_SERVER["SCRIPT_NAME"])){
 	$title = "iPhone講座";
 }
 if( ereg( "win10", $_SERVER["SCRIPT_NAME"])){
 	$title = "Windows10講座";
+	$body_class = " class=\"win10\"";
+}
+if( ereg( "gakuwari", $_SERVER["SCRIPT_NAME"])){
+	$title = "学割";
+}
+if( ereg( "senior", $_SERVER["SCRIPT_NAME"])){
+	$title = "シニア割";
 }
 if( ereg( "summer_lesson", $_SERVER["SCRIPT_NAME"])){
 	$title = "夏休みパソコン教室 小中学生対象特別講座";
+}
+if( ereg( "sokudoku", $_SERVER["SCRIPT_NAME"])){
+	$title = "みんなの速読";
+	$sokudoku = 1;
+	$contents_class = " sokudoku";
 }
 if( ereg( "mos", $_SERVER["SCRIPT_NAME"])){
 	$title = "MOS（マイクロソフトオフィススペシャリスト）資格取得講座";
 	$mos = 1;
 	$contents_class = " mos";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/mos.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/mos.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/mos.php";
 }
 if( ereg( "certify", $_SERVER["SCRIPT_NAME"])){
 	$title = "サーティファイ ビジネス実践講座";
 	$certify = 1;
 	$contents_class = " certify";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/certify.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/certify.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/certify.php";
 }
 if( ereg( "shikaku", $_SERVER["SCRIPT_NAME"])){
 	$title = "ビジネス向け資格取得講座";
@@ -92,11 +118,143 @@ if( ereg( "xp", $_SERVER["SCRIPT_NAME"])){
 if( ereg( "recruit", $_SERVER["SCRIPT_NAME"])){
 	$body_class = " class=\"recruit\"";
 }
-if( ereg( "win10", $_SERVER["SCRIPT_NAME"])){
-	$body_class = " class=\"win10\"";
+if( ereg( "brain_training", $_SERVER["SCRIPT_NAME"])){
+	$title = "脳トレおとなプログラミング講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/brain_training.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/brain_training.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/brain_training.php";
 }
-
-
+if( ereg( "d_photo_master", $_SERVER["SCRIPT_NAME"])){
+	$title = "デジタル写真マスター講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/d_photo_master.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/d_photo_master.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/d_photo_master.php";
+}
+if( ereg( "word", $_SERVER["SCRIPT_NAME"])){
+	$title = "ワード講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/word.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/word.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/word.php";
+}
+if( ereg( "excel", $_SERVER["SCRIPT_NAME"])){
+	$title = "エクセル講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/excel.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/excel.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/excel.php";
+}
+if( ereg( "powerpoint", $_SERVER["SCRIPT_NAME"])){
+	$title = "パワーポイント講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/powerpoint.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/powerpoint.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/powerpoint.php";
+}
+if( ereg( "bb_basic", $_SERVER["SCRIPT_NAME"])){
+	$title = "ビジネスベーシック パソコン基礎";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/bb_basic.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/bb_basic.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/bb_basic.php";
+}
+if( ereg( "bb_word", $_SERVER["SCRIPT_NAME"])){
+	$title = "ビジネスベーシックWord（ワード）講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/bb_word.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/bb_word.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/bb_word.php";
+}
+if( ereg( "bb_excel", $_SERVER["SCRIPT_NAME"])){
+	$title = "ビジネスベーシックExcel（エクセル）講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/bb_excel.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/bb_excel.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/bb_excel.php";
+}
+if( ereg( "bb_powerpoint", $_SERVER["SCRIPT_NAME"])){
+	$title = "ビジネスベーシックPowerPoint（パワーポイント）講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/bb_powerpoint.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/bb_powerpoint.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/bb_powerpoint.php";
+}
+if( ereg( "outlook_mail", $_SERVER["SCRIPT_NAME"])){
+	$title = "Outlook（アウトルック）メール講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/outlook_mail.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/outlook_mail.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/outlook_mail.php";
+}
+if( ereg( "pc_basic", $_SERVER["SCRIPT_NAME"])){
+	$title = "パソコン基礎講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/pc_basic.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/pc_basic.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/pc_basic.php";
+}
+if( ereg( "digital_basic", $_SERVER["SCRIPT_NAME"])){
+	$title = "デジタル基礎知識講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/digital_basic.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/digital_basic.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/digital_basic.php";
+}
+if( ereg( "typing", $_SERVER["SCRIPT_NAME"])){
+	$title = "タッチタイピング習得";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/typing.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/typing.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/typing.php";
+}
+if( ereg( "word_craft", $_SERVER["SCRIPT_NAME"])){
+	$title = "ワードで作ろう講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/word_craft.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/word_craft.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/word_craft.php";
+}
+if( ereg( "internet_master", $_SERVER["SCRIPT_NAME"])){
+	$title = "インターネットマスター講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/internet_master.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/internet_master.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/internet_master.php";
+}
+if( ereg( "smartphone", $_SERVER["SCRIPT_NAME"])){
+	$title = "スマートフォン（スマホ）講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/smartphone.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/smartphone.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/smartphone.php";
+}
+if( ereg( "line", $_SERVER["SCRIPT_NAME"])){
+	$title = "LINE講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/line.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/line.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/line.php";
+}
+if( ereg( "nenga", $_SERVER["SCRIPT_NAME"])){
+	$title = "かんたん年賀状講座";
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/nenga.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/nenga.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/nenga.php";
+}
+if( ereg( "start_check", $_SERVER["SCRIPT_NAME"])){
+	$title = "スタートチェック";
+	$start_check = 1;
+	$canonical = 1;
+	$canonical_url1 = "https://www.pc4353.net/sannomiya/start_check.php";
+	$canonical_url2 = "https://www.pc4353.net/kyobashi/start_check.php";
+	$canonical_url3 = "https://www.pc4353.net/abeno/start_check.php";
+}
+if( ereg( "rehire", $_SERVER["SCRIPT_NAME"])){
+	$title = "再雇用・再就職をお考えの方に";
+}
 ?>
 <!doctype html>
 <html lang="ja">
@@ -106,14 +264,65 @@ if( ereg( "win10", $_SERVER["SCRIPT_NAME"])){
 <title><?=$title.$sep?><?=$room[$id][area]?>のパソコン教室｜パソコン市民講座 <?=$room[$id][name]?>教室</title>
 <meta name="keywords" content="パソコン教室,<?=$room[$id][keywords]?><?=$room[$id][name]?>教室,パソコンスクール,資格,検定,MOS,サーティファイ,ビジネスオンライン,PC教室,初心者">
 <meta name="description" content="<?=$title.$sep?>初心者からスキルアップ・資格取得まで安心のパソコン教室。<?=$room[$id][area]?>のパソコン市民講座 <?=$room[$id][name]?>教室。MOS資格・サーティファイ技能検定などエクセル・ワード・パワーポイントの資格取得やビジネススキルアップを教室インストラクターがしっかりとサポート！">
+<?php
+if ($room[$id][pref] == "hyogo") {
+	//兵庫
+?>
+<?php
+if( $canonical ) {
+?>
+<link rel="canonical" href="<?=$canonical_url1?>" />
+<?php
+}
+?>
+<?php
+}
+?>
+<?php
+if ($id == "6015030" || $id == "6015076" || $id == "6015083") {
+	//京阪
+?>
+<?php
+if( $canonical ) {
+?>
+<link rel="canonical" href="<?=$canonical_url2?>" />
+<?php
+}
+?>
+<?php
+}
+?>
+<?php
+if ($id == "6015043" || $id == "6015052" || $id == "6015089" || $id == "6015132" || $id == "6015118") {
+	//大阪南
+?>
+<?php
+if( $canonical ) {
+?>
+<link rel="canonical" href="<?=$canonical_url3?>" />
+<?php
+}
+?>
+<?php
+}
+?>
 
 <link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($root.'/css/style.css'); ?>" media="screen and (min-width: 768px), print" />
 <link rel="stylesheet" type="text/css" href="/css/style-sp.css?<?php echo filemtime($root.'/css/style-sp.css'); ?>" media="only screen and (max-width: 767px)" />
+<script src="https://kit.fontawesome.com/048a2152ad.js" crossorigin="anonymous"></script>
 <?php
 if( !$index ) {
 ?>
 <link rel="stylesheet" type="text/css" href="/css/index_new.css?<?php echo filemtime($root.'/css/index_new.css'); ?>" media="screen and (min-width: 768px), print" />
 <link rel="stylesheet" type="text/css" href="/css/index_new-sp.css?<?php echo filemtime($root.'/css/index_new-sp.css'); ?>" media="only screen and (max-width: 767px)" />
+<?php
+}
+?>
+<?php
+if( $sokudoku ) {
+?>
+<link rel="stylesheet" type="text/css" href="/common/css/sokudoku.css?<?php echo filemtime($root.'/common/css/sokudoku.css'); ?>" media="screen and (min-width: 767px), print" />
+<link rel="stylesheet" type="text/css" href="/common/css/sokudoku_sp.css?<?php echo filemtime($root.'/common/css/sokudoku_sp.css'); ?>" media="only screen and (max-width: 768px)" />
 <?php
 }
 ?>
@@ -133,13 +342,20 @@ if( $certify ) {
 <?php
 }
 ?>
+<?php
+if( $start_check ) {
+?>
+<link rel="stylesheet" type="text/css" href="/common/css/start_check.css?<?php echo filemtime($root.'/common/css/start_check.css'); ?>" media="screen and (min-width: 767px), print" />
+<link rel="stylesheet" type="text/css" href="/common/css/start_check-sp.css?<?php echo filemtime($root.'/common/css/start_check-sp.css'); ?>" media="only screen and (max-width: 768px)" />
+<?php
+}
+?>
 
 <link rel="shortcut icon" href="/favicon.ico">
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!--<script src="/js/jquery-page-scroller.js"></script>-->
 <script src="//maps.google.com/maps/api/js?sensor=false"></script>
-<script src="js/map.js"></script>
 <script type="text/javascript" src="/common/js/jquery.maphilight.js" charset="utf-8"></script>
 <script src="/common/js/function.js"></script>
 
@@ -148,18 +364,27 @@ if( $certify ) {
 
 <script>
 $(function() {
-  var $win = $(window),
-      $header = $('header'),
-      animationClass = 'is-animation';
+var navPos = jQuery( '#header' ).offset().top; // グローバルメニューの位置
+var navHeight = jQuery( '#header' ).outerHeight(); // グローバルメニューの高さ
+jQuery( window ).on( 'scroll', function() {
+  if ( 100 < jQuery( this ).scrollTop() ) { // 100px以上スクロールしたら
+    jQuery( '#header' ).addClass( 'm_fixed' );
+  } else {
+    jQuery( '#header' ).removeClass( 'm_fixed' );
+  }
+});
+});
 
-  $win.on('load scroll', function() {
-    var value = $(this).scrollTop();
-    if ( value > 300 ) {
-      $header.addClass(animationClass);
-    } else {
-      $header.removeClass(animationClass);
-    }
-  });
+jQuery(function(){
+	var headerHight = 100;
+   jQuery('a[href^=#]').click(function() {
+	  var speed = 400; // ミリ秒
+	  var href= jQuery(this).attr("href");
+	  var target = jQuery(href == "#" || href == "" ? 'html' : href);
+	  var position = target.offset().top-headerHight; // ※　-headerHightでズレの処理
+	  jQuery('body,html').animate({scrollTop:position}, speed, 'swing');
+	  return false;
+   });
 });
 </script>
 
@@ -175,7 +400,7 @@ $(document).ready(function(){
 		pager: true,
 		buildPager: function(slideIndex){
       switch (slideIndex){
-      <?php if (date("Ymd") <= 20180831) : ?>
+      <?php if (date("Ymd") >= 20200322) : ?>
 <?php
 if ($id == "1076000") {
 	//けやき
@@ -187,22 +412,59 @@ if ($id == "1076000") {
         case 2:
           return '<img src="/images/img-main_thumb02.png" width="150" />';
 <?php
-}else{
+} elseif ( $room[$id][sokudoku] == "1" && $room[$id][senior] == "0" ) {
+	//速読
 ?>
         case 0:
-          return '<img src="/images/img-hayawari_thumb.jpg" width="150" />';
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
         case 1:
-          return '<img src="/images/img-junior_pc_thumb.jpg" width="150" />';
+          return '<img src="/images/img-thumb_gakuwari.png" width="130" />';
         case 2:
-          return '<img src="/images/img-main_thumb01.png" width="150" />';
+          return '<img src="/images/img-thumb_mos.png" width="130" />';
         case 3:
-          return '<img src="/images/img-main_thumb02.png" width="150" />';
+          return '<img src="/images/img-thumb_sokudoku.png" width="130" />';
+<?php
+} elseif ( $room[$id][senior] == "1" && $room[$id][sokudoku] == "0" ) {
+	//シニア割
+?>
+        case 0:
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
+        case 1:
+          return '<img src="/images/img-thumb_gakuwari.png" width="130" />';
+        case 2:
+          return '<img src="/images/img-thumb_seniorwari.png" width="130" />';
+        case 3:
+          return '<img src="/images/img-thumb_mos.png" width="130" />';
+<?php
+} elseif ( $room[$id][sokudoku] == "1" && $room[$id][senior] == "1" ) {
+	//速読＆シニア割
+?>
+        case 0:
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
+        case 1:
+          return '<img src="/images/img-thumb_gakuwari.png" width="130" />';
+        case 2:
+          return '<img src="/images/img-thumb_seniorwari.png" width="130" />';
+        case 3:
+          return '<img src="/images/img-thumb_sokudoku.png" width="130" />';
+<?php
+}else{
+	//通常
+?>
+        case 0:
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
+        case 1:
+          return '<img src="/images/img-thumb_gakuwari.png" width="130" />';
+        case 2:
+          return '<img src="/images/img-thumb_certify.png" width="130" />';
+        case 3:
+          return '<img src="/images/img-thumb_mos.png" width="130" />';
 <?php
 }
 ?>
       <?php endif; ?>
 
-      <?php if (date("Ymd") >= 20180901) : ?>
+      <?php if (date("Ymd") <= 20200321) : ?>
 <?php
 if ($id == "1076000") {
 	//けやき
@@ -214,16 +476,85 @@ if ($id == "1076000") {
         case 2:
           return '<img src="/images/img-main_thumb02.png" width="150" />';
 <?php
-}else{
+} elseif ($id == "6015000") {
+	//test
 ?>
         case 0:
-          return '<img src="/images/img-main_thumb01.png" width="150" />';
+          return '<img src="/images/img-thumb_sokudoku.png" width="130" />';
         case 1:
-          return '<img src="/images/img-junior_pc_thumb.jpg" width="150" />';
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
         case 2:
-          return '<img src="/images/img-main_thumb02.png" width="150" />';
+          return '<img src="/images/img-thumb_mos.png" width="130" />';
         case 3:
-          return '<img src="/images/img-main_thumb05.png" width="150" />';
+          return '<img src="/images/img-main_thumb05.jpg" width="150" />';
+<?php
+} elseif ($id == "6015030") {
+	//門真
+?>
+        case 0:
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
+        case 1:
+          return '<img src="/images/img-thumb_gakuwari.png" width="130" />';
+        case 2:
+          return '<img src="/images/img-thumb_certify.png" width="130" />';
+        case 3:
+          return '<img src="/images/img-thumb_mos.png" width="130" />';
+<?php
+} elseif ( $room[$id][sokudoku] == "1" && $room[$id][senior] == "0" ) {
+	//速読
+?>
+        case 0:
+          return '<img src="/images/img-thumb_hayawari.png" width="130" />';
+        case 1:
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
+        case 2:
+          return '<img src="/images/img-thumb_gakuwari.png" width="130" />';
+        case 3:
+          return '<img src="/images/img-thumb_mos.png" width="130" />';
+        case 4:
+          return '<img src="/images/img-thumb_sokudoku.png" width="130" />';
+<?php
+} elseif ( $room[$id][senior] == "1" && $room[$id][sokudoku] == "0" ) {
+	//シニア割
+?>
+        case 0:
+          return '<img src="/images/img-thumb_hayawari.png" width="130" />';
+        case 1:
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
+        case 2:
+          return '<img src="/images/img-thumb_gakuwari.png" width="130" />';
+        case 3:
+          return '<img src="/images/img-thumb_seniorwari.png" width="130" />';
+        case 4:
+          return '<img src="/images/img-thumb_mos.png" width="130" />';
+<?php
+} elseif ( $room[$id][sokudoku] == "1" && $room[$id][senior] == "1" ) {
+	//速読＆シニア割
+?>
+        case 0:
+          return '<img src="/images/img-thumb_hayawari.png" width="130" />';
+        case 1:
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
+        case 2:
+          return '<img src="/images/img-thumb_gakuwari.png" width="130" />';
+        case 3:
+          return '<img src="/images/img-thumb_seniorwari.png" width="130" />';
+        case 4:
+          return '<img src="/images/img-thumb_sokudoku.png" width="130" />';
+<?php
+}else{
+	//通常
+?>
+        case 0:
+          return '<img src="/images/img-thumb_hayawari.png" width="130" />';
+        case 1:
+          return '<img src="/images/img-thumb_junior_pc.png" width="130" />';
+        case 2:
+          return '<img src="/images/img-thumb_gakuwari.png" width="130" />';
+        case 3:
+          return '<img src="/images/img-thumb_certify.png" width="130" />';
+        case 4:
+          return '<img src="/images/img-thumb_mos.png" width="130" />';
 <?php
 }
 ?>
@@ -233,33 +564,10 @@ if ($id == "1076000") {
 	});
 });
 </script>
-
-<?php
-/*if( $index ) {
-?>
-<link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.pc4353.net/<?=$room[$id][dir]?>/sp.php" />
-<?php
-}
-?>
-<?php
-if( $index ) {
-?>
-<script>
-if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
-    location.href = '/<?=$room[$id][dir]?>/sp.php';
-}
-</script>
-<?php
-} elseif( $biz_online ) {
-?>
-<script>
-if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
-    location.href = '/<?=$room[$id][dir]?>/smart_biz-online_contact.php';
-}
-</script>
-<?php
-}*/
-?>
+<!--objedt-fit（IE/Edge対策）-->
+<script src="/js/object-fit-img.js"></script>
+<script>objectFitImages();</script>
+	
 <!-- GoogleAnalytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -278,7 +586,7 @@ if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('i
 </script>
 </head>
 
-<body<?=$body_class?><?=$onload?>>
+<body<?=$body_class?>>
 <header id="header">
 <div id="hd_wrap" class="clearfix tk-kozuka-gothic-pr6n">
 <div id="hd_lft">
@@ -297,7 +605,17 @@ if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('i
 	<div id="hd_reception">受付時間/<br>
 	<a href="/<?=$room[$id][dir]?>/about.php">営業時間はこちら</a>
 	</div>
-	<div class="header-btn1 sp-only"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約"></a></div>
+	<?php
+	if( $sokudoku ) {
+	?>
+		<div class="header-btn1 sp-only"><a href="/<?=$room[$id][dir]?>/sokudoku.php#toiawase_form"><img src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約"></a></div>
+	<?php
+	} else {
+	?>
+		<div class="header-btn1 sp-only"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約"></a></div>
+	<?php
+	}
+	?>
 	<div class="header-btn2 sp-only"><img src="/common/img/common/sp/header1_btn3.png" width="90" height="90" alt="メニュー"></div>
 </div>
 </div>
@@ -310,15 +628,23 @@ if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('i
 <li><a href="/<?=$room[$id][dir]?>/voice.php">受講生の声</a></li>
 <li class="last"><a href="/<?=$room[$id][dir]?>/apply.php">お申込み方法</a></li>
 </ul>
-<ul class="inq_btn clearfix">
-<li class="fl_left"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約"></a></li>
-<li class="fl_right"><a href="/<?=$room[$id][dir]?>/doc_contact.php"><img src="../images/btn-inq_shiryo.png" width="102" height="33" alt="資料請求"></a></li>
-</ul>
+	<ul class="inq_btn clearfix">
+	<?php
+	if( $sokudoku ) {
+	?>
+	<li class="fl_left"><a href="/<?=$room[$id][dir]?>/sokudoku.php#toiawase_form"><img src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約"></a></li>
+	<?php
+	} else {
+	?>
+	<li class="fl_left"><a href="/<?=$room[$id][dir]?>/contact.php"><img src="../images/btn-inq_taiken.png" width="127" height="33" alt="無料体験予約"></a></li>
+	<li class="fl_right"><a href="/<?=$room[$id][dir]?>/doc_contact.php"><img src="../images/btn-inq_shiryo.png" width="102" height="33" alt="資料請求"></a></li>
+	<?php
+	}
+	?>
+	</ul>
 </div>
 </nav>
 </header>
-
-
 
 
 <?php

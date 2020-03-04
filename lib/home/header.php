@@ -193,7 +193,8 @@ if ($home) {
          <li><a href="/course/qualification.php">資格を取得したい</a></li>
          <li><a href="/course/first.php">基本操作を覚えたい</a></li>
          <li><a href="/course/hobby.php">趣味で楽しみたい</a></li>
-         <li><a href="/tablet/">タブレット</a></li>
+         <li><a href="/course/smartphone.php">スマートフォン</a></li>
+         <li><a href="/course/tablet.php">タブレット</a></li>
       </ul>
    </li>
 		<li<?php if($pageId=="shikaku"){echo ' class="active"';} ?>><a href="/shikaku/">資格対策講座</a>
@@ -241,7 +242,8 @@ if ($home) {
 					<?php /*<li class="c-link2"><a href="">学生の方へ</a></li>*/?>
 					<li class="c-link2"><a href="/course/first.php">パソコンの基本操作を覚えたい</a></li>
 					<li class="c-link2"><a href="/course/hobby.php">パソコンを趣味で楽しみたい</a></li>
-					<li class="c-link2"><a href="/tablet/">タブレット・スマートフォン</a></li>
+					<li class="c-link2"><a href="/course/smartphone.php">スマートフォン</a></li>
+					<li class="c-link2"><a href="/course/tablet.php">タブレット</a></li>
 				</ul>
 			</li>
             <li class="c-link1"><a href="/shikaku/">資格対策講座</a></li>

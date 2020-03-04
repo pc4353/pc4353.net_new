@@ -1,11 +1,11 @@
 <?php
 
-$title = "My First PC プレゼントキャンペーン「はじめてのOffice講座」";
-$description = "My First PC プレゼントキャンペーン「はじめてのOffice講座」にご応募いただいた方がご使用いただけるコンテンツです。";
+$title = "My First PC プレゼントキャンペーン「はじめてのOffice 講座」";
+$description = "My First PC プレゼントキャンペーン「はじめてのOffice 講座」にご応募いただいた方がご使用いただけるコンテンツです。";
 $keywords = "WDLC,";
 $pageId = 'wdlc';
 include_once('../lib/home/config.php');
-include_once('../lib/home/header.php');
+include_once('../lib/home/header-wdlc.php');
 
 ?>
 
@@ -18,7 +18,7 @@ include_once('../lib/home/header.php');
 
 <div class="l-pagetitle">
 <div class="c-wrap">
-	<h1>「はじめてのOffice講座」</h1>
+	<h1>「はじめてのOffice 講座」</h1>
 </div>
 </div><!-- /.l-pagetitle -->
 
@@ -43,7 +43,7 @@ function openwin3() {
 // -->
 </script>
 
-	<h2 class="c-title2">はじめてのOffice講座　Web動画授業</h2>
+	<h2 class="c-title2">はじめてのOffice 講座　Web動画授業</h2>
 	<div class="section3 clearfix wdlc_section3">
 
 			<div class="section3_box1">
@@ -52,30 +52,30 @@ function openwin3() {
 
 			<div class="section3_box1">
 				<h4 class="c-title3">第1回　Word　体育祭のポスターを作ろう</h4>
-				<div class="img1"><a href="javascript:openwin1();"><img src="/images/gakuwari/img_02.jpg" width="100%" alt="Word　体育祭のポスターを作ろう" /></a><br>↑クリックで映像再生画面</div>
+				<div class="img1"><a href="javascript:openwin1();"><img src="/images/wdlc/img-thumb_office01.jpg" width="100%" alt="Word　体育祭のポスターを作ろう" /></a><br>↑クリックで映像再生画面</div>
 				<div class="txt1">
 					<p>文書作成アプリの「Word」を使って、体育祭のポスターを作ろう！</p>
-					<p>Wordを使うとかわいいイラストを入れたり、文字をきれいに飾り付けたりすることができるよ♪</p>
+					<p>Word を使うとかわいいイラストを入れたり、文字をきれいに飾り付けたりすることができるよ♪</p>
 					<p>素材ダウンロードはこちら　<a href="./data/sozai_office01.zip"><img src="/images/wdlc/ico-sozai01.png" width="143" alt="Office第1回素材" /></a></p>
 				</div>
 			</div>
 
 			<div class="section3_box1">
 				<h4 class="c-title3">第2回　Excel　順位集計表を作ろう</h4>
-				<div class="img1"><a href="javascript:openwin2();"><img src="/images/gakuwari/img_03.jpg" width="100%" alt="Excel　順位集計表を作ろう" /></a><br>↑クリックで映像再生画面</div>
+				<div class="img1"><a href="javascript:openwin2();"><img src="/images/wdlc/img-thumb_office02.jpg" width="100%" alt="Excel　順位集計表を作ろう" /></a><br>↑クリックで映像再生画面</div>
 				<div class="txt1">
 					<p>表計算アプリの「Excel」を使って、体育祭の結果を集計しよう！</p>
-					<p>Excelを使うと難しい計算も楽チン☆</p>
+					<p>Excel を使うと難しい計算も楽チン☆</p>
 					<p>きれいなグラフや表が簡単に作れるよ♪</p>
 				</div>
 			</div>
 
 			<div class="section3_box1">
 				<h4 class="c-title3">第3回　PowerPoint　表彰式ムービーを作ろう</h4>
-				<div class="img1"><a href="javascript:openwin3();"><img src="/images/gakuwari/img_04.jpg" width="100%" alt="PowerPoint　表彰式ムービーを作ろう" /></a><br>↑クリックで映像再生画面</div>
+				<div class="img1"><a href="javascript:openwin3();"><img src="/images/wdlc/img-thumb_office03.jpg" width="100%" alt="PowerPoint　表彰式ムービーを作ろう" /></a><br>↑クリックで映像再生画面</div>
 				<div class="txt1">
 					<p>プレゼンテーションアプリの「PowerPoint」を使って、体育祭の表彰式ムービーを作ろう！</p>
-					<p>PowerPointを使うと、写真や文字にアニメーションで動きをつけることもできるよ☆</p>
+					<p>PowerPoint を使うと、写真や文字にアニメーションで動きをつけることもできるよ☆</p>
 					<p>表彰式がますます盛り上がるね！</p>
 					<p>素材ダウンロードはこちら　<a href="./data/sozai_office03.zip"><img src="/images/wdlc/ico-sozai03.png" width="143" alt="Office第3回素材" /></a></p>
 				</div>
@@ -109,6 +109,6 @@ function openwin3() {
 <div class="u-center_wdlc"><a href="http://advertising.aolp.jp/tieup/msn2016/mfpc/" target="_blank"><img src="/images/wdlc/img-ft.png" alt="My First PC" width="1000" /></a></div>
 <?php
 
-include_once('../lib/home/footer.php');
+include_once('../lib/home/footer-wdlc.php');
 
 ?>

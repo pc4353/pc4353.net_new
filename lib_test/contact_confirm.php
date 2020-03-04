@@ -116,24 +116,29 @@ if( $step == 1 ) {
 							<td><? textConf( $old, old ) ?>	</td>
 						</tr>
 						<tr>
+							<th>学生種別</th>
+							<td><? textConf( $student, student ) ?>	</td>
+						</tr>
+						<tr>
 							<th>あなたの目的は？<br class="pc-only">（複数選択可）</th>
 							<td><? checkboxConf( $_POST[pur], "purpose" ); ?>
 							<? textConf( $other, other, "(", ")" ) ?>
 							</td>
 						</tr>
 						<tr>
-							<th>無料体験のお申し込み</th>
-							<td><? textConf( $free, free ) ?>
-<!--
-							<? textConf( $month, month, "", "月" ) ?>
-							<? textConf( $day, day, "", "日" ) ?>
-							<? textConf( $time, time, "", "時頃" ) ?>
--->
+							<th>市民講座を何で知りましたか？<br>（複数選択可）</th>
+							<td><? checkboxConf( $_POST[tri], "trigger" ); ?>
+							<? textConf( $trigger_other, trigger_other, "(", ")" ) ?>
 							</td>
 						</tr>
 						<tr>
+							<th>無料体験のお申し込み</th>
+							<td><? textConf( $free, free ) ?> </td>
+						</tr>
+						<tr>
 							<th>無料体験希望日</th>
-							<td><? textConf( $nichiji_1, nichiji_1 ) ?>月 <? textConf( $nichiji_2, nichiji_2 ) ?>日　<? textConf( $nichiji_3, nichiji_3 ) ?>
+							<td>【第1希望】<? textConf( $month_1, month_1, "", "月" ) ?><? textConf( $day_1, day_1, "", "日" ) ?><? textConf( $time_1, time_1, "", "時頃" ) ?><br />
+								【第2希望】<? textConf( $month_2, month_2, "", "月" ) ?><? textConf( $day_2, day_2, "", "日" ) ?><? textConf( $time_2, time_2, "", "時頃" ) ?>
                             </td>
 						</tr>
 						<tr>

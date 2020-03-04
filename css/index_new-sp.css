@@ -458,7 +458,7 @@ img.mL20 {margin-left: 0 !important;}
 /* パンくずリスト */
 #locus-area {
 	background: #f6f5ef;
-	padding: 170px 0 6px;
+	padding: 6px 0 6px;
 	line-height: 1em;
 }
 #locus-area dl.locus {
@@ -494,11 +494,11 @@ dl.footer-locus {
 	padding:10px;
 	position: relative;
   color: #333;
-  font: 13px/1.231 'Lucida Grande', Verdana, Arial, 'Hiragino Kaku Gothic Pro', Meiryo, 'メイリオ', sans-serif;
+  font: 14px/1.231 'Lucida Grande', Verdana, Arial, 'Hiragino Kaku Gothic Pro', Meiryo, 'メイリオ', sans-serif;
   *font-family:Meiryo;
   *font-size: small;
   *font: x-small;
-  line-height: 1.41;
+  line-height: 1.75;
 }
 #contents.mos,
 #contents.certify {padding: 0;}
@@ -511,6 +511,7 @@ dl.footer-locus {
 	border-bottom: 3px solid #0064be;
 	padding-left: 10px;
 	font-size: 16px;
+	margin-bottom: 20px;
 }
 #contents #kasou h2,
 #contents #contact h2 {
@@ -521,21 +522,13 @@ dl.footer-locus {
 	padding: 10px;
 	font-size: 14px;
 }
-#contents #kasou .c-title1 {
-	background: url(/common/img/common/title1_bg1.png) no-repeat left center !important;
-	padding: 3px 0 3px 20px !important;
-	font-size: 120% !important;
-	font-weight: bold !important;
-	height: auto !important;
-	margin: 10px 0 !important;
-}
-#contents #kasou .c-title3 {
-	font-size: 120% !important;
-	padding: 10px 0 5px 5px !important;
-	margin: 0 0 20px !important;
-	border-bottom: 2px solid #6191cc !important;
-	background: none !important;
-}
+
+#contents #kasou .c-title1 { background: url(../common/img/common/title1_bg1.png) no-repeat left center !important; padding: 3px 0 3px 20px !important; font-size: 150% !important; font-weight: bold !important; height: auto !important; margin: 10px 0 !important; }
+#contents #kasou .c-title1 h2 { float: left; font-size: 100%; }
+#contents #kasou .c-title1__txt1 { float: right; padding-top: 6px; }
+#contents #kasou .c-title2 { padding: 10px 15px !important; margin: 70px 0 15px !important; height: auto !important; line-height: 160% !important; }
+#contents #kasou .c-title3 { font-size: 137.5% !important; padding: 0 0 5px 5px !important; margin: 10px 0 15px !important; border-bottom: 2px solid #6191cc !important; background: none !important; }
+
 #main h1 img,
 #main h2 img,
 #main h3 img,
@@ -928,9 +921,8 @@ a.banner:hover{ color:#333333!important}
 }
 #toiawase_form {
 	width: 98%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 130px 0 6px;
+	margin: 0 auto;
+	padding: 0 0 6px;
 }
 #toiawase_form .section-lv2 {
 	font-size:14px;
@@ -939,11 +931,12 @@ a.banner:hover{ color:#333333!important}
 }
 #toiawase_form input{
 	font-size:16px;
-	padding:5px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-#toiawase_form input[type="text"]{width: 100%;}
+#toiawase_form input[type="text"]{width: 100%; padding: 15px;}
+#toiawase_form input[type="tel"]{padding: 15px;}
+#toiawase_form input[type="email"]{width: 100%; padding: 15px;}
 #toiawase_form input[type="image"]{width: 100%;height: auto;}
 #toiawase_form li{
 	margin-bottom:15px;
@@ -961,19 +954,20 @@ a.banner:hover{ color:#333333!important}
 	margin-bottom:20px;
 }
 #toiawase_form .inq_form th .red{
-	background:#f00;
+	background:#FF4B4B;
 	color:#fff;
 	float:right;
 	padding:0 8px;
 	border-radius: 5px;
 	margin-right:8px;
+	font-size: 14px;
 }
 #contents #toiawase_form h2 {
 	color:#29ABE2;
 	background: #fff;
 	border-bottom: 4px solid #29ABE2;
 	padding: 10px;
-	font-size: 20px;
+	font-size: 100%;
 }
 
 /* サイドエリア */
@@ -1015,18 +1009,13 @@ a.banner:hover{ color:#333333!important}
 
 /* @group 教室紹介ページ body.about */
 #about1 .section-lv2 h3{ background: #00a0e9; color: #fff; padding: 8px 5px 8px 15px;}
-#about1 .section-lv3{ border:1px solid #cccccc; border-top:none; margin:0 0 20px 0; font-size:12px; background-size: 120px auto;}
+#about1 .section-lv3{ border:1px solid #cccccc; border-top:none; margin:0 0 20px 0; font-size:14px; background-size: 120px auto;}
 #about1 .section-lv3.pt1 p,
-#about1 .section-lv3.pt3 p,
-#about1 .section-lv3.pt5 p{ padding:10px 130px 5px 10px;}
 #about1 .section-lv3.pt2 p,
-#about1 .section-lv3.pt4 p{ padding:10px 10px 5px 130px;}
-#about1 .section-lv3.pt6 p{ padding:10px 10px 5px 10px;}
-#about1 .section-lv3.pt1 p{ background:url(../images/aboutbg_13.png) no-repeat right 0;}
-#about1 .section-lv3.pt2 p{ background:url(../images/aboutbg_16.png) no-repeat -20px 0px;}
-#about1 .section-lv3.pt3 p{ background:url(../images/aboutbg_19.png) no-repeat right 0px;}
-#about1 .section-lv3.pt4 p{ background:url(../images/aboutbg_22.png) no-repeat -20px 0px;}
-#about1 .section-lv3.pt5 p{ background:url(../images/aboutbg_25.png) no-repeat right 0px;}
+#about1 .section-lv3.pt3 p,
+#about1 .section-lv3.pt4 p,
+#about1 .section-lv3.pt5 p,
+#about1 .section-lv3.pt6 p{ padding:10px 10px 5px 10px; line-height: 190%; background:none;}
 
 #about1 h3#point1 img,
 #about1 h3#point2 img,
@@ -1036,20 +1025,26 @@ a.banner:hover{ color:#333333!important}
 #about1 h3#point6 img {max-width: 100%;}
 #about2 h3.mB10 img {max-width: 400px;}
 
+#about2 { margin-bottom: 20px;}
 #about2.block h2{ *display:block; *width:100%; *height:49px;}
 #about2 .section-lv2{ *overflow:hidden!important}
 #about2 .section-lv2 .mL20{ margin-left: 0 !important;}
 
 #about3 .table1 {}
 
+#about4 { margin-bottom: 20px;}
+
 .shop-area{
 	background:#f4f4f4;
 	font-size:14px;
+	width: 100%;
 }
 
 .shop-area h3{ padding:10px;}
 
-.shop-box1{
+.shop-map{
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 .shop-box1-l{}
@@ -1061,22 +1056,24 @@ a.banner:hover{ color:#333333!important}
 	line-height: 190%;
 }
 .shop-box1-l dl dt{
-	padding-bottom: 5px;
 	color:#000;
 	font-weight: bold;
 }
 .shop-box1-l dl dd{
-	line-height:20px;
-	padding:2px 0;
 }
 
-.shop-box1-r{
-	text-align: center;
-	display:block;
-	padding: 0 10px 10px;
+.shop-box1-r dl{
+	border-top:1px solid #fff;
+	padding: 10px;
+	font-size: 112%;
+	line-height: 190%;
 }
-
-.shop-box1-r #gmap {width: 100% !important;}
+.shop-box1-r dl dt{
+	color:#000;
+	font-weight: bold;
+}
+.shop-box1-r dl dd{
+}
 
 
 /* @end 教室紹介ページ body.about */
@@ -1252,8 +1249,8 @@ dy.course */
 .contact table th,
 .contact table td,
 .contact table tr {display: block;}
-.contact tr th {font-weight: bold;padding:12px 8px 0 8px;vertical-align:top; }
-.contact td {padding:8px 8px 12px;border-bottom:1px dotted #ccc;vertical-align:top;}
+.contact tr th {font-size:16px; font-weight: bold;padding:8px;vertical-align:top;background: #D6F1FF; }
+.contact td {font-size:16px; padding:12px 8px;vertical-align:top;margin-bottom: 20px;}
 .contact span {color:#990000 ;font-weight:normal;}
 .contact textarea {width:99%;border:1px solid #999;font-size:12px;}
 .contact .file{ border:none} 
@@ -1276,7 +1273,7 @@ dy.course */
 .contact input[type=radio] { border:0px}
 
 .contact form input[type=checkbox],
-.contact form input[type=radio] { border:0px}
+.contact form input[type=radio] { border:0px;padding: 10px;}
 
 .contact .nBn{ border:0px}
 

@@ -29,11 +29,14 @@ $body .= "[お 名 前]　" . $name . "(" . $kana . ")\n";
 $body .= "[電話番号]　" . $phone . "\n";
 $body .= "[メ ー ル]　" . $mail . "\n";
 $body .= "[年　　代]　" . $old . "\n";
+$body .= "[学生種別]　" . $student . "\n";
 $body .= "[目　　的]　" . checkboxComp( $_POST[purpose] ) . "\n";
 $body .= "[そ の 他]　" . $other . "\n";
+$body .= "[何で知りましたか]　" . checkboxComp( $_POST[trigger] ) . "\n";
+$body .= $trigger_other . "\n";
 $body .= "[無料体験]　" . $free . "\n";
-//$body .= "[希望日時]　" . $month . "月" . $day . "日" . $time . "時頃\n";
-$body .= "[無料体験希望日]　" . $nichiji_1 . "月 " . $nichiji_2 . "日　" . $nichiji_3 . "\n";
+$body .= "[第1希望日時]　" . $month_1 . "月" . $day_1 . "日" . $time_1 . "時頃\n";
+$body .= "[第2希望日時]　" . $month_2 . "月" . $day_2 . "日" . $time_2 . "時頃\n";
 $body .= "[ご質問等]\n" . $question . "\n";
 if (date("Ymd") <= 20180224){
 	if ($rid == "6015000" || $rid == "6015083" || $rid == "1001005" || $rid == "1001085" || $rid == "1001095" || $rid == "1001108" || $rid == "1001118" || $rid == "6015128" || $rid == "1001116" ) {

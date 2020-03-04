@@ -24,7 +24,7 @@ if( !$name ) {
 	$erName = $erBg;
 }
 if( !$kana ) {
-	$errormsg .= "<label for=\"kana\">■フリガナ" . $msg1 . "</label><br />\n" ;
+	$errormsg .= "<label for=\"kana\">■ふりがな" . $msg1 . "</label><br />\n" ;
 	$erKana = $erBg;
 }
 if( !$phone ) {
@@ -81,6 +81,8 @@ if( $step == 1 ) {
 <?= $errormsg; ?>
 <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
 <? inputHTML(); ?>
+</form>
+
 <?php
 // 確認画面
 } else {
@@ -90,7 +92,7 @@ if( $step == 1 ) {
 
 <table class="about">
 <tr>
-	<th width="30%">お問い合わせ内容<span class="red">必須</span></th>
+	<th>お問い合わせ内容<span class="red">必須</span></th>
 	<td><?= nl2br( $question ) ?><input type="hidden" value="<?= $question ?>" name="question"></td>
 </tr>
 <tr>
@@ -98,7 +100,7 @@ if( $step == 1 ) {
 	<td><? textConf( $name, name ) ?></td>
 </tr>
 <tr>
-	<th>フリガナ<span class="red">必須</span></th>
+	<th>ふりがな<span class="red">必須</span></th>
 	<td><? textConf( $kana, kana ) ?></td>
 </tr>
 <tr>
@@ -129,6 +131,8 @@ if( $step == 1 ) {
 </table>
 
 <p class="center mgnT20"><input type="button" onclick="javascript: history.back();" value="修正する" /><span class="pc-only">　　　　</span><input type="submit" value="送信する" /></p>
+</form>
+
 <?php
 } // エラーチェック or 確認画面分岐終了
 ?>

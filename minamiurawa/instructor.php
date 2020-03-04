@@ -2,6 +2,38 @@
 require_once("config.php");
 require_once("../lib/config.php");
 include_once("../lib/header.php");
+$ary = array(
+	array(
+		"森脇 先生",
+		"iPad・デジカメ",
+		"カメラ・浦和レッズの応援",
+		"営業管理と出版データの作成などでExcelとWordは鍛えられました。<br />実務で役立つテクニックをお伝えします。<br />できるようになるって、本当に楽しいですよ！<br />一緒に学びましょう！"
+	),
+	array(
+		"太田 先生",
+		"ワード",
+		"ヨガ・温泉めぐり・ネットショッピング",
+		"資格取得、MOSにサーティファイなら任せてください！<br />医療系の電子カルテ入力も経験ありです。<br />しっかりサポートします！<br />よろしくお願いいたします。"
+	),
+	array(
+		"千葉 先生",
+		"クラフト・インターネット",
+		"手芸",
+		"旅行やショッピング、絵画に音楽鑑賞…<br />好きな事や楽しい事ってどんどん挑戦したくなりませんか。<br />年賀状などのオプション講座もおまかせ下さい。<br />パソコンやタブレットも楽しく学んで、賢く活用できるようサポートします。"
+	),
+	array(
+		"宮川 先生",
+		"エクセル（関数関連）",
+		"ドライブ・バイク/車整備",
+		"中学生の時に初めてExcelに触れて計算の速さにはまった、算数大嫌いインストラクターです！<br />算数嫌いだからこそ自動計算・関数が得意となりました♪<br />Excelの活用だけでなく、パワーポイントを活用してのイラストや文書パーツ作成も得意です！<br />皆様のより良いITライフをサポートさせていただきます！よろしくお願いいたします！"
+	),
+	array(
+		"武藤 先生",
+		"エクセル",
+		"本屋・図書館めぐり",
+		"自分が一番使いやすい家計簿をエクセルで作ってみませんか。<br />家計簿に限らず、自分仕様に色々と作成できるようになるとパソコンもどんどん楽しくなりますよ。<br />一緒に学んでパソコンと仲良しになりましょう！<br />よろしくお願いします。"
+	)
+);
 ?>
 					<h1><?=$room[$id][name]?>教室インストラクターのご紹介</h1>
 					<p><img src="/images/inst_05.png" width="632" height="93" alt="「できない」悩みが「楽しくできる！」喜びの笑顔に変わる。私たちが熱い想いといっぱいの笑顔で、必ずできるようにフォローします！" /></p>
@@ -15,6 +47,30 @@ include_once("../lib/header.php");
 							</p> 
 						</div><!-- /.section-lv2 --> 
 					</div><!-- /.i-pr --> 
+
+					 <div class="i-pr clearfix mB20">
+						<div class="section-lv2 moz2 clearfix">
+<?php
+foreach( $ary as $key => $value  ) {
+?>
+							<h3 class="blue"><?=$value[00]?></h3>
+							<div class="section-lv3 clearfix mB30">
+								<dl class="clearfix mB10">
+									<dt class="box-a">好きな分野</dt>
+									<dd class="box-b"><?=$value[01]?></dd>
+								</dl>
+								<dl class="clearfix mB20">
+									<dt class="box-a">趣味</dt>
+									<dd class="box-b"><?=$value[02]?></dd>
+								</dl>
+								<p><?=$value[03]?></p>
+								<div class="back-top"><a class="moz2" href="#header">ページトップへ</a></div>
+							</div><!-- /.section-lv3 -->
+<?php
+}
+?>
+						</div><!-- /.section-lv2 -->
+					</div><!-- /.i-pr -->
 
 				</div><!-- /.block -->
 				</div><!-- /#kasou -->

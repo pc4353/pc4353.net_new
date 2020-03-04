@@ -5,7 +5,7 @@ $description = "My First PC プレゼントキャンペーン当選者の方に�
 $keywords = "WDLC,";
 $pageId = 'wdlc';
 include_once('../lib/home/config.php');
-include_once('../lib/home/header.php');
+include_once('../lib/home/header-wdlc.php');
 
 ?>
 
@@ -48,7 +48,7 @@ include_once('../lib/home/header.php');
 				<div class="section3_box3">
 				<div class="txt1">
 					<p>
-					<a href="office.php">はじめてのOffice</a><br>（約60分 × 3回）<br><img src="/images/wdlc/ico-target.png" alt="My First PC" width="183" /></p>
+					<a href="office.php">はじめてのOffice </a><br>（約60分 × 3回）<br><img src="/images/wdlc/ico-target.png" alt="My First PC" width="183" /></p>
 				</div>
 				</div>
 			</div>
@@ -70,6 +70,6 @@ include_once('../lib/home/header.php');
 <div class="u-center_wdlc"><a href="http://advertising.aolp.jp/tieup/msn2016/mfpc/" target="_blank"><img src="/images/wdlc/img-ft.png" alt="My First PC" width="1000" /></a></div>
 <?php
 
-include_once('../lib/home/footer.php');
+include_once('../lib/home/footer-wdlc.php');
 
 ?>

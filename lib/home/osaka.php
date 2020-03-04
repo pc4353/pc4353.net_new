@@ -1,13 +1,28 @@
 <h3 id="osaka" class="c-title1"><a href="/school/osaka.php">大阪府</a></h3>
 <ul class="clearfix">
+	<li><img src="images/sakai-ts.jpg" width="80" alt="南海堺東駅（堺タカシマヤ上）教室" />
+	<h4><a href="/sakai-ts/">南海堺東駅（堺タカシマヤ上）教室</a></h4>
+	<span class="small">〒590-0028　大阪府堺市堺区三国ケ丘御幸通59<br />南海堺東ビル（堺タカシマヤ上）　7階</span><br /><span class="bold">TEL：072-225-0717<br />エリア：堺市</span>
+	<span class="certify_sc2">サーティファイ</span></li>
+
+	<li><img src="images/uehonmachi.jpg" width="80" alt="近鉄百貨店上本町教室" />
+	<h4><a href="/uehonmachi/">近鉄百貨店上本町教室</a></h4>
+	<span class="small">〒543-8543　大阪府大阪市天王寺区上本町6-1-55<br />近鉄百貨店上本町店　6階</span><br /><span class="bold">TEL：06-6776-8411<br />エリア：大阪市</span>
+	<span class="certify_sc2">サーティファイ</span></li>
+
+	<li><img src="images/higashiosaka.jpg" width="80" alt="イオン東大阪教室" />
+	<h4><a href="/higashiosaka/">イオン東大阪教室</a></h4>
+	<span class="small">〒577-0011　大阪府東大阪市荒本北2-3-22<br />イオン東大阪店　1F</span><br /><span class="bold">TEL：06-6745-3120<br />エリア：東大阪市</span>
+	<span class="certify_sc2">サーティファイ</span></li>
+
 	<li><img src="images/senrichuou.jpg" width="80" alt="千里中央駅前教室" />
 	<h4><a href="/senrichuou/">千里中央駅前教室</a></h4>
-	<span class="small">〒560-0082　大阪府豊中市新千里東町1-1-1<br />オトカリテ 3F 315</span><br /><span class="bold">TEL：06-6170-7480<br />エリア：豊中市</span>
+	<span class="small">〒560-0082　大阪府豊中市新千里東町1-1-1<br />オトカリテ　3F 315</span><br /><span class="bold">TEL：06-6170-7480<br />エリア：豊中市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/shinibaraki.jpg" width="80" alt="イオンスタイル新茨木教室" />
 	<h4><a href="/shinibaraki/">イオンスタイル新茨木教室</a></h4>
-	<span class="small">〒567-0824　大阪府茨木市中津町18-1<br />イオンスタイル新茨木店 3F</span><br /><span class="bold">TEL：072-646-7997<br />エリア：茨木市</span>
+	<span class="small">〒567-0824　大阪府茨木市中津町18-1<br />イオンスタイル新茨木店　3F</span><br /><span class="bold">TEL：072-646-7997<br />エリア：茨木市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/kitasenri.jpg" width="80" alt="イオン北千里教室" />
@@ -15,9 +30,9 @@
 	<span class="small">〒565-0874　大阪府吹田市古江台4-2-50<br />イオン北千里　2F</span><br /><span class="bold">TEL：06-6832-4353<br />エリア：吹田市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
-	<li><img src="images/kyobashi.jpg" width="80" alt="イオン京橋教室" />
-	<h4><a href="/kyobashi/">イオン京橋教室</a></h4>
-	<span class="small">〒534-0025　大阪府大阪市都島区片町2-3-51<br />イオン京橋店　3F</span><br /><span class="bold">TEL：06-6881-1991<br />エリア：大阪市</span>
+	<li><img src="images/kyobashi.jpg" width="80" alt="京橋教室" />
+	<h4><a href="/kyobashi/">京橋教室</a></h4>
+	<span class="small">〒534-0024　大阪府大阪市都島区東野田町2-9-23<br />第1晃進ビル　4F</span><br /><span class="bold">TEL：06-6881-1991<br />エリア：大阪市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 
 	<li><img src="images/takami.jpg" width="80" alt="イオン高見教室" />
@@ -50,21 +65,6 @@
 	<span class="small">〒572-0085　大阪府寝屋川市香里新町28-3-1<br />ライフ香里園　2F</span><br /><span class="bold">TEL：072-834-3039<br />エリア：寝屋川市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 
-	<li><img src="images/higashineyagawa.jpg" width="80" alt="イズミヤ東寝屋川教室" />
-	<h4><a href="/higashineyagawa/">イズミヤ東寝屋川教室</a></h4>
-	<span class="small">〒572-0858　大阪府寝屋川市打上元町16-3<br />イズミヤ東寝屋川店　4F</span><br /><span class="bold">TEL：072-823-4351<br />エリア：寝屋川市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
-	<li><img src="images/wakae.jpg" width="80" alt="イズミヤ若江岩田教室" />
-	<h4><a href="/wakae/">イズミヤ若江岩田教室</a></h4>
-	<span class="small">〒578-0946　大阪府東大阪市瓜生堂1-10-52<br />イズミヤ若江岩田店　4F</span><br /><span class="bold">TEL：072-963-3463<br />エリア：東大阪市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
-	<li><img src="images/higashiosaka.jpg" width="80" alt="イトーヨーカドー東大阪教室" />
-	<h4><a href="/higashiosaka/">イトーヨーカドー東大阪教室</a></h4>
-	<span class="small">〒578-0983　大阪府東大阪市吉田下島1-1<br />イトーヨーカドー東大阪店　1F</span><br /><span class="bold">TEL：072-961-0350<br />エリア：東大阪市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
-
 	<li><img src="images/iy-yao.jpg" width="80" alt="イトーヨーカドー八尾教室" />
 	<h4><a href="/iy-yao/">イトーヨーカドー八尾教室</a></h4>
 	<span class="small">〒581-0803　大阪府八尾市光町2-3<br />イトーヨーカドー八尾店　3F</span><br /><span class="bold">TEL：072-995-3755<br />エリア：八尾市</span>
@@ -92,7 +92,7 @@
 
 	<li><img src="images/abeno.jpg" width="80" alt="イトーヨーカドーあべの教室" />
 	<h4><a href="/abeno/">イトーヨーカドーあべの教室</a></h4>
-	<span class="small">〒545-0052　大阪府大阪市阿倍野区阿倍野筋1-6-1<br />イトーヨーカドーあべの店　2F</span><br /><span class="bold">TEL：06-6556-7555<br />エリア：大阪市</span>
+	<span class="small">〒545-0052　大阪府大阪市阿倍野区阿倍野筋1-6-1<br />イトーヨーカドーあべの店　1F</span><br /><span class="bold">TEL：06-6556-7555<br />エリア：大阪市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 
 	<li class="none"><img src="images/no_img.jpg" width="80" alt="写真準備中" />

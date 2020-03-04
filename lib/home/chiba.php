@@ -9,11 +9,6 @@
 	<h4><a href="/myoden/">イオン市川妙典教室</a></h4>
 	<span class="small">〒272-0111　千葉県市川市妙典5-3-1<br />イオン市川妙典店　3階</span><br /><span class="bold">TEL：047-711-0022<br />エリア：市川市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
-
-	<li><img src="images/narita.jpg" width="80" alt="ボンベルタ成田教室" />
-	<h4><a href="/narita/">ボンベルタ成田教室</a></h4>
-	<span class="small">〒286-0017　千葉県成田市赤坂2-1-10<br />ボンベルタ成田　本館5階</span><br /><span class="bold">TEL：0476-33-3863<br />エリア：成田市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
 	
 	<li><img src="images/kitakogane.jpg" width="80" alt="イオン北小金教室" />
 	<h4><a href="/kitakogane/">イオン北小金教室</a></h4>
@@ -22,7 +17,7 @@
 
 	<li><img src="images/ootaka.jpg" width="80" alt="おおたかの森S・C教室" />
 	<h4><a href="/ootaka/">おおたかの森S・C教室</a></h4>
-	<span class="small">〒270-0121　千葉県流山市西初石6-185-2<br />流山おおたかの森S・C　本館3F</span><br /><span class="bold">TEL：04-7128-5040<br />エリア：流山市</span>
+	<span class="small">〒270-0121　千葉県流山市おおたかの森南1-5-1<br />流山おおたかの森S・C　本館3F</span><br /><span class="bold">TEL：04-7128-5040<br />エリア：流山市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
 
 	<li><img src="images/nagareyama.jpg" width="80" alt="イトーヨーカドー流山教室" />
@@ -38,7 +33,7 @@
 	<li><img src="images/matudo.jpg" width="80" alt="イトーヨーカドー松戸教室" />
 	<h4><a href="/matudo/">イトーヨーカドー松戸教室</a></h4>
 	<span class="small">〒271-0092　千葉県松戸市松戸1149<br />イトーヨーカドー松戸店　4F</span><br /><span class="bold">TEL：047-360-6440<br />エリア：松戸市</span>
-	<span class="certify_sc2">サーティファイ</span></li>
+	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 
 	<li><img src="images/funabashi.jpg" width="80" alt="イトーヨーカドー船橋教室" />
 	<h4><a href="/funabashi/">イトーヨーカドー船橋教室</a></h4>
@@ -58,11 +53,6 @@
 	<li><img src="images/mobara.jpg" width="80" alt="茂原駅前教室" />
 	<h4><a href="/mobara/">茂原駅前教室</a></h4>
 	<span class="small">〒297-0023　千葉県茂原市千代田町1-6<br />茂原サンヴェルプラザ　5F</span><br /><span class="bold">TEL：0475-25-5528<br />エリア：茂原市</span>
-	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
-
-	<li><img src="images/kashiwa.jpg" width="80" alt="イトーヨーカドー柏教室" />
-	<h4><a href="/kashiwa/">イトーヨーカドー柏教室</a></h4>
-	<span class="small">〒277-0005　千葉県柏市柏2-15<br />イトーヨーカドー柏店 2階</span><br /><span class="bold">TEL：04-7189-8315<br />エリア：柏市</span>
 	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 
 	<li><img src="images/abiko.jpg" width="80" alt="アビイクオーレ我孫子教室" />

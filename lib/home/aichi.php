@@ -1,5 +1,10 @@
 <h3 id="aichi" class="c-title1"><a href="/school/aichi.php">愛知県</a></h3>
 <ul class="clearfix">
+	<li><img src="images/no_img.jpg" width="80" alt="メッツ大曽根教室" />
+	<h4><a href="/ozone/">メッツ大曽根教室</a></h4>
+	<span class="small">〒461-0040　愛知県名古屋市東区矢田2丁目1-95<br />メッツ大曽根 3F</span><br /><span class="bold">TEL：052-737-5507<br />エリア：名古屋市</span>
+	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
+	
 	<li><img src="images/akaike.jpg" width="80" alt="プライムツリー赤池教室" />
 	<h4><a href="/akaike/">プライムツリー赤池教室</a></h4>
 	<span class="small">〒470-0126　愛知県日進市赤池町箕ノ手1番<br />プライムツリー赤池　3F</span><br /><span class="bold">TEL：052-838-6860<br />エリア：日進市</span>
@@ -9,11 +14,6 @@
 	<h4><a href="/toyohashi/">バロー豊橋教室</a></h4>
 	<span class="small">〒440-0851　愛知県豊橋市前田南町2丁目17-2<br />バロー豊橋店　2F</span><br /><span class="bold">TEL：0532-43-6470<br />エリア：豊橋市</span>
 	<span class="certify_sc2">サーティファイ</span></li>
-	
-	<li><img src="images/kamiiida.jpg" width="80" alt="イオン上飯田教室" />
-	<h4><a href="/kamiiida/">イオン上飯田教室</a></h4>
-	<span class="small">〒462-0864　愛知県名古屋市北区織部町1<br />イオン上飯田店 2F</span><br /><span class="bold">TEL：052-911-3330<br />エリア：名古屋市</span>
-	<span class="certify_sc2">サーティファイ</span><span class="mos_sc2">MOS</span></li>
 	
 	<li><img src="images/owariasahi.jpg" width="80" alt="イトーヨーカドー尾張旭教室" />
 	<h4><a href="/owariasahi/">イトーヨーカドー尾張旭教室</a></h4>

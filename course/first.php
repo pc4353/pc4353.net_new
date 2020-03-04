@@ -25,11 +25,9 @@ include_once('../lib/home/header.php');
 
 <div id="contents">
 
-<div class="u-center"><img src="/img/kv_first.jpg" alt="超初心者の方大歓迎！の教室です。" width="858" height="195" /></div>
-
 <div class="section2 large mgnT20">
-<p>初心者の方がパソコンの楽しみ方を効率よくマスターできるよう、<br />
-バラエティに富んだコースをご用意しています！</p>
+<p class="mgnB20"><strong>「超初心者です」という方も大歓迎！の教室です。<br>パソコンを「楽しい」と思ってもらえる、そんなコースをご用意！</strong></p>
+<p>初心者の方がパソコンの楽しみ方を効率よくマスターできるよう、バラエティに富んだコースをご用意しています！</p>
 </div>
 
 <h2 class="c-title2">まったくの初心者からパソコンをはじめたい方へ</h2>
@@ -46,17 +44,19 @@ include_once('../lib/home/header.php');
 	<li>●電子メールでやりとりしたい</li>
 </ul>
 <h5>対象のOS</h5>
-<p class="mgnL10"><img src="../img/win10.jpg" class="icon"> Windows 10　　<img src="../img/win8.jpg" class="icon"> Windows 8.1　　<img src="../img/win7.jpg" class="icon"> Windows 7</p>
+<p class="mgnL10"><img src="../img/win10.jpg" class="icon"> Windows 10　　<img src="../img/win8.jpg" class="icon"> Windows 8.1</p>
 </div>
 
-<h3 class="c-title1">「はじめてのパソコン」コース内容</h3>
+<h3 class="c-title1">おすすめの講座をご紹介</h3>
 <div class="section3">
-<h4>初心者／初級者コース</h4>
-<p class="mgnL20">パソコンの基礎から、インターネット、メールやワードの使い方、デジカメ活用まで、<br />
-パソコンの初歩を総合的に楽しめるコースです。</p>
-<h4>パソコン使いこなし術</h4>
-<p class="mgnL20">日々のパソコン操作の『？？？』を解消する講座です。<br />
-便利な機能を知ればますます楽しくなりますよ！</p>
+<h4><a href="pc_basic.php">パソコン基礎講座</a></h4>
+<p class="mgnL20">パソコンの基礎から、インターネット、メールやワードの使い方、デジカメ活用まで、パソコンの初歩を総合的に楽しめるコースです。</p>
+<h4><a href="typing.php">タッチタイピング習得</a></h4>
+<p class="mgnL20">入力の時間はできるだけ短く効率よく行えたら、もっとパソコンを活用できます。どなたでも確実にタッチタイピングマスターに！</p>
+<h4><a href="digital_basic.php">デジタル基礎知識講座</a></h4>
+<p class="mgnL20">パソコンの仕組みやWi-Fiやインターネットなど、パソコンの知識を学習します。パソコンを知って、もっと活用しよう！</p>
+<h4><a href="junior_pc.php">子ども向けパソコン講座</a></h4>
+<p class="mgnL20">小学生から学べる講座で初めてのパソコンを楽しく学習！「何ができるか」を、実際にパソコンを触りながら学習できるのでわかりやすく、身に付きやすくなっています。</p>
 </div>
 
 <div class="center mgnT30">

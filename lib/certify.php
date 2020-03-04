@@ -390,20 +390,20 @@
 </tr>
 <tr>
 	<th>お名前　<span class="red">必須</span></th>
-	<td>例）市民花子<br /><input type="text" value="" name="name" maxlength="20" class="form_input01"></td>
+	<td><input type="text" value="" name="name" maxlength="20" class="form_input01"><br />例）市民花子</td>
 </tr>
 <tr>
-	<th>フリガナ　<span class="red">必須</span></th>
-	<td>例）シミンハナコ<br /><input type="text" value="" name="kana" maxlength="20" class="form_input01"></td>
+	<th>ふりがな　<span class="red">必須</span></th>
+	<td><input type="text" value="" name="kana" maxlength="20" class="form_input01"><br />例）しみんはなこ</td>
 </tr>
 <tr>
 	<th>電話番号（携帯可）　<span class="red">必須</span></th>
-	<td>例）09012345678<br /><input type="text" value="" name="phone" maxlength="15" class="form_input02"></td>
+	<td><input type="tel" value="" name="phone" maxlength="15" class="form_input02"><br />例）09012345678（ハイフンなし）</td>
 </tr>
 <tr>
 	<th>メールアドレス</th>
-	<td>例）example@pc4353.com<br /><input type="text" value="" name="mail" maxlength="100">
-	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
+	<td><input type="email" value="" name="mail" maxlength="100"><br />例）example@pc4353.com
+	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【@pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
 	</td>
 </tr>
 <tr>
@@ -420,9 +420,19 @@
 	</ul></td>
 </tr>
 <tr>
+	<th>学生種別</th>
+	<td><ul class="old clearfix">
+    <li><label><input type="radio" class="nBn" value="小学生" name="student"> 小学生</label></li>
+    <li><label><input type="radio" class="nBn" value="中学生" name="student"> 中学生</label></li>
+    <li><label><input type="radio" class="nBn" value="高校生" name="student"> 高校生</label></li>
+    <li><label><input type="radio" class="nBn" value="大学生" name="student"> 大学生</label></li>
+    <li><label><input type="radio" class="nBn" value="専門学生" name="student"> 専門学生</label></li>
+	</ul></td>
+</tr>
+<tr>
 	<th>無料説明会希望日　<span class="red">必須</span></th>
     <td><select name="nichiji_1">
-    	<option value="">&nbsp;</option>
+    	<option value="">--</option>
     	<option value="1">1</option>
     	<option value="2">2</option>
     	<option value="3">3</option>
@@ -437,7 +447,7 @@
     	<option value="12">12</option>
         </select>月&nbsp;
         <select name="nichiji_2">
-    	<option value="">&nbsp;</option>
+    	<option value="">--</option>
     	<option value="1">1</option>
     	<option value="2">2</option>
     	<option value="3">3</option>
@@ -471,7 +481,7 @@
     	<option value="31">31</option>
         </select>日&nbsp;
         <select name="nichiji_3">
-    	<option value="">&nbsp;</option>
+    	<option value="">--</option>
     	<option value="午前">午前</option>
     	<option value="午後">午後</option>
         </select>

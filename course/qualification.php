@@ -2,7 +2,7 @@
 
 $title = "資格を取得したい（コース紹介）";
 $description = "資格を取得したい人のためのパソコンコース。";
-$keywords = "資格,コース";
+$keywords = "資格,コース,";
 $pageId = 'course';
 include_once('../lib/home/config.php');
 include_once('../lib/home/header.php');
@@ -25,7 +25,10 @@ include_once('../lib/home/header.php');
 
 <div id="contents">
 
-<img src="/img/kv_qualification.jpg" alt="【【適当なコピーを考えて下さい】】" width="858" height="195" />
+<div class="section2 large mgnT20">
+<p class="mgnB20"><strong>基礎からしっかり学んで、腕試し！資格を取得して、パソコンの実力を形に！</strong></p>
+<p>あなたのパソコンスキルを証明するのに「資格取得」は非常に有効です。様々な機能を使いこなせるだけではなく、より実務に役立つスキルを証明することで、あなたの市場価値を高めることができます！</p>
+</div>
 
 <h2 class="c-title2">資格を取得してスキルアップしたい方へ</h2>
 <div class="section2 clearfix">
@@ -35,26 +38,32 @@ include_once('../lib/home/header.php');
 <h5>こんな方におすすめ！</h5>
 <ul class="mgnB10 mgnL10">
 	<li>●パソコンの資格を取って、就職や復職に役立てたい</li>
-	<li>●基礎から、ワード・エクセル・タイピングなど<br />　総合的に使えるようになりたい</li>
+	<li>●基礎から、ワード・エクセル・タイピングなど、総合的に使えるようになりたい</li>
 	<li>●自分のパソコンスキルの腕試しをしてみたい</li>
 	<li>●パソコンを習った努力の証が欲しい</li>
 	<li>●仕事でのスキルアップへ向けて、資格を取って自信を付けたい</li>
 </ul>
 </div>
 
-<h3 class="c-title1">このコースに適した人は？</h3>
+<h3 class="c-title1">おすすめの講座をご紹介</h3>
 <div class="section3">
 <p>教室で資格対策の講座をしっかり学べることはもちろん、慣れた教室のパソコンで、いつもの先生の指導の元で模擬試験・本試験を受験していただくことができますので安心ですね！</p>
-<h4>サーティファイ　ビジネス実践講座</h4>
+<h4>サーティファイ ビジネス実践講座</h4>
 <ul class="mgnB10 mgnL10">
-	<li>●Microsoft Word 2013　（3級・2級）</li>
-	<li>●Microsoft Excel 2013　（3級・2級）</li>
-	<li>●Microsoft PowerPoint 2013　（初級・上級）</li>
+	<li>●<a href="business_word.php">Microsoft Word 2013　（3級・2級）</a></li>
+	<li>●<a href="business_excel.php">Microsoft Excel 2013　（3級・2級）</a></li>
+	<li>●<a href="business_powerpoint.php">Microsoft PowerPoint 2013　（初級・上級）</a></li>
+</ul>
+<h4>サーティファイ 資格対策講座</h4>
+<ul class="mgnB10 mgnL10">
+	<li>●<a href="certify_word.php">Microsoft Word 2016　（3級・2級）</a></li>
+	<li>●<a href="certify_excel.php">Microsoft Excel 2016　（3級・2級）</a></li>
+	<li>●<a href="certify_powerpoint.php">Microsoft PowerPoint 2016　（初級・上級）</a></li>
 </ul>
 <h4>MOS（マイクロソフトオフィススペシャリスト）資格取得講座</h4>
 <ul class="mgnB10 mgnL10">
-	<li>●Microsoft Word 2013 / 2010</li>
-	<li>●Microsoft Excel 2013 / 2010</li>
+	<li>●<a href="mos_word.php">Microsoft Word 2016 / 2013 / 2010</a></li>
+	<li>●<a href="mos_excel.php">Microsoft Excel 2016 / 2013 / 2010</a></li>
 </ul>
 </div>
 

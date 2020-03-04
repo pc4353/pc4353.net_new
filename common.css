@@ -349,6 +349,7 @@ img.fr { 	padding-left:15px; }
 .wdlc_section3 p {margin-bottom: 30px;}
 .wdlc_section3 .section3_box1 {margin-bottom: 40px;}
 .wdlc_section3 .section3_box1 .img1 {float: left;width: 300px;margin-right: 50px; text-align: center;}
+.wdlc_section3 .section3_box1 .img1 img {border: 1px solid #666;}
 .wdlc_section3 .section3_box1 .txt1 {float: left;width: 620px;}
 .wdlc_section3 .section3_box1 .txt2 {float: left;width: 400px;}
 .wdlc_section3 .section3_box1 .dl_scratch_app {float: right;width: 200px;}
@@ -392,6 +393,143 @@ img.fr { 	padding-left:15px; }
 .u-center_wdlc {margin-top: 50px; text-align: center; background: #fff;}
 .u-center_wdlc img {margin-top: -65px;}
 
+.mamasq_section3 {margin-top: 30px;}
+.mamasq_section3 p {margin-bottom: 30px;}
+.mamasq_section3 .section3_box1 {margin-bottom: 40px;}
+.mamasq_section3 .section3_box1 .left_list{float: left; width: 400px;}
+.mamasq_section3 .section3_box1 .right_mov{float: right; width: 500px;}
+
+.mamasq_section3 .section3_box2 {float: left; width: 300px; background: #fff; text-align: center;}
+.mamasq_section3 .section3_box2_center {float: left; width: 300px; margin: 0 50px; background: #fff; text-align: center;}
+.mamasq_section3 .section3_box2 dt {font-weight: bold;}
+.mamasq_section3 .section3_box2_center dt {font-weight: bold;}
+.mamasq_section3 .section3_box2 dd {margin: 0;}
+.mamasq_section3 .section3_box2_center dd {margin: 0;}
+.mamasq_section3 .section3_box2_course {background: #fff; text-align: center; padding: 15px;}
+.mamasq_section3 .section3_box2_course table th {border: 1px solid #ccc; width: 200px; padding: 5px 0;}
+.mamasq_section3 .section3_box2_course table td {border: 1px solid #ccc; width: 750px; padding: 5px 0;}
+
+.mamasq .inq_btn {
+	width: 60%;
+	text-align: center;
+	background-color: #f60;
+	margin: 0 auto 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.mamasq .inq_btn a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.mamasq .inq_btn a:hover {opacity: 0.5;}
+
+.mamasq .inq_btn_area {
+	width: 80%;
+	margin: 0 auto 50px;
+}
+.mamasq .inq_btn1 {
+	float: left;
+	width: 45%;
+	text-align: center;
+	background-color: #f60;
+	margin: 0 auto 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.mamasq .inq_btn1 a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.mamasq .inq_btn1 a:hover {opacity: 0.5;}
+
+.mamasq .inq_btn2 {
+	float: right;
+	width: 45%;
+	text-align: center;
+	background-color: #05c5a0;
+	margin: 0 auto 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.mamasq .inq_btn2 a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.mamasq .inq_btn2 a:hover {opacity: 0.5;}
+
+.corp_customer_section2a {width: 308px; float: left;}
+.corp_customer_section2b {margin: 0 14px; padding: 0 13px; width: 308px; float: left; border-left: 1px solid #91b2de;border-right: 1px solid #91b2de;}
+.corp_customer_section2c {width: 308px; float: left;}
+
+.corp_customer_section3 {margin-top: 30px;}
+.corp_customer_section3 p {margin-bottom: 30px;}
+.corp_customer_section3 .section3_box1 {margin-bottom: 40px;}
+.corp_customer_section3 .section3_box2 {float: left; width: 300px; background: #fff; text-align: center;}
+.corp_customer_section3 .section3_box2_center {float: left; width: 300px; margin: 0 50px; background: #fff; text-align: center;}
+.corp_customer_section3 .section3_box2 dt {font-weight: bold;}
+.corp_customer_section3 .section3_box2_center dt {font-weight: bold;}
+.corp_customer_section3 .section3_box2 dd {margin: 0;}
+.corp_customer_section3 .section3_box2_center dd {margin: 0;}
+.corp_customer_section3 .section3_box2_course {background: #fff; text-align: center; padding: 15px; width: 600px; margin: 0 auto;}
+.corp_customer_section3 .section3_box2_course table th {border: 1px solid #ccc; width: 200px; padding: 5px 0;}
+.corp_customer_section3 .section3_box2_course table td {border: 1px solid #ccc; width: 400px; padding: 5px 0;}
+.corp_customer_section3 .section3_box2_course2a {float: left;background: #fff; padding: 15px; width: 460px; min-height: 500px; margin: 0 auto 30px;}
+.corp_customer_section3 .section3_box2_course2a p{font-size: 14px;}
+.corp_customer_section3 .section3_box2_course2a table th {padding: 5px 0;background: #91b2de;color: #fff;}
+.corp_customer_section3 .section3_box2_course2a table th.th1 {width: 300px;}
+.corp_customer_section3 .section3_box2_course2a table th.th2 {width: 160px;}
+.corp_customer_section3 .section3_box2_course2a table td {text-align: center; border-bottom: 1px solid #ccc; padding: 5px 0;}
+.corp_customer_section3 .section3_box2_course2b {float: right;background: #fff; padding: 15px; width: 460px; min-height: 500px; margin: 0 auto 30px;}
+.corp_customer_section3 .section3_box2_course2b p{font-size: 14px;}
+.corp_customer_section3 .section3_box2_course2b table th {width: 230px; padding: 5px 0;background: #91b2de;color: #fff;}
+.corp_customer_section3 .section3_box2_course2b table th.th1 {width: 300px;}
+.corp_customer_section3 .section3_box2_course2b table th.th2 {width: 160px;}
+.corp_customer_section3 .section3_box2_course2b table td {text-align: center; border-bottom: 1px solid #ccc; padding: 5px 0;}
+
+.corp_customer .section2 {
+	background: #fff;
+	margin-bottom: 30px;
+}
+.corp_customer .section2 h4 {
+	font-size: 13px;
+}
+
+.corp_customer .inq_btn {
+	width: 60%;
+	text-align: center;
+	background-color: #f60;
+	margin: 0 auto 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.corp_customer .inq_btn a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.corp_customer .inq_btn a:hover {opacity: 0.5;}
+
+.corp_customer .inq_btn_area {
+	width: 80%;
+	margin: 0 auto 50px;
+}
+.corp_customer .inq_btn1 {
+	float: left;
+	width: 45%;
+	text-align: center;
+	background-color: #f60;
+	margin: 0 auto 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.corp_customer .inq_btn1 a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.corp_customer .inq_btn1 a:hover {opacity: 0.5;}
+
+.corp_customer .inq_btn2 {
+	float: right;
+	width: 45%;
+	text-align: center;
+	background-color: #05c5a0;
+	margin: 0 auto 50px;
+	border-radius: 5px;        /* CSS3草案 */
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;   /* Firefox用 */
+}
+.corp_customer .inq_btn2 a {display: block;color: #fff;padding: 20px;font-size:22px;font-weight: bold;text-decoration: none;}
+.corp_customer .inq_btn2 a:hover {opacity: 0.5;}
+
 .section3 .course_list {margin-bottom: 30px;}
 .section3 .course_list li {margin-bottom: 30px;}
 .section3 .course_list .img1 {float: left; margin-right: 20px;}
@@ -407,11 +545,27 @@ table.about td{
 	padding: 10px;
 	background: #fff;
 }
+table.about td ul li{
+	padding-bottom: 10px;
+}
+table.about td {
+	width: 700px;
+}
+table.about td input {
+	font-size: 16px;
+	padding: 5px 8px;
+}
+table.about td select {
+	font-size: 16px;
+	padding: 3px 2px;
+	margin: 10px 0;
+}
 
 table.about th {
 	font-weight:bold;
 	text-align: left;
 	background-color: #eef;
+	width: 300px;
 }
 
 table.about th .red{
@@ -437,7 +591,7 @@ table.about th .red{
 
 .qa dl dt {
 	background: url("img/q.gif") no-repeat 0 0;
-	height: 25px;
+	min-height: 25px;
 	padding: 5px 0 0 40px;
 	margin: 10px;
 	font-weight: bold;
@@ -446,7 +600,7 @@ table.about th .red{
 
 .qa dl dd {
 	background: url("img/a.gif") #fef no-repeat 15px 15px;
-	margin: 10px;
+	margin: 0 10px 10px;
 	padding: 15px 15px 15px 60px;
 	display: none;
 }

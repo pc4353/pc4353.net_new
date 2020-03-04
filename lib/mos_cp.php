@@ -1,83 +1,82 @@
 <div class="p-mos">
 
-
-    <div class="p-mos1 c-wrap">
-
-        <h2><img src="/mos/images/mos1_img1.jpg" width="1000" height="498" alt="MOS資格コースなら最短10日で取得可能！" /></h2>
-            <p class="u-right">※合格率は2018年1月現在の数字です。</p>
-
-        <div class="p-mos1__block1 clearfix">
-            <h3><span>MOSで周りと差をつけよう！</span></h3>
-
-            <ul>
-                <li><img src="/mos/images/mos1_img2.png" width="203" height="256" alt="差がつく！ 学生の就職活動に" /></li>
-                <li><img src="/mos/images/mos1_img3.png" width="203" height="256" alt="差がつく！ キャリアアップの転職に" /></li>
-                <li><img src="/mos/images/mos1_img4.png" width="203" height="256" alt="差がつく！ 育休明けの再就職に" /></li>
-            </ul>
-        </div><!-- /.p-mos1__block1 -->
-
-    </div><!-- /.p-mos1 -->
-
-
-    <div class="p-mos2">
-
-        <div class="p-mos2__block1 clearfix">
-        <div class="c-wrap2">
-
-            <div class="txt1">
-                <h2><img src="/mos/images/mos2_tit1.png" width="269" height="92" alt="Microsoft Office Specialist" /></h2>
-                <p>国際的に認められた資格だから<br />様々な職種で活用できる！</p>
-            </div>
-
-            <div class="img1">
-                <img src="/mos/images/mos2_img1.png" width="553" height="233" alt="MOS認定証を取ろう" />
-            </div>
-
-        </div>
-        </div><!-- /.p-mos2__block1 -->
+<div class="p-mos0">
+	<div class="c-wrap">
+		<h2><img src="/mos/images/mos1_img1.png" width="1000" alt="MOS資格コースなら最短10日で取得可能！" /></h2>
+	</div><!-- /.c-wrap -->
+</div><!-- /.p-mos1__block1 -->
+<div class="p-mos1">
+	<div class="p-mos1__block1 c-wrap">
+		<p class="u-right u-mb30">※合格率は2018年1月現在の数字です。</p>
+		<h3><span>MOSで周りと差をつけよう！</span></h3>
+		<ul>
+			<li><img src="/mos/images/mos1_img2.png" width="203" height="256" alt="差がつく！ 学生の就職活動に" /></li>
+			<li><img src="/mos/images/mos1_img3.png" width="203" height="256" alt="差がつく！ キャリアアップの転職に" /></li>
+			<li><img src="/mos/images/mos1_img4.png" width="203" height="256" alt="差がつく！ 育休明けの再就職に" /></li>
+		</ul>
+	</div><!-- /.p-mos1__block1 -->
+</div><!-- /.p-mos1 -->
 
 
-        <div class="p-mos2__block2">
-        <div class="c-wrap2">
+	<div class="p-mos2">
 
-            <h3><span>あなたにオススメの講座はコレ！</span></h3>
+		<div class="p-mos2__block1 clearfix">
+		<div class="c-wrap2">
 
-            <div class="p-mos2__block2--box1 clearfix">
+			<div class="txt1">
+				<h2><img src="/mos/images/mos2_tit1.png" width="269" height="92" alt="Microsoft Office Specialist" /></h2>
+				<p>国際的に認められた資格だから<br />様々な職種で活用できる！</p>
+			</div>
 
-                <div class="box1 clearfix">
-                    <h4>効率の良いビジネス書類で同僚に差をつけよう！</h4>
-                    <div class="img1"><img src="/mos/images/mos2_txt1.png" width="51" height="78" alt="Word" /></div>
-                    <div class="txt1">
-                        <h4>MOSワード対策講座</h4>
-                        <p>Microsoft Word スペシャリスト 資格試験対応</p>
-                        <ul>
-                            <li>2010</li>
-                            <li>2013</li>
-                        </ul>
-                    </div>
-                    <?php /*?><div class="btn1"><a class="mos_btn2" href="##">詳しくはコチラ</a></div><?php */?>
-                </div><!-- /.box1 -->
+			<div class="img1">
+				<img src="/mos/images/mos2_img1.png" width="553" height="233" alt="" />
+			</div>
 
-                <div class="box2 clearfix">
-                    <h4>関数やマクロを使って作業効率大幅アップ！</h4>
-                    <div class="img1"><img src="/mos/images/mos2_txt2.png" width="51" height="78" alt="Excel" /></div>
-                    <div class="txt1">
-                        <h4>MOSエクセル対策講座</h4>
-                        <p>Microsoft Excel スペシャリスト 資格試験対応</p>
-                        <ul>
-                            <li>2010</li>
-                            <li>2013</li>
-                        </ul>
-                    </div>
-                    <?php /*?><div class="btn1"><a class="mos_btn2" href="##">詳しくはコチラ</a></div><?php */?>
-                </div><!-- /.box1 -->
+		</div>
+		</div><!-- /.p-mos2__block1 -->
 
-            </div>
 
-        </div>
-        </div><!-- /.p-mos2__block2 -->
+		<div class="p-mos2__block2 clearfix">
+		<div class="c-wrap2">
 
-    </div><!-- /.p-mos2 -->
+			<h3><span>あなたにオススメの講座はコレ！</span></h3>
+
+			<div class="p-mos2__block2--box1 clearfix">
+
+				<div class="box1">
+					<h4>効率の良いビジネス書類で同僚に差をつけよう！</h4>
+					<div class="img1"><img src="/mos/images/mos2_txt1.png" width="51" height="78" alt="Word" /></div>
+					<div class="txt1">
+						<h4>MOSワード対策講座</h4>
+						<p>Microsoft Word スペシャリスト 資格試験対応</p>
+						<ul>
+							<li>2016</li>
+							<li>2013</li>
+						</ul>
+					</div>
+					<div class="btn1 u-mt30"><a class="mos_btn2" href="/course/mos_word.php">詳しくはコチラ</a></div>
+				</div><!-- /.box1 -->
+
+				<div class="box2">
+					<h4>関数やマクロを使って作業効率大幅アップ！</h4>
+					<div class="img1"><img src="/mos/images/mos2_txt2.png" width="51" height="78" alt="Excel" /></div>
+					<div class="txt1">
+						<h4>MOSエクセル対策講座</h4>
+						<p>Microsoft Excel スペシャリスト 資格試験対応</p>
+						<ul>
+							<li>2016</li>
+							<li>2013</li>
+						</ul>
+					</div>
+					<div class="btn1 u-mt30"><a class="mos_btn2" href="/course/mos_excel.php">詳しくはコチラ</a></div>
+				</div><!-- /.box1 -->
+
+			</div>
+
+		</div>
+		</div><!-- /.p-mos2__block2 -->
+
+	</div><!-- /.p-mos2 -->
 
 
 
@@ -132,7 +131,7 @@
                     <li>
                         <div class="img1"><img src="/mos/images/mos3_img5.png" width="107" height="66" alt="30時間～" /></div>
                         <div class="txt1">
-                            <p>最短10日程度で<br />合格できる！</p>
+                            <p>最短1か月程度で<br />合格できる！</p>
                         </div>
                         <div class="txt2">
                             <p><img src="/mos/images/mos3_txt1.png" width="195" height="22" alt="驚きのスピード合格" /></p>
@@ -264,8 +263,8 @@
             <div class="box1 clearfix">
                 <div class="img1"><img src="/mos/images/mos5_txt1.png" width="91" height="91" alt="Word" /></div>
                 <div class="txt1">
-                    <h4>Word2010 スペシャリスト コース<br />
-                    Word2013 スペシャリスト コース</h4>
+                    <h4>Word2016 スペシャリスト コース<br />
+						Word2013 スペシャリスト コース</h4>
                 </div>
             </div><!-- /.box1 -->
             <div class="box2">
@@ -287,8 +286,8 @@
             <div class="box1 clearfix">
                 <div class="img1"><img src="/mos/images/mos5_txt2.png" width="91" height="91" alt="Excel" /></div>
                 <div class="txt1">
-                    <h4>Excel2010 スペシャリスト コース<br />
-                    Excel2013 スペシャリスト コース</h4>
+                    <h4>Excel2016 スペシャリスト コース<br>
+						Excel2013 スペシャリスト コース</h4>
                 </div>
             </div><!-- /.box1 -->
             <div class="box2">
@@ -317,22 +316,13 @@
         </div><!-- /.p-mos5__block3 -->
 
     </div><!-- /.p-mos5 -->
-
-
-
-    <div class="mos_btn1 u-center">
-        <a href="#toiawase_form"><img src="/mos/images/btn1.png" width="693" height="75" alt="教室へのお問合わせはコチラ" /></a>
-    </div>
-
-
-
 </div><!-- /.p-mos -->
 
                 <div id="toiawase_form">
-					<div class="i-pt clearfix mR10">
-						<h2 class="mB20 bg-check blue font20"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料説明会のお申し込みフォーム</h2>
+					<div class="i-pt clearfix">
+						<h2 class="mB20 bg-check blue"><img src="/images/mos2010/ico-mail.gif" width="42" height="30" alt="メール" /> お問い合わせ・無料説明会のお申し込みフォーム</h2>
                         <div class="mB20"><img src="/images/img-form_step1.jpg" width="810" height="55" alt="お客様情報入力" /></div>
-						<p><span class="red">必須</span>項目は必ずご入力お願いいたします。</p>
+						<p><span class="red">必須</span>項目は、必ずご入力お願いいたします。</p>
 						<div class="section-lv2 contact">
 						<form action="/<?=$room[$id][dir]?>/mos_cp_contact_confirm.php" method="post">
 <table class="inq_form">
@@ -342,20 +332,20 @@
 </tr>
 <tr>
 	<th>お名前　<span class="red">必須</span></th>
-	<td>例）市民花子<br /><input type="text" value="" name="name" maxlength="20" class="form_input01"></td>
+	<td><input type="text" value="" name="name" maxlength="20" class="form_input01"><br />例）市民花子</td>
 </tr>
 <tr>
-	<th>フリガナ　<span class="red">必須</span></th>
-	<td>例）シミンハナコ<br /><input type="text" value="" name="kana" maxlength="20" class="form_input01"></td>
+	<th>ふりがな　<span class="red">必須</span></th>
+	<td><input type="text" value="" name="kana" maxlength="20" class="form_input01"><br />例）しみんはなこ</td>
 </tr>
 <tr>
 	<th>電話番号（携帯可）　<span class="red">必須</span></th>
-	<td>例）09012345678<br /><input type="text" value="" name="phone" maxlength="15" class="form_input02"></td>
+	<td><input type="tel" value="" name="phone" maxlength="15" class="form_input02"><br />例）09012345678（ハイフンなし）</td>
 </tr>
 <tr>
 	<th>メールアドレス</th>
-	<td>例）example@pc4353.com<br /><input type="text" value="" name="mail" maxlength="100">
-	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
+	<td><input type="email" value="" name="mail" maxlength="100"><br />例）example@pc4353.com
+	        <p class="red">※携帯アドレスをご使用の場合、受信設定で【@pc4353.com】からのメールが受信できるよう設定変更をお願い致します。</p>
 	</td>
 </tr>
 <tr>
@@ -372,9 +362,19 @@
 	</ul></td>
 </tr>
 <tr>
+	<th>学生種別</th>
+	<td><ul class="old clearfix">
+    <li><label><input type="radio" class="nBn" value="小学生" name="student"> 小学生</label></li>
+    <li><label><input type="radio" class="nBn" value="中学生" name="student"> 中学生</label></li>
+    <li><label><input type="radio" class="nBn" value="高校生" name="student"> 高校生</label></li>
+    <li><label><input type="radio" class="nBn" value="大学生" name="student"> 大学生</label></li>
+    <li><label><input type="radio" class="nBn" value="専門学生" name="student"> 専門学生</label></li>
+	</ul></td>
+</tr>
+<tr>
 	<th>無料説明会希望日　<span class="red">必須</span></th>
     <td><select name="nichiji_1">
-    	<option value="">&nbsp;</option>
+    	<option value="">--</option>
     	<option value="1">1</option>
     	<option value="2">2</option>
     	<option value="3">3</option>
@@ -389,7 +389,7 @@
     	<option value="12">12</option>
         </select>月&nbsp;
         <select name="nichiji_2">
-    	<option value="">&nbsp;</option>
+    	<option value="">--</option>
     	<option value="1">1</option>
     	<option value="2">2</option>
     	<option value="3">3</option>
@@ -423,7 +423,7 @@
     	<option value="31">31</option>
         </select>日&nbsp;
         <select name="nichiji_3">
-    	<option value="">&nbsp;</option>
+    	<option value="">--</option>
     	<option value="午前">午前</option>
     	<option value="午後">午後</option>
         </select>
@@ -456,9 +456,9 @@
 						<p class="sp3 center mT10"><input class="file over1" type="image" src="/images/btn-inq_confirm.jpg" width="500" height="70"/></p>
 						<input type="hidden" value="1" name="step" />
 						</form>
-<table width="135" border="0" cellpadding="2" cellspacing="0" title="このマークは、ウェブサイトを安心してご利用いただける安全の証です。">
+<table width="100%" border="0" cellpadding="2" cellspacing="0" title="このマークは、ウェブサイトを安心してご利用いただける安全の証です。">
 <tr>
-<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.websecurity.norton.com/getseal?host_name=www.pc4353.net&amp;size=M&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script><br /> <a href="http://www.symantec.com/ja/jp/ssl-certificates/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSL/TLSとは？</a></td>
+<td width="100%" align="center" valign="top"><script type="text/javascript" src="https://seal.websecurity.norton.com/getseal?host_name=www.pc4353.net&amp;size=M&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script><br /> <a href="http://www.symantec.com/ja/jp/ssl-certificates/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSL/TLSとは？</a></td>
 </tr>
 </table>
 						</div><!-- /.section-lv2 -->
@@ -471,6 +471,3 @@
 
 				</div><!-- /.block -->
 				</div><!-- /#kasou -->
-          </div><!-- #main-->
-
-      </div><!-- #contents -->
